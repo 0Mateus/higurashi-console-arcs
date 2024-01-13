@@ -1,0 +1,689 @@
+{
+	"0": [
+		{
+			"Id": 75,
+			"Title": "Dam Supporter Couple's Falling Accident",
+			"TitleJp": "ダム推進派の夫婦の転落事故",
+			"Script": "tara_tips_052",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Housewife Murder Incident",
+			"TitleJp": "主婦殺人事件",
+			"Script": "tara_tips_053",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Great Disaster",
+			"TitleJp": "大災害",
+			"Script": "tara_tips_054",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Taraimawashi Alternate Ending (read only after completing Tsukiotoshi)",
+			"TitleJp": "大災害その後",
+			"Script": "tara_altend",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Taraimawashi All Cast Review Session",
+			"TitleJp": "盥回し編お疲れさま会",
+			"Script": "tara_omake",
+			"UnlockChapter": 9
+		}
+	],
+	"2": [
+		{
+			"Id": 75,
+			"Title": "Really, She's a Good Girl",
+			"TitleJp": "ほんとに、いい子なんだよ",
+			"Script": "some_tips_081",
+			"UnlockChapter": 3
+		},
+		{
+			"Id": 75,
+			"Title": "Will of an Old Detective",
+			"TitleJp": "老刑事の遺言",
+			"Script": "some_tips_082",
+			"UnlockChapter": 6
+		},
+		{
+			"Id": 75,
+			"Title": "Old Local News Article",
+			"TitleJp": "古新聞の社会面記事",
+			"Script": "some_tips_083",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Mother and Daughter",
+			"TitleJp": "母と娘",
+			"Script": "some_tips_084",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Steadily Turning",
+			"TitleJp": "しっかりせんかいっ",
+			"Script": "some_tips_085",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Investigation Has Begun",
+			"TitleJp": "捜査はふりだし",
+			"Script": "some_tips_086",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Kindhearted Older Sister",
+			"TitleJp": "優しいお姉ちゃん",
+			"Script": "some_tips_087",
+			"UnlockChapter": 14
+		},
+		{
+			"Id": 75,
+			"Title": "Someutsushi All Cast Review Session",
+			"TitleJp": "染伝し編お疲れさま会",
+			"Script": "some_omake",
+			"UnlockChapter": 14
+		}
+	],
+	"3": [
+		{
+			"Id": 75,
+			"Title": "Career Aspirations",
+			"TitleJp": "進路志望",
+			"Script": "kage_tips_128",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "New Airport Construction Plan",
+			"TitleJp": "新空港建設計画",
+			"Script": "kage_tips_129",
+			"UnlockChapter": 2
+		},
+		{
+			"Id": 75,
+			"Title": "Psychosomatic Medical Report",
+			"TitleJp": "心療内科診断書",
+			"Script": "kage_tips_130",
+			"UnlockChapter": 3
+		},
+		{
+			"Id": 75,
+			"Title": "Career Aspirations II",
+			"TitleJp": "進路志望Ⅱ",
+			"Script": "kage_tips_131",
+			"UnlockChapter": 4
+		},
+		{
+			"Id": 75,
+			"Title": "Torn Diary Entry",
+			"TitleJp": "破れかけの日記帳",
+			"Script": "kage_tips_132",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Closing On Short Notice",
+			"TitleJp": "閉店間際",
+			"Script": "kage_tips_133",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Nightmare",
+			"TitleJp": "悪夢",
+			"Script": "kage_tips_134",
+			"UnlockChapter": 11
+		},
+		{
+			"Id": 75,
+			"Title": "Letter from Madoka",
+			"TitleJp": "まどかからの手紙",
+			"Script": "kage_tips_135",
+			"UnlockChapter": 12
+		}
+	],
+	"4": [
+		{
+			"Id": 75,
+			"Title": "To Hinamizawa",
+			"TitleJp": "雛見沢へ",
+			"Script": "yoig_tips_001",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Long Awaited Trip",
+			"TitleJp": "久しぶりの旅行",
+			"Script": "yoig_tips_002",
+			"UnlockChapter": 2
+		},
+		{
+			"Id": 75,
+			"Title": "A Familiar Face",
+			"TitleJp": "懐かしい顔だね",
+			"Script": "yoig_tips_003",
+			"UnlockChapter": 2
+		},
+		{
+			"Id": 75,
+			"Title": "Thank You",
+			"TitleJp": "ありがとう",
+			"Script": "yoig_tips_004",
+			"UnlockChapter": 3
+		},
+		{
+			"Id": 75,
+			"Title": "Sunset",
+			"TitleJp": "夕焼け",
+			"Script": "yoig_tips_005",
+			"UnlockChapter": 5
+		},
+		{
+			"Id": 75,
+			"Title": "Newspaper Article",
+			"TitleJp": "新聞記事",
+			"Script": "yoig_tips_006",
+			"UnlockChapter": 5
+		},
+		{
+			"Id": 75,
+			"Title": "Dozing Driver Leaves Three Dead",
+			"TitleJp": "交通事故、居眠り運転で3人死亡",
+			"Script": "yoig_tips_007",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "The Danger of Joint Liability",
+			"TitleJp": "連帯保証人の恐怖",
+			"Script": "yoig_tips_008",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Untimely Death of IT Entrepeneur",
+			"TitleJp": "IT起業家、早すぎる死",
+			"Script": "yoig_tips_009",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "A Coward's Remorse",
+			"TitleJp": "臆病な後悔",
+			"Script": "yoig_tips_010",
+			"UnlockChapter": 8
+		},
+		{
+			"Id": 75,
+			"Title": "Unruly Girl",
+			"TitleJp": "じゃじゃ馬",
+			"Script": "yoig_tips_011",
+			"UnlockChapter": 14
+		}
+	],
+	"11": [
+		{
+			"Id": 75,
+			"Title": "Okinomiya Police Station Incident Report - Prologue",
+			"TitleJp": "興宮警察署事件調書 prologue",
+			"Script": "prol_001",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Okinomiya Police Station Incident Report - Epilogue",
+			"TitleJp": "興宮警察署事件調書 epilogue",
+			"Script": "prol_002",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Metropolitan Public Security 7th Room Case File - Prologue",
+			"TitleJp": "警視庁公安部第七室捜査ファイル prologue",
+			"Script": "prol_003",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Metropolitan Public Security 7th Room Case File - Epilogue",
+			"TitleJp": "警視庁公安部第七室捜査ファイル epilogue",
+			"Script": "prol_004",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "National Police Agency Administrative Document - Prologue",
+			"TitleJp": "警察庁広報室管理資料 prologue",
+			"Script": "prol_005",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "National Police Agency Administrative Document - Epilogue",
+			"TitleJp": "警察庁広報室管理資料 epilogue",
+			"Script": "prol_006",
+			"UnlockChapter": 1
+		}
+	],
+	"5": [
+		{
+			"Id": 75,
+			"Title": "Lecture Materials",
+			"TitleJp": "講演会資料",
+			"Script": "toki_tips_001",
+			"UnlockChapter": 3
+		},
+		{
+			"Id": 75,
+			"Title": "At the Flower Bed",
+			"TitleJp": "花壇にて",
+			"Script": "toki_tips_002",
+			"UnlockChapter": 5
+		},
+		{
+			"Id": 75,
+			"Title": "Application Denied",
+			"TitleJp": "申請却下",
+			"Script": "toki_tips_003",
+			"UnlockChapter": 7
+		},
+		{
+			"Id": 75,
+			"Title": "Medical Examination Records",
+			"TitleJp": "診察カルテ",
+			"Script": "toki_tips_004",
+			"UnlockChapter": 8
+		},
+		{
+			"Id": 75,
+			"Title": "A Drink at Your Deathbed",
+			"TitleJp": "末期の水",
+			"Script": "toki_tips_005",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Dancing in the Palm of my Hand",
+			"TitleJp": "手の上で踊れ",
+			"Script": "toki_tips_006",
+			"UnlockChapter": 12
+		}
+	],
+	"6": [
+		{
+			"Id": 75,
+			"Title": "Shion and Akane",
+			"TitleJp": "詩音と茜",
+			"Script": "omot_tips_001",
+			"UnlockChapter": 6
+		},
+		{
+			"Id": 75,
+			"Title": "Moving Blunder",
+			"TitleJp": "引越しの手違い",
+			"Script": "omot_tips_002",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Fate of an Outlaw",
+			"TitleJp": "無法者の末路",
+			"Script": "omot_tips_003",
+			"UnlockChapter": 16
+		},
+		{
+			"Id": 75,
+			"Title": "Lost Item",
+			"TitleJp": "忘れ物",
+			"Script": "omot_tips_004",
+			"UnlockChapter": 19
+		}
+	],
+	"9": [
+		{
+			"Id": 75,
+			"Title": "Miko Outfits 101",
+			"TitleJp": "巫女服講座",
+			"Script": "koto_tips_001",
+			"UnlockChapter": 4
+		},
+		{
+			"Id": 75,
+			"Title": "The Bride and The Groom's Father",
+			"TitleJp": "花嫁と、花婿の父",
+			"Script": "koto_tips_002",
+			"UnlockChapter": 6
+		},
+		{
+			"Id": 75,
+			"Title": "Swordsmanship 101: Beginner's Course",
+			"TitleJp": "剣術講座・基本編",
+			"Script": "koto_tips_003",
+			"UnlockChapter": 11
+		},
+		{
+			"Id": 75,
+			"Title": "Swordsmanship 201: Advanced Course",
+			"TitleJp": "剣術講座・応用編",
+			"Script": "koto_tips_004",
+			"UnlockChapter": 12
+		}
+	],
+	"10": [
+		{
+			"Id": 75,
+			"Title": "Shion and Akane",
+			"TitleJp": "詩音と茜",
+			"Script": "omot_tips_001",
+			"UnlockChapter": 6
+		},
+		{
+			"Id": 75,
+			"Title": "Moving Blunder",
+			"TitleJp": "引越しの手違い",
+			"Script": "omot_tips_002",
+			"UnlockChapter": 9
+		},
+		{
+			"Id": 75,
+			"Title": "Fate of an Outlaw",
+			"TitleJp": "無法者の末路",
+			"Script": "omot_tips_003",
+			"UnlockChapter": 16
+		},
+		{
+			"Id": 75,
+			"Title": "Lost Item",
+			"TitleJp": "忘れ物",
+			"Script": "omot_tips_004",
+			"UnlockChapter": 19
+		}
+	],
+	"12": [
+		{
+			"Id": 34,
+			"Title": "At the Victory Celebration",
+			"TitleJp": "D6 戦勝会にて",
+			"Script": "kake_026",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "Kaoru Yamaoki",
+			"TitleJp": "F5 山沖薫",
+			"Script": "kake_037",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "Natsumi Kimiyoshi",
+			"TitleJp": "H6 公由夏美",
+			"Script": "kake_050",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "Beginning Clinical Trials",
+			"TitleJp": "M6 臨床試験開始",
+			"Script": "kake_076",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "First Day at the Public Relations Office",
+			"TitleJp": "E6 広報室勤務初日",
+			"Script": "kake_032",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "New Semester, and...",
+			"TitleJp": "G5 新学期、そして",
+			"Script": "kake_043",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "A Fragment of Someutsushi",
+			"TitleJp": "J5 染伝し編のカケラ",
+			"Script": "kake_055",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 34,
+			"Title": "A Fragment of Hirukowashi",
+			"TitleJp": "J6 昼壊し編のカケラ",
+			"Script": "kake_056",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "A Fragment of Kageboushi",
+			"TitleJp": "K4 影紡し編のカケラ",
+			"Script": "kake_060",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "A Fragment of Yoigoshi",
+			"TitleJp": "K5 宵越し編のカケラ",
+			"Script": "kake_061",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Retaliation for Failure",
+			"TitleJp": "M4 失敗の報復",
+			"Script": "kake_074",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Shirakaba Mountain Villa Siege Incident",
+			"TitleJp": "W1 しらかば山荘篭城事件",
+			"Script": "kake_083",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Lowell Scandal",
+			"TitleJp": "W2 ローウェル疑獄事件",
+			"Script": "kake_084",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Public Security Detective's Death",
+			"TitleJp": "W3 公安刑事夫妻の死",
+			"Script": "kake_085",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Arrest of Ministry of Health and Welfare Official",
+			"TitleJp": "W4 厚生省官僚の逮捕",
+			"Script": "kake_086",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 37,
+			"Title": "Resignation Notice",
+			"TitleJp": "W5 退部届け",
+			"Script": "kake_087",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Investigation Closed",
+			"TitleJp": "W6 捜査打ち切り",
+			"Script": "kake_088",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Incident Report 3",
+			"TitleJp": "X1 事件報告３",
+			"Script": "kake_089",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Incident Report 4",
+			"TitleJp": "X2 事件報告４",
+			"Script": "kake_090",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Incident Report 5",
+			"TitleJp": "X3 事件報告５",
+			"Script": "kake_091",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Madoka Minai",
+			"TitleJp": "F6 南井まどか",
+			"Script": "kake_038",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Copy Medicine",
+			"TitleJp": "M5 コピー薬",
+			"Script": "kake_075",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Lukewarm Canned Coffee",
+			"TitleJp": "V4 ぬるい缶コーヒー",
+			"Script": "kake_080",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 39,
+			"Title": "Real Name Tomoe",
+			"TitleJp": "V5 本名はともえ",
+			"Script": "kake_081",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "Drunken Boss's True Identity",
+			"TitleJp": "V1 酔いどれ上司の正体",
+			"Script": "kake_077",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "Gone with the Ashes",
+			"TitleJp": "V2 灰とともに去りぬ",
+			"Script": "kake_078",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "Receipt and Ticket",
+			"TitleJp": "V3 レシートと切符",
+			"Script": "kake_079",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "A 6 on the Dice",
+			"TitleJp": "V6 サイコロの６",
+			"Script": "kake_082",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "The Conspiracy has Started to Move",
+			"TitleJp": "G6 動き始めた陰謀",
+			"Script": "kake_044",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "Incident Report 1",
+			"TitleJp": "M2 事件報告１",
+			"Script": "kake_072",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "Incident Report 2",
+			"TitleJp": "M3 事件報告２",
+			"Script": "kake_073",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 43,
+			"Title": "A Fragment of Tokihogushi",
+			"TitleJp": "K6 解々し編のカケラ",
+			"Script": "kake_062",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 28,
+			"Title": "A Fragment of Miotsukushi",
+			"TitleJp": "L3 澪尽し編のカケラ",
+			"Script": "kake_066",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 28,
+			"Title": "Reversing the Gears",
+			"TitleJp": "L4 逆回りの歯車",
+			"Script": "kake_067",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 28,
+			"Title": "A Fragment of Miotsukushi B",
+			"TitleJp": "L3B 澪尽し編のカケラ",
+			"Script": "kake_068",
+			"UnlockChapter": 1
+		}
+	],
+	"13": [
+		{
+			"Id": 75,
+			"Title": "World of Fragments epilogue",
+			"TitleJp": "カケラの世界epilogue",
+			"Script": "kake_002",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "From Frederica, to you",
+			"TitleJp": "フレデリカから、あなたへ",
+			"Script": "kake_092",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "Miotsukushi All Cast Review Session",
+			"TitleJp": "澪尽し編お疲れさま会",
+			"Script": "mio_omake_selection",
+			"UnlockChapter": 1
+		},
+		{
+			"Id": 75,
+			"Title": "A note from DoctorDiablo",
+			"TitleJp": "DoctorDiabloから",
+			"Script": "retrospective",
+			"UnlockChapter": 1
+		}
+	]
+}
