@@ -58,7 +58,7 @@ void main()
 //r柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。",
-			NULL, "A cerca estava velha e em más condições, então a polícia está questionando partes envolvidas para determinar se a equipe do parque estava tomando as devidas precauções.", Line_Normal);
+			NULL, "A cerca estava velha e em más condições, então a polícia está questionando as partes envolvidas para determinar se a equipe do parque estava tomando as devidas precauções.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
