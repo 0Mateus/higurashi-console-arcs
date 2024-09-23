@@ -2,7 +2,7 @@
 	"0": [
 		{
 			"Id": 75,
-			"Title": "Acidente da Queda do Casal que Apoiava a Represa",
+			"Title": "Acidente da Queda do Casal que Apoiava a Construção da Represa",
 			"TitleJp": "ダム推進派の夫婦の転落事故",
 			"Script": "tara_tips_052",
 			"UnlockChapter": 1
@@ -16,14 +16,14 @@
 		},
 		{
 			"Id": 75,
-			"Title": "Great Disaster",
+			"Title": "O Grande Desastre",
 			"TitleJp": "大災害",
 			"Script": "tara_tips_054",
 			"UnlockChapter": 9
 		},
 		{
 			"Id": 75,
-			"Title": "Taraimawashi Alternate Ending (read only after completing Tsukiotoshi)",
+			"Title": "Final Alternativo do Taraimawashi (apenas leia após terminar Tsukiotoshi)",
 			"TitleJp": "大災害その後",
 			"Script": "tara_altend",
 			"UnlockChapter": 9
