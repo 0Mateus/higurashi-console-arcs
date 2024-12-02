@@ -17,7 +17,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（新聞には掲載されなかった……）",
-			NULL, "(Essa história nunca foi publicada nos jornais...)", Line_Normal);
+			NULL, "(Esta história nunca foi publicada nos jornais...)", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
