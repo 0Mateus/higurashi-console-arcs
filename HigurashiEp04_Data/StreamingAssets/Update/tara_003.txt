@@ -60,7 +60,7 @@ void main()
 			NULL, "\"Ahahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s17/02/110200054", 256, TRUE);
 	OutputLine(NULL, "　ぜんぜん平気だよ～！」",
-			NULL, " Vai ficar tudo bem~!\"", Line_Normal);
+			NULL, " Vou ficar bem~!\"", Line_Normal);
 	ClearMessage();
 
 //r返事になってないし……。
@@ -118,13 +118,13 @@ void main()
 //r玄関のノブに手をかけ……あれ、開かない？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "玄関のノブに手をかけ……あれ、開かない？",
-			NULL, "Eu coloquei minha mão na maçanete e... hã? Não está abrindo.", Line_Normal);
+			NULL, "Eu coloquei minha mão na maçaneta e... hã? Não está abrindo.", Line_Normal);
 	ClearMessage();
 
 //r…あ、誰もいないんだ。k今日は親父の仕事の都合で、お袋も一緒に出掛けているんだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…あ、誰もいないんだ。",
-			NULL, "...Oh, não tem ninguém em casa.", Line_WaitForInput);
+			NULL, "...Ah, não tem ninguém em casa.", Line_WaitForInput);
 	OutputLine(NULL, "今日は親父の仕事の都合で、お袋も一緒に出掛けているんだった。",
 			NULL, " Meu pai e minha mãe saíram para fazer algo do trabalho do papai.", Line_Normal);
 	ClearMessage();
@@ -132,13 +132,13 @@ void main()
 //r玄関の扉を開けようと、俺はポケットからオットセイのキーホルダーのついたカギを取り出す。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "玄関の扉を開けようと、俺はポケットからオットセイのキーホルダーのついたカギを取り出す。",
-			NULL, "Eu tirei a chave com o chaveiro de foca do meu bolso, para destrancar a pora.", Line_Normal);
+			NULL, "Eu tirei a chave com o chaveiro de foca do meu bolso, para destrancar a porta.", Line_Normal);
 	ClearMessage();
 
 //rそしてカギ穴に差し込んで回し、玄関のドアを開けた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてカギ穴に差し込んで回し、玄関のドアを開けた。",
-			NULL, "Quando eu coloquei-a na fechadura, a girei, e empurrei a porta para abri-la.", Line_Normal);
+			NULL, "Quando eu a coloquei na fechadura, a girei, e empurrei a porta para abri-la.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "a5_07205", 256, 64);
@@ -155,7 +155,7 @@ void main()
 //r人の住まなくなった家が、放っておくとすぐに立ち腐るっていうの、わかる気がする。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人の住まなくなった家が、放っておくとすぐに立ち腐るっていうの、わかる気がする。",
-			NULL, "É como quando as pessoas saem de uma casa, ela começa a parecer como se estivesse abandonada.", Line_Normal);
+			NULL, "É como quando as pessoas se mudam de casa, e ela começa a parecer como se estivesse abandonada.", Line_Normal);
 	ClearMessage();
 
 //r靴を脱いで、俺は二階に上がっていった。
@@ -201,13 +201,13 @@ void main()
 			NULL, " nada...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100092", 256, TRUE);
 	OutputLine(NULL, "ない～～ッ！」",
-			NULL, " nada~~!\"", Line_Normal);
+			NULL, " naaada~~!\"", Line_Normal);
 	ClearMessage();
 
 //rどこを見ても、食べ物の痕跡すら見当たらない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どこを見ても、食べ物の痕跡すら見当たらない。",
-			NULL, "Não importa onde eu procurasse, eu não conseguia econtrar nada para comer.", Line_Normal);
+			NULL, "Não importa onde eu procurasse, não conseguia econtrar nada para comer.", Line_Normal);
 	ClearMessage();
 
 //rがっくりと肩を落として、はぁ～～…と深い溜息をつく俺。
@@ -246,13 +246,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100093", 256, TRUE);
 	OutputLine(NULL, "「早く来ないかなぁ…魅音」",
-			NULL, "\"Poderia Mion mion se apressar e chegar logo?\"", Line_Normal);
+			NULL, "\"Poderia Mion se apressar e chegar logo?\"", Line_Normal);
 	ClearMessage();
 
 //r俺は独り言をこぼした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は独り言をこぼした。",
-			NULL, "Eu falei suavementer para mim mesmo.", Line_Normal);
+			NULL, "Eu falei suavemente para mim mesmo.", Line_Normal);
 	ClearMessage();
 
 //rなぜかって？k　それは、あいつが勝手に言い出したから。
@@ -270,7 +270,7 @@ void main()
 //r今日の部活は、魅音のダントツのビリ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今日の部活は、魅音のダントツのビリ。",
-			NULL, "Mion ficou em último lugar em todas as atividades do clube de hoje.", Line_Normal);
+			NULL, "Mion ficou muito atrás de todos, nas atividades do clube de hoje.", Line_Normal);
 	ClearMessage();
 
 //r当然といえば、当然なんだけど…レナと俺は同率一位だった。
@@ -399,7 +399,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100095", 256, TRUE);
 	OutputLine(NULL, "「な、なんでだ？！」",
-			NULL, "\"C-como você sabe?!\"", Line_Normal);
+			NULL, "\"C-como você sabe disso?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me1a_warai_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -531,7 +531,7 @@ void main()
 			NULL, "\"Que rude!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300118", 256, TRUE);
 	OutputLine(NULL, "　おじさんを見くびっちゃあいけない。",
-			NULL, " Não subestime oji-san.", Line_WaitForInput);
+			NULL, " Não subestime Oji-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300119", 256, TRUE);
 	OutputLine(NULL, "料理は得意中の得意なんだからね！」",
 			NULL, " Eu sou mais do que capaz de cozinhar!\"", Line_Normal);
@@ -589,7 +589,7 @@ void main()
 //rそれに対してにこやかに答えてから、魅音は足元の荷物を手に持ち直した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに対してにこやかに答えてから、魅音は足元の荷物を手に持ち直した。",
-			NULL, "Então, Mion pegou suas bolsas enquanto dava essa resposta com um sorriso.", Line_Normal);
+			NULL, "Então, Mion pegou suas sacolas enquanto dava essa resposta com um sorriso.", Line_Normal);
 	ClearMessage();
 
 //r巨大な買い物袋が両手にいっぱいだった。
@@ -601,7 +601,7 @@ void main()
 //r……いや、本当にすごい量だ……。俺は思わず、何の断りもなく袋の中身を見てしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……いや、本当にすごい量だ……。俺は思わず、何の断りもなく袋の中身を見てしまった。",
-			NULL, "...Wow, isso é bastante coisa... Eu dei olha olhada rápida nos conteúdos.", Line_Normal);
+			NULL, "...Uau, isso é bastante coisa... Eu dei uma olhada rápida nos conteúdos.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -611,10 +611,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "豚肉コマ切れ５００グラム、卵２パックに、豆腐５丁、牛乳パック４つ、醤油１．８リットル…それから、ニンジン、長ネギ、かぼちゃ、玉葱、ジャガイモ、インゲン、白菜、椎茸、エリンギ、小松菜、もやしに…、",
-				NULL, "<size=-2>500 gramas de carne de porco, 2 caixas de ovos, cinco porções de tofu, quatro caixas de leite, 1,8 litros de molho de soja... e algumas cenouras, cebolinhas, abóboras, cebolas normais, batatas, feijão, repolho, cogumelos shiitake, cogumelo-do-cardo, espinafre, brotos de feijão...", Line_Normal);
+				NULL, "<size=-2>500 gramas de carne de porco, 2 caixas de ovos, cinco porções de tofu, quatro caixas de leite, 1,8 litros de molho de soja... e algumas cenouras, cebolinhas, abóboras, cebolas, batatas, feijão, repolho, cogumelos shiitake, cogumelo-do-cardo, espinafre, brotos de feijão...", Line_Normal);
 	} else {
 		OutputLine(NULL, "豚肉コマ切れ５００グラム、卵２パックに、豆腐５丁、牛乳パック４つ、醤油１．８リットル…それから、ニンジン、長ネギ、かぼちゃ、玉葱、ジャガイモ、インゲン、白菜、椎茸、エリンギ、小松菜、もやしに…、",
-				NULL, "500 gramas de carne de porco, 2 caixas de ovos, cinco porções de tofu, quatro caixas de leite, 1,8 litros de molho de soja... e algumas cenouras, cebolinhas, abóboras, cebolas normais, batatas, feijão, repolho, cogumelos shiitake, cogumelo-do-cardo, espinafre, brotos de feijão...", Line_Normal);
+				NULL, "500 gramas de carne de porco, 2 caixas de ovos, cinco porções de tofu, quatro caixas de leite, 1,8 litros de molho de soja... e algumas cenouras, cebolinhas, abóboras, cebolas, batatas, feijão, repolho, cogumelos shiitake, cogumelo-do-cardo, espinafre, brotos de feijão...", Line_Normal);
 	}
 	ClearMessage();
 
@@ -691,7 +691,7 @@ void main()
 //rしかも…似たような買い物リストで、つまり、魅音の袋なんだけど……もう一袋あるのだから脅威だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかも…似たような買い物リストで、つまり、魅音の袋なんだけど……もう一袋あるのだから脅威だった。",
-			NULL, "Além disso... não era só essa sacola... Mion tinha outra lista igualmente intimidadora preenchendo a outra sacola.", Line_Normal);
+			NULL, "Além disso... não era só essa sacola... Mion tinha outra lista igualmente assustadora preenchendo a outra sacola.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100105.「魅音。kvS17/01/110100106.お前、これぜんぶ持ってきたのか？」
@@ -893,13 +893,13 @@ void main()
 //rいつもの男の子っぽい振る舞いが影をひそめている、とでもいうのだろうか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いつもの男の子っぽい振る舞いが影をひそめている、とでもいうのだろうか。",
-			NULL, "Era como se sua usual atitude de tomboy tivesse desaparecido ou algo assim. (*) tomboy - palavra usada para se referir a garotas que agem como meninos.", Line_Normal);
+			NULL, "Era como se sua usual atitude <i>tomboy</i> tivesse desaparecido ou algo assim. (*) tomboy - palavra usada para se referir a garotas que agem como meninos.", Line_Normal);
 	ClearMessage();
 
 //r陽の落ちた道を二人の影が並んで歩いてゆく。kひぐらしの鳴く声が、ここちよく辺り一面に響き渡っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "陽の落ちた道を二人の影が並んで歩いてゆく。",
-			NULL, "Nossas sombras se moviam lado a lado enquanto caminhavamos na estrada ensolarada.", Line_WaitForInput);
+			NULL, "Nossas sombras se moviam lado a lado enquanto caminhávamos na estrada ensolarada.", Line_WaitForInput);
 	OutputLine(NULL, "ひぐらしの鳴く声が、ここちよく辺り一面に響き渡っていた。",
 			NULL, " Os choros das higurashi ecoavam ao nosso redor.", Line_Normal);
 	ClearMessage();
@@ -930,7 +930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100112", 256, TRUE);
 	OutputLine(NULL, "「いや、元気がないみたいだから」",
-			NULL, "\"Bem, você parece menos enérgica que o normal.\"", Line_Normal);
+			NULL, "\"Bem, você parece estar com menos energia que o normal.\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300140.「……別に」
@@ -1025,7 +1025,7 @@ void main()
 //rそれを聞いた途端、大きく息を呑んで魅音が立ち止まった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを聞いた途端、大きく息を呑んで魅音が立ち止まった。",
-			NULL, "No momento que disse isso, Mion respirou fundo e parou.", Line_Normal);
+			NULL, "No momento que eu disse isso, Mion respirou fundo e parou.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -1089,7 +1089,7 @@ void main()
 //r自分よりも絶対的、圧倒的に大きな力を持つ相手に見入られた時、人は恐怖の余り意志に反した行動に出てしまうことがある。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分よりも絶対的、圧倒的に大きな力を持つ相手に見入られた時、人は恐怖の余り意志に反した行動に出てしまうことがある。",
-			NULL, "O medo pode às vezes levar as pessoas a fazerem coisas completamente ilógicas quando enfrentadas por oponentes com força amplamente maior que a própria.", Line_Normal);
+			NULL, "O medo pode às vezes levar as pessoas a fazerem coisas completamente ilógicas quando enfrentadas por oponentes com força amplamente maior que a nossa.", Line_Normal);
 	ClearMessage();
 
 //rだから、俺は。――口が勝手に訊いてしまった。
@@ -1105,7 +1105,7 @@ void main()
 			NULL, "\"S-sabe... estive me perguntando se talvez algo tenha acontecido após o festival...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100120", 256, TRUE);
 	OutputLine(NULL, "ほら…祟りで、人が変な死に方したり、急に行方不明になったりするって…聞いたから…さ」",
-			NULL, " Digo... tem uma maldição que faz as pessoas morrerem misteriosamente ou desaparecerem repentinamente... segundo o que ouvi...\"", Line_Normal);
+			NULL, " Digo... tem uma maldição que faz as pessoas morrerem misteriosamente ou desaparecerem repentinamente... ou foi o que ouvi dizer...\"", Line_Normal);
 	ClearMessage();
 
 //rもしかしたら、魅音が何も言ってくれないことに、日頃から心の底で不満を感じていたのかも知れない。
@@ -1225,7 +1225,7 @@ void main()
 //rまるであざ笑うように生臭く、ねっとりとした湿気のある風がざざっと吹きぬけていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まるであざ笑うように生臭く、ねっとりとした湿気のある風がざざっと吹きぬけていった。",
-			NULL, "Uma brisa húmida espalhou um aroma de peixe ao redor.", Line_Normal);
+			NULL, "Uma brisa úmida espalhou um aroma de peixe ao redor.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -1253,7 +1253,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100123", 256, TRUE);
 	OutputLine(NULL, "「あ…あぁ……」",
-			NULL, "\"Ah...\"", Line_Normal); //;bra
+			NULL, "\"Ah...\"", Line_Normal); //;alteração
 	ClearMessage();
 
 //r俺も、魅音を手伝って拾い集める。
@@ -1295,7 +1295,7 @@ void main()
 			NULL, "\"...Entendo. Eu já imaginava.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300153", 256, TRUE);
 	OutputLine(NULL, "あいつ、余計なことを——」",
-			NULL, " Ela deveria manter sua boca fechada...\"", Line_Normal);
+			NULL, " Ela deveria manter aquela boca fechada...\"", Line_Normal);
 	ClearMessage();
 
 //r吐き捨てるように言った。
@@ -1314,7 +1314,7 @@ void main()
 //rそれ以上、言葉を継げなくなる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それ以上、言葉を継げなくなる。",
-			NULL, "Mas eu não consegui encontrar nada mais para dizer.", Line_Normal);
+			NULL, "Mas eu não consegui encontrar nada para dizer.", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300154.「…かないで……」
@@ -1334,7 +1334,7 @@ void main()
 //r不意に、魅音の声が聞こえたが……小さくてよく、聞こえない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "不意に、魅音の声が聞こえたが……小さくてよく、聞こえない。",
-			NULL, "Repentinamente, Mion disse algo... mas foi muito baixo para mim ouvir.", Line_Normal);
+			NULL, "Repentinamente, Mion disse algo... mas foi muito baixo para eu conseguir ouvir.", Line_Normal);
 	ClearMessage();
 
 //r俺は顔を向けて、下を向いたまま拾っている魅音の口元を見た。
@@ -1608,7 +1608,7 @@ void main()
 //rその言葉だけが、薄ぼんやりと見える魅音の影からぞくりと、忍び寄るように聞こえる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その言葉だけが、薄ぼんやりと見える魅音の影からぞくりと、忍び寄るように聞こえる。",
-			NULL, "Enquanto ela dizia isso, parecia como se a sombra de Mion estivesse rastejanto para ainda mais perto.", Line_Normal);
+			NULL, "Enquanto ela dizia isso, parecia como se a sombra de Mion estivesse rastejando para ainda mais perto.", Line_Normal);
 	ClearMessage();
 
 //rひぐらしの鳴く声が……再び辺りに響き渡ってきていた。
