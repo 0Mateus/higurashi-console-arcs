@@ -308,7 +308,7 @@ void main()
 //r昼下がりの穏やかな風が、病室のカーテンを穏やかに揺らす。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昼下がりの穏やかな風が、病室のカーテンを穏やかに揺らす。",
-			NULL, "Uma brisa calma da tarde gentilmente balançava as curtinas do quarto do hospital.", Line_Normal);
+			NULL, "Uma brisa calma da tarde gentilmente balançava as cortinas do quarto do hospital.", Line_Normal);
 	ClearMessage();
 
 //rベッドに腰掛けた女性は、清潔そうな白いパジャマ姿で窓の外を眺めている。
@@ -332,7 +332,7 @@ void main()
 //rそしてほとんど外出していないのか、その肌は着ているパジャマや病院のカーテンのように白かった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてほとんど外出していないのか、その肌は着ているパジャマや病院のカーテンのように白かった。",
-			NULL, "Ela não deve sair muito, já que sua pele parecia tão pálida quanto a cor do seu pijama e as curtinas do hospital.", Line_Normal);
+			NULL, "Ela não deve sair muito, já que sua pele parecia tão pálida quanto a cor do seu pijama e as cortinas do hospital.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -552,7 +552,7 @@ void main()
 //r彼らの追っていた事件は、幕引きを余儀なくされたのである。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼らの追っていた事件は、幕引きを余儀なくされたのである。",
-			NULL, "A curtina foi fechada de uma maneira forçada no caso que eles estavam investigando.", Line_Normal);
+			NULL, "A cortina foi fechada de uma maneira forçada no caso que eles estavam investigando.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 500 );
