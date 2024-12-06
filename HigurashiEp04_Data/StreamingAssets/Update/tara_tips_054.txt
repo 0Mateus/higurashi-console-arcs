@@ -53,13 +53,13 @@ void main()
 //rその後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。",
-			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam em baixo do pântano de Onigafuchi. Investigadores concluiram que o gás saindo deles foi a causa do desastre.", Line_Normal);
+			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam abaixo do pântano de Onigafuchi. Investigadores concluiram que o gás saindo deles foi a causa do desastre.", Line_Normal);
 	ClearMessage();
 
 //rまた、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を『祟り』と騒ぐ者が続出し、初期の混乱を煽り立てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を『祟り』と騒ぐ者が続出し、初期の混乱を煽り立てた。",
-			NULL, "Além disso, uma tradição local motivava as pessoas a dizerem que o desastre em Hinamizawa foi obra de uma \"maldição,\" que causou uma grande comoção e resultou em confusão no início da investigação.", Line_Normal);
+			NULL, "Além disso, uma tradição local motivava as pessoas a dizerem que o desastre em Hinamizawa foi obra de uma \"maldição,\" o que causou uma grande comoção e resultou em confusão no início da investigação.", Line_Normal);
 	ClearMessage();
 
 //r雛見沢村には、祟りがあると瘴気が湧き出して、村を滅ぼすとの伝承があったといい、学者からは過去にも同様のガス災害があり、それが伝承として残ったのではないかと指摘する声があがっている。
@@ -111,13 +111,13 @@ void main()
 //rそれらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
-			NULL, "É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passaram a serem chamados da Sindrome de Hinamizawa...", Line_Normal);
+			NULL, "É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passaram a serem chamados de Sindrome de Hinamizawa...", Line_Normal);
 	ClearMessage();
 
 //rさまざまな噂や憶測の的となった雛見沢村地区は現在、封鎖され、その上空の飛行も禁止されている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さまざまな噂や憶測の的となった雛見沢村地区は現在、封鎖され、その上空の飛行も禁止されている。",
-			NULL, "O distrito de Hinamizawa onde todos esses rumores se originaram está atualmente bloqueado, e voar sobre essa região é estritamente proibido.", Line_Normal);
+			NULL, "O distrito de Hinamizawa de onde todos esses rumores se originaram está atualmente bloqueado, e voar sobre essa região é estritamente proibido.", Line_Normal);
 	ClearMessage();
 
 //rガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。
@@ -159,7 +159,7 @@ void main()
 //r……重度の記憶障害により事件当日、その前後についての記憶が一切なく、また相当の精神的ショックを受けたのか、退行症を引き起こしている可能性が高い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……重度の記憶障害により事件当日、その前後についての記憶が一切なく、また相当の精神的ショックを受けたのか、退行症を引き起こしている可能性が高い。",
-			NULL, "...O incrível choque mental que ela sofreu a deixou sem memória dos acontecimentos que aconteceram antes e depois do incidente, e ela tem um alto risco de sofrer uma regressão ainda pior.", Line_Normal);
+			NULL, "...O incrível choque mental que ela sofreu deixou ela sem memória dos acontecimentos que aconteceram antes e depois do incidente, e ela tem um alto risco de sofrer uma regressão ainda pior.", Line_Normal);
 	ClearMessage();
 
 //r警察の取調べに対しても、正常な応対ができない現状である……。
