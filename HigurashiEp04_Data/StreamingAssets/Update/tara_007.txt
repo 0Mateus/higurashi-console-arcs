@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "外の豪雨は激しさを増していた。",
-			NULL, "A chuva do lado de fora estava ficando ainda mais forte.", Line_Normal);
+			NULL, "A chuva do lado de fora estava ficando cada vez mais forte.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "kaminari1", 256, 64);
@@ -40,13 +40,13 @@ void main()
 //rここでの『何かが起きそうな夜』とは、もちろんいいことではなく、不吉な『何か』という意味だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ここでの『何かが起きそうな夜』とは、もちろんいいことではなく、不吉な『何か』という意味だ。",
-			NULL, "E naturalmente, esse \"algo\" não seria nada bom. Ao invés disso, \"algo\" sinistro.", Line_Normal);
+			NULL, "E naturalmente, esse \"algo\" não seria nada de bom. Ao invés disso, seria \"algo\" sinistro.", Line_Normal);
 	ClearMessage();
 
 //rなんだか落ち着かない、落ち着くわけが無い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なんだか落ち着かない、落ち着くわけが無い。",
-			NULL, "Eu estava me sentindo agidado, e não conseguia me acalmar.", Line_Normal);
+			NULL, "Eu estava me sentindo agitado, e não conseguia me acalmar.", Line_Normal);
 	ClearMessage();
 
 //rできれば早めに寝てしまいたかった。
@@ -69,7 +69,7 @@ void main()
 //r暗闇は雑念を断ってくれる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "暗闇は雑念を断ってくれる。",
-			NULL, "A escuridão me destraiu dos meus pensamentos vãos.", Line_Normal);
+			NULL, "A escuridão me distraiu dos meus pensamentos vãos.", Line_Normal);
 	ClearMessage();
 
 //rしかし、意識の深層に負の感情が居座っている時……。
@@ -102,7 +102,7 @@ void main()
 //rいや……雛見沢村連続殺人事件。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いや……雛見沢村連続殺人事件。",
-			NULL, "Ou melhor... a série de mortes de Hinamizawa.", Line_Normal);
+			NULL, "Ou melhor... a série de mortes em Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 //r……園崎家。
@@ -126,7 +126,7 @@ void main()
 //r意図せずに、パズルのピースが浮かび上がってしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "意図せずに、パズルのピースが浮かび上がってしまった。",
-			NULL, "Esses pedaçoes do quebra cabeça inconscientemente vieram à cabeça.", Line_Normal);
+			NULL, "Esses pedaços do quebra cabeça inconscientemente vieram à mente.", Line_Normal);
 	ClearMessage();
 
 //rそれでもやはり、俺にはさっぱり状況が掴めない。
@@ -138,13 +138,13 @@ void main()
 //rいったい何が起きているのか？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いったい何が起きているのか？",
-			NULL, "O que diabos estava acontecendo?", Line_Normal);
+			NULL, "Que diabos estava acontecendo?", Line_Normal);
 	ClearMessage();
 
 //r俺はすでに、巻き込まれているのか？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺はすでに、巻き込まれているのか？",
-			NULL, "Eu já me envolvi?", Line_Normal);
+			NULL, "Eu já me envolvi nisso?", Line_Normal);
 	ClearMessage();
 
 //rもしそうならば、そこから脱出する方法があるのか？
@@ -162,7 +162,7 @@ void main()
 //rいや、異様な事実はすでに、いくつも明白になっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いや、異様な事実はすでに、いくつも明白になっている。",
-			NULL, "Não, muitos eventos bizarros já vieram à luz.", Line_Normal);
+			NULL, "Não, muitos eventos bizarros já vieram à tona.", Line_Normal);
 	ClearMessage();
 
 //r思い込みだけで片付けられるとは、到底思えなかった。
@@ -198,7 +198,7 @@ void main()
 //r雛見沢村連続殺人事件と園崎家との関係……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢村連続殺人事件と園崎家との関係……。",
-			NULL, "Tem de ter alguma relação entre a família Sonozaki e a série de mortes em Hinamizawa...", Line_Normal);
+			NULL, "Tem que ter alguma relação entre a família Sonozaki e a série de mortes em Hinamizawa...", Line_Normal);
 	ClearMessage();
 
 //r魅音、自らが園崎家の危険を俺に話し、口外するなと迫った。
@@ -306,13 +306,13 @@ void main()
 //r身動きさえできなかった、昼の魅音の眼光。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "身動きさえできなかった、昼の魅音の眼光。",
-			NULL, "O brilho dos olhos desta tarde que tinha me paralisado.", Line_Normal);
+			NULL, "O brilho dos olhos desta tarde que tinham me paralisado.", Line_Normal);
 	ClearMessage();
 
 //r魅音ではない、何者かの、鷹の目……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音ではない、何者かの、鷹の目……。",
-			NULL, "Essa não era Mion. Aqueles olhos predatórios tinham de pertencer a alguma outra pessoa...", Line_Normal);
+			NULL, "Esta não é Mion. Aqueles olhos predatórios tinham de pertencer a alguma outra pessoa...", Line_Normal);
 	ClearMessage();
 
 //r今のは、いったいなんだったんだろう……？
@@ -374,7 +374,7 @@ void main()
 //r布団をまくりあげ、一瞬で周囲を見渡す。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "布団をまくりあげ、一瞬で周囲を見渡す。",
-			NULL, "Eu rolei para fora do meu futon e rapidamente verifiquei os meus arredores.", Line_Normal);
+			NULL, "Eu rolei para fora do meu futon e rapidamente verifiquei os arredores.", Line_Normal);
 	ClearMessage();
 
 //r自分以外の何者もいなかったが、俺はとにかく身を構えた。
@@ -431,14 +431,14 @@ void main()
 	OutputLine(NULL, "俺が返事をすると、お袋はドアを開ける。",
 			NULL, "Assim que eu respondi, minha mãe abriu a porta.", Line_WaitForInput);
 	OutputLine(NULL, "一気に全身の力が抜けた。",
-			NULL, " Toda a força do meu corpo se dissipou de uma vez.", Line_Normal);
+			NULL, " Toda a força do meu corpo se dissipou de uma só vez.", Line_Normal);
 	ClearMessage();
 
 //圭一の母rvS17/00/112700003.「もうっ、ずっと呼んでたのに。kvS17/00/112700004.本屋さんから電話よ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mãe de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s17/00/112700003", 256, TRUE);
 	OutputLine(NULL, "「もうっ、ずっと呼んでたのに。",
-			NULL, "\"Eu estive te chamando por muito tempo.", Line_WaitForInput);
+			NULL, "\"Eu estive chamando por muito tempo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s17/00/112700004", 256, TRUE);
 	OutputLine(NULL, "本屋さんから電話よ」",
 			NULL, " A chamada telefônica é da biblioteca.\"", Line_Normal);
@@ -706,19 +706,19 @@ void main()
 //rでも俺は何も知らない！　本当に知らないんだッ！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも俺は何も知らない！　本当に知らないんだッ！",
-			NULL, "Mas eu não sei de nada! Realmente, eu não sei!", Line_Normal);
+			NULL, "Mas eu não sei de nada! Eu realmente não sei!", Line_Normal);
 	ClearMessage();
 
 //rそう思ってから、迂闊に魅音の名前を口にしてしまったことを後悔した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう思ってから、迂闊に魅音の名前を口にしてしまったことを後悔した。",
-			NULL, "Enquanto eu pensava nisso, eu comecei a me arrepender de descuidadosamente mencionar o nome de Mion.", Line_Normal);
+			NULL, "Enquanto eu pensava nisso, comecei a me arrepender de descuidadosamente mencionar o nome de Mion.", Line_Normal);
 	ClearMessage();
 
 //rどんなに些細な情報でも、魅音のことは大石さんの耳に入れたくはなかった。……魅音やレナに、あらぬ疑いを持たれたくなんかない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どんなに些細な情報でも、魅音のことは大石さんの耳に入れたくはなかった。……魅音やレナに、あらぬ疑いを持たれたくなんかない。",
-			NULL, "Eu não queria que Ooishi-san ouvisse nada sobre Mion, não importa o quão trivial fosse. ...Eu não queria dar a Mion ou Rena nenhuma razão para duvidar de mim.", Line_Normal);
+			NULL, "Eu não queria que Ooishi-san ouvisse nada sobre Mion, não importa o quão trivial fosse. ...Eu não queria dar a Mion ou Rena nenhuma razão para duvidarem de mim.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ma_j3_01", 1000 );
@@ -854,7 +854,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100325", 256, TRUE);
 	OutputLine(NULL, "「はぃ……とにかく、何も知らないんです……」",
-			NULL, "\"Sim... De qualquer jeito, eu não sei de nada...\"", Line_Normal);
+			NULL, "\"Sim... Enfim, eu não sei de nada...\"", Line_Normal);
 	ClearMessage();
 
 //rすると大石さんは、神妙な声で言った。
@@ -1078,13 +1078,13 @@ void main()
 //r豪雨の中に、雷の凄まじい轟音が混じる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "豪雨の中に、雷の凄まじい轟音が混じる。",
-			NULL, "E eu ouvi o estrondo de um trovão misturado com o som da água caindo.", Line_Normal);
+			NULL, "E eu ouvi o estrondo de um trovão misturado com o som de água caindo.", Line_Normal);
 	ClearMessage();
 
 //r音量的には大きいものだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "音量的には大きいものだ。",
-			NULL, "Foi particularmente alto.", Line_Normal);
+			NULL, "Era particularmente alto.", Line_Normal);
 	ClearMessage();
 
 //rしかし、ある種単調な音に包まれていると、徐々に通常以上の静寂に包まれていく。
@@ -1102,7 +1102,7 @@ void main()
 //rその静寂が崩される瞬間が来るのではないかと、神経は異常に過敏になる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その静寂が崩される瞬間が来るのではないかと、神経は異常に過敏になる。",
-			NULL, "Meus nervos ficavam mais e mais tensos, antecipando o momento que o silêncio seria quebrado mais uma vez.", Line_Normal);
+			NULL, "Meus nervos ficavam mais e mais tensos, antecipando o momento em que o silêncio seria quebrado mais uma vez.", Line_Normal);
 	ClearMessage();
 
 //r雨と雷の音。
@@ -1159,13 +1159,13 @@ void main()
 //r今度は確実に幻影とわかる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今度は確実に幻影とわかる。",
-			NULL, "Desta vez, tendo certeza que é minha imaginação.", Line_Normal);
+			NULL, "Desta vez, tendo certeza que é a minha imaginação.", Line_Normal);
 	ClearMessage();
 
 //rそれでも、必死で恐怖と驚きを押し殺していなければ、俺は今にも叫んでしまいそうだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも、必死で恐怖と驚きを押し殺していなければ、俺は今にも叫んでしまいそうだ。",
-			NULL, "Ainda assim, eu estava desesperadamente lutando contra o choque e medo. Eu estava a beira de gritar à qualquer momento agora.", Line_Normal);
+			NULL, "Ainda assim, eu estava desesperadamente lutando contra o choque e o medo. Eu estava a beira de gritar à qualquer momento agora.", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300277.「――で、どうする？kvS17/03/110300278.　このまま黙ってるか……それとも？」
@@ -1196,7 +1196,7 @@ void main()
 //r俺の全身は、これ以上力が入らないというくらいに緊張した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺の全身は、これ以上力が入らないというくらいに緊張した。",
-			NULL, "Meu corpo inteiro estava assolado com tensão, e minha força escapou de mim.", Line_Normal);
+			NULL, "Meu corpo inteiro estava assolado com tensão, e toda a minha força escapou de mim.", Line_Normal);
 	ClearMessage();
 
 //r魅音の言った『……それとも？』という場合は、どういう結末が俺を待っているのだろうか？
@@ -1255,7 +1255,7 @@ void main()
 //r初めてではないという魅音と詩音の失踪。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "初めてではないという魅音と詩音の失踪。",
-			NULL, "Essa não era a primeira vez Mion e Shion tinham desaparecido.", Line_Normal);
+			NULL, "Esta não era a primeira vez Mion e Shion tinham desaparecido.", Line_Normal);
 	ClearMessage();
 
 //r前回は同じタイミングで、北条の叔母が死んでいる。
@@ -1287,7 +1287,7 @@ void main()
 	OutputLine(NULL, "相変わらず豪雨と雷は続いている。",
 			NULL, "A chuva pesada e os trovões continuaram como o normal.", Line_WaitForInput);
 	OutputLine(NULL, "朝がやってくる気配は全くない。",
-			NULL, " Não havia sinal de que a manhã estava se aproximando.", Line_Normal);
+			NULL, " Não havia sinal de que a manhã estivesse se aproximando.", Line_Normal);
 	ClearMessage();
 
 //r俺はこの夜を無事に越えられるのだろうか……。
