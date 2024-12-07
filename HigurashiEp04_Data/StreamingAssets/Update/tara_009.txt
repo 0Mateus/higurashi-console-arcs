@@ -17,7 +17,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和は終わり、平成の世となった東京。",
-			NULL, "Tóquio, no fim da era Showa e o começo da era Heisei.", Line_Normal);
+			NULL, "Tóquio, no fim da era Showa e começo da era Heisei.", Line_Normal);
 	ClearMessage();
 
 //r物や情報、そして人までもが、物凄いスピードで更新され、溢れ続けている。
@@ -35,7 +35,7 @@ void main()
 //rその誰もが忘れ去った『過去』を、現在も追い続けている男がいた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その誰もが忘れ去った『過去』を、現在も追い続けている男がいた。",
-			NULL, "Mas ainda havia um homem indo atrás do \"passado\" que todas as outras pessoas tinham esquecido.", Line_Normal);
+			NULL, "Mas ainda existia um homem indo atrás do \"passado\" que todas as outras pessoas tinham esquecido.", Line_Normal);
 	ClearMessage();
 
 //r大石は久しぶりにその地を踏んだ。
@@ -47,13 +47,13 @@ void main()
 //r最近の大石は、身体の衰えをbいちじる.<著>しく感じていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最近の大石は、身体の衰えを著(いちじる)しく感じていた。",
-			NULL, "Atualmente, Ooishi esteve sofrendo de uma notável decadência física.", Line_Normal);
+			NULL, "Atualmente, Ooishi estava sofrendo de uma notável decadência física.", Line_Normal);
 	ClearMessage();
 
 //rわずかな時間にも拘らず、エコノミーでの移動が身体に堪えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "わずかな時間にも拘らず、エコノミーでの移動が身体に堪えた。",
-			NULL, "Mover seu corpo, mesmo que seja por um curto período de tempo, causa uma tensão em seu corpo que ele tem de se esforçar muito aguentar.", Line_Normal);
+			NULL, "Mover seu corpo, mesmo que seja por um curto período de tempo, causa uma tensão em seu corpo que ele tem de se esforçar muito para aguentar.", Line_Normal);
 	ClearMessage();
 
 //rしかし定年後から始めたダンスは続けている。
@@ -65,7 +65,7 @@ void main()
 //r最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。",
-			NULL, "A dança aerobica ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //; Não faço a menor ideia do que é silver gray dancing style.
+			NULL, "A dança aerobica ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //;Não faço a menor ideia do que é silver gray dancing style.
 	ClearMessage();
 
 	PlayBGM( 1, "mati", 128, 0 );
@@ -80,7 +80,7 @@ void main()
 //r大石の記憶にあった空港内より、だいぶ広く綺麗になってしまっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石の記憶にあった空港内より、だいぶ広く綺麗になってしまっていた。",
-			NULL, "A parte de dentro do aeroporto parecia maior e mais limpa do que Ooishi se lembrava.", Line_Normal);
+			NULL, "A parte de dentro do aeroporto parecia maior e mais limpa do que Ooishi lembrava.", Line_Normal);
 	ClearMessage();
 
 //r右も左も、上下さえ、見覚えなどない。
@@ -127,7 +127,7 @@ void main()
 //r若者と呼ぶにはいささか年を重ねすぎた、長身の私服捜査官だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "若者と呼ぶにはいささか年を重ねすぎた、長身の私服捜査官だった。",
-			NULL, "Ele era um investigador da polícia alto e que não estava utilizando o seu uniforme, um pouco velho demais para ser chamado de jovem.", Line_Normal);
+			NULL, "Ele era um investigador da polícia, era alto e não estava utilizando o seu uniforme, um pouco velho demais para ser chamado de jovem.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 13, "sprite/aks1_warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -136,7 +136,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s17/13/111300003", 256, TRUE);
 	OutputLine(NULL, "「どおも、お久しぶりです！」",
-			NULL, "\"Que bom te ver, faz bastante tempo!\"", Line_Normal);
+			NULL, "\"Que bom te ver, já faz bastante tempo!\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS17/11/110700092.「迷子になる所でしたよ、なっはっはっは！kvS17/11/110700093.　何年ぶりですかねぇ～！！」
@@ -171,7 +171,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s17/13/111300004", 256, TRUE);
 	OutputLine(NULL, "「今では、昔のような不覚はとりません」",
-			NULL, "\"Eu não sou mais tão frágil quanto eu era antigamente.\"", Line_Normal);
+			NULL, "\"Eu não sou mais tão frágil quanto era antigamente.\"", Line_Normal);
 	ClearMessage();
 
 //r赤坂は照れくさそうに言った。
@@ -300,7 +300,7 @@ void main()
 //r真っ白な病院の外壁は、太陽を映して光っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "真っ白な病院の外壁は、太陽を映して光っていた。",
-			NULL, "As paredes brancas da parte de fora do hospital refletiam o brilho sol.", Line_Normal);
+			NULL, "As paredes brancas da parte de fora do hospital refletiram o brilho sol.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/sinryou_sinsatu4", 1000 );
@@ -314,13 +314,13 @@ void main()
 //rベッドに腰掛けた女性は、清潔そうな白いパジャマ姿で窓の外を眺めている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ベッドに腰掛けた女性は、清潔そうな白いパジャマ姿で窓の外を眺めている。",
-			NULL, "Uma mulher vestindo pijamas brancos estava sentada na cama, olhando na direção da janela.", Line_Normal);
+			NULL, "Uma mulher vestindo pijamas brancos estava sentada na cama, olhando em direção a janela.", Line_Normal);
 	ClearMessage();
 
 //r髪を撫でている風は、彼女の顔を暴くほどには吹かない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "髪を撫でている風は、彼女の顔を暴くほどには吹かない。",
-			NULL, "Mas o vento batendo no seu cabelo não era forte o suficiente para revelar seu rosto.", Line_Normal);
+			NULL, "Mas o vento batendo no seu cabelo não era forte o suficiente para revelar o seu rosto.", Line_Normal);
 	ClearMessage();
 
 //r長く伸びた髪がそれを隠している。
@@ -332,7 +332,7 @@ void main()
 //rそしてほとんど外出していないのか、その肌は着ているパジャマや病院のカーテンのように白かった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてほとんど外出していないのか、その肌は着ているパジャマや病院のカーテンのように白かった。",
-			NULL, "Ela não deve sair muito, já que sua pele parecia tão pálida quanto a cor do seu pijama e as cortinas do hospital.", Line_Normal);
+			NULL, "Ela não devia sair muito, já que sua pele parecia tão pálida quanto a cor do seu pijama e as cortinas do hospital.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -358,7 +358,7 @@ void main()
 //r隣の赤坂も、同じような感情にとらわれていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "隣の赤坂も、同じような感情にとらわれていた。",
-			NULL, "Akasaka estava em pé ao lado dele, se sentindo práticamento da mesma forma.", Line_Normal);
+			NULL, "Akasaka estava em pé ao lado dele, se sentindo praticamente da mesma forma.", Line_Normal);
 	ClearMessage();
 
 //r赤坂は空調の行き届いた待合室で、汗を何度も拭っている。
@@ -384,7 +384,7 @@ void main()
 //r病院自体に場違いな雰囲気の男二人は、更に場違いな雰囲気の個室の病室へ入った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "病院自体に場違いな雰囲気の男二人は、更に場違いな雰囲気の個室の病室へ入った。",
-			NULL, "Os dois homens que pareciam fora do lugar em um hospital começaram a se sentir mais fora do lugar ainda quanto eles pisaram dentro do quarto do hospital.", Line_Normal);
+			NULL, "Os dois homens que pareciam fora do lugar em um hospital, começaram a se sentir mais fora do lugar ainda quanto eles pisaram dentro do quarto do hospital.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(0, 200, TRUE);
@@ -465,7 +465,7 @@ void main()
 //r予想していた通りの患者の反応に、看護師が呆れたように二人に言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "予想していた通りの患者の反応に、看護師が呆れたように二人に言った。",
-			NULL, "A enfermeira parecia disapontada enquanto dizia aos dois homens que a paciente estava agindo como de costume.", Line_Normal);
+			NULL, "A enfermeira parecia desapontada enquanto dizia aos dois homens que a paciente estava agindo como de costume.", Line_Normal);
 	ClearMessage();
 
 //r二人は病院へ問い合わせた時点で、園崎魅音の状態の説明は受けていた。
@@ -489,13 +489,13 @@ void main()
 //r…１５年前にその雛見沢に潜入し、事件の一端を垣間見た警視庁のベテラン捜査官。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…１５年前にその雛見沢に潜入し、事件の一端を垣間見た警視庁のベテラン捜査官。",
-			NULL, "...Esse esse investigador da polícia metropolitana esteve envolvido em um desses incidentes quando visitou Hinamizawa 15 anos atrás.", Line_Normal);
+			NULL, "...Este investigador da polícia metropolitana esteve envolvido em um desses incidentes quando visitou Hinamizawa 15 anos atrás.", Line_Normal);
 	ClearMessage();
 
 //r彼らには、事件が時効となった今も尚、園崎魅音のもとを訪れ続けずにはいられない事情があった……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼らには、事件が時効となった今も尚、園崎魅音のもとを訪れ続けずにはいられない事情があった……。",
-			NULL, "Mesmo que caso tenha sido prescrito, os dois homens não conseguiam parar de ir visitar Sonozaki Mion...", Line_Normal);
+			NULL, "Mesmo que o caso tenha sido prescrito, os dois homens não conseguiam parar de ir visitar Sonozaki Mion...", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -532,7 +532,7 @@ void main()
 //r火山ガスパニックは全国へ飛び火し、人々は異臭情報に過剰に怯え、k直後、雛見沢地区は完全に封鎖された。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "火山ガスパニックは全国へ飛び火し、人々は異臭情報に過剰に怯え、",
-			NULL, "Pânico relacionado à gás vulcânico se espalhou por todo o país, enquanto as pessoas exageravam com informações não comprovadas.", Line_WaitForInput);
+			NULL, "Pânico relacionado a gás vulcânico se espalhou por todo o país, enquanto as pessoas exageravam com informações não comprovadas.", Line_WaitForInput);
 	OutputLine(NULL, "直後、雛見沢地区は完全に封鎖された。",
 			NULL, " E a região de Hinamizawa foi colocada em quarentena total imediatamente após o caso.", Line_Normal);
 	ClearMessage();
@@ -620,7 +620,7 @@ void main()
 			NULL, "\"Você ainda se lembra de mim?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700109", 256, TRUE);
 	OutputLine(NULL, "　ほら、園崎家にさんざん苛められてた興宮の刑事ですよ？」",
-			NULL, " Olhe de perto, sou o detetive de Okinomiya que sempre causava problemas com a família Sonozaki.\"", Line_Normal);
+			NULL, " Olhe de perto, sou o detetive de Okinomiya que sempre causava problemas a família Sonozaki.\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300281.「…………」
@@ -637,7 +637,7 @@ void main()
 			NULL, "\"Sonozaki-san, eu sei que deve ser doloroso,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700111", 256, TRUE);
 	OutputLine(NULL, "しかし、あなたにしか語れないんです」",
-			NULL, " mas você é a única pessoa com quem eu posso falar sobre isso.\"", Line_Normal);
+			NULL, " mas você é a única pessoa com quem posso falar sobre isso.\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300282.「…………」
@@ -657,7 +657,7 @@ void main()
 			NULL, " Você é a única pessoa que restou", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700114", 256, TRUE);
 	OutputLine(NULL, "雛見沢については！」",
-			NULL, " que tenha qualquer coneção com Hinamizawa!\"", Line_Normal);
+			NULL, " que tenha qualquer ligação com Hinamizawa!\"", Line_Normal);
 	ClearMessage();
 
 //r魅音はやはり何も答えなかったが、『雛見沢』という言葉の部分で、身体がビクっと反応した。
@@ -675,7 +675,7 @@ void main()
 //rその動作はまるで、電気仕掛けの人形がスイッチを入れられてぎこちなく動き出した、そんな様子だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その動作はまるで、電気仕掛けの人形がスイッチを入れられてぎこちなく動き出した、そんな様子だった。",
-			NULL, "Seu movimento foi estranho, como uma boneca com bateria que foi repentinamente ligada.", Line_Normal); //;electric dool
+			NULL, "Seu movimento foi estranho, como o de uma boneca elétrica que foi repentinamente ligada.", Line_Normal);
 	ClearMessage();
 
 //rそして焦点の合わない瞳は、それでも二人の男に向けられた。
@@ -735,7 +735,7 @@ void main()
 //r虚ろな目で周囲を見渡すと、魅音は確かにそう言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "虚ろな目で周囲を見渡すと、魅音は確かにそう言った。",
-			NULL, "Mion definitivamente disse isso, enquanto ela procurava ao redor com um olhar vago em seus olhos.", Line_Normal);
+			NULL, "Mion definitivamente disse isso, enquanto ela olhava ao redor com um olhar vago em seus olhos.", Line_Normal);
 	ClearMessage();
 
 //r魅音は確実に『みんな』という表現をした。
@@ -759,7 +759,7 @@ void main()
 //r魅音は見えない『みんな』に向かって語りかけたのだ……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は見えない『みんな』に向かって語りかけたのだ……。",
-			NULL, "O \"todos\" que Mion estava se referindo não estava em lugar algum...", Line_Normal);
+			NULL, "O \"todos\" que Mion estava se referindo não estava em lugar nenhum...", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/sinryou_sinsatu4", 1000 );
@@ -937,7 +937,7 @@ void main()
 //r魅音の射抜くような視線は、しかしどこか虚ろだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音の射抜くような視線は、しかしどこか虚ろだった。",
-			NULL, "Mion olhou para a frente intensamente, mas os olhos delas ainda pareciam vagos.", Line_Normal);
+			NULL, "Mion olhou para a frente intensamente, mas os olhos dela ainda pareciam vagos.", Line_Normal);
 	ClearMessage();
 
 //r大石はそれに答えるように目をしっかりと見据える。
