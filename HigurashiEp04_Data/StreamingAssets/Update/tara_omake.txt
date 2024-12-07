@@ -40,10 +40,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200358", 256, TRUE);
 	OutputLine(NULL, "「原作にはなかったオリジナルストーリーの第一弾、いかがでしたか？",
-			NULL, "\"Este é o primeiro arco que não faz parte da história original. O que você achou?", Line_WaitForInput);
+			NULL, "\"Este é o primeiro arco que não faz parte da história original. O que vocês acharam?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200359", 256, TRUE);
 	OutputLine(NULL, "　もしかしたらあったかもしれない『ＩＦ』の世界、楽しんでもらえたらとっても嬉しいです」",
-			NULL, " Eu ficaria muito feliz se você gostasse deste cenário hipotético.\"", Line_Normal);
+			NULL, " Eu ficaria muito feliz se vocês gostassem deste cenário hipotético.\"", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(3, 256, "none");
@@ -191,7 +191,7 @@ void main()
 			NULL, "\"Com certeza.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400279", 256, TRUE);
 	OutputLine(NULL, "それに謎を探る前に、皆さんの様子も変でございましてよ？」",
-			NULL, " Além disso, mais cedo quando nós estávamos explorando o mistério, não estava todo mundo agindo estranho?\"", Line_Normal);
+			NULL, " Além disso, mais cedo, quando todos nós estávamos explorando o mistério, não estava todo mundo agindo estranho?\"", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS20/04/440400280.「魅音さんは、詩音さんと圭一さんが仲良くなっただけで急に怖いというか、対応が怒りっぽくなってしまいましたし。kvS20/04/440400281.レナさんもなんだか変な感じで、まるで圭一さんのことを監視しているようで不気味な雰囲気でしたわ」
@@ -240,7 +240,7 @@ void main()
 			NULL, " Por exemplo, Keiichi normalmente não recusaria ir ao depósito de lixo com Rena.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200367", 256, TRUE);
 	OutputLine(NULL, "だって、そこから『ひぐらし』の世界が始まるんだからね」",
-			NULL, " Porque é aí que o mundo de \"Higurashi\" começa.\"", Line_Normal);
+			NULL, " Porque é alí que o mundo de \"Higurashi\" começa.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 2, "sprite/re3b_nande_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -266,7 +266,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400283", 256, TRUE);
 	OutputLine(NULL, "「おせっかいくらいに優しくて、私たちのことを大事に思ってくださっている圭一さんなら、当然なにやらと理由をつけて一緒に帰っていただけるはずですから」",
-			NULL, "\"Keiichi-san normalmente é muito mais comprometido e se preocupa com a gente, então provavelmente ele teria aceitado ir para casa junto comigo.\"", Line_Normal);
+			NULL, "\"Keiichi-san normalmente é muito mais comprometido e preocupado com a gente, então provavelmente ele teria aceitado ir para casa junto comigo.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 100, TRUE );
@@ -292,7 +292,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200370", 256, TRUE);
 	OutputLine(NULL, "最後に大石さんと出てきた赤坂さんって刑事さん、……覚えてるかな、かな？」",
-			NULL, "O outro detetive chamado Akasaka-san, que apareceu no fim junto com Ooishi-san... Você se lembra, se lembra?\"", Line_Normal);
+			NULL, "O outro detetive chamado Akasaka-san, que apareceu no fim junto com Ooishi-san... Se lembram, se lembram?\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 100, TRUE );
@@ -387,7 +387,7 @@ void main()
 			NULL, "\"Foi durante o início da série de mortes em Hinamizawa que veio a ser conhecida como maldição de Oyashiro-sama.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500174", 256, TRUE);
 	OutputLine(NULL, "５年前の雛見沢ダム建設の、反対運動の頃のお話なのです。",
-			NULL, " É uma história que se passa cinco anos no passado, durante o movivento de resistência contra a represa de Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " É uma história que se passa cinco anos no passado, durante o movimento de resistência contra a represa de Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500175", 256, TRUE);
 	OutputLine(NULL, "その時に起こったちょっとした事件で、ボクは運命の人と出会うのですよ」",
@@ -432,13 +432,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300475", 256, TRUE);
 	OutputLine(NULL, "「え、ええぇ～？",
-			NULL, "\"H-huuuh~?", Line_WaitForInput);
+			NULL, "\"H-hããã~?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300476", 256, TRUE);
 	OutputLine(NULL, "　ずいぶん引っ張ってくれちゃうねぇ！",
 			NULL, " Essa é uma informação muito importante para apenas dizer assim do nada!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300477", 256, TRUE);
 	OutputLine(NULL, "　もったいぶらずに教えてくれちゃってもいいじゃないのさ～？」",
-			NULL, " Vamos. Não pode nos contar mais nada~?\"", Line_Normal);
+			NULL, " Vamos. Pode nos contar mais um pouco~?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 5, "sprite/ri3_niko_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -460,7 +460,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200376", 256, TRUE);
 	OutputLine(NULL, "「え、魅ぃちゃんも出るの？",
-			NULL, "\"Hã? Mii-chan também está envolvida nesse?", Line_WaitForInput);
+			NULL, "\"Hã? Mii-chan vai aparecer nesse também?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200377", 256, TRUE);
 	OutputLine(NULL, "　それじゃ、レナは？」",
 			NULL, " E Rena?\"", Line_Normal);
@@ -530,7 +530,7 @@ void main()
 			NULL, "\"Nfu~ fu fu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700432", 256, TRUE);
 	OutputLine(NULL, "　つまりは私、クラウドこと大石蔵人のダンディズム劇場の始まりなのですよぉ～！」",
-			NULL, " Em outras palavras, é hora do teatro refinado de Ooishi Kuraudo começar~!\"", Line_Normal);
+			NULL, " Em outras palavras, é hora do teatro refinado de Kuraudo Ooishi começar~!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "sword", 256, 64);
@@ -621,7 +621,7 @@ void main()
 			NULL, " Nós ainda somos funcionários públicos,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300067", 256, TRUE);
 	OutputLine(NULL, "せめて税金を払っている皆さんの範になる振る舞いをお願いしますよ」",
-			NULL, " então por favor, tente agir de forma decente perto dos cidadãos que pagam impostos.\"", Line_Normal);
+			NULL, " então, por favor, tente agir de forma decente perto dos cidadãos que pagam impostos.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -646,7 +646,7 @@ void main()
 			NULL, "\"Ahahaha, pode me chamar como quiser.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300069", 256, TRUE);
 	OutputLine(NULL, "どうも皆さん、お疲れさまでした」",
-			NULL, " Saudações, pessoas. Muito obrigado pelo trabalho duro.\"", Line_Normal);
+			NULL, " Saudações, pessoal. Muito obrigado pelo trabalho duro.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -671,7 +671,7 @@ void main()
 			NULL, "\"Maebara-san já se adiantou e começou a ler o próximo roteiro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300071", 256, TRUE);
 	OutputLine(NULL, "『暇潰(ひまつぶ)し』で出番がない分、遅れを取り戻すって言ってましたが……」",
-			NULL, " Ele ficará de fora de \"Himatsubushi,\" então ele disse que já queria começar a ler o próximo...\"", Line_Normal);
+			NULL, " Ele ficará de fora de \"Himatsubushi,\" então disse que já queria se adiantar e ler o roteiro do próximo capítulo...\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -684,7 +684,7 @@ void main()
 			NULL, "\"Eu entendo como ele se sente...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400294", 256, TRUE);
 	OutputLine(NULL, "この前圭一さんの台本をちらっとお見かけしましたが、前半だけでも電話帳５冊分はゆうに超えておりましたもの」",
-			NULL, " Eu dei uma rápida olhada no roteiro de Keiichi-san. Apenas a primeira metade já era maior que cinco lista telefônicas.\"", Line_Normal);
+			NULL, " Eu já dei uma olhada rápida no roteiro de Keiichi-san antes. Apenas a primeira metade já era maior que cinco listas telefônicas.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -694,7 +694,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200384", 256, TRUE);
 	OutputLine(NULL, "「最初は『おお、季節は早いがスタッフからのお中元か？』なんて喜んでたら、……中にはぎっしり紙の束というか、まさに巨大な塊が詰まっていたもんねぇ」",
-			NULL, "\"Quando eu vi ele pela primeira vez, eu tinha pensado \"Oh, é um presente adiantado da equipe?\" e fiquei feliz... mas quando abri a caixa apenas encontrei um enorme pacote lotado de páginas.\"", Line_Normal); //;mid-season gift?
+			NULL, "\"Quando eu vi o roteiro pela primeira vez, eu tinha pensado: \"Nossa, é um presente adiantado da equipe?\" e tinha ficado feliz... mas quando abri a caixa apenas encontrei um pacote enorme lotado de páginas.\"", Line_Normal); //;mid-season gift?
 	ClearMessage();
 
 	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -730,7 +730,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200385", 256, TRUE);
 	OutputLine(NULL, "「梨花ちゃんはまだいいよ、台詞まだ少ないほうだったし。",
-			NULL, "\"Que ótimo, Rika-chan. Você conseguiu um número relativamente decente de diálogos.", Line_WaitForInput);
+			NULL, "\"Que ótimo, Rika-chan. Você conseguiu um número relativamente bom de diálogos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200386", 256, TRUE);
 	OutputLine(NULL, "魅ぃちゃんと詩ぃちゃんなんかレナよりも多くて、……はぅ」",
 			NULL, " Mii-chan e Shii-chan também tem mais que Rena... Hau.\"", Line_Normal);
@@ -754,7 +754,7 @@ void main()
 			NULL, "\"Ah, ela também está fazendo hora extra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300487", 256, TRUE);
 	OutputLine(NULL, "まさかこんなに早く出番があるとは思ってなかったみたいでさ、全然準備してなかったせいでＮＧ連発しちゃって……。",
-			NULL, " Ela não esperava que um papel tão grande chegaria tão cedo, então ela não estava preparada.", Line_WaitForInput);
+			NULL, " Ela não esperava que um papel grande chegaria tão cedo, então ela não estava preparada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300488", 256, TRUE);
 	OutputLine(NULL, "まぁ、ある意味自業自得だけど」",
 			NULL, " Bem, a culpa é dela acima de tudo.\"", Line_Normal);
@@ -799,7 +799,7 @@ void main()
 			NULL, "\"Ah, sim. É mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200389", 256, TRUE);
 	OutputLine(NULL, "それじゃ圭一くんは別の日に、私たちだけの会を開くとして。",
-			NULL, " Keiichi-kun pode vir para uma das festas em algum outro dia.", Line_WaitForInput);
+			NULL, " Keiichi-kun pode vir para uma das festas algum outro dia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200390", 256, TRUE);
 	OutputLine(NULL, "魅ぃちゃん、みんなに飲み物配ってくれるかな？」",
 			NULL, " Mii-chan, poderia distribuir as bebidas para todos?\"", Line_Normal);
@@ -815,7 +815,7 @@ void main()
 			NULL, "\"Entendido!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300490", 256, TRUE);
 	OutputLine(NULL, "　それじゃ、ビールは大石さん、赤坂さんで……。",
-			NULL, " Aqui está uma cerveja para Ooishi-san e para Akasaka-san...", Line_WaitForInput);
+			NULL, " Aqui está uma cerveja para Ooishi-san e Akasaka-san...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300491", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃんと沙都子はジュースだよね？」",
 			NULL, " e um pouco de suco para Rika-chan e Satoko.\"", Line_Normal);
@@ -831,7 +831,7 @@ void main()
 			NULL, "\"Oh ho ho ho!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400296", 256, TRUE);
 	OutputLine(NULL, "　さすがにコンシューマゲームの舞台の中だと、未成年のアルコールはご法度でございましてよー？」",
-			NULL, " Este é um jogo que foi lançado legalmente, então menores de idade não podem consumir bebida, certo?\"", Line_Normal);
+			NULL, " Este é um jogo lançado legalmente, então menores de idade não podem consumir bebida, não é mesmo?\"", Line_Normal);//;proper commercial game
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -924,7 +924,7 @@ void main()
 			NULL, "\"Enfim, parece que Ooishi-san e Akasaka-san estão com um pouco de pressa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300494", 256, TRUE);
 	OutputLine(NULL, "手短に今回のシナリオを振り返ってみよう。",
-			NULL, " Então vamos recapitular rapidamente o que aconteceu nesse cenário.", Line_WaitForInput); //;cenário/capítulo/episódio
+			NULL, " Então vamos recapitular rapidamente o que aconteceu nesse cenário.", Line_WaitForInput);//;cenário/capítulo/episódio
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300495", 256, TRUE);
 	OutputLine(NULL, "まずは沙都子、何かある？」",
 			NULL, " Primeiramente, Satoko. Você tem algo a dizer?\"", Line_Normal);
@@ -969,7 +969,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200397", 256, TRUE);
 	OutputLine(NULL, "大石さんの尋問から家に戻ってきた圭一くんを待ち伏せして、脅迫みたいな感じで詰め寄ったりしたのは、……変な感じだったね」",
-			NULL, "Ainda assim eu estava realmente assustadora quando embosquei Keiichi-kun logo após ele ter sido interrogado por Ooishi-san ...Isso foi bem estranho.\"", Line_Normal);
+			NULL, "Ainda assim, eu estava realmente assustadora quando embosquei Keiichi-kun logo após ele ter sido interrogado por Ooishi-san ...Isso foi bem estranho.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 3, "sprite/me3_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -994,7 +994,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300499", 256, TRUE);
 	OutputLine(NULL, "……そのあたりがわからずじまいだから、類推というよりも憶測でしか想像ができないよね」",
-			NULL, "...Eu não faço ideia, então tudo que posso fazer é supor.\"", Line_Normal); //;conjectura infundada
+			NULL, "...Eu não faço ideia, então tudo que posso fazer é supor.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1021,7 +1021,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300077", 256, TRUE);
 	OutputLine(NULL, "これってどういうことなんでしょうか？」",
-			NULL, "Qual o significado por trás disso?\"", Line_Normal);
+			NULL, "Qual o significado por de trás disso?\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1084,7 +1084,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300501", 256, TRUE);
 	OutputLine(NULL, "う～～ん、祟りで片付ければ一言で終わりなんだけど、……どうしてこういう展開になったのかがまったくわかんないよ～」",
-			NULL, "Hmm~~, você pode facilmente atribuir isso à uma maldição... mas eu não consigo encontrar um motivo para todas aquelas coisas acontecerem~.\"", Line_Normal);
+			NULL, "Hmm~~, você pode facilmente atribuir isso à uma maldição... mas eu não consigo encontrar um motivo para todas essas coisas acontecerem~.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1094,7 +1094,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300078", 256, TRUE);
 	OutputLine(NULL, "「そもそも、……この事件が人の手によって起こされたものか、それとも本当に祟りといった超常的な存在によって起こされたものなのか。",
-			NULL, "\"Em primeiro lugar... precisamos decidir se este incidente foi causado por mãos humanas ou algum tipo de fenômeno paranormal.", Line_WaitForInput);
+			NULL, "\"Em primeiro lugar... precisamos decidir se este incidente foi causado por mãos humanas ou por algum tipo de fenômeno paranormal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300079", 256, TRUE);
 	OutputLine(NULL, "それを整理するところから始めなければいけません」",
 			NULL, " Precisamos começar nosso raciocínio deste ponto.\"", Line_Normal);
@@ -1171,7 +1171,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700448", 256, TRUE);
 	OutputLine(NULL, "「そういう意味で、これらの事件が起こった端緒である５年前、ダム建設反対運動がどのように行われて結果どうなったのかを、まずは調べる必要があるでしょう。",
-			NULL, "\"Para esse fim, é necessário analisar como todos esses incidentes começaram cinco anos atrás. O movimento de resistência contra a represa.", Line_WaitForInput);
+			NULL, "\"Para esse fim, é necessário analisar como todos esses incidentes começaram cinco anos atrás. Com o movimento de resistência contra a represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700449", 256, TRUE);
 	OutputLine(NULL, "推理はそこから始めても、遅くはないと思いますが？」",
 			NULL, " Talvez descubramos algo se começarmos o nosso raciocínio a partir deste ponto?\"", Line_Normal);
