@@ -19,7 +19,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44001", 256, TRUE);
 	OutputLine(NULL, "「……あの、すみません。もうそろそろ……」",
-			NULL, "\"...Um, com licensa. O tempo está acabando...\"", Line_Normal);
+			NULL, "\"...Um, com licença. O tempo está acabando...\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/sinryou_sinsatu4", 1000 );
@@ -27,7 +27,7 @@ void main()
 //r入り口でやり取りを見守っていた看護師が、おずおずと大石と赤坂に話しかける。赤坂は肩越しに振り返って頷くと、なおも言葉を重ねようとする大石の肩に触れた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "入り口でやり取りを見守っていた看護師が、おずおずと大石と赤坂に話しかける。赤坂は肩越しに振り返って頷くと、なおも言葉を重ねようとする大石の肩に触れた。",
-			NULL, "A enfermeira observando a troca de perto da entrada chamou Ooishi e Akasaka forma tímida. Akasaka olhou para o lado e assentiu com a cabeça, e então colocou uma mão no ombro de Ooishi e falou.", Line_Normal);
+			NULL, "A enfermeira observando a troca de perto da entrada chamou Ooishi e Akasaka forma tímida. Akasaka olhou para o lado e balançou a cabeça, então colocou a mão no ombro de Ooishi e falou.", Line_Normal);
 	ClearMessage();
 
 //赤坂rvS20/13/441300061.「大石さん、……今日は、このくらいにしておきましょう」
@@ -88,7 +88,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700323", 256, TRUE);
 	OutputLine(NULL, "「これはですね、雛見沢村を流れる川の下流から発見されたものです。木箱に入って流れてきたものを、釣り人が発見してくれました。",
-			NULL, "\"Isso mesmo. Ele foi encontrado descendo o rio que segue através de Hinamizawa. Um pescador o encontrou dentro de uma caixa de madeira que estava flutuando.", Line_WaitForInput);
+			NULL, "\"Isso mesmo. Ele foi encontrado descendo o rio que segue através de Hinamizawa. Um pescador o encontrou dentro de uma caixa de madeira que estava flutuando no rio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700324", 256, TRUE);
 	OutputLine(NULL, "ハムスターの死骸が入った、かごと一緒にね」",
 			NULL, " Estava lá dentro, junto com os restos de um hamster.\"", Line_Normal);
@@ -215,7 +215,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44006.「こんな乱暴なことをするようでしたら、今後の面会は一切お断りさせていただきます！　ここは病院で、この人は患者さんなんですよ？！kvS20/00/nurseA44007.　それをっ――！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44006", 256, TRUE);
 	OutputLine(NULL, "「こんな乱暴なことをするようでしたら、今後の面会は一切お断りさせていただきます！　ここは病院で、この人は患者さんなんですよ？！",
 			NULL, "\"Se você for agir tão violentamente, não permitirei mais que você faça visitas no futuro! Você está em um hospital. Não percebe que ela é uma paciente?!", Line_WaitForInput);
@@ -289,7 +289,7 @@ void main()
 //r黙って、うつろな表情で膝もとの帽子を見つめていた魅音は、その声とともに突然、顔を上げる。その目には、生気が宿ったように輝きが戻っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "黙って、うつろな表情で膝もとの帽子を見つめていた魅音は、その声とともに突然、顔を上げる。その目には、生気が宿ったように輝きが戻っていた。",
-			NULL, "Mion estava sentanda silenciosamente, olhando fixamente para o chapéu que estava próximo aos seus joelhos, e então repentinamente levantou a cabeça e falou. A luz nos seus olhos finalmente retornou.", Line_Normal);
+			NULL, "Mion estava sentada silenciosamente, olhando fixamente para o chapéu que estava próximo aos seus joelhos, e então repentinamente levantou a cabeça e falou. A luz nos seus olhos finalmente retornou.", Line_Normal);
 	ClearMessage();
 
 //魅音rvS20/03/440300198.「看護師さん、お願い！　さっきの刑事さんを呼び戻して！kvS20/03/440300199.　まだ遠くに行っていないはずだから！！」
@@ -335,7 +335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300203", 256, TRUE);
 	OutputLine(NULL, "「レナ……あんた、命をかけて伝えてくれたんだね……？　受け取ったから……私、確かにあんたのメッセージ、受け取ったから……！！」",
-			NULL, "\"Rena... você deu a sua vida para enviar esta mensagem, não é mesmo...? Eu recebi... Sim, eu absolutamente recebi...!!\"", Line_Normal);
+			NULL, "\"Rena... você deu sua vida para enviar esta mensagem, não é mesmo...? Eu recebi... Sim, eu absolutamente recebi...!!\"", Line_Normal);
 	ClearMessage();
 
 //r魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。
@@ -350,7 +350,7 @@ void main()
 //rそして、翌日の早朝、５時１７分。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、翌日の早朝、５時１７分。",
-			NULL, "E na manhã seguinte, às 17:17,", Line_Normal);
+			NULL, "E no dia seguinte, às 5:17 da manhã,", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "sinzouappaku", 256, 64);
