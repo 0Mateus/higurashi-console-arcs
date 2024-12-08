@@ -156,7 +156,7 @@ void main()
 //rそれとも全ては……ただの俺の思い込みに過ぎないのか……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それとも全ては……ただの俺の思い込みに過ぎないのか……。",
-			NULL, "Ou talvez... tudo isso está apenas na minha cabeça...?", Line_Normal);
+			NULL, "Ou talvez... isso tudo esteja apenas na minha cabeça...?", Line_Normal);
 	ClearMessage();
 
 //rいや、異様な事実はすでに、いくつも明白になっている。
@@ -595,7 +595,7 @@ void main()
 //r最後にその姿が目撃されたのは、数日前だったらしい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最後にその姿が目撃されたのは、数日前だったらしい。",
-			NULL, "Aparentemente ela não é vista já faz vários dias.", Line_Normal);
+			NULL, "Aparentemente ela já não é vista faz vários dias.", Line_Normal);
 	ClearMessage();
 
 //rそれはちょうど……俺が魅音と図書館で会っていた日の夜だった。
@@ -614,7 +614,7 @@ void main()
 //rひょっとして、詩音は魅音が消したんじゃ……？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひょっとして、詩音は魅音が消したんじゃ……？！",
-			NULL, "Tem uma chance de Mion ter eliminado Shion...?!", Line_Normal);
+			NULL, "Tem alguma chance de Mion ter eliminado Shion...?!", Line_Normal);
 	ClearMessage();
 
 //r思わず声に出しそうになって、慌てて口を手で塞いだ。
@@ -626,7 +626,7 @@ void main()
 //r昼間の魅音の鷹のような目を思い出す。k……魅音からの、口止め……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昼間の魅音の鷹のような目を思い出す。",
-			NULL, "Eu lembrei dos olhos agressivos de Mion de mais cedo.", Line_WaitForInput);
+			NULL, "Eu lembrei dos olhos agressivos de Mion mais cedo.", Line_WaitForInput);
 	OutputLine(NULL, "……魅音からの、口止め……。",
 			NULL, " ...Eu nunca posso dizer à ninguém o que Mion disse para mim...", Line_Normal);
 	ClearMessage();
@@ -831,13 +831,13 @@ void main()
 //rどんなことでも、魅音の話を大石さんにしてはいけない……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どんなことでも、魅音の話を大石さんにしてはいけない……。",
-			NULL, "Eu não posso dizer a Ooishi-san nada que Mion tinha me dito, aconteça o que acontecer...", Line_Normal);
+			NULL, "Eu não posso dizer a Ooishi-san nada que Mion tenha me dito, aconteça o que acontecer...", Line_Normal);
 	ClearMessage();
 
 //r俺は、頭の中を必死で整理しておく。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は、頭の中を必死で整理しておく。",
-			NULL, "Eu desesperadamente tentei organizar os pensamentos correndo dentro da minha cabeça.", Line_Normal);
+			NULL, "Eu desesperadamente tentei organizar os pensamentos correndo dentro da minha mente.", Line_Normal);
 	ClearMessage();
 
 //大石rvS17/11/110700075.「……大丈夫ですか？kvS17/11/110700076.　前原さん？」
@@ -955,7 +955,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700083", 256, TRUE);
 	OutputLine(NULL, "「おまけにその時は、せっかく掴んだ容疑者がホトケになってたものですから——」",
-			NULL, "\"E ainda por cima, o principal suspeito acabou morrendo por volta daquela época...\"", Line_Normal);
+			NULL, "\"E ainda por cima, o principal suspeito acabou morrendo por volta daquela mesma época...\"", Line_Normal);
 	ClearMessage();
 
 //r…二人が姿を消して、容疑者が死んだ。
@@ -1070,7 +1070,7 @@ void main()
 //r電話を切ると、外の豪雨に聴覚が占領された。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "電話を切ると、外の豪雨に聴覚が占領された。",
-			NULL, "Assim que eu desliguei, o som da chuva torrencial preencheu meus ouvidos.", Line_Normal);
+			NULL, "Assim que eu desliguei, o som da chuva torrencial preencheu os meus ouvidos.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "kaminari2", 256, 64);
@@ -1184,7 +1184,7 @@ void main()
 //r突然魅音の言葉が蘇る。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "突然魅音の言葉が蘇る。",
-			NULL, "Repentinamente, as palavras de Mion voltaram à minha cabeça.", Line_Normal);
+			NULL, "Repentinamente, as palavras de Mion voltaram à minha mente.", Line_Normal);
 	ClearMessage();
 
 //r耳元で囁かれたかのようにリアルだ。
@@ -1196,13 +1196,13 @@ void main()
 //r俺の全身は、これ以上力が入らないというくらいに緊張した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺の全身は、これ以上力が入らないというくらいに緊張した。",
-			NULL, "Meu corpo inteiro estava assolado com tensão, e toda a minha força escapou de mim.", Line_Normal);
+			NULL, "Meu corpo inteiro estava assolado com tensão, e toda a minha força tinha escapado de mim.", Line_Normal);
 	ClearMessage();
 
 //r魅音の言った『……それとも？』という場合は、どういう結末が俺を待っているのだろうか？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音の言った『……それとも？』という場合は、どういう結末が俺を待っているのだろうか？",
-			NULL, "Quando Mion disse \"Ou...\", o que ela tinha em mente sobre mim??", Line_Normal);
+			NULL, "Quando Mion disse \"Ou...\", o que será que ela tinha em mente??", Line_Normal);//;sobre mim
 	ClearMessage();
 
 //r魅音の命を受けた何者かが、俺を……。
@@ -1232,7 +1232,7 @@ void main()
 //rあるいはもうすでに……部屋の中に何者かがいるかもしれない！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あるいはもうすでに……部屋の中に何者かがいるかもしれない！",
-			NULL, "Ou talvez... já tenha alguém dentro do quarto!", Line_Normal);
+			NULL, "Ou talvez... já tenha alguém aqui dentro do quarto!", Line_Normal);
 	ClearMessage();
 
 //r俺は布団を剥ぎ取り、周囲を見渡して身を構えた。
@@ -1255,7 +1255,7 @@ void main()
 //r初めてではないという魅音と詩音の失踪。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "初めてではないという魅音と詩音の失踪。",
-			NULL, "Esta não era a primeira vez Mion e Shion tinham desaparecido.", Line_Normal);
+			NULL, "Esta não era a primeira vez que Mion e Shion tinham desaparecido.", Line_Normal);
 	ClearMessage();
 
 //r前回は同じタイミングで、北条の叔母が死んでいる。
@@ -1285,7 +1285,7 @@ void main()
 //r相変わらず豪雨と雷は続いている。k朝がやってくる気配は全くない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "相変わらず豪雨と雷は続いている。",
-			NULL, "A chuva pesada e os trovões continuaram como o normal.", Line_WaitForInput);
+			NULL, "A chuva pesada e os trovões continuaram normalmente.", Line_WaitForInput);
 	OutputLine(NULL, "朝がやってくる気配は全くない。",
 			NULL, " Não havia sinal de que a manhã estivesse se aproximando.", Line_Normal);
 	ClearMessage();
@@ -1293,7 +1293,7 @@ void main()
 //r俺はこの夜を無事に越えられるのだろうか……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺はこの夜を無事に越えられるのだろうか……。",
-			NULL, "Será que eu vou conseguir passar essa noite em segurança...?", Line_Normal);
+			NULL, "Será que eu vou conseguir passar esta noite em segurança...?", Line_Normal);
 	ClearMessage();
 
 //r本当に明日の朝は……。やってくるのだろうか……。
