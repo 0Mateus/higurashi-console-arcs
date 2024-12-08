@@ -1768,7 +1768,7 @@ void main()
 //r他の連中は、もし顔を上げても、動くものにまず目を奪われる…人の習性とはそういうものだ。k………ここがポイントだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "他の連中は、もし顔を上げても、動くものにまず目を奪われる…人の習性とはそういうものだ。",
-			NULL, "Mesmo se os outros olhassem, seus olhos estariam destraídos na direção de nossas mãos... essa é a natureza humana.", Line_WaitForInput);
+			NULL, "Mesmo se os outros olhassem, seus olhos estariam distraídos na direção de nossas mãos... essa é a natureza humana.", Line_WaitForInput);
 	OutputLine(NULL, "………ここがポイントだ。",
 			NULL, " ...Esse é o ponto.", Line_Normal);
 	ClearMessage();
