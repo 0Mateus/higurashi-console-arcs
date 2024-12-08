@@ -104,7 +104,7 @@ void main()
 			NULL, "\"Ahahaha, é mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200361", 256, TRUE);
 	OutputLine(NULL, "今回の『盥回(たらいまわ)し』は謎を解き明かすことを回避しちゃった場合にたどりつく、ある意味で最悪の末路」",
-			NULL, " Desta vez, em \"Taraimawashi,\" nós obtivemos o pior final possível por causa do seu esforço para evitar que o mistério se desenvolvesse.\"", Line_Normal);
+			NULL, " Desta vez, em \"Taraimawashi,\" nós obtivemos o pior final possível por conta do seu esforço para evitar que o mistério se desenvolvesse.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 2, "sprite/re3a_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -165,7 +165,7 @@ void main()
 			NULL, "\"Bem, esta é uma história de mistério, então está tudo bem em ter mistérios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300464", 256, TRUE);
 	OutputLine(NULL, "……ここまでヒントというか、手がかりがない状況だと推理のしようがないよ。",
-			NULL, " ...Mas não teve nenhuma dica. É impossível raciocionar sem nenhuma pista. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " ...Mas não teve nenhuma pista. É impossível raciocionar sem nenhuma dica. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300465", 256, TRUE);
 	OutputLine(NULL, "連続殺人事件の犯人は誰か、って謎かけが、村の大災害の真相を探る、って話にすり替わっちゃってるしさ」",
@@ -178,7 +178,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300466", 256, TRUE);
 	OutputLine(NULL, "「これじゃあこのルートにたどり着いた人たちは『なんじゃこりゃあ？』なんて言って、怒っちゃうんじゃないかな」",
-			NULL, "\"As pessoas que chegaram à essa rota provavelmente devem ter ficado bravas e começado a gritar: \"Que diabos é isso?\"\"", Line_Normal);
+			NULL, "\"As pessoas que chegaram à essa rota provavelmente devem ter ficado bravas e começaram a gritar: \"Que diabos é isso?\"\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 100, TRUE );
@@ -276,10 +276,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300469", 256, TRUE);
 	OutputLine(NULL, "「そういう意味では、らしくない選択をした結果がこうだった、と言えなくもないかもね。",
-			NULL, "\"Então, o que você está dizendo é que esse foi o resultado por ter escolhido escolhas fora do personagem.", Line_WaitForInput);
+			NULL, "\"Então, o que você está dizendo é que esse foi o resultado dele ter feito escolhas fora do personagem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300470", 256, TRUE);
 	OutputLine(NULL, "『盥回(たらいまわ)し』というだけあって、問題の解決から逃げ続けるだけ、って印象だったなぁ」",
-			NULL, " \"Taraimawashi\" é sobre fugir de um problema ao invés de resolve-lo.\"", Line_Normal);
+			NULL, " \"Taraimawashi\" é sobre fugir de um problema ao invés de resolvê-lo.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 2, "sprite/re3b_def_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -315,7 +315,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300471", 256, TRUE);
 	OutputLine(NULL, "「最後の、ほんのわずかの登場だったけど、いかにも都会のエリート警察官です、って感じだったなぁ。",
-			NULL, "\"Ele apenas apareceu brevemente durante o final, mas eu tenho a impressão que ele era um policial de elite da cidade grande.", Line_WaitForInput);
+			NULL, "\"Ele apenas apareceu brevemente durante o final, mas eu tenho a impressão de que ele era um policial de elite da cidade grande.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300472", 256, TRUE);
 	OutputLine(NULL, "でも、……それがどう関わってくるの？」",
 			NULL, " Mas... onde isso se encaixa?\"", Line_Normal);
@@ -384,7 +384,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500173", 256, TRUE);
 	OutputLine(NULL, "「雛見沢村の連続殺人事件で、オヤシロさまの祟りを謂われるようになったそもそものきっかけ。",
-			NULL, "\"Foi durante o início da série de mortes em Hinamizawa que veio a ser conhecida como maldição de Oyashiro-sama.", Line_WaitForInput);
+			NULL, "\"Foi durante o início da série de mortes em Hinamizawa que veio a ser conhecida como maldição de Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500174", 256, TRUE);
 	OutputLine(NULL, "５年前の雛見沢ダム建設の、反対運動の頃のお話なのです。",
 			NULL, " É uma história que se passa cinco anos no passado, durante o movimento de resistência contra a represa de Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
@@ -602,7 +603,7 @@ void main()
 			NULL, "\"Estou preocupada com isso... vamos ter de aumentar a classificação indicativa do jogo em apenas um ou dois dias.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300481", 256, TRUE);
 	OutputLine(NULL, "どんな話の展開になるのやら……」",
-			NULL, " Eu me pergunto que tipo de história nós vamos explorar...\"", Line_Normal);
+			NULL, " Eu me pergunto que tipo de história vamos explorar...\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(2, 200, FALSE);
@@ -621,7 +622,7 @@ void main()
 			NULL, " Nós ainda somos funcionários públicos,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300067", 256, TRUE);
 	OutputLine(NULL, "せめて税金を払っている皆さんの範になる振る舞いをお願いしますよ」",
-			NULL, " então, por favor, tente agir de forma decente perto dos cidadãos que pagam impostos.\"", Line_Normal);
+			NULL, " então, por favor, tente agir de forma decente perto dos cidadãos que pagadores de impostos.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -754,7 +755,7 @@ void main()
 			NULL, "\"Ah, ela também está fazendo hora extra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300487", 256, TRUE);
 	OutputLine(NULL, "まさかこんなに早く出番があるとは思ってなかったみたいでさ、全然準備してなかったせいでＮＧ連発しちゃって……。",
-			NULL, " Ela não esperava que um papel grande chegaria tão cedo, então ela não estava preparada.", Line_WaitForInput);
+			NULL, " Ela não esperava que um papel grande fosse chegar tão cedo, então ela não estava preparada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300488", 256, TRUE);
 	OutputLine(NULL, "まぁ、ある意味自業自得だけど」",
 			NULL, " Bem, a culpa é dela acima de tudo.\"", Line_Normal);
@@ -831,7 +832,7 @@ void main()
 			NULL, "\"Oh ho ho ho!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400296", 256, TRUE);
 	OutputLine(NULL, "　さすがにコンシューマゲームの舞台の中だと、未成年のアルコールはご法度でございましてよー？」",
-			NULL, " Este é um jogo lançado legalmente, então menores de idade não podem consumir bebida, não é mesmo?\"", Line_Normal);//;proper commercial game
+			NULL, " Este é um jogo lançado legalmente, então menores de idade não podem consumir bebida alcoólica, não é mesmo?\"", Line_Normal);//;proper commercial game
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1080,7 +1081,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300500", 256, TRUE);
 	OutputLine(NULL, "「で、その結末が村を全滅させた大災害……。",
-			NULL, "\"E teve esse final, onde uma catástrofe aniquilou a toda a vila... ", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"E teve esse final, onde uma catástrofe aniquilou toda a vila... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300501", 256, TRUE);
 	OutputLine(NULL, "う～～ん、祟りで片付ければ一言で終わりなんだけど、……どうしてこういう展開になったのかがまったくわかんないよ～」",
@@ -1097,7 +1098,7 @@ void main()
 			NULL, "\"Em primeiro lugar... precisamos decidir se este incidente foi causado por mãos humanas ou por algum tipo de fenômeno paranormal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300079", 256, TRUE);
 	OutputLine(NULL, "それを整理するところから始めなければいけません」",
-			NULL, " Precisamos começar nosso raciocínio deste ponto.\"", Line_Normal);
+			NULL, " Precisamos começar nosso raciocínio a partir deste ponto.\"", Line_Normal);
 	ClearMessage();
 
 //赤坂rvS20/13/441300080.「そして万一人の手によるものなら、そこにあるはずの『誰かにとってのメリット』というものを見出さなくては」
