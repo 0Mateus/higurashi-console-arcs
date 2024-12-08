@@ -29,7 +29,7 @@ void main()
 //rそれが当時日本中を席巻していたとしても、１０年前のニュース、それも地方での出来事などを記憶している人間は、いないに等しかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが当時日本中を席巻していたとしても、１０年前のニュース、それも地方での出来事などを記憶している人間は、いないに等しかった。",
-			NULL, "Mesmo que as notícias tenham se espalhado por todo o Japão durante aquela época, dificilmente alguém se lembraria uma história de uma cidade rural após terem se passado 10 anos.", Line_Normal);
+			NULL, "Mesmo que as notícias tenham se espalhado por todo o Japão durante aquela época, dificilmente alguém se lembraria de uma história de uma cidade rural após terem se passado 10 anos.", Line_Normal);
 	ClearMessage();
 
 //rその誰もが忘れ去った『過去』を、現在も追い続けている男がいた。
@@ -53,7 +53,7 @@ void main()
 //rわずかな時間にも拘らず、エコノミーでの移動が身体に堪えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "わずかな時間にも拘らず、エコノミーでの移動が身体に堪えた。",
-			NULL, "Mover seu corpo, mesmo que seja por um curto período de tempo, causa uma tensão em seu corpo que ele tem de se esforçar muito para aguentar.", Line_Normal);
+			NULL, "Mover seu corpo, mesmo que seja por um curto período de tempo, causava uma tensão que ele tinha de se esforçar muito para aguentar.", Line_Normal);
 	ClearMessage();
 
 //rしかし定年後から始めたダンスは続けている。
@@ -80,7 +80,7 @@ void main()
 //r大石の記憶にあった空港内より、だいぶ広く綺麗になってしまっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石の記憶にあった空港内より、だいぶ広く綺麗になってしまっていた。",
-			NULL, "A parte de dentro do aeroporto parecia maior e mais limpa do que Ooishi lembrava.", Line_Normal);
+			NULL, "A parte de dentro do aeroporto parecia maior e mais limpa do que Ooishi se lembrava.", Line_Normal);
 	ClearMessage();
 
 //r右も左も、上下さえ、見覚えなどない。
@@ -102,7 +102,7 @@ void main()
 	PlayBGM(2, "hm01_01", 128, 0);
 
 //男rvS17/13/111300001.「大石さん……？kvS17/13/111300002.　大石さん！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homem</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s17/13/111300001", 256, TRUE);
 	OutputLine(NULL, "「大石さん……？",
 			NULL, "\"Ooishi-san...?", Line_WaitForInput);
@@ -252,7 +252,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s17/13/111300010", 256, TRUE);
 	OutputLine(NULL, "「い、いやぁ。僕はリズム感ないですから……」",
-			NULL, "\"A-ah, não. Eu não tenho o ritimo para fazer isso...\"", Line_Normal);
+			NULL, "\"A-ah, não. Eu não tenho o ritmo para fazer isso...\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS17/11/110700103.「そこを頑張りましょうよぉ。kvS17/11/110700104.そうすればモテモテ！kvS17/11/110700105.　んっふっふっふ！」
@@ -408,7 +408,7 @@ void main()
 //r雛見沢村で大災害の起こった１０年前、魅音は保護された。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢村で大災害の起こった１０年前、魅音は保護された。",
-			NULL, "Mion era uma sobrevivente do disastre que atingiu a vila de Hinamizawa dez anos atrás.", Line_Normal);
+			NULL, "Mion era uma sobrevivente do desastre que atingiu a vila de Hinamizawa dez anos atrás.", Line_Normal);
 	ClearMessage();
 
 //r園崎家の地下室に閉じ込められていたところを、偶然発見されたのだ。
@@ -446,7 +446,7 @@ void main()
 //rまるで何も聞こえないかのように反応を示さない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まるで何も聞こえないかのように反応を示さない。",
-			NULL, "Não ouve nenhuma reação, como se ela não tivesse ouvido uma única palavra.", Line_Normal);
+			NULL, "Não houve nenhuma reação, como se ela não tivesse ouvido uma única palavra.", Line_Normal);
 	ClearMessage();
 
 //rしかし、耳に障害があるというわけではなかった。
@@ -520,13 +520,13 @@ void main()
 //r……鬼ヶ淵沼より猛毒の火山ガスが噴出して、雛見沢村を直撃した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……鬼ヶ淵沼より猛毒の火山ガスが噴出して、雛見沢村を直撃した。",
-			NULL, "...Gás vulcânico emergiu do Pântano de Onigafuchi e cobriu toda a vila de Hinamizawa.", Line_Normal);
+			NULL, "...Gás vulcânico emergiu do Pântano Onigafuchi e cobriu toda a vila de Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 //r深夜の大惨事で、村は一晩にして全滅……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "深夜の大惨事で、村は一晩にして全滅……。",
-			NULL, "A catástrofe ocorreu no meio da note e aniquilou a vila inteira antes do amanhecer...", Line_Normal);
+			NULL, "A catástrofe ocorreu no meio da noite e aniquilou a vila inteira antes do amanhecer...", Line_Normal);
 	ClearMessage();
 
 //r火山ガスパニックは全国へ飛び火し、人々は異臭情報に過剰に怯え、k直後、雛見沢地区は完全に封鎖された。
@@ -573,7 +573,7 @@ void main()
 //rその生存者こそ…、園崎魅音だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その生存者こそ…、園崎魅音だった。",
-			NULL, "Essa sobrevivemnte... era Sonozaki Mion.", Line_Normal);
+			NULL, "Essa sobrevivente... era Sonozaki Mion.", Line_Normal);
 	ClearMessage();
 
 //r…園崎魅音以外の村人が全滅したガス災害の中、なぜ一人生き残っていたのか。
@@ -793,7 +793,7 @@ void main()
 //r魅音は、見えない『みんな』と会話をしながらトランプを続けた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は、見えない『みんな』と会話をしながらトランプを続けた。",
-			NULL, "Mion começou a falar com o \"todos\" enquanto continuava a jogar com as cartas.", Line_Normal);
+			NULL, "Mion começou a falar com \"todos\" enquanto continuava a jogar com as cartas.", Line_Normal);//;invisível todos
 	ClearMessage();
 
 //r大石は、馴染み深い名前を数人確認することができた。
