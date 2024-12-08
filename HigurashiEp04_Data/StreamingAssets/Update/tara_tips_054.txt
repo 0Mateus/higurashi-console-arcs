@@ -74,26 +74,36 @@ void main()
 	ClearMessage();
 
 //r一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、『オヤシロさまの祟り説』を煽り立てた。
+	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、『オヤシロさまの祟り説』を煽り立てた。",
-			NULL, "Um pequeno número de revistas extremistas sugeriram que o desastre foi uma extensão da série de mortes misteriosas em Hinamizawa que ocorreram durante os anos anteriores, apenas adicionando combustível à teoria da \"maldição de Oyashiro-sama\".", Line_Normal); //;combustível melhor que fogo?
+			NULL, "<size=-2>Um pequeno número de revistas extremistas sugeriram que o desastre foi uma extensão da série de mortes misteriosas em Hinamizawa que ocorreram durante os anos anteriores, apenas adicionando combustível à teoria da \"maldição de Oyashiro-sama\".", Line_Normal);
+	} else {
+	OutputLine(NULL, "一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、『オヤシロさまの祟り説』を煽り立てた。",
+			NULL, "Um pequeno número de revistas extremistas sugeriram que o desastre foi uma extensão da série de mortes misteriosas em Hinamizawa que ocorreram durante os anos anteriores, apenas adicionando combustível à teoria da \"maldição de Oyashiro-sama\".", Line_Normal);
+	}
 	ClearMessage();
 
 //rまた、災害を免れた雛見沢村住民の親類筋の人間たちが、災害後、体調不良を次々に訴え入院し、その一部が原因不明の病死を遂げた事も、それをさらに過激に煽り立てた。
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "また、災害を免れた雛見沢村住民の親類筋の人間たちが、災害後、体調不良を次々に訴え入院し、その一部が原因不明の病死を遂げた事も、それをさらに過激に煽り立てた。",
-				NULL, "<size=-2>Além disso, parentes dos moradores de Hinamizawa e pessoas que já haviam morado lá antes e escaparam do desastre, foram hospitalizadas uma após a outra, por conta de problemas de saúde. Uma porção delas terem morrido por causa de uma doença desconhecida causou ainda mais pânico.", Line_Normal);
+				NULL, "<size=-2>Além disso, parentes dos moradores de Hinamizawa e pessoas que já haviam morado lá antes e escaparam do desastre, foram hospitalizadas umas após as outras, por conta de problemas de saúde. Uma porção delas terem morrido por conta de uma doença desconhecida causou ainda mais pânico.", Line_Normal);
 	} else {
 		OutputLine(NULL, "また、災害を免れた雛見沢村住民の親類筋の人間たちが、災害後、体調不良を次々に訴え入院し、その一部が原因不明の病死を遂げた事も、それをさらに過激に煽り立てた。",
-				NULL, "Além disso, parentes dos moradores de Hinamizawa e pessoas que já haviam morado lá antes e escaparam do desastre, foram hospitalizadas uma após a outra, por conta de problemas de saúde. Uma porção delas terem morrido por causa de uma doença desconhecida causou ainda mais pânico.", Line_Normal);
+				NULL, "Além disso, parentes dos moradores de Hinamizawa e pessoas que já haviam morado lá antes e escaparam do desastre, foram hospitalizadas umas após as outras, por conta de problemas de saúde. Uma porção delas terem morrido por conta de uma doença desconhecida causou ainda mais pânico.", Line_Normal);
 	}
 	ClearMessage();
 
 //rその上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、…もう全国に波及する衝撃には歯止めがなくなっていた。
+	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、…もう全国に波及する衝撃には歯止めがなくなっていた。",
+			NULL, "<size=-2>Ademais, houveram diversos relatos de pessoas que alegaram terem sido possuídas pela maldição de Oyashiro-sama antes de cometerem suicídio de maneiras bizarras... As notícias chocantes se espalharam por todo o país num piscar de olhos.", Line_Normal);
+	} else {
+	OutputLine(NULL, "その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、…もう全国に波及する衝撃には歯止めがなくなっていた。",
 			NULL, "Ademais, houveram diversos relatos de pessoas que alegaram terem sido possuídas pela maldição de Oyashiro-sama antes de cometerem suicídio de maneiras bizarras... As notícias chocantes se espalharam por todo o país num piscar de olhos.", Line_Normal);
+	}
 	ClearMessage();
 
 //r真夜中に音もなく忍び寄り、人々を殺してしまう恐ろしい毒ガスの妄想は日本全国へ飛び火し、不眠・呼吸困難・頭痛・めまい等を訴える人間を続出させた。
@@ -109,9 +119,14 @@ void main()
 	ClearMessage();
 
 //rそれらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。
+	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
+			NULL, "<size=-2>É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Sindrome de Hinamizawa...", Line_Normal);
+	} else {
+	OutputLine(NULL, "それらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
 			NULL, "É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Sindrome de Hinamizawa...", Line_Normal);
+	}
 	ClearMessage();
 
 //rさまざまな噂や憶測の的となった雛見沢村地区は現在、封鎖され、その上空の飛行も禁止されている。
