@@ -33,7 +33,7 @@ void main()
 //r目が覚めてからそんな感想をもったのも束の間のことだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "目が覚めてからそんな感想をもったのも束の間のことだった。",
-			NULL, "Se passou bastante tempo desde a ultima vez que eu acordei assim.", Line_Normal);
+			NULL, "Se passou bastante tempo desde a última vez que eu acordei assim.", Line_Normal);
 	ClearMessage();
 
 //r昨日大石さんから聞いた魅音の話で、すぐに頭はいっぱいになった。
@@ -152,7 +152,7 @@ void main()
 //rしかし同時に、どこかで安堵している自分を発見し、……自分で自分に嫌気がさした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし同時に、どこかで安堵している自分を発見し、……自分で自分に嫌気がさした。",
-			NULL, "Mas ao mesmo tempo, senti um pouco de alivio em algum lugar dentro de mim... senti nojo de mim mesmo por causa isso.", Line_Normal);//;em algum lugar dentro de mim
+			NULL, "Mas ao mesmo tempo, senti um pouco de alivio em algum lugar dentro de mim... senti nojo de mim mesmo por causa disso.", Line_Normal);
 	ClearMessage();
 
 //r俺の態度に暗さのようなものが出てしまっていたのかもしれない。
@@ -250,7 +250,7 @@ void main()
 //r今日はなんとなくエネルギーが不足している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今日はなんとなくエネルギーが不足している。",
-			NULL, "Hoje eu estava sem nenhuma energia", Line_Normal);
+			NULL, "Hoje eu estava sem nenhuma energia.", Line_Normal);
 	ClearMessage();
 
 //rそんな日くらい、寝たフリでも許されるだろう。
@@ -343,7 +343,7 @@ void main()
 //r梨花ちゃんの声に、やや救われた思いを押し隠しつつ顔をあげる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "梨花ちゃんの声に、やや救われた思いを押し隠しつつ顔をあげる。",
-			NULL, "Assim que ouvi a voz de Rika-chan, rapidamente levantei minha cabeça e tentei esconder os pensamentos que estavam correndo pela minha cabeça.", Line_Normal);
+			NULL, "Assim que ouvi a voz de Rika-chan, rapidamente levantei minha cabeça e tentei esconder os pensamentos que estavam correndo pela minha mente.", Line_Normal);
 	ClearMessage();
 
 //rきちんと役をこなしてくれたような梨花ちゃんに、俺は感謝した。
@@ -706,7 +706,7 @@ void main()
 //r軽口に乗ってこないと思ったのか、梨花ちゃんは小首をかしげて尋ねてきた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "軽口に乗ってこないと思ったのか、梨花ちゃんは小首をかしげて尋ねてきた。",
-			NULL, "Fiquei sem palavras para as provocações de Rika-chan, então ela levemente inclinou a cabeça para o lado enquanto perguntou isso.", Line_Normal);
+			NULL, "Fiquei sem palavras para as provocações de Rika-chan, então ela levemente inclinou a cabeça para o lado enquanto perguntava isso.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100275.「俺ってさ、誰かに……狙われてないか？」
@@ -961,13 +961,13 @@ void main()
 	OutputLine(NULL, "しかし、梨花ちゃんの様子はやはりおかしい。",
 			NULL, "No entanto, algo sobre Rika-chan ainda parecia estranho.", Line_WaitForInput);
 	OutputLine(NULL, "いつもと違い棘があるというか…、冷たい感じだ。",
-			NULL, " As palavras dela pareciam mais afiadas do que o comum... e mais frias.", Line_Normal);
+			NULL, " As palavras dela pareciam mais afiadas do que o normal... e mais frias.", Line_Normal);
 	ClearMessage();
 
 //r追い討ちをかけるように、梨花ちゃんはもの凄く不機嫌そうな声で言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "追い討ちをかけるように、梨花ちゃんはもの凄く不機嫌そうな声で言った。",
-			NULL, "Então Rika-chan se aproveitou da oportunidade e falou numa voz terrivelmente sombria.", Line_Normal);
+			NULL, "Então Rika-chan se aproveitou da oportunidade e falou numa voz terrivelmente sombrio.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/gr3", 1000 );
@@ -1029,7 +1029,7 @@ void main()
 //rヘタをすれば、危険を増やした行動だった可能性すらある……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ヘタをすれば、危険を増やした行動だった可能性すらある……。",
-			NULL, "Há até mesmo uma chance de que meus deslizes acabaram deixando as coisas piores...", Line_Normal);
+			NULL, "Há até mesmo uma chance de que meus deslizes acabaram deixando as coisas ainda piores...", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1195,7 +1195,7 @@ void main()
 //r表情が少し硬い気がするのは、俺の気のせいだろうか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "表情が少し硬い気がするのは、俺の気のせいだろうか。",
-			NULL, "Sua expressão parecia um pouco rígida, mas eu me perguntei se isso era algo da minha cabeça.", Line_Normal);
+			NULL, "Sua expressão parecia um pouco rígida, mas eu me perguntei se isso era coisa da minha cabeça.", Line_Normal);
 	ClearMessage();
 
 //r魅音を捕まえてはみたものの……。
@@ -1231,7 +1231,7 @@ void main()
 //r魅音とは途中で道が別れてしまう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音とは途中で道が別れてしまう。",
-			NULL, "O caminho estava rapidamente alcançando o ponto no qual nós dois nos dividiamos.", Line_Normal);
+			NULL, "O caminho estava rapidamente alcançando o ponto no qual nós dois nos dividiríamos.", Line_Normal);
 	ClearMessage();
 
 //rなんとか早く話を切り出さなくてはいけない。
@@ -1284,7 +1284,7 @@ void main()
 //rその声に責めや棘は無かったが、決然とした響きがあった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その声に責めや棘は無かったが、決然とした響きがあった。",
-			NULL, "Não havia repreensão ou maldade na voz dela, mas eu podia sentir a determinação por trás dela.", Line_Normal);
+			NULL, "Não havia repreensão ou maldade na voz dela, mas eu podia sentir a determinação por de trás dela.", Line_Normal);
 	ClearMessage();
 
 //r面倒くさいのは御免だ、そう聞こえた。kここは率直にいくしかない。
