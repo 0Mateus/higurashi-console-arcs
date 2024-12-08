@@ -16,7 +16,7 @@ void main()
 
 //看護師rvS20/00/nurseA44001.「……あの、すみません。もうそろそろ……」
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44001", 256, TRUE);
 	OutputLine(NULL, "「……あの、すみません。もうそろそろ……」",
 			NULL, "\"...Um, com licença. O tempo está acabando...\"", Line_Normal);
@@ -110,14 +110,14 @@ void main()
 //rその表情は感情が壊れてしまったように生気がなく、果たして言葉が届くのかどうかもわからない。……だが、大石は懸命に呼びかけるように、食い下がっていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その表情は感情が壊れてしまったように生気がなく、果たして言葉が届くのかどうかもわからない。……だが、大石は懸命に呼びかけるように、食い下がっていった。",
-			NULL, "A expressão dela estava desprovida de animação, como se suas emoções tivessem quebrado. Era difícil dizer se ela iria responder ou não... mas Ooishi nem sequer esperou e gritou para ela com toda sua força.", Line_Normal);
+			NULL, "A expressão dela estava desprovida de animação, como se suas emoções tivessem quebrado. Era difícil dizer se ela iria responder ou não... mas Ooishi nem sequer esperou e continuou falando com ela.", Line_Normal);//;with all his might
 	ClearMessage();
 
 //大石rvS20/11/440700325.「わかりますか？　この帽子が一緒に入っていたということは、竜宮レナさんがその木箱を川に流したということだと考えられるのです」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700325", 256, TRUE);
 	OutputLine(NULL, "「わかりますか？　この帽子が一緒に入っていたということは、竜宮レナさんがその木箱を川に流したということだと考えられるのです」",
-			NULL, "\"Você entende? O fato dessas coisas terem sido encontradas juntas me leva acreditar que foi Ryuugu Rena-san quem jogou esta caixa no rio.\"", Line_Normal);
+			NULL, "\"Você entende? O fato dessas coisas terem sido encontradas juntas me leva a acreditar que foi Ryuugu Rena-san quem jogou esta caixa no rio.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/440700326.「しかし、その意図がわからない。でもあなたなら、これに込められたメッセージがわかるはずだ！kvS20/11/440700327.　いつも一緒に遊んでいた、友達のあなたなら！」
@@ -158,7 +158,7 @@ void main()
 	Wait( 500 );
 
 //看護師rvS20/00/nurseA44002.「け、刑事さんっ？！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44002", 256, TRUE);
 	OutputLine(NULL, "「け、刑事さんっ？！」",
 			NULL, "\"D-detetive?!\"", Line_Normal);
@@ -171,7 +171,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44003.「乱暴は止めてください！　刑事さんっ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44003", 256, TRUE);
 	OutputLine(NULL, "「乱暴は止めてください！　刑事さんっ！！」",
 			NULL, "\"Por favor, pare com esse comportamento violento! Detetive!!\"", Line_Normal);
@@ -198,7 +198,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44004.「大丈夫ですか、園崎さんっ？　……もう、いい加減にしてください！kvS20/00/nurseA44005.　今日はもうお引取り願えますかっ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44004", 256, TRUE);
 	OutputLine(NULL, "「大丈夫ですか、園崎さんっ？　……もう、いい加減にしてください！",
 			NULL, "\"Você está bem, Sonozaki-san? ...Já basta. Por favor, chega!", Line_WaitForInput);
@@ -262,7 +262,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44008.「はぁ、まったく。大丈夫ですか、園崎さん……？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44008", 256, TRUE);
 	OutputLine(NULL, "「はぁ、まったく。大丈夫ですか、園崎さん……？」",
 			NULL, "\"Haah, inacreditável. Você está bem, Sonozaki-san...?\"", Line_Normal);
@@ -280,7 +280,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44009.「――園崎さん？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44009", 256, TRUE);
 	OutputLine(NULL, "「——園崎さん？」",
 			NULL, "\"...Sonozaki-san?\"", Line_Normal);
@@ -289,7 +289,7 @@ void main()
 //r黙って、うつろな表情で膝もとの帽子を見つめていた魅音は、その声とともに突然、顔を上げる。その目には、生気が宿ったように輝きが戻っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "黙って、うつろな表情で膝もとの帽子を見つめていた魅音は、その声とともに突然、顔を上げる。その目には、生気が宿ったように輝きが戻っていた。",
-			NULL, "Mion estava sentada silenciosamente, olhando fixamente para o chapéu que estava próximo aos seus joelhos, e então repentinamente levantou a cabeça e falou. A luz nos seus olhos finalmente retornou.", Line_Normal);
+			NULL, "Mion estava sentada silenciosamente, olhando fixamente para o chapéu que estava próximo de seus joelhos, e então repentinamente levantou a cabeça e falou. A luz nos seus olhos finalmente retornou.", Line_Normal);
 	ClearMessage();
 
 //魅音rvS20/03/440300198.「看護師さん、お願い！　さっきの刑事さんを呼び戻して！kvS20/03/440300199.　まだ遠くに行っていないはずだから！！」
@@ -303,7 +303,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44010.「ど、どうしたのです、園崎さん……？　そ、それにあなた、……記憶が？！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44010", 256, TRUE);
 	OutputLine(NULL, "「ど、どうしたのです、園崎さん……？　そ、それにあなた、……記憶が？！」",
 			NULL, "\"O-o que está acontecendo, Sonozaki-san...? V-você... recuperou as suas memórias?!\"", Line_Normal);
@@ -323,7 +323,7 @@ void main()
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44011.「わ、わかりました……。ちょ、ちょっと待っていてくださいね……？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/nursea44011", 256, TRUE);
 	OutputLine(NULL, "「わ、わかりました……。ちょ、ちょっと待っていてくださいね……？」",
 			NULL, "\"E-entendido... P-por favor, espere um pouco, ok...?\"", Line_Normal);
@@ -339,9 +339,14 @@ void main()
 	ClearMessage();
 
 //r魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。
+	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。",
-			NULL, "Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha que estava no chapéu era uma mancha de sangue, ela começou a derramar lágrimas que há muito tempo não derramava...", Line_Normal);
+			NULL, "<size=-2>Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, ela começou a derramar lágrimas que há muito tempo não derramava...", Line_Normal);
+	} else {
+	OutputLine(NULL, "魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。",
+			NULL, "Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, ela começou a derramar lágrimas que há muito tempo não derramava...", Line_Normal);
+	}
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
