@@ -29,7 +29,7 @@ void main()
 //r雛見沢地区水源地のひとつ、鬼ヶ淵沼より火山性ガス（硫化水素・二酸化炭素）が噴出し、村内全域を覆った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢地区水源地のひとつ、鬼ヶ淵沼より火山性ガス（硫化水素・二酸化炭素）が噴出し、村内全域を覆った。",
-			NULL, "Gás vulcânico (incluindo sulfato de hidrogênio e dióxido de carbono) saiu do Pântano de Onigafuchi, uma grande fonte de água da área de Hinamizawa, e cobriu toda a vila.", Line_Normal);
+			NULL, "Gás vulcânico (incluindo sulfato de hidrogênio e dióxido de carbono) saiu do Pântano Onigafuchi, uma grande fonte de água da área de Hinamizawa, e cobriu toda a vila.", Line_Normal);
 	ClearMessage();
 
 //r犠牲者１２００余名。
@@ -53,7 +53,7 @@ void main()
 //rその後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。",
-			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam abaixo do pântano de Onigafuchi. Investigadores concluiram que o gás saindo deles foi a causa do desastre.", Line_Normal);
+			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam abaixo do pântano Onigafuchi. Investigadores concluiram que o gás saindo deles foi a causa do desastre.", Line_Normal);
 	ClearMessage();
 
 //rまた、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を『祟り』と騒ぐ者が続出し、初期の混乱を煽り立てた。
