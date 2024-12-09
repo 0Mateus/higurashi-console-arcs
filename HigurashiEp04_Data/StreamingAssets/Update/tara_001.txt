@@ -2372,7 +2372,7 @@ void main()
 //r俺は魅音にあわせて、曖昧に笑った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は魅音にあわせて、曖昧に笑った。",
-			NULL, "Então eu apenas gargalhei vagamente junto com ela.", Line_Normal);
+			NULL, "Então apenas gargalhei vagamente junto com ela.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(0, 200, TRUE);
