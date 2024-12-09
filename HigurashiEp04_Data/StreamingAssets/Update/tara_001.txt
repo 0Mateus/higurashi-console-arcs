@@ -2154,7 +2154,7 @@ void main()
 	OutputLine(NULL, "……なぜだろう。",
 			NULL, "...Mas, por quê?", Line_WaitForInput);
 	OutputLine(NULL, "身の毛もよだつ話を聞いてしまったせいだろうか。",
-			NULL, " Talvez tenha sido pela história arrepiante que tinha acabado de ouvir, mas...", Line_Normal);
+			NULL, " Talvez tenha sido pela história arrepiante que eu tinha acabado de ouvir, mas...", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(2, 200, FALSE);
