@@ -24,10 +24,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 		OutputLineAll("", NULL, Line_ContinueAfterTyping);
 		OutputLine(NULL, "ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが、県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった。",
-				NULL, "<size=-2>Por volta das 2 horas da tarde do dia XX, o funcionário de escritório XXX-san e sua esposa XXXX-san da vila de Hinamizawa na Cidade de Shishibone, desapareceram após cairem de uma plataforma de observação no Parque Natural Shirakawa, em um córrego 27 metros abaixo.", Line_Normal);
+				NULL, "<size=-2>Por volta das 2 horas da tarde do dia XX, o funcionário de escritório XXX-san e sua esposa XXXX-san da vila de Hinamizawa na Cidade de Shishibone, desapareceram após caírem de uma plataforma de observação no Parque Natural Shirakawa, em um córrego 27 metros abaixo.", Line_Normal);
 	} else {
 		OutputLine(NULL, "ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが、県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった。",
-				NULL, "Por volta das 2 horas da tarde do dia XX, o funcionário de escritório XXX-san e sua esposa XXXX-san da vila de Hinamizawa na Cidade de Shishibone, desapareceram após cairem de uma plataforma de observação no Parque Natural Shirakawa, em um córrego 27 metros abaixo.", Line_Normal);
+				NULL, "Por volta das 2 horas da tarde do dia XX, o funcionário de escritório XXX-san e sua esposa XXXX-san da vila de Hinamizawa na Cidade de Shishibone, desapareceram após caírem de uma plataforma de observação no Parque Natural Shirakawa, em um córrego 27 metros abaixo.", Line_Normal);
 	}
 	ClearMessage();
 
@@ -52,7 +52,7 @@ void main()
 //rＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様。",
-			NULL, "O marido e a esposa estavam apoiados sobre uma cerca na plataforma de observação, e ambos cairam quando a cerca quebrou.", Line_Normal);
+			NULL, "O marido e a esposa estavam apoiados sobre uma cerca na plataforma de observação, e ambos caíram quando a cerca quebrou.", Line_Normal);
 	ClearMessage();
 
 //r柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。

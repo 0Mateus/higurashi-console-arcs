@@ -53,7 +53,7 @@ void main()
 //rしかし、休みが続くと誰からともなく部活をするようになった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし、休みが続くと誰からともなく部活をするようになった。",
-			NULL, "No entanto, já que ela não aparece à alguns dias, eventuamente voltamos a realizar as atividades do clube novamente.", Line_Normal);
+			NULL, "No entanto, já que ela não aparece à alguns dias, eventualmente voltamos a realizar as atividades do clube novamente.", Line_Normal);
 	ClearMessage();
 
 //rなんだかんだ言って、みんな部活が好きなんだ。
@@ -65,7 +65,7 @@ void main()
 //rそして早く、魅音も入れて騒ぎたいと…みんな、思っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして早く、魅音も入れて騒ぎたいと…みんな、思っていた。",
-			NULL, "Todos estavam pensando na mesma coisa... queriamos ouvir Mion fazendo barulho novamente, tão logo quanto possível.", Line_Normal);
+			NULL, "Todos estavam pensando na mesma coisa... queríamos ouvir Mion fazendo barulho novamente, tão logo quanto possível.", Line_Normal);
 	ClearMessage();
 
 //r魅音がいない部活、普段なら楽勝で勝てるはずだった。
@@ -1086,7 +1086,7 @@ void main()
 //rだが、すぐにムダに熱くなってしまったことを後悔し、言葉を添える。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だが、すぐにムダに熱くなってしまったことを後悔し、言葉を添える。",
-			NULL, "No entanto, eu rapidamente me arrependi de ter ficado tão irridado à toa.", Line_Normal);
+			NULL, "No entanto, eu rapidamente me arrependi de ter ficado tão irritado à toa.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100234.「いえ……、すみません。kvS17/01/110100235.つい……。kvS17/01/110100236.でも本当に、富竹さんはみんなの人気者でした。kvS17/01/110100237.殺されるような理由なんて、全く思い当たらない――」
@@ -1108,7 +1108,7 @@ void main()
 //rそこで、大石さんの眉がピクリと動く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そこで、大石さんの眉がピクリと動く。",
-			NULL, "Nesse momento, Ooishi-san ergueu a sombrancelha.", Line_Normal);
+			NULL, "Nesse momento, Ooishi-san ergueu a sobrancelha.", Line_Normal);
 	ClearMessage();
 
 //rその時初めて、俺は失言をしたことに気がついた。
@@ -1281,7 +1281,7 @@ void main()
 //r大石さんの車から出ると、気温差も忘れ、俺は呆然と立ちつくした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石さんの車から出ると、気温差も忘れ、俺は呆然と立ちつくした。",
-			NULL, "Eu fiquei momentâneamente atordoado por causa da diferença de temperatura quando pisei para fora do carro de Ooishi-san.", Line_Normal);
+			NULL, "Eu fiquei momentaneamente atordoado por causa da diferença de temperatura quando pisei para fora do carro de Ooishi-san.", Line_Normal);
 	ClearMessage();
 
 //r大石さんの口から語られた魅音は、俺の知らない魅音だった。
@@ -1321,7 +1321,7 @@ void main()
 //r反対活動を指揮し、園崎家……それも、暴力団かなにかの非合法組織の手下を従えていた、との話だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "反対活動を指揮し、園崎家……それも、暴力団かなにかの非合法組織の手下を従えていた、との話だった。",
-			NULL, "As ações de resistência foram organizadas pela família Sonozaki... ouvi dizer que gânsteres e grupos de crime organizado estavam envolvidos.", Line_Normal);
+			NULL, "As ações de resistência foram organizadas pela família Sonozaki... ouvi dizer que gangsteres e grupos de crime organizado estavam envolvidos.", Line_Normal);
 	ClearMessage();
 
 //rさらに驚くことに、今となっては園崎家の実質的指導者であるという。
@@ -1809,7 +1809,7 @@ void main()
 //r小さく深呼吸すると、できるだけ軽い口調でレナに応えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小さく深呼吸すると、できるだけ軽い口調でレナに応えた。",
-			NULL, "Em seguida, eu respirei fundo e respondi à Rena na tonalidade mais leve que eu consseguisse.", Line_Normal);
+			NULL, "Em seguida, eu respirei fundo e respondi à Rena na tonalidade mais leve que eu conseguisse.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "higurasi", 128, 0 );
@@ -1818,7 +1818,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100251", 256, TRUE);
 	OutputLine(NULL, "「……ああ、レナに聞いた話だったよ」",
-			NULL, "\"...Ah, ele me perguntou sobre a mesma coisa que você e eu tinhamos discutido antes.\"", Line_Normal);
+			NULL, "\"...Ah, ele me perguntou sobre a mesma coisa que você e eu tínhamos discutido antes.\"", Line_Normal);
 	ClearMessage();
 
 //レナrvS17/02/110200125.「富竹さんの……？」

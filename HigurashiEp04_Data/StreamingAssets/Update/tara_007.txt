@@ -60,7 +60,7 @@ void main()
 //rだから俺は早々と電気を消し、布団に入った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから俺は早々と電気を消し、布団に入った。",
-			NULL, "Então, desliguei as luzei mais cedo e rastejei até o meu futon.", Line_Normal);
+			NULL, "Então, desliguei as luzes mais cedo e rastejei até o meu futon.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -250,7 +250,7 @@ void main()
 //rそして徐々に、実際に見えているのか見えていないのか解らない新たな映像を形づくる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして徐々に、実際に見えているのか見えていないのか解らない新たな映像を形づくる。",
-			NULL, "E com o tempo, ficou difícil dizer se as imagens diantes dos meus olhos eram reais ou não.", Line_Normal);
+			NULL, "E com o tempo, ficou difícil dizer se as imagens diante dos meus olhos eram reais ou não.", Line_Normal);
 	ClearMessage();
 
 //r二つの鋭い印象を持った楕円……！！

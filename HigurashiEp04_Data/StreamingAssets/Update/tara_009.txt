@@ -65,7 +65,7 @@ void main()
 //r最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。",
-			NULL, "A dança aerobica ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //;Não faço a menor ideia do que é silver gray dancing style.
+			NULL, "A dança aeróbica ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //;Não faço a menor ideia do que é silver gray dancing style.
 	ClearMessage();
 
 	PlayBGM( 1, "mati", 128, 0 );
@@ -326,7 +326,7 @@ void main()
 //r長く伸びた髪がそれを隠している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "長く伸びた髪がそれを隠している。",
-			NULL, "Seu longo cabelo o mantia escondido.", Line_Normal);
+			NULL, "Seu longo cabelo o mantinha escondido.", Line_Normal);
 	ClearMessage();
 
 //rそしてほとんど外出していないのか、その肌は着ているパジャマや病院のカーテンのように白かった。
@@ -546,7 +546,7 @@ void main()
 //r災害以後、大石や赤坂はもちろん、何人たりとも雛見沢に立ち入ることは許可されなかった……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "災害以後、大石や赤坂はもちろん、何人たりとも雛見沢に立ち入ることは許可されなかった……。",
-			NULL, "Entrar de qualquer maneira em Hinamizawa foi estritamente proibido após o desastre, e naturalmente isso incluia Ooishi e Akasaka...", Line_Normal);
+			NULL, "Entrar de qualquer maneira em Hinamizawa foi estritamente proibido após o desastre, e naturalmente isso incluía Ooishi e Akasaka...", Line_Normal);
 	ClearMessage();
 
 //r彼らの追っていた事件は、幕引きを余儀なくされたのである。

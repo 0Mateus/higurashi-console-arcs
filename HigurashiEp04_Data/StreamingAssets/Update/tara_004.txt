@@ -287,7 +287,7 @@ void main()
 //r何してるかって聞かれても…と、俺は手にした――
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "何してるかって聞かれても…と、俺は手にした——",
-			NULL, "Mesmo que ela tenha perguntado... Eu não preciso necessáriamente respondê-la...", Line_Normal);
+			NULL, "Mesmo que ela tenha perguntado... Eu não preciso necessariamente respondê-la...", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300174.「…マンガ？」
@@ -722,7 +722,7 @@ void main()
 //rあれだけの量の材料を使いこなすとなると、相当の手間ひまを掛けなきゃ、まず無理だろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あれだけの量の材料を使いこなすとなると、相当の手間ひまを掛けなきゃ、まず無理だろう。",
-			NULL, "Mesmo se for feito um profissional, aquela quantidade de igredientes precisariam de uma quantidade imensurável de esforço para serem preparados.", Line_Normal);
+			NULL, "Mesmo se for feito um profissional, aquela quantidade de ingredientes precisariam de uma quantidade imensurável de esforço para serem preparados.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_huteki_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -734,7 +734,7 @@ void main()
 			NULL, "\"Não é bem assim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300198", 256, TRUE);
 	OutputLine(NULL, "材料は多いけど、二人暮らしだからね。",
-			NULL, " Haviam muitos igredientes, mas apenas duas pessoas vivem na minha casa.", Line_WaitForInput);
+			NULL, " Haviam muitos ingredientes, mas apenas duas pessoas vivem na minha casa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300199", 256, TRUE);
 	OutputLine(NULL, "私と婆っちゃと」",
 			NULL, " Eu e a minha avó.\"", Line_Normal);
@@ -825,7 +825,7 @@ void main()
 //r煮え切らない態度の俺に嫌気を起こしたのか、魅音はますますウンザリとした顔になった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "煮え切らない態度の俺に嫌気を起こしたのか、魅音はますますウンザリとした顔になった。",
-			NULL, "Minha atidude parecia estar chateando ela. A expressão de Mion estava ficando mais e mais cansada.", Line_Normal);
+			NULL, "Minha atitude parecia estar chateando ela. A expressão de Mion estava ficando mais e mais cansada.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100147.「いや、その……。kvS17/01/110100148.あの話をするの嫌がってたはずなのに、どうしたのかなって……。kvS17/01/110100149.何か、あったのか……？」
@@ -1405,7 +1405,7 @@ void main()
 //r富竹さんが発見されたのは、それくらい偶然だったにちがいない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "富竹さんが発見されたのは、それくらい偶然だったにちがいない。",
-			NULL, "Deve ser pura coincidencia que eles encontraram Tomitake-san.", Line_Normal);
+			NULL, "Deve ser pura coincidência que eles encontraram Tomitake-san.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1974,7 +1974,7 @@ void main()
 			NULL, "\"Seu nome era Houjou Satoshi-kun...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300239", 256, TRUE);
 	OutputLine(NULL, "同じクラスにいたんだ。",
-			NULL, " Nós estavamos na mesma série.", Line_WaitForInput);
+			NULL, " Nós estávamos na mesma série.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300240", 256, TRUE);
 	OutputLine(NULL, "…………沙都子の、お兄さんなの」",
 			NULL, " ......Ele era o irmão mais velho de Satoko.\"", Line_Normal);
@@ -2478,7 +2478,7 @@ void main()
 //rそう言いながら、俺はそっと図書館のほうを見た。すでに魅音は行ってしまったようだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう言いながら、俺はそっと図書館のほうを見た。すでに魅音は行ってしまったようだ。",
-			NULL, "Eu quietamente olhei na direção da biblioteca enquando dizia isso. Mion já havia desaparecido.", Line_Normal);
+			NULL, "Eu quietamente olhei na direção da biblioteca enquanto dizia isso. Mion já havia desaparecido.", Line_Normal);
 	ClearMessage();
 
 //r俺はさっきの魅音の話が頭にひっかかっていた。
@@ -3076,7 +3076,7 @@ void main()
 //rレナが自転車にまたがり、あははは！　と笑いながら走り出した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナが自転車にまたがり、あははは！　と笑いながら走り出した。",
-			NULL, "Rena soltou mais uma risada enquando montava na sua bicicleta e sorriu enquanto ia embora.", Line_Normal);
+			NULL, "Rena soltou mais uma risada enquanto montava na sua bicicleta e sorriu enquanto ia embora.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100202.「お、おい…レナ！kvS17/01/110100203.　ちょっと待てって！」
@@ -3127,7 +3127,7 @@ void main()
 //r自転車を漕ぎながら、帰り道、俺はずっと後悔していた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自転車を漕ぎながら、帰り道、俺はずっと後悔していた。",
-			NULL, "Durante todo o tempo que passei digirindo a minha bicicleta até a minha casa, estive repleto de arrependimento.", Line_Normal);
+			NULL, "Durante todo o tempo que passei dirigindo a minha bicicleta até a minha casa, estive repleto de arrependimento.", Line_Normal);
 	ClearMessage();
 
 //r魅音の話を……聞かなければよかったと――。

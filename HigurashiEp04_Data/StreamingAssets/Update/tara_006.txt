@@ -738,7 +738,7 @@ void main()
 			NULL, " E estive me perguntando se isso é possível...", Line_WaitForInput);//;se tenho algo a ver com isso
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100278", 256, TRUE);
 	OutputLine(NULL, "村では俺のこと、余所者って思ってる人もいるだろうし……」",
-			NULL, " Porque tem pessoas na vila que provavelmente ainda me veêm como um forasteiro...\"", Line_Normal);
+			NULL, " Porque tem pessoas na vila que provavelmente ainda me veem como um forasteiro...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 5, "sprite/ri1_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1155,7 +1155,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100289", 256, TRUE);
 	OutputLine(NULL, "「や、一緒に帰ろうと思ってさ……」",
-			NULL, "\"Bem, eu estava pensando se nós poderiamos ir para casa juntos...\"", Line_Normal);
+			NULL, "\"Bem, eu estava pensando se nós poderíamos ir para casa juntos...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me1a_wink_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1360,7 +1360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300268", 256, TRUE);
 	OutputLine(NULL, "「なんか黙ってると余計、不安になるかなって思ってさ」",
-			NULL, "\"Eu pensei que você se sentiria mal se eu mantesse segredo durante tanto tempo.\"", Line_Normal);
+			NULL, "\"Eu pensei que você se sentiria mal se eu mantivesse segredo durante tanto tempo.\"", Line_Normal);
 	ClearMessage();
 
 //rこの説明もだ。kやはり……不審な点は全くない。

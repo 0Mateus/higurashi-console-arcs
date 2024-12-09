@@ -464,7 +464,7 @@ void main()
 //r５年目の祟りは何だ…とワイド番組や三流雑誌の記者が興味半分で出入りすることもあるのだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "５年目の祟りは何だ…とワイド番組や三流雑誌の記者が興味半分で出入りすることもあるのだろう。",
-			NULL, "Reporteres de <i>talk shows</i> e revistas de terceira categoria devem estar procurando por uma história... perguntando o que pode ter acontecido no quinto ano da maldição.", Line_Normal);
+			NULL, "Repórteres de <i>talk shows</i> e revistas de terceira categoria devem estar procurando por uma história... perguntando o que pode ter acontecido no quinto ano da maldição.", Line_Normal);
 	ClearMessage();
 
 //r村としては悪い印象を助長するだけで、迷惑千万！　…ってところか。
@@ -525,7 +525,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300060", 256, TRUE);
 	OutputLine(NULL, "「……なにぼんやりしてるの、圭ちゃん？",
-			NULL, "\"...O que você está pensando tão distraídamente, Kei-chan?", Line_WaitForInput);
+			NULL, "\"...O que você está pensando tão distraidamente, Kei-chan?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300061", 256, TRUE);
 	OutputLine(NULL, "　そろそろ部活始めるよ～！」",
 			NULL, " Já está quase na hora das atividades do clube~!\"", Line_Normal);
@@ -566,7 +566,7 @@ void main()
 //rにもかかわらず、元気そうなのは大したものだが、……それでも、目に見えない疲れはきっと残っているはず。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "にもかかわらず、元気そうなのは大したものだが、……それでも、目に見えない疲れはきっと残っているはず。",
-			NULL, "Apesar disso, todas elas pareciam estar bem dispostas... mas eu tenho certeza que a fadiga ainda está escondinda em algum lugar, abaixo da superfície.", Line_Normal);
+			NULL, "Apesar disso, todas elas pareciam estar bem dispostas... mas eu tenho certeza que a fadiga ainda está escondida em algum lugar, abaixo da superfície.", Line_Normal);
 	ClearMessage();
 
 //rこのチャンスを逃す手はない。kみんなをケチョンケチョンに叩きのめしてやる。
@@ -1048,7 +1048,7 @@ void main()
 			NULL, "\"Então, sou a próxima...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s17/04/110400030", 256, TRUE);
 	OutputLine(NULL, "『圭一』『ナイフ』『屋根裏部屋』で、ございますわ！」",
-			NULL, " Eu acho que \"Keiichi\", \"Faca\", \"Sotão\"!\"", Line_Normal);
+			NULL, " Eu acho que \"Keiichi\", \"Faca\", \"Sótão\"!\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 200, TRUE );
@@ -1062,7 +1062,7 @@ void main()
 //rってことは…『圭一』『ナイフ』『屋根裏部屋』のどれかひとつは…犯人か、凶器か…それとも犯行現場……のいずれかが正解なんだ？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ってことは…『圭一』『ナイフ』『屋根裏部屋』のどれかひとつは…犯人か、凶器か…それとも犯行現場……のいずれかが正解なんだ？！",
-			NULL, " Assim, isso significa que... entre \"Keiichi\", \"Faca\", e \"Sotão\", uma delas faz parte da resposta correta? O assassino, a arma... ou a cena do crime?!", Line_Normal);
+			NULL, " Assim, isso significa que... entre \"Keiichi\", \"Faca\", e \"Sótão\", uma delas faz parte da resposta correta? O assassino, a arma... ou a cena do crime?!", Line_Normal);
 	ClearMessage();
 
 //rいや待てよ、あると言っても、何枚持っているかは言っていない！
@@ -1317,7 +1317,7 @@ void main()
 //r…と、ふと見ると、レナの顔色も冴えない。どうやら、俺とレナはこのゲームではかなり不利らしい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…と、ふと見ると、レナの顔色も冴えない。どうやら、俺とレナはこのゲームではかなり不利らしい。",
-			NULL, "...E quando olhei para Rena, percebi o quão pálida sua expresão parecia. Aparentemente, Rena e eu eramos igualmente ruins nesse jogo.", Line_Normal);
+			NULL, "...E quando olhei para Rena, percebi o quão pálida sua expressão parecia. Aparentemente, Rena e eu eramos igualmente ruins nesse jogo.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 2, "sprite/re1a_nande_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1637,7 +1637,7 @@ void main()
 //rレナは一瞬戸惑ってから…おずおずと口を開く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナは一瞬戸惑ってから…おずおずと口を開く。",
-			NULL, "Rena pareceu confusa por um momento... e então, tímidamente começou a falar.", Line_Normal);
+			NULL, "Rena pareceu confusa por um momento... e então, timidamente começou a falar.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re1a_komaru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1696,7 +1696,7 @@ void main()
 //rレナの耳元に口を寄せる。ごにょごにょごにょ……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナの耳元に口を寄せる。ごにょごにょごにょ……。",
-			NULL, "Eu aproximei minha boca da orelha de Rena.  *sussuro* *sussuro* *sussuro*", Line_Normal);
+			NULL, "Eu aproximei minha boca da orelha de Rena.  *sussurro* *sussurro* *sussurro*", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re1b_bikkuri_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1762,7 +1762,7 @@ void main()
 //r机の下でさっと済ませること…鉛筆を動かし続け、絶対に手を止めないこと…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "机の下でさっと済ませること…鉛筆を動かし続け、絶対に手を止めないこと…。",
-			NULL, "Nós as revelariamos por debaixo de nossas mesas... e ao mesmo tempo, escreveríamos com os nossos lápis...", Line_Normal);
+			NULL, "Nós as revelaríamos por debaixo de nossas mesas... e ao mesmo tempo, escreveríamos com os nossos lápis...", Line_Normal);
 	ClearMessage();
 
 //r他の連中は、もし顔を上げても、動くものにまず目を奪われる…人の習性とはそういうものだ。k………ここがポイントだ。
@@ -1795,14 +1795,14 @@ void main()
 			NULL, "\"Hau~, entendi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s17/02/110200035", 256, TRUE);
 	OutputLine(NULL, "　これなら今日は勝てそうだよ！」",
-			NULL, " Se fizermos isso, possívelmente podemos vencer hoje!\"", Line_Normal);
+			NULL, " Se fizermos isso, possivelmente podemos vencer hoje!\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100066.「勝てそう…じゃない。kvS17/01/110100067.勝つんだ！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100066", 256, TRUE);
 	OutputLine(NULL, "「勝てそう…じゃない。",
-			NULL, "\"Não... não apenas possívelmente.", Line_WaitForInput);
+			NULL, "\"Não... não apenas possivelmente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100067", 256, TRUE);
 	OutputLine(NULL, "勝つんだ！」",
 			NULL, " Nós vamos vencer!\"", Line_Normal);
@@ -1811,7 +1811,7 @@ void main()
 //rそして、魅音に『ぢの薬』と『水虫の薬』を買わせるのだ！　むふふふふ……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、魅音に『ぢの薬』と『水虫の薬』を買わせるのだ！　むふふふふ……。",
-			NULL, "E então, podemos fazer Mion comprar \"creme para hemorróidas\" e \"remédio para micose!\" Ehehehehe...", Line_Normal);
+			NULL, "E então, podemos fazer Mion comprar \"creme para hemorroidas\" e \"remédio para micose!\" Ehehehehe...", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re1b_komaru_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2768,7 +2768,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100083", 256, TRUE);
 	OutputLine(NULL, "「……豆腐２丁。",
-			NULL, "\"...Duas porçções de tofu.", Line_WaitForInput);
+			NULL, "\"...Duas porções de tofu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100084", 256, TRUE);
 	OutputLine(NULL, "シャンプーとリンス。",
 			NULL, " Xampu e condicionador.", Line_WaitForInput);

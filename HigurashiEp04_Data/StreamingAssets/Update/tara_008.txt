@@ -797,7 +797,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100354", 256, TRUE);
 	OutputLine(NULL, "「毎日会ってるのに、レナの顔をまともに見る余裕もなかった」",
-			NULL, "\"Mesmo que estivessemos vendo um ao outro todos os dias, eu nunca realmente juntei meu tempo para olhar direito para você.\"", Line_Normal);
+			NULL, "\"Mesmo que estivéssemos vendo um ao outro todos os dias, eu nunca realmente juntei meu tempo para olhar direito para você.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re1b_hau_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -903,7 +903,7 @@ void main()
 //r俺は上半身に液体をかぶっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は上半身に液体をかぶっていた。",
-			NULL, "A parte de cima do meu corpo foi completamente encharcada por algum tipo de liquido.", Line_Normal);
+			NULL, "A parte de cima do meu corpo foi completamente encharcada por algum tipo de líquido.", Line_Normal);
 	ClearMessage();
 
 //r普段なら、教室に入る前に警戒しているはずだ。
@@ -921,7 +921,7 @@ void main()
 //r『水』ではなく液体と表現したのには理由がある……っこ、この匂い……く、臭ぇえええっ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『水』ではなく液体と表現したのには理由がある……っこ、この匂い……く、臭ぇえええっ！！！",
-			NULL, "E a razão pela qual eu o descrevi como um liquido ao invés de \"água\"... E-este cheiro... E-este fedor!!!", Line_Normal);
+			NULL, "E a razão pela qual eu o descrevi como um líquido ao invés de \"água\"... E-este cheiro... E-este fedor!!!", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100357.「さ、沙都子ぉお！！」
@@ -980,7 +980,7 @@ void main()
 			NULL, "\"E-eu não esperava que isso fosse acontecer!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s17/04/110400058", 256, TRUE);
 	OutputLine(NULL, "　気を抜いていた圭一さんが悪いのでございますわ！！」",
-			NULL, " Foi erro seu em ter se distraido tanto, Keiichi-san!!\"", Line_Normal);
+			NULL, " Foi erro seu em ter se distraído tanto, Keiichi-san!!\"", Line_Normal);
 	ClearMessage();
 
 //r俺が悪いと言ったわりには、沙都子はしっかりと身の危険を感じているようだ。
@@ -1284,7 +1284,7 @@ void main()
 //r身動きもできないくせに反抗の姿勢を崩さない沙都子……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "身動きもできないくせに反抗の姿勢を崩さない沙都子……。",
-			NULL, "Satoko não quebraria sua postura rebelde por um intante sequer.", Line_Normal);
+			NULL, "Satoko não quebraria sua postura rebelde por um instante sequer.", Line_Normal);
 	ClearMessage();
 
 //r俺は優雅な微笑を湛えながらポットを沙都子の頭上へ……。

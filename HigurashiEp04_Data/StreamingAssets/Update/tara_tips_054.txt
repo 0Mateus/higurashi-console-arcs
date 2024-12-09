@@ -53,7 +53,7 @@ void main()
 //rその後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、そこより湧き出したガスが、災害の原因であると断定した。",
-			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam abaixo do pântano Onigafuchi. Investigadores concluiram que o gás saindo deles foi a causa do desastre.", Line_Normal);
+			NULL, "Uma investigação posterior revelou um reservatório de magma e uma fonte termal que estavam abaixo do pântano Onigafuchi. Investigadores concluíram que o gás saindo deles foi a causa do desastre.", Line_Normal);
 	ClearMessage();
 
 //rまた、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を『祟り』と騒ぐ者が続出し、初期の混乱を煽り立てた。
@@ -122,10 +122,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
-			NULL, "<size=-2>É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Sindrome de Hinamizawa...", Line_Normal);
+			NULL, "<size=-2>É provável que a maioria desses casos sejam resultados da cobertura sensacionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Síndrome de Hinamizawa...", Line_Normal);
 	} else {
 	OutputLine(NULL, "それらのほとんどは過激な報道による思い込みによるものだったが、…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
-			NULL, "É provável que a maioria desses casos sejam resultados da cobertura sensasionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Sindrome de Hinamizawa...", Line_Normal);
+			NULL, "É provável que a maioria desses casos sejam resultados da cobertura sensacionalista da mídia sobre o incidente... transtornos mentais causados pelo Grande Desastre de Hinamizawa mais tarde passariam a ser chamados de Síndrome de Hinamizawa...", Line_Normal);
 	}
 	ClearMessage();
 
@@ -138,7 +138,7 @@ void main()
 //rガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。",
-			NULL, "Mesmo que o bloqueio tenha sido retirado em algum momento após os níveis de gás terem diminuido, outra liberação de gás foi detectada mais tarde naquele ano, e a região foi bloqueada mais uma vez.", Line_Normal);
+			NULL, "Mesmo que o bloqueio tenha sido retirado em algum momento após os níveis de gás terem diminuído, outra liberação de gás foi detectada mais tarde naquele ano, e a região foi bloqueada mais uma vez.", Line_Normal);
 	ClearMessage();
 
 //r現地には、生活の痕跡を残したまま、朽ちるに任せた村が、こんこんと眠り続けているという話である…。
@@ -168,7 +168,7 @@ void main()
 //r連日取材陣が押しかけているが、一切の面会は謝絶されている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "連日取材陣が押しかけているが、一切の面会は謝絶されている。",
-			NULL, "Diáriamente jornais e revistas tem tentado conseguir uma entrevista com ela, mas todos os pedidos foram negados.", Line_Normal);
+			NULL, "Diariamente jornais e revistas tem tentado conseguir uma entrevista com ela, mas todos os pedidos foram negados.", Line_Normal);
 	ClearMessage();
 
 //r……重度の記憶障害により事件当日、その前後についての記憶が一切なく、また相当の精神的ショックを受けたのか、退行症を引き起こしている可能性が高い。

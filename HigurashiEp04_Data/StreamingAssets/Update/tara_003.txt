@@ -92,7 +92,7 @@ void main()
 //r買い物リストを魅音に手渡したときのあの満面の笑み…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "買い物リストを魅音に手渡したときのあの満面の笑み…。",
-			NULL, "E seu sorriso no rosto quando ela entregou para mion aquela lista de compras...", Line_Normal);
+			NULL, "E seu sorriso no rosto quando ela entregou para Mion aquela lista de compras...", Line_Normal);
 	ClearMessage();
 
 //r積年の恨み…ようやく晴らさせていただきます……よろしく…ねぇええ～～。どろどろどろどろ……。
@@ -225,7 +225,7 @@ void main()
 //r以前、そんな文句を言ったことがあったが、『別に、どこでも買いに行けば何でも売ってるでしょ』とかうそぶいて、お袋は作らない言い訳にしてたっけ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "以前、そんな文句を言ったことがあったが、『別に、どこでも買いに行けば何でも売ってるでしょ』とかうそぶいて、お袋は作らない言い訳にしてたっけ。",
-			NULL, "Eu já havia reclamado disso antes, mas a minha mãe disse algo superficial como: \"você pode simplesmente comprar algo em algum lugar,\" e tomou essa como descupa para não fazer nada para mim.", Line_Normal);
+			NULL, "Eu já havia reclamado disso antes, mas a minha mãe disse algo superficial como: \"você pode simplesmente comprar algo em algum lugar,\" e tomou essa como desculpa para não fazer nada para mim.", Line_Normal);
 	ClearMessage();
 
 //r…確かにその通りなんだが……。kでも…やっぱり何もないと、妙に腹立たしかったりして……。
@@ -627,7 +627,7 @@ void main()
 //r魅音がレナの買い物リストをポケットから出して、香辛料の名前を読み上げていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音がレナの買い物リストをポケットから出して、香辛料の名前を読み上げていった。",
-			NULL, "Mion tirou a lista de compras de Rena do bolso e começou a ler o nome dos tempeiros.", Line_Normal);
+			NULL, "Mion tirou a lista de compras de Rena do bolso e começou a ler o nome dos temperos.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me1b_tokui_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1180,7 +1180,7 @@ void main()
 //r魅音の目がカッ、と見開かれると同時に。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音の目がカッ、と見開かれると同時に。",
-			NULL, "Ambos os olhos de Mion estavam incrívelmente abertos.", Line_Normal);
+			NULL, "Ambos os olhos de Mion estavam incrivelmente abertos.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dageki", 256, 64);
@@ -1383,7 +1383,7 @@ void main()
 //r一瞬にして顔と顔の距離を詰められて、魅音の鋭い瞳の中に、俺の姿がはっきりと見える。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一瞬にして顔と顔の距離を詰められて、魅音の鋭い瞳の中に、俺の姿がはっきりと見える。",
-			NULL, "Num piscar de olhos, a distância entre nossos rostos diminuíu, e os olhos afiados de Mion estavam claramente visíveis.", Line_Normal);
+			NULL, "Num piscar de olhos, a distância entre nossos rostos diminuiu, e os olhos afiados de Mion estavam claramente visíveis.", Line_Normal);
 	ClearMessage();
 
 //rまるで、俺はその暗く、不気味な漆黒の闇に閉じ込められたような気がして……身体が、動かなかった。

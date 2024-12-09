@@ -165,11 +165,11 @@ void main()
 			NULL, "\"Bem, esta é uma história de mistério, então está tudo bem em ter mistérios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300464", 256, TRUE);
 	OutputLine(NULL, "……ここまでヒントというか、手がかりがない状況だと推理のしようがないよ。",
-			NULL, " ...Mas não teve nenhuma pista. É impossível raciocionar sem nenhuma dica. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " ...Mas não teve nenhuma pista. É impossível raciocinar sem nenhuma dica. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300465", 256, TRUE);
 	OutputLine(NULL, "連続殺人事件の犯人は誰か、って謎かけが、村の大災害の真相を探る、って話にすり替わっちゃってるしさ」",
-			NULL, "Nós estávamos explorando o mistério por trás dos casos de assassinatos em série, mas agora nós trocamos para uma história sobre explorar a verdade por trás da catastrofe que ocorreu na vila.\"", Line_Normal);
+			NULL, "Nós estávamos explorando o mistério por trás dos casos de assassinatos em série, mas agora nós trocamos para uma história sobre explorar a verdade por trás da catástrofe que ocorreu na vila.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 3, "sprite/me3_tokui_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -259,7 +259,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400282", 256, TRUE);
 	OutputLine(NULL, "「……私が落ち込んでるのを見て、黙って見送るのもらしくありませんでしたわね」",
-			NULL, "\"...Não era do feitio dele apenas ficar parado obversando quando ele viu o quão abatida eu estava.\"", Line_Normal);
+			NULL, "\"...Não era do feitio dele apenas ficar parado observando quando ele viu o quão abatida eu estava.\"", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS20/04/440400283.「おせっかいくらいに優しくて、私たちのことを大事に思ってくださっている圭一さんなら、当然なにやらと理由をつけて一緒に帰っていただけるはずですから」
@@ -1005,7 +1005,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500187", 256, TRUE);
 	OutputLine(NULL, "「……とっても不親切なシナリオなのですよ。み～」",
-			NULL, "\"...Este cenário foi bem inflexivel. Mii~.\"", Line_Normal);
+			NULL, "\"...Este cenário foi bem inflexível. Mii~.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1058,7 +1058,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700443", 256, TRUE);
 	OutputLine(NULL, "「まぁ、とはいえ園崎家をはじめとする御三家は、雛見沢一帯では神聖不可侵の存在ですからねぇ。",
-			NULL, "\"Bem, a família Sonozaki e o resto das Três Famílias são tão sagradas que elas são práticamente invencíveis aqui dentro de Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"Bem, a família Sonozaki e o resto das Três Famílias são tão sagradas que elas são praticamente invencíveis aqui dentro de Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700444", 256, TRUE);
 	OutputLine(NULL, "村人全員でかくまってしまったら、その動向は完全に闇の中へと入っちゃいますよ～」",

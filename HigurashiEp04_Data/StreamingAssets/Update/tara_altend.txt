@@ -64,7 +64,7 @@ void main()
 //r大石はそう言いながら、少々手荒な動作で魅音の膝元に置く。その拍子に、魅音の手元からトランプがバラバラとこぼれ落ちたが、それには目も向けず大石はなおも魅音のうつむき顔を覗き込むように迫って尋ねた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石はそう言いながら、少々手荒な動作で魅音の膝元に置く。その拍子に、魅音の手元からトランプがバラバラとこぼれ落ちたが、それには目も向けず大石はなおも魅音のうつむき顔を覗き込むように迫って尋ねた。",
-			NULL, "Ooishi sentou próximo aos joelhos de Mion num gesto rude. Naquele instante, as cartas caíram das mãos de Mion. Mas Ooishi não focou nisso, ao invés disso ele se apróximou para olhar Mion nos olhos e perguntar.", Line_Normal);
+			NULL, "Ooishi sentou próximo aos joelhos de Mion num gesto rude. Naquele instante, as cartas caíram das mãos de Mion. Mas Ooishi não focou nisso, ao invés disso ele se aproximou para olhar Mion nos olhos e perguntar.", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/440700321.「見たこと、ありますよね？　……いや、あなたは絶対覚えているはずだ。kvS20/11/440700322.これは、あなたのお友達だった竜宮レナさんがいつもかぶっていた帽子ではありませんか？」
@@ -104,7 +104,7 @@ void main()
 //r大石の言葉を聞いているのかいないのか、魅音はうつろな目のままその帽子を見つめている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石の言葉を聞いているのかいないのか、魅音はうつろな目のままその帽子を見つめている。",
-			NULL, "Independentemende de Mion estar ouvindo as palavras de Ooishi ou não, ela estava olhando intensamente para o chapéu com um olhar vago nos olhos.", Line_Normal);
+			NULL, "Independentemente de Mion estar ouvindo as palavras de Ooishi ou não, ela estava olhando intensamente para o chapéu com um olhar vago nos olhos.", Line_Normal);
 	ClearMessage();
 
 //rその表情は感情が壊れてしまったように生気がなく、果たして言葉が届くのかどうかもわからない。……だが、大石は懸命に呼びかけるように、食い下がっていった。
@@ -316,7 +316,7 @@ void main()
 			NULL, "\"Eu entendi... eu entendi! O que Rena estava tentando nos contar!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300201", 256, TRUE);
 	OutputLine(NULL, "　雛見沢で大災害なんて起きなかったんだよ！",
-			NULL, " Não occorreu nenhum desastre em Hinamizawa!", Line_WaitForInput);
+			NULL, " Não ocorreu nenhum desastre em Hinamizawa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300202", 256, TRUE);
 	OutputLine(NULL, "　だからお願い、早く呼び戻してっ！！」",
 			NULL, " Então, por favor, traga eles de volta!!\"", Line_Normal);
