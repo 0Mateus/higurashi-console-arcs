@@ -622,7 +622,7 @@ void main()
 			NULL, " Nós ainda somos funcionários públicos,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s20/13/441300067", 256, TRUE);
 	OutputLine(NULL, "せめて税金を払っている皆さんの範になる振る舞いをお願いしますよ」",
-			NULL, " então, por favor, tente agir de forma decente perto dos cidadãos que pagadores de impostos.\"", Line_Normal);
+			NULL, " então, por favor, tente agir de forma decente perto dos cidadãos pagadores de impostos.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
