@@ -1465,7 +1465,7 @@ void main()
 //r……魅音などは相手の顔色まで読んでいるようだ。質問からだけじゃ、自称『マスター』の域にも達した魅音には太刀打ちできない！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……魅音などは相手の顔色まで読んでいるようだ。質問からだけじゃ、自称『マスター』の域にも達した魅音には太刀打ちできない！",
-			NULL, "...Mion e as outras estavam cuidadosamente estudando as reações umas das outras. De nenhuma maneira eu poderia competir competir com uma \"mestra\" que poderia juntar informações das próprias perguntas.", Line_Normal);
+			NULL, "...Mion e as outras estavam cuidadosamente estudando as reações umas das outras. De nenhuma maneira eu poderia competir com uma \"mestra\" que poderia juntar informações das próprias perguntas.", Line_Normal);
 	ClearMessage();
 
 //rこの圧倒的な形勢不利を覆すには……俺も非情に徹しなければなるまいッ！！！
