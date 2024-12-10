@@ -176,7 +176,7 @@ void main()
 //r……夕飯が来るまで、何かで腹ごしらえしないとな。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……夕飯が来るまで、何かで腹ごしらえしないとな。",
-			NULL, "...Eu preciso fazer algo antes da hora da hora do jantar.", Line_Normal);
+			NULL, "...Eu preciso fazer algo antes da hora do jantar.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "right", 0, 0, 1000 );
