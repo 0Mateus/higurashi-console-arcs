@@ -1686,10 +1686,10 @@ void main()
 			NULL, "\"Alguém me disse.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s17/06/110600094", 256, TRUE);
 	OutputLine(NULL, "『それはオヤシロさまの祟りの前兆だったんだ』って。",
-			NULL, " 'Esse é um sinal de aviso da maldição de Oyashiro-sama.'", Line_WaitForInput);
+			NULL, " \"Esse é um sinal de aviso da maldição de Oyashiro-sama.\"", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s17/06/110600095", 256, TRUE);
 	OutputLine(NULL, "『きっとあの子は、心のどこかで雛見沢を捨てて逃げ出そうという気持ちがあったんだ…それをオヤシロさまは許さなかったんだ』って」",
-			NULL, " 'Essa criança devia ter o desejo de abandonar Hinamizawa guardado em algum lugar de seu coração... Oyashiro-sama não permitiria isso.'\"", Line_Normal);
+			NULL, " \"Essa criança devia ter o desejo de abandonar Hinamizawa guardado em algum lugar do seu coração... Oyashiro-sama não permitiria isso.\" \"", Line_Normal);
 	ClearMessage();
 
 //r村を捨てることを許さない神さまなんて…いるのだろうか？
@@ -2566,7 +2566,7 @@ void main()
 //r結局今日の勝負は、俺のドラマティックな勝利で幕を閉じたわけだが、その後のビリ決定戦も熾烈を極めた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "結局今日の勝負は、俺のドラマティックな勝利で幕を閉じたわけだが、その後のビリ決定戦も熾烈を極めた。",
-			NULL, "O jogo de hoje terminou com minha dramática vitória, mas foi seguida por uma balha feroz para evitar de ficar em último lugar.", Line_Normal);
+			NULL, "O jogo de hoje terminou com minha dramática vitória, mas foi seguida por uma batalha feroz para evitar de ficar em último lugar.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(4, 256, "none");
@@ -2605,7 +2605,7 @@ void main()
 //rたとえ不利があろうとも、それを自力で乗り越えて前に進む。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "たとえ不利があろうとも、それを自力で乗り越えて前に進む。",
-			NULL, "Mesmo que você esteja em desvantagem, você precisa superá-la usando sua própria força para ter sucesso.", Line_Normal);
+			NULL, "Mesmo que você esteja em desvantagem, você precisa superá-la usando sua própria força para obter sucesso.", Line_Normal);
 	ClearMessage();
 
 //r敵を撃つ！
@@ -2957,10 +2957,10 @@ void main()
 			NULL, "\"Oh~ ho ho ho ho!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s17/04/110400011", 256, TRUE);
 	OutputLine(NULL, "　私は甘くはありませんのよ？",
-			NULL, " Eu não são sou tão leve como o resto!", Line_WaitForInput);
+			NULL, " Eu não sou tão leve como o resto!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s17/04/110400012", 256, TRUE);
 	OutputLine(NULL, "　ちゃんと罰ゲームでいきますわぁ！」",
-			NULL, " Eu farei certo que seja uma punição!\"", Line_Normal);
+			NULL, " Farei certo que seja uma punição!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2993,7 +2993,7 @@ void main()
 //rそして、最後にレナにマジックを手渡して。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、最後にレナにマジックを手渡して。",
-			NULL, "E finalmente, eu entreguei o marcador para Rena.", Line_Normal);
+			NULL, "E finalmente, entreguei o marcador para Rena.", Line_Normal);
 	ClearMessage();
 
 //rレナは、う～んと考えていたが、パッと閃いたらしく、こう書いた。
@@ -3035,7 +3035,7 @@ void main()
 			NULL, "\"Naturalmente!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300041", 256, TRUE);
 	OutputLine(NULL, "　罰ゲームだもーん。",
-			NULL, " Esta é uma punição à final de contas.", Line_WaitForInput);
+			NULL, " Esta é uma punição afinal de contas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300042", 256, TRUE);
 	OutputLine(NULL, "ちゃんと着たまま帰ってね～！」",
 			NULL, " É melhor você vestir isto por todo caminho~!\"", Line_Normal);

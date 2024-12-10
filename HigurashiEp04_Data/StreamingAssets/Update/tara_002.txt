@@ -252,7 +252,7 @@ void main()
 			NULL, "\"Ora~, Keiichi-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s17/04/110400015", 256, TRUE);
 	OutputLine(NULL, "教室に入るなりバック宙の披露とは、さすがエンターティナーでございますわね！」",
-			NULL, " Você está parecendo um comediante, entrando na sala de aula dando um backflip chamativo desses!\"", Line_Normal);
+			NULL, " Você está parecendo um comediante, entrando na sala de aula dando uma cambalhota chamativa dessas!\"", Line_Normal);
 	ClearMessage();
 
 //r俺はむっくりと起き上がり、元凶へ向かって――、すたすた。k|yひょい。k|yびし！
@@ -974,7 +974,7 @@ void main()
 			NULL, "\"Obrigada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s17/05/110500021", 256, TRUE);
 	OutputLine(NULL, "みぃ…それでは、『沙都子』『斧』『中庭』！」",
-			NULL, " Mii~... Acho que foi \"Satoko\" com o \"Machado\" no \"Pátio\"!\"", Line_Normal);
+			NULL, " Mii... Acho que foi \"Satoko\" com o \"Machado\" no \"Pátio\"!\"", Line_Normal);
 	ClearMessage();
 
 //r犯人、凶器、犯行現場を１つ選び、全員に尋ねる。
@@ -986,7 +986,7 @@ void main()
 //rその内、１枚でも持っていたら『持っている』と答えなければならない。（何を持っているのか言わなくていいところがポイントだ）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その内、１枚でも持っていたら『持っている』と答えなければならない。（何を持っているのか言わなくていいところがポイントだ）",
-			NULL, "Se você tem qualquer uma dessas cartas, então você tem que dizer \"Eu tenho.\" Entretanto, você não precisa dizer qual delas você tem.", Line_Normal);
+			NULL, "Se você tiver qualquer uma dessas cartas, então tem que dizer \"Eu tenho.\" Entretanto, você não precisa dizer qual delas tem.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100053.「あ…、俺、持ってるぞ」
@@ -1068,7 +1068,7 @@ void main()
 //rいや待てよ、あると言っても、何枚持っているかは言っていない！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いや待てよ、あると言っても、何枚持っているかは言っていない！",
-			NULL, "Não, espere. Mesmo que elas tenham de dizer que têm uma, elas não têm de dizer quantas!", Line_Normal);
+			NULL, "Não, espere. Mesmo que elas tenham de dizer que têm uma, elas não precisam dizer quantas!", Line_Normal);
 	ClearMessage();
 
 //r今あると答えたレナと魅音のどっちかが、内２枚を持っていることも考えられる…！！
@@ -1185,7 +1185,7 @@ void main()
 	ShakeScreen( 1, 15, 15, 2, 0, );
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300082", 256, TRUE);
 	OutputLine(NULL, "　犯人確定！！」",
-			NULL, " Agora eu sei o criminoso!!\"", Line_Normal);
+			NULL, " Agora eu sei o culpado!!\"", Line_Normal);
 	ClearMessage();
 
 //r右往左往してゲームを進める内にとうとう魅音が挙手。
