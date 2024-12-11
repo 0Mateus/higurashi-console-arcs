@@ -214,7 +214,7 @@ void main()
 //rふと見ると、机の下に本屋の袋が転がっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ふと見ると、机の下に本屋の袋が転がっている。",
-			NULL, "Repentinamente, percebi a sacola da biblioteca deitada de lado na minha mesa.", Line_Normal);
+			NULL, "Repentinamente, percebi a sacola da livraria deitada de lado na minha mesa.", Line_Normal);
 	ClearMessage();
 
 //rほ～らあった、買ったばかりのやつ。…そうひとりごちながら、お気に入りのマンガを読もうとした時だった。
@@ -375,7 +375,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100133", 256, TRUE);
 	OutputLine(NULL, "「なんだ？　……さっき会ったばかりなのに？」",
-			NULL, "\"Por quê? ...Nós já não se encontramos mais cedo?\"", Line_Normal);
+			NULL, "\"Por quê? ...Nós já não nos encontramos mais cedo?\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS17/03/110300181.「さっき…って？」
@@ -661,7 +661,7 @@ void main()
 //r普段している服装だった。魅音の様子にも、特に変わったところはない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "普段している服装だった。魅音の様子にも、特に変わったところはない。",
-			NULL, "Ela estava vestindo suas roupas casuais. Mas apesar disso, ela não parecia diferente.", Line_Normal);
+			NULL, "Ela estava vestindo suas roupas casuais. Mas fora isso, não parecia estar nenhum pouco diferente.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100143.「魅音。kvS17/01/110100144.夕飯の準備はもう終わったのか？」
@@ -722,7 +722,7 @@ void main()
 //rあれだけの量の材料を使いこなすとなると、相当の手間ひまを掛けなきゃ、まず無理だろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あれだけの量の材料を使いこなすとなると、相当の手間ひまを掛けなきゃ、まず無理だろう。",
-			NULL, "Mesmo se for feito um profissional, aquela quantidade de ingredientes precisariam de uma quantidade imensurável de esforço para serem preparados.", Line_Normal);
+			NULL, "Mesmo se for feito por um profissional, aquela quantidade de ingredientes precisariam de uma quantidade imensurável de esforço para serem preparados.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_huteki_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -931,7 +931,7 @@ void main()
 //r魅音は先頭に立ち、図書館の中へ入って行った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は先頭に立ち、図書館の中へ入って行った。",
-			NULL, "Mion guiou o caminho enquanto entrava na biblioteca.", Line_Normal);
+			NULL, "Mion guiou o caminho enquanto entravamos na biblioteca.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1054,7 +1054,7 @@ void main()
 //rまた、それを記憶している人が、村にはいるということなんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、それを記憶している人が、村にはいるということなんだ。",
-			NULL, "Além disso, sinto que preciso descobrir sobre isso para poder se tornar parte da vila.", Line_Normal);
+			NULL, "Além disso, sinto que preciso descobrir mais sobre isso para poder me tornar parte da vila.", Line_Normal);
 	ClearMessage();
 
 //rそう思うと…人間という生き物は…いやが上にも興味をかき立てられる。
