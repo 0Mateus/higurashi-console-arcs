@@ -441,14 +441,14 @@ void main()
 			NULL, "\"Eu estive chamando por muito tempo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s17/00/112700004", 256, TRUE);
 	OutputLine(NULL, "本屋さんから電話よ」",
-			NULL, " A chamada telefônica é da biblioteca.\"", Line_Normal);
+			NULL, " A chamada telefônica é da livraria.\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100305.「え、本屋？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s17/01/110100305", 256, TRUE);
 	OutputLine(NULL, "「え、本屋？」",
-			NULL, "\"Hã? Biblioteca?\"", Line_Normal);
+			NULL, "\"Hã? Livraria?\"", Line_Normal);
 	ClearMessage();
 
 //圭一の母rvS17/00/112700005.「そう、なんか急ぎの用らしいわよ。kvS17/00/112700006.待たせてるんだから急いで」
@@ -464,7 +464,7 @@ void main()
 //r本屋？　電話を受けるような覚えはない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本屋？　電話を受けるような覚えはない。",
-			NULL, "Uma biblioteca? Eu não me lembro de ter dado o meu número a nenhuma.", Line_Normal);
+			NULL, "Uma livraria? Eu não me lembro de ter dado o meu número a nenhuma.", Line_Normal);
 	ClearMessage();
 
 //r少し不穏な感じはしたが、とりあえず階下におり、俺は受話器を取った。
@@ -483,7 +483,7 @@ void main()
 			NULL, "\"Sinto muito por ligar tão tarde da noite.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700053", 256, TRUE);
 	OutputLine(NULL, "私、興宮書房の大石と申します」",
-			NULL, " Meu nome é Ooishi da biblioteca de Okinomiya.\"", Line_Normal);
+			NULL, " Meu nome é Ooishi da livraria de Okinomiya.\"", Line_Normal);
 	ClearMessage();
 
 //r聞き覚えのある声だった。
@@ -509,7 +509,7 @@ void main()
 			NULL, "\"Me desculpe por isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700055", 256, TRUE);
 	OutputLine(NULL, "お母さんが出られたので、本屋さんということにしておきました。",
-			NULL, " Quando sua mãe atendeu, eu disse para ela que era da biblioteca.", Line_WaitForInput);
+			NULL, " Quando sua mãe atendeu, eu disse para ela que era da livraria.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700056", 256, TRUE);
 	OutputLine(NULL, "警察ですって名乗ると、いろいろご心配なされるでしょうから」",
 			NULL, " Pessoas tendem a ficar nervosas quando elas recebem uma ligação da polícia.\"", Line_Normal);
