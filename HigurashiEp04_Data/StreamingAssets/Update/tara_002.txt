@@ -1317,7 +1317,7 @@ void main()
 //r…と、ふと見ると、レナの顔色も冴えない。どうやら、俺とレナはこのゲームではかなり不利らしい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…と、ふと見ると、レナの顔色も冴えない。どうやら、俺とレナはこのゲームではかなり不利らしい。",
-			NULL, "...E quando olhei para Rena, percebi o quão pálida sua expressão parecia. Aparentemente, Rena e eu eramos igualmente ruins nesse jogo.", Line_Normal);
+			NULL, "...E quando olhei para Rena, percebi o quão pálida sua expressão parecia. Aparentemente, Rena e eu éramos igualmente ruins nesse jogo.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 2, "sprite/re1a_nande_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
