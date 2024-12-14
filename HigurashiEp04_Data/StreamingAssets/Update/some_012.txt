@@ -1,0 +1,3291 @@
+void main()
+{
+
+//*Someutsushi Day 12
+
+	FadeOutBGM( 0, 1000, FALSE  );
+	FadeOutBGM( 1, 1000, FALSE  );
+	FadeOutBGM( 2, 1000, FALSE  );
+	FadeOutBGM( 3, 1000, TRUE );
+
+//#12 裏切り者
+
+	PlayBGM( 2, "hm06_30", 128, 0 );
+	DrawScene("background/kimi_o1_03", 1000 );
+
+//夏美rvS04/36/310101002.「…おかーさん？」
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101002", 256, TRUE);
+	OutputLine(NULL, "「…おかーさん？」",
+			NULL, "\"...Mom?\"", Line_Normal);
+	ClearMessage();
+
+//r階段を下りて、私は薄暗いままのリビングをのぞき込む。そこにはおかーさんとおとーさんがいて、食い入るようにテレビ画面を凝視していた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "階段を下りて、私は薄暗いままのリビングをのぞき込む。そこにはおかーさんとおとーさんがいて、食い入るようにテレビ画面を凝視していた。",
+			NULL, "I headed down the stairs and looked into the dimly lit living room. Mom and Dad were there, gazing at the TV screen.", Line_Normal);
+	ClearMessage();
+
+//夏美母＆夏美の父ro75.vS04/00/310600096|S04/00/310700022.「「………」」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美母＆夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's mom and dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600096", 256, TRUE);
+	ModPlayVoiceLS(5, 0, "ps3/s04/00/310700022", 256, TRUE);
+	OutputLine(NULL, "「「………」」",
+			NULL, "\"\".........\"\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんはむきかけのりんごを手にしたまま、私に振り向きもしない。おとーさんも私に気づかないのか、それとも無視しているのか、悄然とした表情で画面を見つめていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんはむきかけのりんごを手にしたまま、私に振り向きもしない。おとーさんも私に気づかないのか、それとも無視しているのか、悄然とした表情で画面を見つめていた。",
+			NULL, "Mom was holding an unpeeled apple, not looking my way. And Dad was watching the TV with a crestfallen look on face. Either he didn't notice me either, or he was just ignoring me.", Line_Normal);
+	ClearMessage();
+
+//r流れているのは、…夕方のニュース番組。女性リポーターが画面に向かって、背後の田舎道を指し示しながら少し興奮した口調で説明を続けていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "流れているのは、…夕方のニュース番組。女性リポーターが画面に向かって、背後の田舎道を指し示しながら少し興奮した口調で説明を続けていた。",
+			NULL, "The evening news was on. A male reporter on the screen pointed to the country road behind him while continuing his explanation in a slightly agitated tone.", Line_Normal);
+	ClearMessage();
+
+//ＴＶアナrvS04/00/VT1B_Tvann1016.『はい、現場からお伝えします。本日正午過ぎ、岐阜県山中の県道で、女性の遺体が発見されました。年齢は７０歳から９０歳で、身長は１５０ｃｍ前後』
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_tvann1016", 256, TRUE);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＴＶアナ</color>", NULL, "<color=#f5e6d3>TV Announcer</color>", NULL, Line_Continue); }
+	OutputLine(NULL, "『はい、現場からお伝えします。本日正午過ぎ、岐阜県山中の県道で、女性の遺体が発見されました。年齢は７０歳から９０歳で、身長は１５０ｃｍ前後』",
+			NULL, "\"Hello, I'm live at the scene. This afternoon, the body of a woman was found on a rural road inside the mountains of Gifu prefecture. Her age is estimated between 70 and 90 years old. Her height is approximately 150 cm.\"", Line_Normal);
+	ClearMessage();
+
+//ＴＶアナrvS04/00/VT1B_Tvann1017.『警察の発表では殺害された後に遺棄されたとの見解で、被害者の身元を現在確認中……』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＴＶアナ</color>", NULL, "<color=#f5e6d3>TV Announcer</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_tvann1017", 256, TRUE);
+	OutputLine(NULL, "『警察の発表では殺害された後に遺棄されたとの見解で、被害者の身元を現在確認中……』",
+			NULL, "\"The police have released a statement suggesting that the body was abandoned after being killed. They are currently confirming the identity of the victim......\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "se137", 256, 64);
+
+//rそこで、テレビは消される。あとには静寂と、…重い空気がリビングに満ち満ちていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そこで、テレビは消される。あとには静寂と、…重い空気がリビングに満ち満ちていた。",
+			NULL, "Right then, the television shut off. After that, the room fell silent... and filled with a heavy atmosphere.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101003.「…そんな……」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101003", 256, TRUE);
+	OutputLine(NULL, "「…そんな……」",
+			NULL, "\"...No way......\"", Line_Normal);
+	ClearMessage();
+
+//r呆然と、ニュースの内容を反芻する。…おばーちゃんの遺体が、とうとう見つかってしまったのだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "呆然と、ニュースの内容を反芻する。…おばーちゃんの遺体が、とうとう見つかってしまったのだ。",
+			NULL, "I felt bewildered as I tried to collect my thoughts on the story from the news. ...Grandma's corpse had finally been found.", Line_Normal);
+	ClearMessage();
+
+//rでも、…どうして？　こんなに早く見つかるなんて、思ってもみなかったのに…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でも、…どうして？　こんなに早く見つかるなんて、思ってもみなかったのに…！",
+			NULL, "But... why? I never thought they would find it so quickly...!", Line_Normal);
+	ClearMessage();
+
+	DrawScene("white", 500 );
+	DrawScene("black", 500 );
+	DrawFilm( 2, 255, 225, 195, 255, 0, 500, TRUE );
+	DrawScene("background/kimi_g1", 500 );
+
+//r…もう、それが何日前だったか、…覚えていない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…もう、それが何日前だったか、…覚えていない。",
+			NULL, "...How many days had it been...? I'd already forgotten.", Line_Normal);
+	ClearMessage();
+
+//r昨日のことだったような気もするし、…ずいぶん昔のような錯覚さえ感じる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "昨日のことだったような気もするし、…ずいぶん昔のような錯覚さえ感じる。",
+			NULL, "It felt like it was only yesterday... yet it also felt like it was ages ago.", Line_Normal);
+	ClearMessage();
+
+//rあの日、……学校から帰って玄関のドアを開けるなりむっと漂ってきた、饐えたように生臭い空気。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あの日、……学校から帰って玄関のドアを開けるなりむっと漂ってきた、饐えたように生臭い空気。",
+			NULL, "That day...... as I came home from school and opened the front door, a foul odor caught me off guard.", Line_Normal);
+	ClearMessage();
+
+//rそれを吸い込んでしまった私は思わずむせ込んで、顔をしかめながら家の中を見渡した。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それを吸い込んでしまった私は思わずむせ込んで、顔をしかめながら家の中を見渡した。",
+			NULL, "I almost choked after unintentionally inhaling it, then grimaced as I began examining the inside of the house.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101004.『っ、…なんだろう、これ…？』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101004", 256, TRUE);
+	OutputLine(NULL, "『っ、…なんだろう、これ…？』",
+			NULL, "\"...What is this...?\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+	FadeFilm( 500, TRUE );
+	PlaySE(3, "thisikuki", 256, 64);
+
+//r訝しく思いながらその匂いのする方向に歩いていくと、お風呂場からザシッ、ザシッと氷をかくような音が聞こえてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "訝しく思いながらその匂いのする方向に歩いていくと、お風呂場からザシッ、ザシッと氷をかくような音が聞こえてくる。",
+			NULL, "I suspiciously headed toward the source of the smell, then I heard a noise from the bathroom that sounded like shaving ice.", Line_Normal);
+	ClearMessage();
+
+//rそして私は、そこで何をしてるんだろうか、とガラスドアを開け、——中を、覗き込んだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして私は、そこで何をしてるんだろうか、とガラスドアを開け、——中を、覗き込んだ。",
+			NULL, "Wondering what was happening in there, I opened the glass door... and took a look inside.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101005.『おかーさん？kvS04/36/310101006.　なにして、kvS04/36/310101007.————ひぃッッ？！』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101005", 256, TRUE);
+	OutputLine(NULL, "『おかーさん？",
+			NULL, "\"Mom?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101006", 256, TRUE);
+	OutputLine(NULL, "　なにして、",
+			NULL, " What are you,", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101007", 256, TRUE);
+	OutputLine(NULL, "————ひぃッッ？！』",
+			NULL, " ...Eeeek?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "thisikuki", 256, 64);
+	DrawScene("background/ryuuketu1", 1000 );
+
+//r息を飲んで後じさり、その場に躓いて座り込む。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "息を飲んで後じさり、その場に躓いて座り込む。",
+			NULL, "I gasped, stepped back, then stumbled and collapsed to the floor.", Line_Normal);
+	ClearMessage();
+
+//r…そこではおかーさんが、おばーちゃんの体に馬乗りになって、おばーちゃんの腹部に何度も、何度も包丁を振り上げ、血飛沫を全身に浴びながら突き立てていた…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そこではおかーさんが、おばーちゃんの体に馬乗りになって、おばーちゃんの腹部に何度も、何度も包丁を振り上げ、血飛沫を全身に浴びながら突き立てていた…！",
+			NULL, "...There, I saw Mom straddling over Grandma's body like she was riding a horse, raising a kitchen knife overhead, repeatedly thrusting it into Grandma's stomach, blood splattering all over her as she did...!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600097.『……おかえり、夏美…？』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600097", 256, TRUE);
+	OutputLine(NULL, "『……おかえり、夏美…？』",
+			NULL, "\"......Welcome home, Natsumi...\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101008.『あ…、ああっ…？！』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101008", 256, TRUE);
+	OutputLine(NULL, "『あ…、ああっ…？！』",
+			NULL, "\"Ah... aah...?!\"", Line_Normal);
+	ClearMessage();
+
+//rぎょろり、と。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ぎょろり、と。",
+			NULL, "She was glaring at me.", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは血に塗れた顔を向けて、禍々しい光をまとった目で私を見る。…その目は、もはや正気の色ではなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは血に塗れた顔を向けて、禍々しい光をまとった目で私を見る。…その目は、もはや正気の色ではなかった。",
+			NULL, "Mom turned her blood-soaked face toward me and stared at me with an ominous light in her eyes. Not a single trace of sanity remained there.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101009.『…ど、どうし、…てっ…？！』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101009", 256, TRUE);
+	OutputLine(NULL, "『…ど、どうし、…てっ…？！』",
+			NULL, "\"...W-wh...y...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600098.『————決まってるでしょう…？』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600098", 256, TRUE);
+	OutputLine(NULL, "『————決まってるでしょう…？』",
+			NULL, "\"...Isn't it obvious...?\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは小首を奇妙にかしげながら、私ににたり…、と笑ってみせた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは小首を奇妙にかしげながら、私ににたり…、と笑ってみせた。",
+			NULL, "Mom cocked her head in confusion as she looked at me... and laughed.", Line_Normal);
+	ClearMessage();
+
+//rなんで殺したのか、…別に、大した理由ではなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なんで殺したのか、…別に、大した理由ではなかった。",
+			NULL, "Why did she kill her...? The reason turned out to be rather trivial.", Line_Normal);
+	ClearMessage();
+
+//r朝からずっと続いていた、おばーちゃんの念仏じみた呪唱があまりにも煩くて耳障りだったので、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "朝からずっと続いていた、おばーちゃんの念仏じみた呪唱があまりにも煩くて耳障りだったので、",
+			NULL, "Grandma's ritualistic praying since this morning had been getting on Mom's nerves.", Line_Normal);
+	ClearMessage();
+
+//rおかーさんがそれを止めろと怒鳴り、おばーちゃんもそれに対して口汚く罵った結果、…勢いあまって、こうなってしまったそうだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんがそれを止めろと怒鳴り、おばーちゃんもそれに対して口汚く罵った結果、…勢いあまって、こうなってしまったそうだ。",
+			NULL, "So she yelled at her to stop it, but Grandma said some harsh things in response... They must have gotten carried away and it came to this.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600099.『…仕方ないでしょう？kvS04/00/310600100.　このままだと、私たち一家が雛見沢の人間だってご近所にも知られてしまうしね…。kvS04/00/310600101.夏美だって、おばーちゃんの奇行のせいでみんなから変な目で見られるのは、…嫌でしょう？』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600099", 256, TRUE);
+	OutputLine(NULL, "『…仕方ないでしょう？",
+			NULL, "\"...There was no choice.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600100", 256, TRUE);
+	OutputLine(NULL, "　このままだと、私たち一家が雛見沢の人間だってご近所にも知られてしまうしね…。",
+			NULL, " The neighbors would have found out we are from Hinamizawa if things stayed the same... ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600101", 256, TRUE);
+	OutputLine(NULL, "夏美だって、おばーちゃんの奇行のせいでみんなから変な目で見られるのは、…嫌でしょう？』",
+			NULL, "Even you wouldn't like be stared at like a freak because of Grandma's eccentric behavior... don't you agree?\"", Line_Normal);
+	ClearMessage();
+
+//r…おかーさんのその言い訳は明らかに後付けだと、私は最初から見抜いていた。元々おばーちゃんを疎ましく思う気持ちが高じて、勢いをこれ幸いとばかりに殺意へと変え、凶刃をふるったに違いない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…おかーさんのその言い訳は明らかに後付けだと、私は最初から見抜いていた。元々おばーちゃんを疎ましく思う気持ちが高じて、勢いをこれ幸いとばかりに殺意へと変え、凶刃をふるったに違いない。",
+			NULL, "...Mom had clearly come up with an excuse in hindsight, but I saw right through her from the very beginning. She hadn't sympathized with Grandma from the start, which snowballed into murderous intent when tempers grew too high, and she killed her with that knife. That must be how it happened.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+
+//rそれでも、今までの生活を守るためにはもう、…後戻りなんてできなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それでも、今までの生活を守るためにはもう、…後戻りなんてできなかった。",
+			NULL, "Still, there was no turning back... not if I wanted to protect the life I'd built until now.", Line_Normal);
+	ClearMessage();
+
+//rもしもこのことが誰かに知られたら、おかーさんまでこの家からいなくなってしまうんだから。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "もしもこのことが誰かに知られたら、おかーさんまでこの家からいなくなってしまうんだから。",
+			NULL, "If someone found out, Mom would also be taken away from this house.", Line_Normal);
+	ClearMessage();
+
+//r…だから、私たちはその晩、帰宅したおとーさんを説得して、おばーちゃんの遺体を隠すために山へ捨てに行くことを決心した……。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…だから、私たちはその晩、帰宅したおとーさんを説得して、おばーちゃんの遺体を隠すために山へ捨てに行くことを決心した……。",
+			NULL, "...So once Dad came home that night, we convinced him to hide Grandma's body in the mountains......", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 225, 195, 255, 0, 1000, TRUE );
+	DrawScene("background/kuruma5_02", 1000 );
+	DrawScene("background/ymo2", 1000 );
+	DrawScene("background/hikari", 1000 );
+	PlaySE(3, "addse12", 256, 64);
+	DrawScene("background/ymo2", 1000 );
+	PlaySE(3, "addse28", 256, 64);
+	Wait( 4000 );
+	PlaySE(3, "addse22", 256, 64);
+
+//rおとーさんの運転で暗い山の中にたどりつくと、私たちは人目につかない場所を探し回った…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんの運転で暗い山の中にたどりつくと、私たちは人目につかない場所を探し回った…。",
+			NULL, "Driving through the dark mountains with Dad, we searched for a secluded, unfamiliar place...", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600102.『…おばーちゃんが見つかっちゃったら、もう今までの生活には戻れないのよ。kvS04/00/310600103.…だから、絶対に発見できないところに隠さなきゃ、…ね』
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600102", 256, TRUE);
+	OutputLine(NULL, "『…おばーちゃんが見つかっちゃったら、もう今までの生活には戻れないのよ。",
+			NULL, "\"...We can't go back to our normal lives if Grandma's body is found.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600103", 256, TRUE);
+	OutputLine(NULL, "…だから、絶対に発見できないところに隠さなきゃ、…ね』",
+			NULL, " ...So we have to hide it somewhere it will never be found... Understand?\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/ymo3", 1000 );
+
+//rおかーさんの脅迫に近い言葉を受けた私たちは、どこなら見つからないかを必死に考えながら、懐中電灯を片手に歩いて、歩いて、歩き続けた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの脅迫に近い言葉を受けた私たちは、どこなら見つからないかを必死に考えながら、懐中電灯を片手に歩いて、歩いて、歩き続けた。",
+			NULL, "After receiving those intimidating instructions from Mom, I continued walking with a flashlight in hand, desperately thinking of a hiding place that would never be found.", Line_Normal);
+	ClearMessage();
+
+//rそして、怖い思いをしながら、…心細い思いをしながら、…罪悪感に突き上げられながら、家族それぞれがおばーちゃんの遺体を土に埋めたんだ……。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして、怖い思いをしながら、…心細い思いをしながら、…罪悪感に突き上げられながら、家族それぞれがおばーちゃんの遺体を土に埋めたんだ……。",
+			NULL, "And, while thinking scary thoughts... while feeling uneasy... while being crushed by guilt, my whole family buried Grandma's body in the ground......", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+	FadeFilm( 500, TRUE );
+	DrawScene("background/kimi_o1_03", 1000 );
+
+//rなのに、…それなのに…っ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なのに、…それなのに…っ！",
+			NULL, "And yet... for all that...!", Line_Normal);
+	ClearMessage();
+
+//rあんなに怖ろしい思いをしながら、泣きながら、隠しに行ったのに、…全部、ムダになってしまったの……？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あんなに怖ろしい思いをしながら、泣きながら、隠しに行ったのに、…全部、ムダになってしまったの……？",
+			NULL, "We went to hide her in spite of the fear and sorrow we felt at the time... but was it all in vain......?", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101010.「……そんな…っ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101010", 256, TRUE);
+	OutputLine(NULL, "「……そんな…っ！」",
+			NULL, "\"......No way...!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r私は絶望のあまり、へなへなとその場に崩れ落ちる。…おとーさんはうつむいたままで、…おかーさんはリモコンを放ると、ゆっくりとテレビから私に視線を戻した。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は絶望のあまり、へなへなとその場に崩れ落ちる。…おとーさんはうつむいたままで、…おかーさんはリモコンを放ると、ゆっくりとテレビから私に視線を戻した。",
+			NULL, "Filled with despair, I collapsed on the spot. ...Dad kept his head lowered. ...Mom set down the remote control, then slowly turned her eyes away from the TV and back to me.", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 2, 200, FALSE  );
+
+//夏美の母rvS04/00/310600104.「どういうことなのかしらねぇ、…夏美？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600104", 256, TRUE);
+	OutputLine(NULL, "「どういうことなのかしらねぇ、…夏美？」",
+			NULL, "\"What's the meaning of this... Natsumi?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101011.「…えっ？kvS04/36/310101012.　わた、私…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101011", 256, TRUE);
+	OutputLine(NULL, "「…えっ？",
+			NULL, "\"...Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101012", 256, TRUE);
+	OutputLine(NULL, "　わた、私…？」",
+			NULL, " M-me...?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600105.「なんで見つかったのか、って聞いてるんだけど…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600105", 256, TRUE);
+	OutputLine(NULL, "「なんで見つかったのか、って聞いてるんだけど…？」",
+			NULL, "\"I'm asking you why it was found...\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101013.「し、知らないッ…！kvS04/36/310101014.　わ、私が知るわけなっ——」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101013", 256, TRUE);
+	OutputLine(NULL, "「し、知らないッ…！",
+			NULL, "\"I-I don't know...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101014", 256, TRUE);
+	OutputLine(NULL, "　わ、私が知るわけなっ——」",
+			NULL, " T-there's no way I could...\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	PlayBGM( 2, "hm06_25", 128, 0 );
+
+//rバンッ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "バンッ！",
+			NULL, "Bang!", Line_Normal);
+	ClearMessage();
+
+//rおかーさんがテーブルを勢いよく叩いて、立ち上がる。上に載った灰皿が、激しく跳ね上がって床に落ちた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんがテーブルを勢いよく叩いて、立ち上がる。上に載った灰皿が、激しく跳ね上がって床に落ちた。",
+			NULL, "Mom slammed the table while rising to her feet. The ashtray resting there was launched to the floor.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600106.「知らないはずはないでしょう？！kvS04/00/310600107.　みんなで捨てに行ったじゃない？kvS04/00/310600108.　忘れたとは言わせないわよッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600106", 256, TRUE);
+	OutputLine(NULL, "「知らないはずはないでしょう？！",
+			NULL, "\"Like hell you don't know!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600107", 256, TRUE);
+	OutputLine(NULL, "　みんなで捨てに行ったじゃない？",
+			NULL, " We all got rid of it together, didn't we?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600108", 256, TRUE);
+	OutputLine(NULL, "　忘れたとは言わせないわよッ！」",
+			NULL, " I won't let you say you forgot!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101015.「お、おかーさん…っ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101015", 256, TRUE);
+	OutputLine(NULL, "「お、おかーさん…っ」",
+			NULL, "\"M-Mom...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600109.「…だけど、家族の中に裏切り者がいた。kvS04/00/310600110.そういうことじゃないの？kvS04/00/310600111.　違うのッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600109", 256, TRUE);
+	OutputLine(NULL, "「…だけど、家族の中に裏切り者がいた。",
+			NULL, "\"...But there was a traitor in our family.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600110", 256, TRUE);
+	OutputLine(NULL, "そういうことじゃないの？",
+			NULL, " Isn't that so?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600111", 256, TRUE);
+	OutputLine(NULL, "　違うのッ？！」",
+			NULL, " Am I wrong?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600112.「わざと道端からでも、わかるように！kvS04/00/310600113.　すぐに見つかるような場所におばーちゃんを置いた人がいた、そういうことでしょッ！！kvS04/00/310600114.　——夏美…っ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600112", 256, TRUE);
+	OutputLine(NULL, "「わざと道端からでも、わかるように！",
+			NULL, "\"You placed her by the roadside on purpose so she'd easily be found!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600113", 256, TRUE);
+	OutputLine(NULL, "　すぐに見つかるような場所におばーちゃんを置いた人がいた、そういうことでしょッ！！",
+			NULL, " Someone here chose to hide Grandma in a place that would be discovered right away! Isn't that how it is?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600114", 256, TRUE);
+	OutputLine(NULL, "　——夏美…っ？」",
+			NULL, " ...Natsumi...?\"", Line_Normal);
+	ClearMessage();
+
+//rはっ、と息を飲んで私は凍りつく。『裏切り者』、…それが、この私を指していることに気づいたからだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "はっ、と息を飲んで私は凍りつく。『裏切り者』、…それが、この私を指していることに気づいたからだ。",
+			NULL, "I took a breath and froze. I had realized that she was implicating me as the \"traitor.\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101016.「わ、私じゃない。kvS04/36/310101017.私、本当に知らない！kvS04/36/310101018.　本当に、なんにも知らないっ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101016", 256, TRUE);
+	OutputLine(NULL, "「わ、私じゃない。",
+			NULL, "\"I-it's not me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101017", 256, TRUE);
+	OutputLine(NULL, "私、本当に知らない！",
+			NULL, " I really don't know!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101018", 256, TRUE);
+	OutputLine(NULL, "　本当に、なんにも知らないっ…！」",
+			NULL, " Seriously, I don't know anything...!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600115.「しらばっくれるなッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600115", 256, TRUE);
+	OutputLine(NULL, "「しらばっくれるなッッ！！」",
+			NULL, "\"You're still playing dumb?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 500 );
+
+//夏美rvS04/36/310101019.「きゃあっっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101019", 256, TRUE);
+	OutputLine(NULL, "「きゃあっっ？！」",
+			NULL, "\"Kyaaa?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが、落ちた灰皿をつかんで私に叩きつける。頭から灰をかぶせられて、思わずむせて咳き込んだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが、落ちた灰皿をつかんで私に叩きつける。頭から灰をかぶせられて、思わずむせて咳き込んだ。",
+			NULL, "Mom grabbed the fallen ashtray and smacked me with it. The ashes covered my face, and I suddenly started coughing.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600116.「あんたじゃなければ、一体誰だって言うのよッ？！kvS04/00/310600117.　あんた以外に、誰がやるっていうのッ！kvS04/00/310600118.　答えてみなさい、さあッ！kvS04/00/310600119.　さあァッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600116", 256, TRUE);
+	OutputLine(NULL, "「あんたじゃなければ、一体誰だって言うのよッ？！",
+			NULL, "\"If it's not you, then who the hell are you saying it is?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600117", 256, TRUE);
+	OutputLine(NULL, "　あんた以外に、誰がやるっていうのッ！",
+			NULL, " Who else could have done it but you?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600118", 256, TRUE);
+	OutputLine(NULL, "　答えてみなさい、さあッ！",
+			NULL, " Come on, answer me!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600119", 256, TRUE);
+	OutputLine(NULL, "　さあァッッ！！」",
+			NULL, " Come ooon!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101020.「ちっ、ちがっ…！kvS04/36/310101021.　わ、わた、しっ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101020", 256, TRUE);
+	OutputLine(NULL, "「ちっ、ちがっ…！",
+			NULL, "\"Y-you're wro...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101021", 256, TRUE);
+	OutputLine(NULL, "　わ、わた、しっ…！」",
+			NULL, " I-I... was...!\"", Line_Normal);
+	ClearMessage();
+
+//rそんな、そんなッ…私じゃない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そんな、そんなッ…私じゃない！",
+			NULL, "It's, it's... not me!", Line_Normal);
+	ClearMessage();
+
+//r私は何も知らない！　答えられない！　答えようがないッ…！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は何も知らない！　答えられない！　答えようがないッ…！！",
+			NULL, "I don't know anything! I can't answer! There's no way I can answer...!!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101022.「…お、おとーさん…っ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101022", 256, TRUE);
+	OutputLine(NULL, "「…お、おとーさん…っ」",
+			NULL, "\"...D-Dad...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700023.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700023", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//r助けを求めて、おとーさんを見る。…だけどおとーさんは、誰とも視線を合わさないようにじっと、うつむいたままだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "助けを求めて、おとーさんを見る。…だけどおとーさんは、誰とも視線を合わさないようにじっと、うつむいたままだった。",
+			NULL, "Seeking help, I looked to Dad. ...However, Dad kept his head hung, avoiding eye contact with everyone.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101023.「…ね、ねぇおとーさん？kvS04/36/310101024.　私、ちゃんとやったでしょ？kvS04/36/310101025.　そうだよね？kvS04/36/310101026.　ねぇっ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101023", 256, TRUE);
+	OutputLine(NULL, "「…ね、ねぇおとーさん？",
+			NULL, "\"...H-hey, Dad?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101024", 256, TRUE);
+	OutputLine(NULL, "　私、ちゃんとやったでしょ？",
+			NULL, " I did it properly, didn't I?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101025", 256, TRUE);
+	OutputLine(NULL, "　そうだよね？",
+			NULL, " Isn't that right?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101026", 256, TRUE);
+	OutputLine(NULL, "　ねぇっ？」",
+			NULL, " Isn't it?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600120.「止めなさいっ！！kvS04/00/310600121.　また甘えた声でお父さん、お父さんって！kvS04/00/310600122.　人に頼ればいいとでも思ってるの？！kvS04/00/310600123.　いい加減にしなさいッ！kvS04/00/310600124.　お父さんがそんなこと、するはずがないでしょうがッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600120", 256, TRUE);
+	OutputLine(NULL, "「止めなさいっ！！",
+			NULL, "\"Stop it!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600121", 256, TRUE);
+	OutputLine(NULL, "　また甘えた声でお父さん、お父さんって！",
+			NULL, " Grow up already! Stop begging him for help!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600122", 256, TRUE);
+	OutputLine(NULL, "　人に頼ればいいとでも思ってるの？！",
+			NULL, " Do you think it's right to be so dependent on other people?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600123", 256, TRUE);
+	OutputLine(NULL, "　いい加減にしなさいッ！",
+			NULL, " Give me a break!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600124", 256, TRUE);
+	OutputLine(NULL, "　お父さんがそんなこと、するはずがないでしょうがッ！！」",
+			NULL, " Your father wouldn't possibly do something like that!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600125.「家族を窮地に追い込むような、そんな馬鹿なこと、あんた以外に誰がするっていうのよッ？！kvS04/00/310600126.　——ね・え・っ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600125", 256, TRUE);
+	OutputLine(NULL, "「家族を窮地に追い込むような、そんな馬鹿なこと、あんた以外に誰がするっていうのよッ？！",
+			NULL, "\"Who else besides you would do such a stupid thing and drive the family in a tight spot?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600126", 256, TRUE);
+	OutputLine(NULL, "　——ねえ・っ？！」",
+			NULL, " ...Well?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700024.「————う…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700024", 256, TRUE);
+	OutputLine(NULL, "「————う…」",
+			NULL, "\"...Uuh...\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんがゆっくりとした動作で、おとーさんに微笑みかける。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんがゆっくりとした動作で、おとーさんに微笑みかける。",
+			NULL, "Mom very slowly smiled at Dad.", Line_Normal);
+	ClearMessage();
+
+//rその笑顔はあまりに冷たく、威圧するような、…脅し、という言葉のよく似合う容貌だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その笑顔はあまりに冷たく、威圧するような、…脅し、という言葉のよく似合う容貌だった。",
+			NULL, "That smile was cold and intimidating... Threatening was the word that best matched its appearance.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600127.「どうなのっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600127", 256, TRUE);
+	OutputLine(NULL, "「どうなのっ？！」",
+			NULL, "\"What do you think?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700025.「う……、あ、あぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700025", 256, TRUE);
+	OutputLine(NULL, "「う……、あ、あぁ…」",
+			NULL, "\"Uh...... oh, ummm...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600128.「————！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600128", 256, TRUE);
+	OutputLine(NULL, "「————！！」",
+			NULL, "\"...!!\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんは力なくうなずく。それを見て、私は見捨てられたような思いで泣きたくなった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんは力なくうなずく。それを見て、私は見捨てられたような思いで泣きたくなった。",
+			NULL, "Dad nodded powerlessly. When I saw that, I felt abandoned and wanted to cry.", Line_Normal);
+	ClearMessage();
+
+//r…信じられない！　おとーさん、どうしてなの？！　どうして嘘をつくの？！　私は、何もしていない。すぐに見つかるような場所におばーちゃんを置いたのは、私じゃない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…信じられない！　おとーさん、どうしてなの？！　どうして嘘をつくの？！　私は、何もしていない。すぐに見つかるような場所におばーちゃんを置いたのは、私じゃない！",
+			NULL, "...I can't believe it! Dad, why are you doing this? Why are you lying?! I haven't done anything. It wasn't me who put Grandma in a place that was easy to find!", Line_Normal);
+	ClearMessage();
+
+//rあれを置いたのは、…おとーさんじゃないかッ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あれを置いたのは、…おとーさんじゃないかッ？！",
+			NULL, "The one who did that... was you Dad, wasn't it?!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101027.「ま、待ってよ、おとーさん？！kvS04/36/310101028.　違うって言ってよ！kvS04/36/310101029.　ねぇ！　ねぇっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101027", 256, TRUE);
+	OutputLine(NULL, "「ま、待ってよ、おとーさん？！",
+			NULL, "\"H-hold on, Dad?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101028", 256, TRUE);
+	OutputLine(NULL, "　違うって言ってよ！",
+			NULL, " Say it isn't so!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101029", 256, TRUE);
+	OutputLine(NULL, "　ねぇ！　ねぇっ！！」",
+			NULL, " Right? Right?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600129.「夏美…、わかる？kvS04/00/310600130.　思い出して。kvS04/00/310600131.これは全部、あなたが一人でやったことなの。kvS04/00/310600132.おばーちゃんを殺して、山に捨てに行った…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600129", 256, TRUE);
+	OutputLine(NULL, "「夏美…、わかる？",
+			NULL, "\"Natsumi... you understand?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600130", 256, TRUE);
+	OutputLine(NULL, "　思い出して。",
+			NULL, " You must remember.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600131", 256, TRUE);
+	OutputLine(NULL, "これは全部、あなたが一人でやったことなの。",
+			NULL, " You did all of this yourself.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600132", 256, TRUE);
+	OutputLine(NULL, "おばーちゃんを殺して、山に捨てに行った…」",
+			NULL, " Killing Grandma, abandoning her in the mountains...\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101030.「————ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101030", 256, TRUE);
+	OutputLine(NULL, "「————ッ？！」",
+			NULL, "\"...?!\"", Line_Normal);
+	ClearMessage();
+
+	Negative( 1000, TRUE );
+	FadeOutBGM( 2, 200, FALSE  );
+
+//rぎょっ、と私は目を見開く。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ぎょっ、と私は目を見開く。",
+			NULL, "In shock, I opened my eyes.", Line_Normal);
+	ClearMessage();
+
+//rなっ、…何を言ってるの、おかーさんっ？！　突然、何を言い出すのよぉッ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なっ、…何を言ってるの、おかーさんっ？！　突然、何を言い出すのよぉッ？！",
+			NULL, "Wh... what are you talking about, Mom?! Where did this come from?!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600133.「だから、…夏美。kvS04/00/310600134.あれは全部、夏美が一人でやったことなの。kvS04/00/310600135.…そうよね？kvS04/00/310600136.　そうだったじゃない。kvS04/00/310600137.だから悪いのはあなたひとり、…でしょ…ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600133", 256, TRUE);
+	OutputLine(NULL, "「だから、…夏美。",
+			NULL, "\"Like I said... Natsumi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600134", 256, TRUE);
+	OutputLine(NULL, "あれは全部、夏美が一人でやったことなの。",
+			NULL, " You did all of that yourself.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600135", 256, TRUE);
+	OutputLine(NULL, "…そうよね？",
+			NULL, " ...Isn't that so?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600136", 256, TRUE);
+	OutputLine(NULL, "　そうだったじゃない。",
+			NULL, " That must be the case.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600137", 256, TRUE);
+	OutputLine(NULL, "だから悪いのはあなたひとり、…でしょ…ッ？！」",
+			NULL, " So it's all your fault... right...?!\"", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "hm02_12", 128, 0 );
+	Wait( 500 );
+
+//夏美rvS04/36/310101031.「ど、どうしてッ？！kvS04/36/310101032.　嘘！　嘘だよッ！kvS04/36/310101033.　だって、私が学校から帰ったら、おかーさんがもう、おばーちゃんをッ——」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101031", 256, TRUE);
+	OutputLine(NULL, "「ど、どうしてッ？！",
+			NULL, "\"W-why are you saying this?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101032", 256, TRUE);
+	OutputLine(NULL, "　嘘！　嘘だよッ！",
+			NULL, " A lie! You're lying!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101033", 256, TRUE);
+	OutputLine(NULL, "　だって、私が学校から帰ったら、おかーさんがもう、おばーちゃんをッ——」",
+			NULL, " Because when I came home from school, you had already taken care of Grandma and...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600138.「……違うわ。kvS04/00/310600139.思い出しなさい。kvS04/00/310600140.あなたが、おばあちゃんを殺したのよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600138", 256, TRUE);
+	OutputLine(NULL, "「……違うわ。",
+			NULL, "\"......You're wrong.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600139", 256, TRUE);
+	OutputLine(NULL, "思い出しなさい。",
+			NULL, " Please think back.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600140", 256, TRUE);
+	OutputLine(NULL, "あなたが、おばあちゃんを殺したのよ」",
+			NULL, " You were the one who killed Grandma.\"", Line_Normal);
+	ClearMessage();
+
+//r…そ、そんな……！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そ、そんな……！",
+			NULL, "...Th-that's......!", Line_Normal);
+	ClearMessage();
+
+//r私じゃない！　私はそんなこと、やってないっ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私じゃない！　私はそんなこと、やってないっ！！",
+			NULL, "It wasn't me! I didn't do it!", Line_Normal);
+	ClearMessage();
+
+//rやったのは、おかーさんでしょ？…そうでしょ？！　なんで私なのっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "やったのは、おかーさんでしょ？…そうでしょ？！　なんで私なのっ？！",
+			NULL, "Mom is the one who did it, right? ...Right?! Why is she saying it was me?!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600141.……家族はお互い、かばいあうもの。kvS04/00/310600142.そうでしょう？kvS04/00/310600143.　…そうよね？kvS04/00/310600144.　それなら、あなたも家族をかばわなくちゃね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600141", 256, TRUE);
+	OutputLine(NULL, "……家族はお互い、かばいあうもの。",
+			NULL, "\"......Families are supposed to cover for one another.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600142", 256, TRUE);
+	OutputLine(NULL, "そうでしょう？",
+			NULL, " Isn't that right?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600143", 256, TRUE);
+	OutputLine(NULL, "　…そうよね？",
+			NULL, " ...Isn't it?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600144", 256, TRUE);
+	OutputLine(NULL, "　それなら、あなたも家族をかばわなくちゃね」",
+			NULL, " In that case, you need to cover for your family too.\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが冷たい笑みを浮かべながら、私を見る。…それは、さっきおとーさんにしてみせた恫喝と同じ、氷のような微笑だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが冷たい笑みを浮かべながら、私を見る。…それは、さっきおとーさんにしてみせた恫喝と同じ、氷のような微笑だった。",
+			NULL, "Mom looked at me, wearing a cold smile on her face. ...It was the same ice-cold smile she'd threatened Dad with earlier.", Line_Normal);
+	ClearMessage();
+
+//rわ、…わからない……！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "わ、…わからない……！",
+			NULL, "I... I don't understand......!", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの言ってること、…おかーさんがどういうつもりなのか、私っ、全然わからないよッッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの言ってること、…おかーさんがどういうつもりなのか、私っ、全然わからないよッッ！！",
+			NULL, "What is Mom saying...? What's she trying to do? I don't get it any of it!!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101034.「……ま、…待っ…て…！kvS04/36/310101035.　わ、わた…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101034", 256, TRUE);
+	OutputLine(NULL, "「……ま、…待っ…て…！",
+			NULL, "\"......H... hold... on...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101035", 256, TRUE);
+	OutputLine(NULL, "　わ、わた…」",
+			NULL, " I-I'm...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600145.「もしも家族に累が及ぶようなことになったら…。kvS04/00/310600146.その時は夏美、あなたが家族全員の代表として、警察に出頭するの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600145", 256, TRUE);
+	OutputLine(NULL, "「もしも家族に累が及ぶようなことになったら…。",
+			NULL, "\"If the whole family is going to get in trouble for this...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600146", 256, TRUE);
+	OutputLine(NULL, "その時は夏美、あなたが家族全員の代表として、警察に出頭するの」",
+			NULL, " You'll turn yourself into the police on behalf of the whole family, Natsumi.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600147.「…あなた、一人で。kvS04/00/310600148.……家族を裏切った罰として、家族のために犠牲になってもらうわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600147", 256, TRUE);
+	OutputLine(NULL, "「…あなた、一人で。",
+			NULL, "\"...All by yourself.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600148", 256, TRUE);
+	OutputLine(NULL, "……家族を裏切った罰として、家族のために犠牲になってもらうわ」",
+			NULL, " ......You'll be sacrificed for the sake of our family, as punishment for betraying us.\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101036.「どっ、どうしてぇッッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101036", 256, TRUE);
+	OutputLine(NULL, "「どっ、どうしてぇッッ？！」",
+			NULL, "\"W-why are you doing thiiis?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの瞳を見つめ返す。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの瞳を見つめ返す。",
+			NULL, "I stared straight into Mom's eyes.", Line_Normal);
+	ClearMessage();
+
+//rけど、まるでそこには生気がなく、何の感情もこもっていない。そして私がどれだけ涙を流して、懸命に哀願するように見上げてみても、おかーさんは笑みに似た表情を薄気味悪く浮かべているだけだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "けど、まるでそこには生気がなく、何の感情もこもっていない。そして私がどれだけ涙を流して、懸命に哀願するように見上げてみても、おかーさんは笑みに似た表情を薄気味悪く浮かべているだけだった。",
+			NULL, "But I couldn't sense anything. It was as if there was no life inside them. And no matter how tearfully I pleaded to her, Mom just looked at me with an eerie expression loosely resembling a smile.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101037.「やだ…。kvS04/36/310101038.やだ、おかーさん…。kvS04/36/310101039.ねぇ、何を言っているの？kvS04/36/310101040.　意味がわからないよ。kvS04/36/310101041.ねぇ、おとーさん…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101037", 256, TRUE);
+	OutputLine(NULL, "「やだ…。",
+			NULL, "\"No...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101038", 256, TRUE);
+	OutputLine(NULL, "やだ、おかーさん…。",
+			NULL, " No, Mom...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101039", 256, TRUE);
+	OutputLine(NULL, "ねぇ、何を言っているの？",
+			NULL, " Please, what are you saying?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101040", 256, TRUE);
+	OutputLine(NULL, "　意味がわからないよ。",
+			NULL, " I don't know what you mean.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101041", 256, TRUE);
+	OutputLine(NULL, "ねぇ、おとーさん…？」",
+			NULL, " Please... Dad...?\"", Line_Normal);
+	ClearMessage();
+
+//rすがるようにおかーさんとおとーさんを見る。けれど、おかーさんは先ほどの微笑のままで、おとーさんは相変わらずうつむいたままだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "すがるようにおかーさんとおとーさんを見る。けれど、おかーさんは先ほどの微笑のままで、おとーさんは相変わらずうつむいたままだった。",
+			NULL, "I looked pleadingly at Mom and Dad. However, Mom still had the same smile, and Dad remained silent like usual.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101042.「いっ…ぃやだ、kvS04/36/310101043.…いやだぁあぁぁっっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101042", 256, TRUE);
+	OutputLine(NULL, "「いっ…ぃやだ、",
+			NULL, "\"N... No.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101043", 256, TRUE);
+	OutputLine(NULL, "…いやだぁあぁぁっっ！！」",
+			NULL, " ...Noooooo!!\"", Line_Normal);
+	ClearMessage();
+
+//r涙がぼろぼろと零れ落ちてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "涙がぼろぼろと零れ落ちてくる。",
+			NULL, "Tears continued flowing down my face.", Line_Normal);
+	ClearMessage();
+
+//rどうして？　どうしてこんなことになったの？　ねぇっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "どうして？　どうしてこんなことになったの？　ねぇっ？！",
+			NULL, "Why? Why is this happening? Tell me!", Line_Normal);
+	ClearMessage();
+
+//r私の、かけがえのない家族だったのに！　優しいおかーさん、温かいおとーさんで、私の大切な人たちが、…どうして、こんなことにっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私の、かけがえのない家族だったのに！　優しいおかーさん、温かいおとーさんで、私の大切な人たちが、…どうして、こんなことにっ？！",
+			NULL, "They're supposed to be my irreplaceable family! My kind Mom, my gentle Dad... I loved them! So why are they doing this?!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600149.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600149", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101044.「…やだぁ…っく、…ひぃ…っ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101044", 256, TRUE);
+	OutputLine(NULL, "「…やだぁ…っく、…ひぃ…っ！」",
+			NULL, "\"...Nooo... guh... hiii...!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600150.「夏美……？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600150", 256, TRUE);
+	OutputLine(NULL, "「夏美……？」",
+			NULL, "\"Natsumi......?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101045.「————ひっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101045", 256, TRUE);
+	OutputLine(NULL, "「————ひっ？！」",
+			NULL, "\"...Eek?!\"", Line_Normal);
+	ClearMessage();
+
+//r突然私の手首を、おかーさんがぐいっと掴みあげる。そして反対の手で、私のあごが砕けるかと思うほど強引に向きを変えさせると、…おかーさんの強く鋭い視線が、私の目をまっすぐに貫いていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "突然私の手首を、おかーさんがぐいっと掴みあげる。そして反対の手で、私のあごが砕けるかと思うほど強引に向きを変えさせると、…おかーさんの強く鋭い視線が、私の目をまっすぐに貫いていた。",
+			NULL, "Mom suddenly grabbed my wrist and held it tight. And with her other hand, she turned me around so violently that I thought my jaw would dislocate.... Then she shot a strong, piercing gaze straight into my eyes.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600151.「馬鹿なことをしたのは、あなたなの。kvS04/00/310600152.…せっかく田舎の興宮を出て、念願のマイホームを手に入れて、ここでみんなが楽しく暮らしていたのに！kvS04/00/310600153.　私たちは、幸せに暮らしていたのにっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600151", 256, TRUE);
+	OutputLine(NULL, "「馬鹿なことをしたのは、あなたなの。",
+			NULL, "\"You're the one who did those stupid things.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600152", 256, TRUE);
+	OutputLine(NULL, "…せっかく田舎の興宮を出て、念願のマイホームを手に入れて、ここでみんなが楽しく暮らしていたのに！",
+			NULL, " ...We finally left the countryside in Okinomiya, got the home we always wanted, and were all living happily here!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600153", 256, TRUE);
+	OutputLine(NULL, "　私たちは、幸せに暮らしていたのにっ！！」",
+			NULL, " We were happy here!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600154.「…おばーちゃんが死んで、あなたも、内心は喜んでいたじゃないの？！kvS04/00/310600155.　私に、感謝したでしょう？！kvS04/00/310600156.　それをどうして、あなたはぶち壊しにするの？！kvS04/00/310600157.　…なんて、なんて馬鹿な親不孝者なのッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600154", 256, TRUE);
+	OutputLine(NULL, "「…おばーちゃんが死んで、あなたも、内心は喜んでいたじゃないの？！",
+			NULL, "\"...When Grandma died, deep down you were pleased, weren't you?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600155", 256, TRUE);
+	OutputLine(NULL, "　私に、感謝したでしょう？！",
+			NULL, " You were grateful to me, weren't you?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600156", 256, TRUE);
+	OutputLine(NULL, "　それをどうして、あなたはぶち壊しにするの？！",
+			NULL, " Why are you destroying that?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600157", 256, TRUE);
+	OutputLine(NULL, "　…なんて、なんて馬鹿な親不孝者なのッ！」",
+			NULL, " ...Why, why do you have so little regard for your parents?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101046.「きゃぁぁっっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101046", 256, TRUE);
+	OutputLine(NULL, "「きゃぁぁっっ！！」",
+			NULL, "\"Kyaaa!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 500 );
+	FadeFilm( 500, TRUE );
+	DrawScene("background/aka1", 1000 );
+
+//rおかーさんに勢いよく突き飛ばされた私は激しく壁に叩きつけられて、…一瞬、息の止まるような苦痛にうめく。それを酷薄な表情で見下ろしながら、ゆっくりとした足取りで歩み寄ってきた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんに勢いよく突き飛ばされた私は激しく壁に叩きつけられて、…一瞬、息の止まるような苦痛にうめく。それを酷薄な表情で見下ろしながら、ゆっくりとした足取りで歩み寄ってきた。",
+			NULL, "Mom violently tossed me and I hit the wall hard... For a moment, the pain left me unable to breathe. Then she slowly walked toward me, looking down on me with a ferocious expression on her face.", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700026.「…春子、お前——」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700026", 256, TRUE);
+	OutputLine(NULL, "「…春子、お前——」",
+			NULL, "\"...Haruko, you...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600158.「あなたは邪魔しないで頂戴ッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600158", 256, TRUE);
+	OutputLine(NULL, "「あなたは邪魔しないで頂戴ッ！！」",
+			NULL, "\"Stay out of this!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700027.「……っ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700027", 256, TRUE);
+	OutputLine(NULL, "「……っ…」",
+			NULL, "\"......\"", Line_Normal);
+	ClearMessage();
+
+//r鬼のような形相で、おかーさんはおとーさんを睨みつける。おずおずと、おそらく制止しようとしたおとーさんはその気迫に立ちすくんで、…上げた手をまた、引っ込めてしまった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鬼のような形相で、おかーさんはおとーさんを睨みつける。おずおずと、おそらく制止しようとしたおとーさんはその気迫に立ちすくんで、…上げた手をまた、引っ込めてしまった。",
+			NULL, "Mom glared demonically at Dad. It seemed like Dad was trying to step in, but he lost his nerve after that... and withdrew his raised hand.", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 500 );
+
+//夏美rvS04/36/310101047.「——ぐぅっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101047", 256, TRUE);
+	OutputLine(NULL, "「——ぐぅっ？！」",
+			NULL, "\"...Guh?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが、私のおなかを強く蹴り上げる。腹部に鈍痛が走って、お腹を押さえたまま丸まるしかない。思わず吐き気がこみあげてきたけど、私は懸命にこらえた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが、私のおなかを強く蹴り上げる。腹部に鈍痛が走って、お腹を押さえたまま丸まるしかない。思わず吐き気がこみあげてきたけど、私は懸命にこらえた。",
+			NULL, "Mom staunchly kicked me in the stomach. A dull pain ran through my abdomen, leaving me no choice but to curl up while holding my stomach. I started to feel nauseous, but I was able to hold it back.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600159.「家族を裏切る悪い子は、もちろん社会から罰せられます…、kvS04/00/310600160.警察から、ね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600159", 256, TRUE);
+	OutputLine(NULL, "「家族を裏切る悪い子は、もちろん社会から罰せられます…、",
+			NULL, "\"A bad child who betrayed her family should, obviously, be punished by society....", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600160", 256, TRUE);
+	OutputLine(NULL, "警察から、ね」",
+			NULL, " by the police, of course.\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 500 );
+
+//夏美rvS04/36/310101048.「うぐっ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101048", 256, TRUE);
+	OutputLine(NULL, "「うぐっ…？！」",
+			NULL, "\"Ugh...?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが私の腹部を、さらに蹴り上げる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが私の腹部を、さらに蹴り上げる。",
+			NULL, "Mom delivered another kick to my abdomen.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600161.「でも…、社会より先に、家庭が悪い子を罰しなければなりません。kvS04/00/310600162.教育は、学校と社会と家庭の３つの場で行うべきものでしょう？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600161", 256, TRUE);
+	OutputLine(NULL, "「でも…、社会より先に、家庭が悪い子を罰しなければなりません。",
+			NULL, "\"But... before society can do it, the family must punish this bad child.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600162", 256, TRUE);
+	OutputLine(NULL, "教育は、学校と社会と家庭の３つの場で行うべきものでしょう？」",
+			NULL, " School, society, and home are the three areas of education, right?\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 500 );
+
+//夏美rvS04/36/310101049.「…かはっ？！kvS04/36/310101050.　お、おかーさ、や、やめ…ぎゃぁっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101049", 256, TRUE);
+	OutputLine(NULL, "「…かはっ？！",
+			NULL, "\"...Huh?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101050", 256, TRUE);
+	OutputLine(NULL, "　お、おかーさ、や、やめ…ぎゃぁっ？！」",
+			NULL, " M-Mom, s-sto... Kyah?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが、さらに私の腹部を蹴る。…こんなの異常だ。濡れ衣を着せて、罰と称して！　それを名分に暴行を加えているだけだッ…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが、さらに私の腹部を蹴る。…こんなの異常だ。濡れ衣を着せて、罰と称して！　それを名分に暴行を加えているだけだッ…！",
+			NULL, "Mom kicked me in the abdomen yet again. ...This is insane. A punishment would be forcing me to wear wet clothes! This is just an excuse for assault, plain and simple...!", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 500 );
+
+//rおかーさんじゃない…！　これは、おかーさんなんかじゃない…ッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんじゃない…！　これは、おかーさんなんかじゃない…ッ！！",
+			NULL, "This isn't Mom...! This isn't something Mom would do...!!", Line_Normal);
+	ClearMessage();
+
+//r悪夢のような現実に私は吐き気を催し、徐々に意識が遠のきかけて、…もはや、悲鳴すらも小さくなっていく。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "悪夢のような現実に私は吐き気を催し、徐々に意識が遠のきかけて、…もはや、悲鳴すらも小さくなっていく。",
+			NULL, "This nightmarish reality was making me sick, my consciousness was gradually fading away... even the screams were getting quieter.", Line_Normal);
+	ClearMessage();
+
+//r助けて…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "助けて…！",
+			NULL, "Help...!", Line_Normal);
+	ClearMessage();
+
+//r誰か、…誰でもいい、私を助けて、助けて…っ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "誰か、…誰でもいい、私を助けて、助けて…っ！！",
+			NULL, "Someone... I don't care who, help me, help...!!", Line_Normal);
+	ClearMessage();
+
+//r私、何もしてない…！　私、何にも悪くない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私、何もしてない…！　私、何にも悪くない！",
+			NULL, "I haven't done anything...! I haven't done anything wrong!", Line_Normal);
+	ClearMessage();
+
+//rそれなのになんで、…なんで私だけ、こんな目にッ——？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それなのになんで、…なんで私だけ、こんな目にッ——？！",
+			NULL, "So why... why is this only happening to me...?!", Line_Normal);
+	ClearMessage();
+
+//r誰か、…誰か、私を助けてよぉぉ…ッッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "誰か、…誰か、私を助けてよぉぉ…ッッ！！",
+			NULL, "Someone... someone please help meee!!", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 2, 200, FALSE  );
+	DrawScene("black", 1000 );
+	PlaySE(3, "a5_13391", 256, 64);
+
+//r……その時。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……その時。",
+			NULL, "......At that moment.", Line_Normal);
+	ClearMessage();
+
+//rふいにおかーさんの動きが、…止まった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ふいにおかーさんの動きが、…止まった。",
+			NULL, "Mom... suddenly stopped moving.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600163.「————？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600163", 256, TRUE);
+	OutputLine(NULL, "「————？！」",
+			NULL, "\"...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700028.「やめなさい、春子…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700028", 256, TRUE);
+	OutputLine(NULL, "「やめなさい、春子…」",
+			NULL, "\"Please stop this, Haruko...\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの手をつかんで止めていたのは、…おとーさんだった。kそして、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの手をつかんで止めていたのは、…おとーさんだった。",
+			NULL, "It was Dad... grabbing Mom's hand to stop her.", Line_WaitForInput);
+	OutputLine(NULL, "そして、",
+			NULL, " And then,", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700029.「……私なんだよ。kvS04/00/310700030.あそこに、あれを置き直したのは…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700029", 256, TRUE);
+	OutputLine(NULL, "「……私なんだよ。",
+			NULL, "\"......It was me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700030", 256, TRUE);
+	OutputLine(NULL, "あそこに、あれを置き直したのは…」",
+			NULL, " I was the one who put it back there...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600164.「なっ————？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600164", 256, TRUE);
+	OutputLine(NULL, "「なっ————？！」",
+			NULL, "\"Wha...?!\"", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "hm03_16", 128, 0 );
+	DrawScene("background/kimi_o1_03", 1000 );
+
+//rおとーさんの声に、リビングが静まり返る。おかーさんは身体の向きを変えると、荒い息をつきながら、おとーさんの次の言葉をじっと待った。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんの声に、リビングが静まり返る。おかーさんは身体の向きを変えると、荒い息をつきながら、おとーさんの次の言葉をじっと待った。",
+			NULL, "Dad's voice silenced the living room. Mom turned around and panted as she waited for Dad to continue.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600165.「なん、ですって…？kvS04/00/310600166.　それは、…どういう、こと？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600165", 256, TRUE);
+	OutputLine(NULL, "「なん、ですって…？",
+			NULL, "\"...What was that...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600166", 256, TRUE);
+	OutputLine(NULL, "　それは、…どういう、こと？！」",
+			NULL, " What... do you mean by that?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700031.「……すまない。kvS04/00/310700032.だけど春子に夏美、…お前たちに辛い思いはさせない。kvS04/00/310700033.…私が、すべて引き受ける」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700031", 256, TRUE);
+	OutputLine(NULL, "「……すまない。",
+			NULL, "\"......I'm sorry.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700032", 256, TRUE);
+	OutputLine(NULL, "だけど春子に夏美、…お前たちに辛い思いはさせない。",
+			NULL, " But Haruko, Natsumi... I won't let you two suffer.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700033", 256, TRUE);
+	OutputLine(NULL, "…私が、すべて引き受ける」",
+			NULL, " ...I'll take responsibility for everything.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600167.「————？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600167", 256, TRUE);
+	OutputLine(NULL, "「————？！」",
+			NULL, "\"...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700034.「今なら、まだ間に合うはずだ。kvS04/00/310700035.…お父さんは、警察に行くよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700034", 256, TRUE);
+	OutputLine(NULL, "「今なら、まだ間に合うはずだ。",
+			NULL, "\"I should be able to make it in time if I go now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700035", 256, TRUE);
+	OutputLine(NULL, "…お父さんは、警察に行くよ」",
+			NULL, " ...I'll turn myself in to the police.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600168.「なッ…？！kvS04/00/310600169.　けっ、警察ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600168", 256, TRUE);
+	OutputLine(NULL, "「なッ…？！",
+			NULL, "\"Wh...?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600169", 256, TRUE);
+	OutputLine(NULL, "　けっ、警察ッ？！」",
+			NULL, " Th-the police?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは差し出された手を乱暴に振り払うと、拳を握り締めて怒りに震える。けど、おとーさんは気丈にもそれに怯むことなく、…吹っ切れたような口調で静かに言葉を継いでいった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは差し出された手を乱暴に振り払うと、拳を握り締めて怒りに震える。けど、おとーさんは気丈にもそれに怯むことなく、…吹っ切れたような口調で静かに言葉を継いでいった。",
+			NULL, "Mom violently shook away the hand that was holding her, then clenched her fist and trembled with anger. However, Dad stood firm and showed no fear... He calmly continued in a resolute tone.", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700036.「…怒らないでくれ、大丈夫だよ。kvS04/00/310700037.…私が一人でやったことにすればいいだろ？kvS04/00/310700038.　春子も夏美も、無関係だ。kvS04/00/310700039.お前たちは関係ないんだ。kvS04/00/310700040.…な、それならいいだろう？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700036", 256, TRUE);
+	OutputLine(NULL, "「…怒らないでくれ、大丈夫だよ。",
+			NULL, "\"...Don't be angry, everything will be all right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700037", 256, TRUE);
+	OutputLine(NULL, "…私が一人でやったことにすればいいだろ？",
+			NULL, " ...Maybe they'll believe I did all this on my own?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700038", 256, TRUE);
+	OutputLine(NULL, "　春子も夏美も、無関係だ。",
+			NULL, " Haruko and Natsumi had nothing to do with it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700039", 256, TRUE);
+	OutputLine(NULL, "お前たちは関係ないんだ。",
+			NULL, " All of you are unrelated to this.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700040", 256, TRUE);
+	OutputLine(NULL, "…な、それならいいだろう？」",
+			NULL, " ...Well, how does that sound?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600170.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600170", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101051.「お、おとー、さんっ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101051", 256, TRUE);
+	OutputLine(NULL, "「お、おとー、さんっ…！」",
+			NULL, "\"D-Dad...!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700041.「かわいそうに…、こんなひどい目にあわせて…。kvS04/00/310700042.…ごめんな、夏美」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700041", 256, TRUE);
+	OutputLine(NULL, "「かわいそうに…、こんなひどい目にあわせて…。",
+			NULL, "\"...Poor thing... You've gone through a lot...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700042", 256, TRUE);
+	OutputLine(NULL, "…ごめんな、夏美」",
+			NULL, " ...I'm sorry, Natsumi.\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんは、私を元気づけるように両腕をとる。おとーさんに支えられるようにして身を起こしながら、両目からまた涙が零れ落ちてきた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんは、私を元気づけるように両腕をとる。おとーさんに支えられるようにして身を起こしながら、両目からまた涙が零れ落ちてきた。",
+			NULL, "Dad took me into his arms to cheer me up. He lifted me up to support me, and tears again began to fall from my eyes.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101052.「おとーさん…。kvS04/36/310101053.そんな…。kvS04/36/310101054.私はただ、幸せでいられたら、それで良かっただけなのに…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101052", 256, TRUE);
+	OutputLine(NULL, "「おとーさん…。",
+			NULL, "\"Dad...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101053", 256, TRUE);
+	OutputLine(NULL, "そんな…。",
+			NULL, " No...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101054", 256, TRUE);
+	OutputLine(NULL, "私はただ、幸せでいられたら、それで良かっただけなのに…」",
+			NULL, " All I want is to just be happy, that's all...\"", Line_Normal);
+	ClearMessage();
+
+//r家族揃って、元気に仲良く幸せに暮らすことが、…こんなにも難しいことだったんだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "家族揃って、元気に仲良く幸せに暮らすことが、…こんなにも難しいことだったんだ。",
+			NULL, "Living happily with all of my family... it was such a difficult thing.", Line_Normal);
+	ClearMessage();
+
+//r私は、特別な何かが欲しかったわけじゃない。ただ、幸せな毎日をずっと続けていたかっただけなのに、…どうして、こんなことにっ…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は、特別な何かが欲しかったわけじゃない。ただ、幸せな毎日をずっと続けていたかっただけなのに、…どうして、こんなことにっ…！",
+			NULL, "I didn't want anything special. I just wanted to keep enjoying every day... so why had things come to this...?!", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700043.「夏美…。大丈夫だから」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700043", 256, TRUE);
+	OutputLine(NULL, "「夏美…。大丈夫だから」",
+			NULL, "\"Natsumi... Everything will be all right.\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんはひざまずくと、私をぎゅっと抱きしめた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんはひざまずくと、私をぎゅっと抱きしめた。",
+			NULL, "Dad knelt down and hugged me tightly.", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700044.「お父さんも、ずっと考えていたんだよ。kvS04/00/310700045.どうしたらいいか。kvS04/00/310700046.…元通りに家族揃って幸せに暮らすにはどうしたらいいのか…、ずっと考えていたんだ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700044", 256, TRUE);
+	OutputLine(NULL, "「お父さんも、ずっと考えていたんだよ。",
+			NULL, "\"I've been thinking for a long time.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700045", 256, TRUE);
+	OutputLine(NULL, "どうしたらいいか。",
+			NULL, " About what I should do.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700046", 256, TRUE);
+	OutputLine(NULL, "…元通りに家族揃って幸せに暮らすにはどうしたらいいのか…、ずっと考えていたんだ」",
+			NULL, " ...I was constantly thinking... about how we could live happily as a family like we used to.\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101055.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101055", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700047.「でもお父さんは、どんどん悪くなる現実を前にしながら、何も行動を起こすことができなかった。kvS04/00/310700048.…勇気がなかったんだ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700047", 256, TRUE);
+	OutputLine(NULL, "「でもお父さんは、どんどん悪くなる現実を前にしながら、何も行動を起こすことができなかった。",
+			NULL, "\"But things have been steadily getting worse, and your Dad has been unable to do anything about it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700048", 256, TRUE);
+	OutputLine(NULL, "…勇気がなかったんだ」",
+			NULL, " ...I didn't have the courage.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700049.「…おばーちゃんのことは、お父さんの責任でもあるんだよ。kvS04/00/310700050.お父さんがしっかりしていなかったから、あんなことに…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700049", 256, TRUE);
+	OutputLine(NULL, "「…おばーちゃんのことは、お父さんの責任でもあるんだよ。",
+			NULL, "\"...What happened to Grandma is also my responsibility.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700050", 256, TRUE);
+	OutputLine(NULL, "お父さんがしっかりしていなかったから、あんなことに…」",
+			NULL, " It all happened because your Dad couldn't stand firm and...\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんはそこで言葉を切ると、申し訳なさそうに目を伏せた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんはそこで言葉を切ると、申し訳なさそうに目を伏せた。",
+			NULL, "Dad stopped speaking there and lowered his head apologetically.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101056.「おとーさんっ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101056", 256, TRUE);
+	OutputLine(NULL, "「おとーさんっ…」",
+			NULL, "\"Dad...\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんはずっと、罪悪感に苦しんでいたんだ。…誰よりも家族のことを想っていたはずなのに、家族のために何もできなくて。おとーさんは不甲斐ない自分を、ずっと責めていたんだ…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんはずっと、罪悪感に苦しんでいたんだ。…誰よりも家族のことを想っていたはずなのに、家族のために何もできなくて。おとーさんは不甲斐ない自分を、ずっと責めていたんだ…。",
+			NULL, "Dad was suffering from guilt all this time. ...Believing he should care about his family more than anyone, but being unable to do anything for us. Dad always blamed himself for being cowardly...", Line_Normal);
+	ClearMessage();
+
+//rそんなおとーさんの気持ちを知って、少しかわいそうだと思った。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そんなおとーさんの気持ちを知って、少しかわいそうだと思った。",
+			NULL, "Now that I knew how he'd felt, I felt a little sorry for him.", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700051.「おばーちゃんの遺体をわかりやすい場所に置いたのは、…お父さんの独断だ。kvS04/00/310700052.それにお母さんには、ちゃんと今から説明してわかってもらう」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700051", 256, TRUE);
+	OutputLine(NULL, "「おばーちゃんの遺体をわかりやすい場所に置いたのは、…お父さんの独断だ。",
+			NULL, "\"Putting Grandma's body in an easy to find location... was Dad's decision.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700052", 256, TRUE);
+	OutputLine(NULL, "それにお母さんには、ちゃんと今から説明してわかってもらう」",
+			NULL, " And now I'll explain it to Mom so she'll understand it properly.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700053.「今度こそ勇気を出して、お父さんが家族を守る番なんだ。kvS04/00/310700054.…自分の背中を押してもらうために、わざと見つかる場所に置いたんだんだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700053", 256, TRUE);
+	OutputLine(NULL, "「今度こそ勇気を出して、お父さんが家族を守る番なんだ。",
+			NULL, "\"Now it's my turn to be brave and protect the family.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700054", 256, TRUE);
+	OutputLine(NULL, "…自分の背中を押してもらうために、わざと見つかる場所に置いたんだんだよ」",
+			NULL, " ...I put the body in an place where it'd be found on purpose. So I could give myself the last push I needed.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600171.「……なっ、あなたっ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600171", 256, TRUE);
+	OutputLine(NULL, "「……なっ、あなたっ…？！」",
+			NULL, "\"......D-Dear...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700055.「大丈夫だよ、夏美。kvS04/00/310700056.これからはもう、大丈夫。kvS04/00/310700057.お父さんは、…逃げたりしないから」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700055", 256, TRUE);
+	OutputLine(NULL, "「大丈夫だよ、夏美。",
+			NULL, "\"It's all right, Natsumi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700056", 256, TRUE);
+	OutputLine(NULL, "これからはもう、大丈夫。",
+			NULL, " It will be all right now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700057", 256, TRUE);
+	OutputLine(NULL, "お父さんは、…逃げたりしないから」",
+			NULL, " Dad... is not going to run away from this.\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101057.「…うぅっ、うう…っ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101057", 256, TRUE);
+	OutputLine(NULL, "「…うぅっ、うう…っ！」",
+			NULL, "\"...Uuu, uuu...!\"", Line_Normal);
+	ClearMessage();
+
+//r泣きじゃくって私は、おとーさんの胸に顔を埋める。…やっぱり、おとーさんだ。優しくて強くて、ちゃんと家族のことを心から大切に思ってくれていたんだ…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "泣きじゃくって私は、おとーさんの胸に顔を埋める。…やっぱり、おとーさんだ。優しくて強くて、ちゃんと家族のことを心から大切に思ってくれていたんだ…。",
+			NULL, "While crying, I buried my face into Dad's chest. ...This really was Dad, after all. A kind and strong man who cared about the family from the bottom of his heart...", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600172.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600172", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700058.「春子、わかってくれるよな？kvS04/00/310700059.　…な？　私は自首して、罪を償ってくる。kvS04/00/310700060.もちろん、お前たちは知らぬ存ぜぬで通せばいい。kvS04/00/310700061.そうして私が罪を償って帰ってきたらまた、家族みんなで仲良く幸せに暮らそう…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700058", 256, TRUE);
+	OutputLine(NULL, "「春子、わかってくれるよな？",
+			NULL, "\"Haruko, do you understand?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700059", 256, TRUE);
+	OutputLine(NULL, "　…な？　私は自首して、罪を償ってくる。",
+			NULL, " ...You see now? I'll take the heat to pay for this sin.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700060", 256, TRUE);
+	OutputLine(NULL, "もちろん、お前たちは知らぬ存ぜぬで通せばいい。",
+			NULL, " Of course, all you have to do is pretend you don't know anything.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700061", 256, TRUE);
+	OutputLine(NULL, "そうして私が罪を償って帰ってきたらまた、家族みんなで仲良く幸せに暮らそう…」",
+			NULL, " And as soon as I've atoned, I'll come home again and we can live happily as a family...\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんが、遥か遠くにある希望を見つめるような優しい眼差しを、おかーさんに向ける。それを見据えて、おかーさんの顔が一瞬フッとほころんだけど、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんが、遥か遠くにある希望を見つめるような優しい眼差しを、おかーさんに向ける。それを見据えて、おかーさんの顔が一瞬フッとほころんだけど、",
+			NULL, "Dad turned to Mom and offered her a gentle gaze brimming with hope for the distant future. Looking at that, Mom smiled for a moment. However,", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600173.「——もう、おしまいね…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600173", 256, TRUE);
+	OutputLine(NULL, "「——もう、おしまいね…」",
+			NULL, "\"...It's too late...\"", Line_Normal);
+	ClearMessage();
+
+//rそう、吐き捨てるように言った。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そう、吐き捨てるように言った。",
+			NULL, "She spat out those words.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101058.「おかーさん…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101058", 256, TRUE);
+	OutputLine(NULL, "「おかーさん…」",
+			NULL, "\"Mom...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700062.「春子…。kvS04/00/310700063.このままでは絶対に、私たちは幸せになんかなれやしないんだ。kvS04/00/310700064.わかってくれ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700062", 256, TRUE);
+	OutputLine(NULL, "「春子…。",
+			NULL, "\"Haruko...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700063", 256, TRUE);
+	OutputLine(NULL, "このままでは絶対に、私たちは幸せになんかなれやしないんだ。",
+			NULL, " With things how they are, there is absolutely no way we will be happy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700064", 256, TRUE);
+	OutputLine(NULL, "わかってくれ」",
+			NULL, " Please understand.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700065.「人には言えないような、良心に反するような後ろめたい秘密を隠し持ったままでは、人は絶対に、絶対に、幸福にはなれないんだよ。kvS04/00/310700066.…なぁ、夏美もそう思うだろ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700065", 256, TRUE);
+	OutputLine(NULL, "「人には言えないような、良心に反するような後ろめたい秘密を隠し持ったままでは、人は絶対に、絶対に、幸福にはなれないんだよ。",
+			NULL, "\"People most certainly cannot find happiness when they're hiding a dark secret like this that goes against their conscience.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700066", 256, TRUE);
+	OutputLine(NULL, "…なぁ、夏美もそう思うだろ？」",
+			NULL, " ...Wouldn't you agree, Natsumi?\"", Line_Normal);
+	ClearMessage();
+
+//r私はじっと、おとーさんを見つめ返す。…でも、私はどう答えていいのか、わからなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私はじっと、おとーさんを見つめ返す。…でも、私はどう答えていいのか、わからなかった。",
+			NULL, "I firmly looked back at Dad. ...But I didn't know how to answer.", Line_Normal);
+	ClearMessage();
+
+//rおとーさんの言ってることが正しいってことは、わかってる。…でも、おとーさん。そんなこと言って、本当に大丈夫なの？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんの言ってることが正しいってことは、わかってる。…でも、おとーさん。そんなこと言って、本当に大丈夫なの？",
+			NULL, "I understood that Dad was speaking the truth. ...But Dad. Is it really ok to say that?", Line_Normal);
+	ClearMessage();
+
+//r今のおかーさんは、…おかしいよ。どう見ても正常じゃない。そう言って説得しても無駄かもしれないし、おとーさんの心のこもった言葉を、本当に理解してくれるんだろうか…？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "今のおかーさんは、…おかしいよ。どう見ても正常じゃない。そう言って説得しても無駄かもしれないし、おとーさんの心のこもった言葉を、本当に理解してくれるんだろうか…？",
+			NULL, "Right now, Mom was... acting strange. She wasn't in her right mind no matter how you looked at it. Trying to persuade her might be fruitless. Could she really understand Dad's heartfelt words...?", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101059.「……おとーさんッ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101059", 256, TRUE);
+	OutputLine(NULL, "「……おとーさんッ…」",
+			NULL, "\"......Dad...\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんにそう、伝えたかった。だけどおかーさんがすぐ側にいては、口に出せるはずもない。そんな、私の思いをおとーさんに伝えたくて、私はおとーさんの瞳を見つめ続けると、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんにそう、伝えたかった。だけどおかーさんがすぐ側にいては、口に出せるはずもない。そんな、私の思いをおとーさんに伝えたくて、私はおとーさんの瞳を見つめ続けると、",
+			NULL, "I wanted to tell Dad as much. However, I couldn't bring myself to say it with Mom standing beside us. I wanted to communicate my feelings to Dad, and as I continued staring into his eyes,", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700067.「夏美、大丈夫。kvS04/00/310700068.後はお父さんに任せなさい」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700067", 256, TRUE);
+	OutputLine(NULL, "「夏美、大丈夫。",
+			NULL, "\"Natsumi, it's all right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700068", 256, TRUE);
+	OutputLine(NULL, "後はお父さんに任せなさい」",
+			NULL, " Just leave the rest to Dad.\"", Line_Normal);
+	ClearMessage();
+
+//rおとーさんの目が、全てわかったとでも答えるように、おだやかに優しく笑う。それは、勇気を出して自分を頼れという、あたたかで強い意志のあらわれだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんの目が、全てわかったとでも答えるように、おだやかに優しく笑う。それは、勇気を出して自分を頼れという、あたたかで強い意志のあらわれだった。",
+			NULL, "Dad smiled gently, the look in his eyes seemingly conveying to me he understood everything. I felt the warmth of his strong will and thought that I could rely on his courage.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101060.「……おとーさん」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101060", 256, TRUE);
+	OutputLine(NULL, "「……おとーさん」",
+			NULL, "\"......Dad.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700069.「…いいんだ、夏美」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700069", 256, TRUE);
+	OutputLine(NULL, "「…いいんだ、夏美」",
+			NULL, "\"...It's all right, Natsumi.\"", Line_Normal);
+	ClearMessage();
+
+//rそういって、おとーさんはゆっくりと頷いた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そういって、おとーさんはゆっくりと頷いた。",
+			NULL, "After saying that, Dad slowly nodded.", Line_Normal);
+	ClearMessage();
+
+//r…ねぇ、おとーさん。…私、本当に、おとーさんを信じてもいいの？　…本当に、本当に、頼りにしてもいいの？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…ねぇ、おとーさん。…私、本当に、おとーさんを信じてもいいの？　…本当に、本当に、頼りにしてもいいの？",
+			NULL, "...Hey, Dad. ...Can I really believe in you? ...Can I truly, honestly count on you?", Line_Normal);
+	ClearMessage();
+
+//夏美の父rvS04/00/310700070.「大丈夫だよ、夏美。kvS04/00/310700071.あとはお父さんに任せなさい。kvS04/00/310700072.お前と春子は元通り、いつも通りに生活すればそれで、kvS04/00/310700073.————ぐはッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の父</color>", NULL, "<color=#f5e6d3>Natsumi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700070", 256, TRUE);
+	OutputLine(NULL, "「大丈夫だよ、夏美。",
+			NULL, "\"It's ok, Natsumi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700071", 256, TRUE);
+	OutputLine(NULL, "あとはお父さんに任せなさい。",
+			NULL, " Leave the rest to Dad.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700072", 256, TRUE);
+	OutputLine(NULL, "お前と春子は元通り、いつも通りに生活すればそれで、",
+			NULL, " If you and Haruko can go back to your lives the way before, then...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310700073", 256, TRUE);
+	OutputLine(NULL, "————ぐはッ？！」",
+			NULL, " Guah?!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 2, 200, FALSE  );
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	PlaySE(3, "thisikuki", 256, 64);
+
+//夏美rvS04/36/310101061.「————ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101061", 256, TRUE);
+	OutputLine(NULL, "「————ッ？！」",
+			NULL, "\"...?!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/ryuuketu1", 1000 );
+	FadeFilm( 500, TRUE );
+
+//r…おとーさんの言葉を、最後まで聞く前に。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…おとーさんの言葉を、最後まで聞く前に。",
+			NULL, "...Before Dad could finish...", Line_Normal);
+	ClearMessage();
+
+//r血しぶきが飛んできて、…その跳ねた紅が、私の目に、入った——。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "血しぶきが飛んできて、…その跳ねた紅が、私の目に、入った——。",
+			NULL, "Blood splattered into the air... A splash of red hit my eyes...", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101062.「……あ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101062", 256, TRUE);
+	OutputLine(NULL, "「……あ…！」",
+			NULL, "\"......Ah...!\"", Line_Normal);
+	ClearMessage();
+
+//r視界に、真っ赤なフィルターがかかる。！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "視界に、真っ赤なフィルターがかかる。！",
+			NULL, "A bright red filter covered my line of sight!", Line_Normal);
+	ClearMessage();
+
+//rそして、私のすぐ前で目を見開いたおとーさんの口から、どろっとしたものがこぼれ出たとき、…おとーさんの喉から、包丁の切っ先が突き出てくるのが、…見えた…
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして、私のすぐ前で目を見開いたおとーさんの口から、どろっとしたものがこぼれ出たとき、…おとーさんの喉から、包丁の切っ先が突き出てくるのが、…見えた…",
+			NULL, "And right when globs of liquid began gushing from Dad's mouth before my very eyes... I spotted the tip of a knife sticking through his throat.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101063.「おっ…おとー、さんっ…？kvS04/36/310101064.　——ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101063", 256, TRUE);
+	OutputLine(NULL, "「おっ…おとー、さんっ…？",
+			NULL, "\"D... Da-d...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101064", 256, TRUE);
+	OutputLine(NULL, "　——ッ？！」",
+			NULL, " ...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600174.「——————」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600174", 256, TRUE);
+	OutputLine(NULL, "「——————」",
+			NULL, "\"...\"", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	PlayBGM( 2, "hm06_26", 128, 0 );
+	DrawScene("background/kimi_o1_03", 500 );
+
+//r異様な気配に、恐る恐る見上げる。…その先にはおかーさんが血のしたたる包丁を手にして、…さっきまで動いて、しゃべって、息をしていたおとーさんを、…傲然と見下ろしていた…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "異様な気配に、恐る恐る見上げる。…その先にはおかーさんが血のしたたる包丁を手にして、…さっきまで動いて、しゃべって、息をしていたおとーさんを、…傲然と見下ろしていた…。",
+			NULL, "I gawked in horror at the bizarre presence behind Dad. Mom was right there, holding a kitchen knife dripping with blood... She stood arrogantly, looking down at Dad... who had been moving, talking and breathing just a moment ago...", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101065.「あっ…あぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101065", 256, TRUE);
+	OutputLine(NULL, "「あっ…あぁ…」",
+			NULL, "\"Aah... Aaah...\"", Line_Normal);
+	ClearMessage();
+
+//r言葉が出なかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "言葉が出なかった。",
+			NULL, "I couldn't speak.", Line_Normal);
+	ClearMessage();
+
+//rあまりの出来事に、涙も、声も、息すらも出てこない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あまりの出来事に、涙も、声も、息すらも出てこない。",
+			NULL, "It'd all happened so suddenly that I couldn't cry, speak, or even breathe.", Line_Normal);
+	ClearMessage();
+
+//rおとーさん、…まさか、…死んじゃ、った、の…っ？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさん、…まさか、…死んじゃ、った、の…っ？",
+			NULL, "Dad... No way... Is he dead...?", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101066.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101066", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//r呆然と、私の目の前に倒れ伏すおとーさんに目を向ける。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "呆然と、私の目の前に倒れ伏すおとーさんに目を向ける。",
+			NULL, "I looked at Dad as he suddenly fell down in front of me.", Line_Normal);
+	ClearMessage();
+
+//r震えが止まらない。逃げなきゃ、ここから立ち去らなきゃと必死に頭の中で叫び続けても、…私の足はまるで自分のものではなくなってしまったように、ピクリとも動かない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "震えが止まらない。逃げなきゃ、ここから立ち去らなきゃと必死に頭の中で叫び続けても、…私の足はまるで自分のものではなくなってしまったように、ピクリとも動かない。",
+			NULL, "I couldn't stop trembling. My heart was screaming at me to get out of this place... but my legs wouldn't budge, as though they were no longer my own.", Line_Normal);
+	ClearMessage();
+
+//rそれでも、わずかに動く手に力を込めて少しでも動こうとしたとき、…頭上から、鼻をすする音が聞こえて、私は怯えながら顔を、上げた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それでも、わずかに動く手に力を込めて少しでも動こうとしたとき、…頭上から、鼻をすする音が聞こえて、私は怯えながら顔を、上げた。",
+			NULL, "Even so, I tried to move my hands using all my strength... but then I heard a sniffling sound overhead and fearfully looked up.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600175.「……お父さんが悪いのよ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600175", 256, TRUE);
+	OutputLine(NULL, "「……お父さんが悪いのよ…」",
+			NULL, "\"......It's your Dad's fault...\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの声は、涙に震えていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの声は、涙に震えていた。",
+			NULL, "Mom's voice trembled with tears.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101067.「お、おかー、さんっ…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101067", 256, TRUE);
+	OutputLine(NULL, "「お、おかー、さんっ…？」",
+			NULL, "\"M-Mom...?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600176.「お父さんが全て悪いッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600176", 256, TRUE);
+	OutputLine(NULL, "「お父さんが全て悪いッッ！！」",
+			NULL, "\"It's all your Dad's fault!!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは怒りを全て目の前で動かなくなった人に転嫁するように、荒々しい声を立てる。長くてキレイな髪がふわりと揺れて、鬼のような形相が露になった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは怒りを全て目の前で動かなくなった人に転嫁するように、荒々しい声を立てる。長くてキレイな髪がふわりと揺れて、鬼のような形相が露になった。",
+			NULL, "Mom spoke in a rough voice, seeming to push all her anger onto the people in front of her. Her long and beautiful hair swayed to and fro, and her face was warped with a demonic expression.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600177.「私は悪くない。kvS04/00/310600178.全部、お父さんのせいなの！kvS04/00/310600179.　せっかくうまくいってたのに！kvS04/00/310600180.　邪魔者は消えて、せっかく全部、元通りになろうとしてたのに！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600177", 256, TRUE);
+	OutputLine(NULL, "「私は悪くない。",
+			NULL, "\"It's not my fault.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600178", 256, TRUE);
+	OutputLine(NULL, "全部、お父さんのせいなの！",
+			NULL, " It's all your Dad's fault!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600179", 256, TRUE);
+	OutputLine(NULL, "　せっかくうまくいってたのに！",
+			NULL, " Just when things were finally going well again!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600180", 256, TRUE);
+	OutputLine(NULL, "　邪魔者は消えて、せっかく全部、元通りになろうとしてたのに！」",
+			NULL, " Just when that pest was finally gone! Just when our lives were finally going back to normal!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101068.「そ、そんなっ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101068", 256, TRUE);
+	OutputLine(NULL, "「そ、そんなっ…！」",
+			NULL, "\"Th-that's...!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600181.「みんなが悪いの。kvS04/00/310600182.みんなが協力してくれないから悪いの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600181", 256, TRUE);
+	OutputLine(NULL, "「みんなが悪いの。",
+			NULL, "\"It's everyone else's fault.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600182", 256, TRUE);
+	OutputLine(NULL, "みんなが協力してくれないから悪いの」",
+			NULL, " It's everyone else's fault for not cooperating.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600183.「オヤシロさまの祟りだと騒いだり、死体をわざわざ見つかるようなところに捨てたりしてkvS04/00/310600184.………みんなが、家族が、私の邪魔をするのッ！kvS04/00/310600185.　みんな、私の家族が悪いのよッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600183", 256, TRUE);
+	OutputLine(NULL, "「オヤシロさまの祟りだと騒いだり、死体をわざわざ見つかるようなところに捨てたりして",
+			NULL, "\"Making a racket about Oyashiro-sama's curse, dumping corpses in easy to find locations.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600184", 256, TRUE);
+	OutputLine(NULL, "………みんなが、家族が、私の邪魔をするのッ！",
+			NULL, " .........Everyone... my family is holding me back!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600185", 256, TRUE);
+	OutputLine(NULL, "　みんな、私の家族が悪いのよッ！」",
+			NULL, " It's their fault! It's all my family's fault!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101069.「きゃぁあぁっっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101069", 256, TRUE);
+	OutputLine(NULL, "「きゃぁあぁっっ！！」",
+			NULL, "\"Kyaaaa!!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが私の髪をわしづかみにする。おばーちゃんが以前なら毎日結ってくれていた、私の自慢の髪。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが私の髪をわしづかみにする。おばーちゃんが以前なら毎日結ってくれていた、私の自慢の髪。",
+			NULL, "Mom grabbed ahold of my hair. The hair that Grandma used to tie every day, my lovely hair.", Line_Normal);
+	ClearMessage();
+
+//rその髪がおかーさんにぐしゃぐしゃに握りつぶされ、まるで引きちぎるように荒々しくかき乱された。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その髪がおかーさんにぐしゃぐしゃに握りつぶされ、まるで引きちぎるように荒々しくかき乱された。",
+			NULL, "That hair was being clamped down by Mom, roughly handled like it was about to be torn out.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101070.「いっ、痛いッ！kvS04/36/310101071.　お、おかーさん、…痛いよッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101070", 256, TRUE);
+	OutputLine(NULL, "「いっ、痛いッ！",
+			NULL, "\"Th-that hurts!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101071", 256, TRUE);
+	OutputLine(NULL, "　お、おかーさん、…痛いよッ！！」",
+			NULL, " M-Mom... that hurts!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600186.「どうしてよ？！kvS04/00/310600187.　どうして邪魔するのよッ？！kvS04/00/310600188.　家族なのに…！kvS04/00/310600189.　家族なのにッ！kvS04/00/310600190.　私たちは………家族だったのにッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600186", 256, TRUE);
+	OutputLine(NULL, "「どうしてよ？！",
+			NULL, "\"Why?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600187", 256, TRUE);
+	OutputLine(NULL, "　どうして邪魔するのよッ？！",
+			NULL, " Why do you hold me back?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600188", 256, TRUE);
+	OutputLine(NULL, "　家族なのに…！",
+			NULL, " Even though we're a family...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600189", 256, TRUE);
+	OutputLine(NULL, "　家族なのにッ！",
+			NULL, " Even though we're a family!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600190", 256, TRUE);
+	OutputLine(NULL, "　私たちは………家族だったのにッ！」",
+			NULL, " Even though we were......... a family!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/aka1", 1000 );
+	FadeFilm( 500, TRUE );
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 200 );
+
+//rそう叫んで、おかーさんは私を突き飛ばす。そのあおりで掴まれていた私の髪が抜け、数本が束になって床に落ちた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そう叫んで、おかーさんは私を突き飛ばす。そのあおりで掴まれていた私の髪が抜け、数本が束になって床に落ちた。",
+			NULL, "Mom tossed me away after screaming that. Some of the hair she was clutching tore out, and several strands fell to the floor in a bunch.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101072.「…ぐっ、…ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101072", 256, TRUE);
+	OutputLine(NULL, "「…ぐっ、…ッ？！」",
+			NULL, "\"...Guh...?!\"", Line_Normal);
+	ClearMessage();
+
+//r叩きつけられた肩と頭の痛みに顔をしかめながら、私は顔を上げて、…硬直する。目を向けた先ではおかーさんは包丁を手に、…くすくすと笑っていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "叩きつけられた肩と頭の痛みに顔をしかめながら、私は顔を上げて、…硬直する。目を向けた先ではおかーさんは包丁を手に、…くすくすと笑っていた。",
+			NULL, "Enduring the pain in my head and shoulder, I grimaced and raised my head... then froze up. Mom was right there, holding the kitchen knife... and laughing maniacally.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101073.「お、おかーさん…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101073", 256, TRUE);
+	OutputLine(NULL, "「お、おかーさん…？！」",
+			NULL, "\"M-Mom...?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600191.「人に誉められたの。kvS04/00/310600192.キレイな髪だって。kvS04/00/310600193.肌が白くてうらやましいって」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600191", 256, TRUE);
+	OutputLine(NULL, "「人に誉められたの。",
+			NULL, "\"People praised me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600192", 256, TRUE);
+	OutputLine(NULL, "キレイな髪だって。",
+			NULL, " For my beautiful hair.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600193", 256, TRUE);
+	OutputLine(NULL, "肌が白くてうらやましいって」",
+			NULL, " They were envious of my white skin.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600194.「…ご近所の人が、私を誉めてくれるの。kvS04/00/310600195.新しいワンピースを着ればキレイな服だと誉めてくれ、髪を切れば似合うねって気づいてくれる」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600194", 256, TRUE);
+	OutputLine(NULL, "「…ご近所の人が、私を誉めてくれるの。",
+			NULL, "\"...The neighbors praised me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600195", 256, TRUE);
+	OutputLine(NULL, "新しいワンピースを着ればキレイな服だと誉めてくれ、髪を切れば似合うねって気づいてくれる」",
+			NULL, " They praised my beautiful clothes when they saw me wearing a new dress. They noticed when I got my hair cut and told me it suited me.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600196.「おしゃれの話に花が咲いて、毎日が楽しくて…。kvS04/00/310600197.こんな素敵な場所で、家族そろって仲良く暮らしていけるなんて…夢が叶ったと思った。kvS04/00/310600198.こんな生活、ずっと夢に見ていたのよ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600196", 256, TRUE);
+	OutputLine(NULL, "「おしゃれの話に花が咲いて、毎日が楽しくて…。",
+			NULL, "\"Discussing trendy topics, having fun every day...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600197", 256, TRUE);
+	OutputLine(NULL, "こんな素敵な場所で、家族そろって仲良く暮らしていけるなんて…夢が叶ったと思った。",
+			NULL, " I though my dream of living harmoniously with my family in such a wonderful place... had come true.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600198", 256, TRUE);
+	OutputLine(NULL, "こんな生活、ずっと夢に見ていたのよ…」",
+			NULL, " I'd dreamed of this life forever...\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは陶酔したような潤んだ瞳で、うっとりと言う。目の前に、血を流して倒れているおとーさんがいることなど、すっかり忘れてしまっているかのように。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは陶酔したような潤んだ瞳で、うっとりと言う。目の前に、血を流して倒れているおとーさんがいることなど、すっかり忘れてしまっているかのように。",
+			NULL, "Mom's eyes looked intoxicated while she said that in a trance. As if she had completely forgotten that Dad was bleeding out right in front of her.", Line_Normal);
+	ClearMessage();
+
+//rなにをっ、…なにを言ってるの、この人はッ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なにをっ、…なにを言ってるの、この人はッ？！",
+			NULL, "What... what was this person talking about?!", Line_Normal);
+	ClearMessage();
+
+//rあれだけ仲が良くて、…普段は素直になれないけど、本当はとっても大好きなんだって、……話してくれたおとーさんをこんな目にあわせてッッ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あれだけ仲が良くて、…普段は素直になれないけど、本当はとっても大好きなんだって、……話してくれたおとーさんをこんな目にあわせてッッ？！",
+			NULL, "She's the one who did this to Dad! Dad, who she was so close to! Dad, who said she normally wasn't honest, but she loved us very much!", Line_Normal);
+	ClearMessage();
+
+//rそれに、…それに自分の母親に、あんなひどい仕打ちをしておいてッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それに、…それに自分の母親に、あんなひどい仕打ちをしておいてッ！！",
+			NULL, "And what's more... she did such horrible things to her own mother!!", Line_Normal);
+	ClearMessage();
+
+//rなのに、…『家族』？！　そんなの、誰が信じるのよッッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なのに、…『家族』？！　そんなの、誰が信じるのよッッ！！",
+			NULL, "And yet she was going on about <i>family</i>?! Who would ever believe that?!", Line_Normal);
+	ClearMessage();
+
+//r怖い…！　怖い怖い、こわいッッ…！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "怖い…！　怖い怖い、こわいッッ…！！",
+			NULL, "I'm scared...! This is scary, scary, s c a r y...!!", Line_Normal);
+	ClearMessage();
+
+//rこの人は、おかーさんじゃない…！　違う違う、もう、…人ですらないッ…！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "この人は、おかーさんじゃない…！　違う違う、もう、…人ですらないッ…！！",
+			NULL, "This person isn't my Mom...! No, no, she's... she's not even human anymore...!!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600199.「前の町では、そんなことはなかったの。kvS04/00/310600200.ここに来て初めて、夢が叶ったの…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600199", 256, TRUE);
+	OutputLine(NULL, "「前の町では、そんなことはなかったの。",
+			NULL, "\"That never would have come to pass in our old town.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600200", 256, TRUE);
+	OutputLine(NULL, "ここに来て初めて、夢が叶ったの…」",
+			NULL, " It was only when we moved here that my dream came true...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600201.「私なんか、いなくても良かった。kvS04/00/310600202.私は、“公由家の人”。kvS04/00/310600203.…それだけ。kvS04/00/310600204.それは、私でも、私じゃなくても、誰でも良かった。kvS04/00/310600205.…だれも私のことなんか、見てくれなかった」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600201", 256, TRUE);
+	OutputLine(NULL, "「私なんか、いなくても良かった。",
+			NULL, "\"I was as good as invisible there.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600202", 256, TRUE);
+	OutputLine(NULL, "私は、“公由家の人”。",
+			NULL, " I was a member of the \"Kimiyoshi family.\"", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600203", 256, TRUE);
+	OutputLine(NULL, "…それだけ。",
+			NULL, " ...That's all.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600204", 256, TRUE);
+	OutputLine(NULL, "それは、私でも、私じゃなくても、誰でも良かった。",
+			NULL, " Whether it was me or not, everyone was the same.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600205", 256, TRUE);
+	OutputLine(NULL, "…だれも私のことなんか、見てくれなかった」",
+			NULL, " ...Nobody really saw me for myself.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600206.「でも、この街は違う！kvS04/00/310600207.　ここには私の居場所があるの！kvS04/00/310600208.　私はここでずっと幸せに暮らしていたかったの！kvS04/00/310600209.　………それなのに！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600206", 256, TRUE);
+	OutputLine(NULL, "「でも、この街は違う！",
+			NULL, "\"But this city is different!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600207", 256, TRUE);
+	OutputLine(NULL, "　ここには私の居場所があるの！",
+			NULL, " I belong here!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600208", 256, TRUE);
+	OutputLine(NULL, "　私はここでずっと幸せに暮らしていたかったの！",
+			NULL, " I wanted to live happily here!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600209", 256, TRUE);
+	OutputLine(NULL, "　………それなのに！」",
+			NULL, " .........But now it's all gone up in smoke!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 200 );
+
+//rドンッ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ドンッ！",
+			NULL, "Bang!", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	DrawScene("background/kimi_o1_03", 500 );
+
+//夏美rvS04/36/310101074.「——ひっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101074", 256, TRUE);
+	OutputLine(NULL, "「——ひっ？！」",
+			NULL, "\"...Eek?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは、憎々しげに足を踏み鳴らす。それに身をすくめて怯えるしか、私にはできなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは、憎々しげに足を踏み鳴らす。それに身をすくめて怯えるしか、私にはできなかった。",
+			NULL, "Mom stomped her feet in disgust. All I could do was curl up in fear.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600210.「おかあさんが勝手なことをして、私の生活をぶち壊しにしたッ！kvS04/00/310600211.　あの人が、勝手なことをして、私の邪魔をしたッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600210", 256, TRUE);
+	OutputLine(NULL, "「おかあさんが勝手なことをして、私の生活をぶち壊しにしたッ！",
+			NULL, "\"Mother acted on her own and ruined my life!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600211", 256, TRUE);
+	OutputLine(NULL, "　あの人が、勝手なことをして、私の邪魔をしたッ！」",
+			NULL, " She did something selfish and got in my way!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600212.「…警察に自首？kvS04/00/310600213.　あははははッ！kvS04/00/310600214.　笑い話もいい加減にして欲しいわッ。kvS04/00/310600215.　警察に、私の幸せの何がわかるっていうのよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600212", 256, TRUE);
+	OutputLine(NULL, "「…警察に自首？",
+			NULL, "\"...Surrender to the police?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600213", 256, TRUE);
+	OutputLine(NULL, "　あははははッ！",
+			NULL, " Ahahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600214", 256, TRUE);
+	OutputLine(NULL, "　笑い話もいい加減にして欲しいわッ。",
+			NULL, " There's only so far a joke can go.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600215", 256, TRUE);
+	OutputLine(NULL, "　警察に、私の幸せの何がわかるっていうのよ」",
+			NULL, " The police understand nothing about my happiness.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600216.「みんな敵よッ！kvS04/00/310600217.　敵！　敵！　敵！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600216", 256, TRUE);
+	OutputLine(NULL, "「みんな敵よッ！",
+			NULL, "\"Everyone is my enemy!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600217", 256, TRUE);
+	OutputLine(NULL, "　敵！　敵！　敵！」",
+			NULL, " Enemy! Enemy! Enemy!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの憎しみに満ちた声が、部屋中にこだました。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの憎しみに満ちた声が、部屋中にこだました。",
+			NULL, "Mom's hateful voice echoed throughout the room.", Line_Normal);
+	ClearMessage();
+
+//r…てき、てき、てき。…敵。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…てき、てき、てき。…敵。",
+			NULL, "Enemy, enemy, enemy. ...Enemy.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600218.「家族の誰も、幸せになろうなんて努力、しなかった。kvS04/00/310600219.誰も手を汚そうとしないから、私がやってあげたの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600218", 256, TRUE);
+	OutputLine(NULL, "「家族の誰も、幸せになろうなんて努力、しなかった。",
+			NULL, "\"Nobody in my family made any effort to make me happy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600219", 256, TRUE);
+	OutputLine(NULL, "誰も手を汚そうとしないから、私がやってあげたの」",
+			NULL, " Since nobody was willing to get their hands dirty, I did it.\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600220.「…それを何よッ？！kvS04/00/310600221.　感謝の言葉ひとつ口に出来やしない恩知らずばっかり！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600220", 256, TRUE);
+	OutputLine(NULL, "「…それを何よッ？！",
+			NULL, "\"...And what do I get?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600221", 256, TRUE);
+	OutputLine(NULL, "　感謝の言葉ひとつ口に出来やしない恩知らずばっかり！」",
+			NULL, " Not even a single word of gratitude!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600222.「おばーちゃんが死んで良かったって、思ったでしょう？kvS04/00/310600223.　ホッとしたでしょう？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600222", 256, TRUE);
+	OutputLine(NULL, "「おばーちゃんが死んで良かったって、思ったでしょう？",
+			NULL, "\"Didn't you think it was for the best when Grandma died?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600223", 256, TRUE);
+	OutputLine(NULL, "　ホッとしたでしょう？」",
+			NULL, " Weren't you relieved?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600224.「おばーちゃんがおかしなことをやったせいで…、kvS04/00/310600225.気味の悪いおまじないを唱えたり、まじないの儀式をやらかしたりして、…ご近所から変な目で見られて…、kvS04/00/310600226.みんな、いやな思いをしたじゃないの？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600224", 256, TRUE);
+	OutputLine(NULL, "「おばーちゃんがおかしなことをやったせいで…、",
+			NULL, "\"Grandma chanted those creepy incantations and conducted those ceremonies...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600225", 256, TRUE);
+	OutputLine(NULL, "気味の悪いおまじないを唱えたり、まじないの儀式をやらかしたりして、…ご近所から変な目で見られて…、",
+			NULL, " Because of that, we got funny looks from the neighbors...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600226", 256, TRUE);
+	OutputLine(NULL, "みんな、いやな思いをしたじゃないの？！」",
+			NULL, " Didn't everyone hate it?!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101075.「わ…私はッ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101075", 256, TRUE);
+	OutputLine(NULL, "「わ…私はッ…」",
+			NULL, "\"I... I was...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600227.「私は何よッ？！kvS04/00/310600228.　どうしてよッ？！kvS04/00/310600229.　それを私が殺してやったんじゃないの。kvS04/00/310600230.なのに、なんでみんな協力しないのよ？！kvS04/00/310600231.　なんで私を、もとの生活に戻らせてくれないのッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600227", 256, TRUE);
+	OutputLine(NULL, "「私は何よッ？！",
+			NULL, "\"You were what?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600228", 256, TRUE);
+	OutputLine(NULL, "　どうしてよッ？！",
+			NULL, " Why?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600229", 256, TRUE);
+	OutputLine(NULL, "　それを私が殺してやったんじゃないの。",
+			NULL, " I'm not the one who killed her.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600230", 256, TRUE);
+	OutputLine(NULL, "なのに、なんでみんな協力しないのよ？！",
+			NULL, " So why didn't everyone cooperate?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600231", 256, TRUE);
+	OutputLine(NULL, "　なんで私を、もとの生活に戻らせてくれないのッ？！」",
+			NULL, " Why won't you let me go back to my normal life?!\"", Line_Normal);
+	ClearMessage();
+
+//r包丁を手に、怒りと恨みに突き動かされるように喋っているおかーさん。顔は涙でぐしゃぐしゃに濡れていたけれど、怒っているのか哀しいのかは、よくわからなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "包丁を手に、怒りと恨みに突き動かされるように喋っているおかーさん。顔は涙でぐしゃぐしゃに濡れていたけれど、怒っているのか哀しいのかは、よくわからなかった。",
+			NULL, "Mom incited her anger and resentment with a kitchen knife in hand. My face was wet with tears, but I wasn't sure if I felt angry or sad.", Line_Normal);
+	ClearMessage();
+
+//rおかしい、…おかーさん、おかしいよ！　おかーさんの言う家族って、いったいなんなのッ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかしい、…おかーさん、おかしいよ！　おかーさんの言う家族って、いったいなんなのッ？！",
+			NULL, "Insane... Mom's gone insane! What was this family she was talking about?!", Line_Normal);
+	ClearMessage();
+
+//r私のおかーさんは、こんな身勝手な考えを平然と言ってしまえるような人だったのっ？　そんなの、違う！　私のおかーさんじゃないッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私のおかーさんは、こんな身勝手な考えを平然と言ってしまえるような人だったのっ？　そんなの、違う！　私のおかーさんじゃないッ！！",
+			NULL, "Was my Mom the kind of person who could say such selfish things with a straight face? No! This isn't my Mom!!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101076.「…うっ、…うううッ！　うぅっ…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101076", 256, TRUE);
+	OutputLine(NULL, "「…うっ、…うううッ！　うぅっ…！！」",
+			NULL, "\"...Uuu... uuuu! Uuu...!!\"", Line_Normal);
+	ClearMessage();
+
+//r哀しくて…、哀しくて…。涙がこみあげてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "哀しくて…、哀しくて…。涙がこみあげてくる。",
+			NULL, "Overwhelmed with sorrow, tears began welling up.", Line_Normal);
+	ClearMessage();
+
+//r何が哀しいのか、はっきりとはわからない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "何が哀しいのか、はっきりとはわからない。",
+			NULL, "I wasn't entirely sure what was so sad.", Line_Normal);
+	ClearMessage();
+
+//rだけど、大切にしてたものはもう永遠に失くなってしまったんだと思うたびに、ぼろぼろと両目を伝う涙は止め処もなく流れ落ちて、床にいくつもの染みを作っていった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だけど、大切にしてたものはもう永遠に失くなってしまったんだと思うたびに、ぼろぼろと両目を伝う涙は止め処もなく流れ落ちて、床にいくつもの染みを作っていった。",
+			NULL, "However, every time I thought about the things I cherished being gone forever, tears dribbled down from both my eyes nonstop, leaving a number of stains on the floor.", Line_Normal);
+	ClearMessage();
+
+//r大切にしていたもの…温かくて、かけがえのない、私の家族。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "大切にしていたもの…温かくて、かけがえのない、私の家族。",
+			NULL, "What I cherish most was... my gentle, irreplaceable family.", Line_Normal);
+	ClearMessage();
+
+//r優しくて…、温かくて…、いつも心を一つにして身を寄せ合っていた家族、…だったはずなのに…ッッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "優しくて…、温かくて…、いつも心を一つにして身を寄せ合っていた家族、…だったはずなのに…ッッ！！",
+			NULL, "So kind... so warm... my family always acted like a single unified heart when we were together... that's how it should have been...!!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600232.「夏美…。kvS04/00/310600233.あんたは…どうなの…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600232", 256, TRUE);
+	OutputLine(NULL, "「夏美…。",
+			NULL, "\"...Natsumi...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600233", 256, TRUE);
+	OutputLine(NULL, "あんたは…どうなの…？」",
+			NULL, " How about... you...?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101077.「——え…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101077", 256, TRUE);
+	OutputLine(NULL, "「——え…？！」",
+			NULL, "\"...Huh...?!\"", Line_Normal);
+	ClearMessage();
+
+//rはっ、と我に返って顔を戻すと、おかーさんが真顔で私を見ていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "はっ、と我に返って顔を戻すと、おかーさんが真顔で私を見ていた。",
+			NULL, "After I came to my senses and turned back to her, Mom looked at me with a serious expression.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600234.「あんたも…敵…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600234", 256, TRUE);
+	OutputLine(NULL, "「あんたも…敵…？」",
+			NULL, "\"Are you also... an enemy...?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101078.「なっ、…なにをっ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101078", 256, TRUE);
+	OutputLine(NULL, "「なっ、…なにをっ…？！」",
+			NULL, "\"Wh... what...?!\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさん、何を言ってるの…？　言ってる意味がわかんない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさん、何を言ってるの…？　言ってる意味がわかんない！",
+			NULL, "Mom, what are you saying...? I don't know what you mean!", Line_Normal);
+	ClearMessage();
+
+//rどうして、私が敵なのっ？！　何もしていない！　私は何もしていないのに、なんでっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "どうして、私が敵なのっ？！　何もしていない！　私は何もしていないのに、なんでっ？！",
+			NULL, "Why am I your enemy?! I haven't done anything! I haven't done anything, so why?!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600235.「あんたも…敵よねぇ。kvS04/00/310600236.私の幸せを邪魔する子…！kvS04/00/310600237.　許さない！kvS04/00/310600238.　あんたも敵なんだッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600235", 256, TRUE);
+	OutputLine(NULL, "「あんたも…敵よねぇ。",
+			NULL, "\"You are... an enemy, aren't you?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600236", 256, TRUE);
+	OutputLine(NULL, "私の幸せを邪魔する子…！",
+			NULL, " A child that keeps me from my happiness...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600237", 256, TRUE);
+	OutputLine(NULL, "　許さない！",
+			NULL, " Unforgivable!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600238", 256, TRUE);
+	OutputLine(NULL, "　あんたも敵なんだッ！」",
+			NULL, " You're my enemy too!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101079.「いっ、…いやぁあぁッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101079", 256, TRUE);
+	OutputLine(NULL, "「いっ、…いやぁあぁッッ！！」",
+			NULL, "\"N... Noooo!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+	FadeFilm( 500, TRUE );
+	PlaySE(3, "addse14", 256, 64);
+
+//r自分の悲鳴を合図に、だっと駆け出した。おばーちゃんの部屋へ、咄嗟に逃げ込む。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "自分の悲鳴を合図に、だっと駆け出した。おばーちゃんの部屋へ、咄嗟に逃げ込む。",
+			NULL, "I broke off running with that scream. I quickly escaped to Grandma's room.", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	DrawScene("background/k_oyashiro", 500 );
+
+//夏美の母rvS04/00/310600239.「…夏美。kvS04/00/310600240.逃げなくていいのよ、夏美ぃ…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600239", 256, TRUE);
+	OutputLine(NULL, "「…夏美。",
+			NULL, "\"...Natsumi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600240", 256, TRUE);
+	OutputLine(NULL, "逃げなくていいのよ、夏美ぃ…？」",
+			NULL, " You don't have to run away, Natsumi...\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんは甘く優しい声で私の名前を呼びながら、ゆっくりと包丁を手に歩いてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんは甘く優しい声で私の名前を呼びながら、ゆっくりと包丁を手に歩いてくる。",
+			NULL, "Mom called my name in a sweet and gentle voice, slowly walking with the kitchen knife.", Line_Normal);
+	ClearMessage();
+
+//rい、いやだ…。来ないで、おかーさん…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "い、いやだ…。来ないで、おかーさん…。",
+			NULL, "N-no... Don't come any closer, Mom...", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが、おばーちゃんの部屋の敷居をまたぐ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが、おばーちゃんの部屋の敷居をまたぐ。",
+			NULL, "Mom crossed the doorway into Grandma's room.", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 1, "denwa2", 128, 0 );
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//r遠くのほうから、…耳障りな電話のベルが聞こえてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "遠くのほうから、…耳障りな電話のベルが聞こえてくる。",
+			NULL, "From far away... I heard the ear-grating ringing of the telephone.", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "hm02_12", 128, 0 );
+	Wait( 500 );
+
+//夏美の母rvS04/00/310600241.「夏美は私が嫌いなんだよね？kvS04/00/310600242.　おばーちゃんを殺した私を、憎んでるんだよね？kvS04/00/310600243.　だから、私が幸せになるのが許せない。kvS04/00/310600244.そうでしょう？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600241", 256, TRUE);
+	OutputLine(NULL, "「夏美は私が嫌いなんだよね？",
+			NULL, "\"Natsumi, you hate me, don't you?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600242", 256, TRUE);
+	OutputLine(NULL, "　おばーちゃんを殺した私を、憎んでるんだよね？",
+			NULL, " You resent me for killing Grandma, don't you?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600243", 256, TRUE);
+	OutputLine(NULL, "　だから、私が幸せになるのが許せない。",
+			NULL, " That's why you can't let me be happy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600244", 256, TRUE);
+	OutputLine(NULL, "そうでしょう？」",
+			NULL, " Isn't that so?\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600245.「おかあさん、何でもわかっちゃうんだから。kvS04/00/310600246.くっくっくっ…。kvS04/00/310600247.でもね、夏美。kvS04/00/310600248.おかあさんもね…、kvS04/00/310600249.そんなあんたが…、kvS04/00/310600250.大っ嫌いだったのよ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600245", 256, TRUE);
+	OutputLine(NULL, "「おかあさん、何でもわかっちゃうんだから。",
+			NULL, "\"I know it all.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600246", 256, TRUE);
+	OutputLine(NULL, "くっくっくっ…。",
+			NULL, " Heheheh.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600247", 256, TRUE);
+	OutputLine(NULL, "でもね、夏美。",
+			NULL, " But you know, Natsumi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600248", 256, TRUE);
+	OutputLine(NULL, "おかあさんもね…、",
+			NULL, " When it comes to you...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600249", 256, TRUE);
+	OutputLine(NULL, "そんなあんたが…、",
+			NULL, " I also...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600250", 256, TRUE);
+	OutputLine(NULL, "大っ嫌いだったのよ…！」",
+			NULL, " hated you...!\"", Line_Normal);
+	ClearMessage();
+
+//r包丁を手にしたおかーさん。…でも、私はその顔を正視することができなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "包丁を手にしたおかーさん。…でも、私はその顔を正視することができなかった。",
+			NULL, "Mom had the kitchen knife in hand. ...But I couldn't look her in the face.", Line_Normal);
+	ClearMessage();
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101080.「助けて…！kvS04/36/310101081.　助けて…誰か、助けて…っ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101080", 256, TRUE);
+	OutputLine(NULL, "「助けて…！",
+			NULL, "\"Help...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101081", 256, TRUE);
+	OutputLine(NULL, "　助けて…誰か、助けて…っ！！」",
+			NULL, " Help me... someone, help me...!!\"", Line_Normal);
+	ClearMessage();
+
+//rあふれて止まらない涙を手で押さえる。…その手もとに、木の葉が１枚、落ちてきた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あふれて止まらない涙を手で押さえる。…その手もとに、木の葉が１枚、落ちてきた。",
+			NULL, "My eyes were overflowing with tears, but I tried to hold them in with my hand. ...Just then, a leaf fell on that hand.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/aka1", 1000 );
+	FadeFilm( 500, TRUE );
+
+//r見上げると、神棚に飾ってある榊の葉が、はらはらと散り落ちている。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "見上げると、神棚に飾ってある榊の葉が、はらはらと散り落ちている。",
+			NULL, "I looked up and noticed that the sakaki trees decorating the shrine were falling apart.", Line_Normal);
+	ClearMessage();
+
+//r…私たち家族を守ってくれと必死に祈っていたおばーちゃんを失ったオヤシロさまが、もはや守らぬとさじを投げているかのように…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…私たち家族を守ってくれと必死に祈っていたおばーちゃんを失ったオヤシロさまが、もはや守らぬとさじを投げているかのように…。",
+			NULL, "...Almost like a sign that Oyashiro-sama had given up on protecting us without Grandma's desperate prayers to him...", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600251.「あんたなんか、大っ嫌い…。kvS04/00/310600252.大っ嫌い…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600251", 256, TRUE);
+	OutputLine(NULL, "「あんたなんか、大っ嫌い…。",
+			NULL, "\"I despise you...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600252", 256, TRUE);
+	OutputLine(NULL, "大っ嫌い…」",
+			NULL, " Abhor you...\"", Line_Normal);
+	ClearMessage();
+
+//rうわ言のようにつぶやくおかーさんを横目に、私は必死で考えていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "うわ言のようにつぶやくおかーさんを横目に、私は必死で考えていた。",
+			NULL, "While Mom was deliriously muttering those things, I was frantically thinking.", Line_Normal);
+	ClearMessage();
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//r鳴り止まぬ電話を見つめながら、私は必死で考える。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鳴り止まぬ電話を見つめながら、私は必死で考える。",
+			NULL, "I frantically thought to myself while staring at the ringing telephone.", Line_Normal);
+	ClearMessage();
+
+//r…私、何がいけなかったの？　どうしてこんなことになったの？　私が、どんな悪いことをしたっていうのっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…私、何がいけなかったの？　どうしてこんなことになったの？　私が、どんな悪いことをしたっていうのっ？！",
+			NULL, "...What did I do wrong? How did it come to this? What sin did I commit?!", Line_Normal);
+	ClearMessage();
+
+//rいつ？　何を？　なんで！　どうしてっ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "いつ？　何を？　なんで！　どうしてっ？！",
+			NULL, "When? What? Why? How come?!", Line_Normal);
+	ClearMessage();
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//r…この街に引っ越してきたから、オヤシロさまが怒ったの？　オヤシロさまへのお祈りを強いるおばーちゃんのこと、イヤだって思ったから、こんなことになっちゃったの？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…この街に引っ越してきたから、オヤシロさまが怒ったの？　オヤシロさまへのお祈りを強いるおばーちゃんのこと、イヤだって思ったから、こんなことになっちゃったの？",
+			NULL, "...Did I anger Oyashiro-sama by moving here? Was this my punishment for hating it when Grandma forced me to pray to Oyashiro-sama?", Line_Normal);
+	ClearMessage();
+
+//r…それとも、私がオヤシロさまを信じなかったから、こんなことになったの…？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…それとも、私がオヤシロさまを信じなかったから、こんなことになったの…？！",
+			NULL, " ...Or was it because I didn't believe in Oyashiro-sama...?!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101082.「…ごめんなさいッ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101082", 256, TRUE);
+	OutputLine(NULL, "「…ごめんなさいッ…」",
+			NULL, "\"...I'm sorry...\"", Line_Normal);
+	ClearMessage();
+
+//r口をついてでたのは、謝罪の言葉だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "口をついてでたのは、謝罪の言葉だった。",
+			NULL, "I apologized.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101083.「ごめんなさい…ごめんなさい…ごめんなさい…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101083", 256, TRUE);
+	OutputLine(NULL, "「ごめんなさい…ごめんなさい…ごめんなさい…」",
+			NULL, "\"I'm sorry... I'm sorry... I'm sorry...\"", Line_Normal);
+	ClearMessage();
+
+//r私が悪いのなら、謝ります。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私が悪いのなら、謝ります。",
+			NULL, "If I did something wrong, then I'm sorry.", Line_Normal);
+	ClearMessage();
+
+//r私の何が悪かったのか、私が何をしたのか、私にはわかりません。でも…、謝って全てが済むのなら、私はいくらでも謝ります。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私の何が悪かったのか、私が何をしたのか、私にはわかりません。でも…、謝って全てが済むのなら、私はいくらでも謝ります。",
+			NULL, "I had no idea what wrongdoing I'd committed or what I'd done. But... if an apology could end all of this, I'd apologize as many times as needed.", Line_Normal);
+	ClearMessage();
+
+//rおかーさん…、私を許して…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさん…、私を許して…。",
+			NULL, "Mom... Forgive me...", Line_Normal);
+	ClearMessage();
+
+//rだからもうやめて…。おかーさん…。おかーさん！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だからもうやめて…。おかーさん…。おかーさん！",
+			NULL, "So stop this already... Mom... Mom!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101084.「ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101084", 256, TRUE);
+	OutputLine(NULL, "「ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…ごめんなさい…！！」",
+			NULL, "\"I'm sorry... I'm sorry... I'm sorry... I'm sorry... I'm sorry... I'm sorry...!!\"", Line_Normal);
+	ClearMessage();
+
+//r私はひざまずいて、床に頭をこすりつけた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私はひざまずいて、床に頭をこすりつけた。",
+			NULL, "I knelt down and rubbed my head along the floor.", Line_Normal);
+	ClearMessage();
+
+//rもう許してください。おかーさん。おかーさん。おかーさん…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "もう許してください。おかーさん。おかーさん。おかーさん…。",
+			NULL, "Please forgive me already. Mom. Mom. Mom...", Line_Normal);
+	ClearMessage();
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+//r電話のベルの音が、私の謝罪の言葉をかき消してしまう。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "電話のベルの音が、私の謝罪の言葉をかき消してしまう。",
+			NULL, "The sound of the telephone ringing drowned out my apologies.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+
+//夏美の母rvS04/00/310600253.「夏美…。kvS04/00/310600254.もういいのよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600253", 256, TRUE);
+	OutputLine(NULL, "「夏美…。",
+			NULL, "\"Natsumi...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600254", 256, TRUE);
+	OutputLine(NULL, "もういいのよ」",
+			NULL, " That's enough.\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101085.「…えっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101085", 256, TRUE);
+	OutputLine(NULL, "「…えっ？！」",
+			NULL, "\"...Huh?!\"", Line_Normal);
+	ClearMessage();
+
+//r顔を上げると、おかーさんはいつもの優しい笑顔に戻っていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "顔を上げると、おかーさんはいつもの優しい笑顔に戻っていた。",
+			NULL, "When I raised my head, Mom had returned to her usual gentle smile.", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600255.「一瞬で楽になるから…。kvS04/00/310600256.怖くない…。痛くない…。kvS04/00/310600257.…ほんの一瞬だからッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600255", 256, TRUE);
+	OutputLine(NULL, "「一瞬で楽になるから…。",
+			NULL, "\"It'll all be over in a second...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600256", 256, TRUE);
+	OutputLine(NULL, "怖くない…。痛くない…。",
+			NULL, " Don't be afraid... Don't be afraid...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600257", 256, TRUE);
+	OutputLine(NULL, "…ほんの一瞬だからッ！」",
+			NULL, " ...It'll just be a single moment!\"", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	DrawScene("background/kimi_o1_03", 1000 );
+
+//rおかーさんが包丁を振り上げていた。そしてまっすぐに、私の額へと振り下ろされてゆく。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが包丁を振り上げていた。そしてまっすぐに、私の額へと振り下ろされてゆく。",
+			NULL, "Mom raised the kitchen knife. Then she began to swing it down toward my head.", Line_Normal);
+	ClearMessage();
+
+//rおとーさんを刺したばかりの、血にまみれ、まだ肉片すらも着いている包丁が、私の血を求めて向かってくる——ッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おとーさんを刺したばかりの、血にまみれ、まだ肉片すらも着いている包丁が、私の血を求めて向かってくる——ッ！！",
+			NULL, "The knife covered in Dad's blood that even had bits of meat sticking from it was now seeking my blood...!!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101086.「いっ、いやあぁぁぁあぁぁッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101086", 256, TRUE);
+	OutputLine(NULL, "「いっ、いやあぁぁぁあぁぁッッ！！」",
+			NULL, "\"N-noooooooo!!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r私は必死に、最後の力を振り絞ってそれをかわし、わずかに空いた隙間に身を投げて駆け出す。そして息も整わないまま、玄関口の電話に飛びついた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は必死に、最後の力を振り絞ってそれをかわし、わずかに空いた隙間に身を投げて駆け出す。そして息も整わないまま、玄関口の電話に飛びついた。",
+			NULL, "In desperation, I used the last of my strength to dodge it. I threw myself into a narrow opening and rushed out. Then, unable to catch my breath, I raced to the phone by the front door.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/kimi_g1_01", 1000 );
+
+//rジリリーン…ジリリーン…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ジリリーン…ジリリーン…。",
+			NULL, "Rrriiing... rrriiing...", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 1, 200, FALSE  );
+	FadeOutBGM( 2, 200, FALSE  );
+
+//r…まだ鳴っている！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…まだ鳴っている！",
+			NULL, "...It was still ringing!", Line_Normal);
+	ClearMessage();
+
+//r私は受話器を取ると、相手の声も聞かずに叫んだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は受話器を取ると、相手の声も聞かずに叫んだ。",
+			NULL, "When I grabbed the receiver, I cried out without listening for the other person's voice.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101087.「誰か、助けてぇぇッッ！！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101087", 256, TRUE);
+	OutputLine(NULL, "「誰か、助けてぇぇッッ！！！」",
+			NULL, "\"Somebody, heeeelp!!!\"", Line_Normal);
+	ClearMessage();
+
+//r叩きつけるように受話器を置くと、全速力で廊下を走る。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "叩きつけるように受話器を置くと、全速力で廊下を走る。",
+			NULL, "Then I hung up the receiver and dashed down the hallway at full speed.", Line_Normal);
+	ClearMessage();
+
+//r思わず足がもつれて滑りそうになったけど、転んでいる暇なんてない。よろけながらも走って、角を曲がって、階段を上がるふりをして、そのまま隣の部屋に飛び込んで、鍵をかける。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "思わず足がもつれて滑りそうになったけど、転んでいる暇なんてない。よろけながらも走って、角を曲がって、階段を上がるふりをして、そのまま隣の部屋に飛び込んで、鍵をかける。",
+			NULL, "I almost tripped on my feet, but this was no time to fall. With a bit of a stagger, I continued running, turned around the corner, pretended to go up the stairs, then dove into the next room and locked the door behind me.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+	FadeFilm( 500, TRUE );
+	PlaySE(3, "addse14", 256, 64);
+
+//r…おかーさんが、私は二階へ上がってそのままベランダから外へ逃げ出したと思ってくれたらいい。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…おかーさんが、私は二階へ上がってそのままベランダから外へ逃げ出したと思ってくれたらいい。",
+			NULL, "...I hoped Mom would think I ran upstairs towards the veranda and escaped outside.", Line_Normal);
+	ClearMessage();
+
+//r鍵のかかった扉のノブを押さえながら、荒い息を必死でおさえる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鍵のかかった扉のノブを押さえながら、荒い息を必死でおさえる。",
+			NULL, "I desperately held my breath while holding down the locked doorknob.", Line_Normal);
+	ClearMessage();
+
+//rおかーさんに、見つかりませんように！　どうか、お願い…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんに、見つかりませんように！　どうか、お願い…！",
+			NULL, "So that Mom wouldn't find me! Please, don't...!", Line_Normal);
+	ClearMessage();
+
+//rどくん、どくん、どくん…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "どくん、どくん、どくん…。",
+			NULL, "Thump, thump, thump...", Line_Normal);
+	ClearMessage();
+
+//r心臓の音がびっくりするほど大きく聞こえる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "心臓の音がびっくりするほど大きく聞こえる。",
+			NULL, "I could hear the sound of my heartbeat, surprisingly loud.", Line_Normal);
+	ClearMessage();
+
+//rこんなに大きく鳴っていたら、おかーさんに見つかっちゃうんじゃないかと思うくらいに、大きな音。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "こんなに大きく鳴っていたら、おかーさんに見つかっちゃうんじゃないかと思うくらいに、大きな音。",
+			NULL, "So loud, I begin to wonder if Mom could also hear it.", Line_Normal);
+	ClearMessage();
+
+//r助けて、誰か…！　お願い、神様！　誰でもいい！　私を、助けて…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "助けて、誰か…！　お願い、神様！　誰でもいい！　私を、助けて…！",
+			NULL, "Someone, help...! Please, God! Anyone! Help me...!", Line_Normal);
+	ClearMessage();
+
+//暁rvS04/39/310200215.「……公由？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 39, "ps3/s04/39/310200215", 256, TRUE);
+	OutputLine(NULL, "「……公由？」",
+			NULL, "\"......Kimiyoshi?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101088.「えっ————？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101088", 256, TRUE);
+	OutputLine(NULL, "「えっ————？！」",
+			NULL, "\"Huh...?!\"", Line_Normal);
+	ClearMessage();
+
+//r聞き覚えのある声がした。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "聞き覚えのある声がした。",
+			NULL, "I heard a familiar voice.", Line_Normal);
+	ClearMessage();
+
+//r愛しく懐かしく、優しい声…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "愛しく懐かしく、優しい声…。",
+			NULL, "A loving, gentle voice that brought back memories...", Line_Normal);
+	ClearMessage();
+
+//暁rvS04/39/310200216.「…どうしたんだ、公由ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 39, "ps3/s04/39/310200216", 256, TRUE);
+	OutputLine(NULL, "「…どうしたんだ、公由ッ？！」",
+			NULL, "\"...What happened, Kimiyoshi?!\"", Line_Normal);
+	ClearMessage();
+
+//r…藤堂くん、どうしてここに？！　どうして藤堂くんの声が聞こえるの？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…藤堂くん、どうしてここに？！　どうして藤堂くんの声が聞こえるの？！",
+			NULL, "...Why was Toudou-kun here?! How was I hearing his voice?!", Line_Normal);
+	ClearMessage();
+
+//rまさか、私の家に藤堂くんが来た…！？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "まさか、私の家に藤堂くんが来た…！？",
+			NULL, "No, don't tell me he came over to my house...!?", Line_Normal);
+	ClearMessage();
+
+//暁rvS04/39/310200217.「公由…？kvS04/39/310200218.　おい、公由…どうした？kvS04/39/310200219.　大丈夫か？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 39, "ps3/s04/39/310200217", 256, TRUE);
+	OutputLine(NULL, "「公由…？",
+			NULL, "\"Kimiyoshi...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 39, "ps3/s04/39/310200218", 256, TRUE);
+	OutputLine(NULL, "　おい、公由…どうした？",
+			NULL, " Hey, Kimiyoshi... what happened?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 39, "ps3/s04/39/310200219", 256, TRUE);
+	OutputLine(NULL, "　大丈夫か？！」",
+			NULL, " Are you all right?!\"", Line_Normal);
+	ClearMessage();
+
+//r恐怖と緊張におののき切迫した声が、私の名前を必死に呼ぶ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "恐怖と緊張におののき切迫した声が、私の名前を必死に呼ぶ。",
+			NULL, "A voice shuddering with fear and tension desperately called out my name.", Line_Normal);
+	ClearMessage();
+
+//r間違いない。どうしてかわからないけど、藤堂くんが、私の家に来たんだ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "間違いない。どうしてかわからないけど、藤堂くんが、私の家に来たんだ！",
+			NULL, "No doubt about it. I didn't understand why, but Toudou-kun had come to my house!", Line_Normal);
+	ClearMessage();
+
+//r…おとーさんが死んでいて、おかーさんが包丁を持って私を追い回している、この家に！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…おとーさんが死んでいて、おかーさんが包丁を持って私を追い回している、この家に！",
+			NULL, "...Dad was dead, and Mom was chasing me around the house with a kitchen knife!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101089.「——こないで、藤堂くんッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101089", 256, TRUE);
+	OutputLine(NULL, "「——こないで、藤堂くんッ！」",
+			NULL, "\"...Stay away, Toudou-kun!\"", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	DrawScene("background/kimi_g1_01", 500 );
+
+//r弾かれたように私が鍵を開けて、扉を開いたのと。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "弾かれたように私が鍵を開けて、扉を開いたのと。",
+			NULL, "I hastily unlocked the door and opened it up.", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 200 );
+
+//rゴンッ…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ゴンッ…！",
+			NULL, "Slam...!", Line_Normal);
+	ClearMessage();
+
+//r鈍い音がしたのは、…ほとんど、同時だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鈍い音がしたのは、…ほとんど、同時だった。",
+			NULL, "I heard a dull sound... at almost that exact same time.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101090.「……あ…ッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101090", 256, TRUE);
+	OutputLine(NULL, "「……あ…ッ？！」",
+			NULL, "\"......Ah...?!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/ryuuketu1", 1000 );
+	FadeFilm( 500, TRUE );
+
+//rそこにはおかーさんが、足元に藤堂くんを見下ろしていて。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そこにはおかーさんが、足元に藤堂くんを見下ろしていて。",
+			NULL, "Toudou-kun was lying on the ground, with Mom looking down at him.", Line_Normal);
+	ClearMessage();
+
+//rその手に持った壷の底は粉々に割れて、床に倒れた藤堂くんは、頭から血を流していた…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その手に持った壷の底は粉々に割れて、床に倒れた藤堂くんは、頭から血を流していた…。",
+			NULL, "She held the base of a broken urn in her hand, and Toudou-kun was collapsed on the floor with blood dripping down his head...", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101091.「と、藤堂、くんっ…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101091", 256, TRUE);
+	OutputLine(NULL, "「と、藤堂、くんっ…！！」",
+			NULL, "\"To-Toudou, kun...!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600258.「…あら、夏美…？kvS04/00/310600259.　そこにいたの。kvS04/00/310600260.捜したわよ…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600258", 256, TRUE);
+	OutputLine(NULL, "「…あら、夏美…？",
+			NULL, "\"...Oh, Natsumi...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600259", 256, TRUE);
+	OutputLine(NULL, "　そこにいたの。",
+			NULL, " That's where you were.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600260", 256, TRUE);
+	OutputLine(NULL, "捜したわよ…？」",
+			NULL, " I was looking for you, you know...?\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんが薄ら笑いを浮かべながら、私を見据えている。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんが薄ら笑いを浮かべながら、私を見据えている。",
+			NULL, "With a smirk, Mom looked at me.", Line_Normal);
+	ClearMessage();
+
+//rそれを見た瞬間、…私の中で何かの枷が外れて、心と頭の中が、急にすう…と静まり返っていった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それを見た瞬間、…私の中で何かの枷が外れて、心と頭の中が、急にすう…と静まり返っていった。",
+			NULL, "The moment I saw that... the restraints within me came unleashed, and my heart and mind suddenly went quiet.", Line_Normal);
+	ClearMessage();
+
+//rこのままだと、…殺されるのは私だけじゃない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "このままだと、…殺されるのは私だけじゃない。",
+			NULL, "At this rate... I'm not the only one who will die here.", Line_Normal);
+	ClearMessage();
+
+//r私と、…藤堂くんまで、殺されてしまう。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私と、…藤堂くんまで、殺されてしまう。",
+			NULL, "Toudou-kun... and I will be killed here together.", Line_Normal);
+	ClearMessage();
+
+//r…だめ！　それだけは、絶対に…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…だめ！　それだけは、絶対に…！",
+			NULL, "...No way! That's unacceptable...!", Line_Normal);
+	ClearMessage();
+
+//rなら、…私は……ッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なら、…私は……ッ！！",
+			NULL, "In that case... I......!!", Line_Normal);
+	ClearMessage();
+
+	DrawFilm( 2, 255, 0, 0, 255, 0, 500, TRUE );
+	PlayBGM( 2, "hm02_08", 128, 0 );
+	DrawScene("background/kimi_g1_01", 500 );
+
+//夏美rvS04/36/310101092.「………」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101092", 256, TRUE);
+	OutputLine(NULL, "「………」",
+			NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+//rあれほどに乱れきっていた息が、規則的なものへと変わる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あれほどに乱れきっていた息が、規則的なものへと変わる。",
+			NULL, "My erratic breathing began to stabilize.", Line_Normal);
+	ClearMessage();
+
+//r…もう、おかーさんを見ても、怖くない。私の心にあったのは、それ以上の感情だった…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…もう、おかーさんを見ても、怖くない。私の心にあったのは、それ以上の感情だった…！",
+			NULL, "...I no longer looked at Mom with fear. My heart was filled with emotions that transcended that...!", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101093.「……やめて…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101093", 256, TRUE);
+	OutputLine(NULL, "「……やめて…」",
+			NULL, "\"......Stop this...\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600261.「……？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600261", 256, TRUE);
+	OutputLine(NULL, "「……？」",
+			NULL, "\"......?\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101094.「もう、誰も殺さないで…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101094", 256, TRUE);
+	OutputLine(NULL, "「もう、誰も殺さないで…！」",
+			NULL, "\"Don't kill anyone else...!\"", Line_Normal);
+	ClearMessage();
+
+//r藤堂くんまでも、こんな目に…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "藤堂くんまでも、こんな目に…。",
+			NULL, "She even got Toudou-kun mixed up in this...", Line_Normal);
+	ClearMessage();
+
+//r許さないッ！　何も知らない、無関係な私の大事な人まで、こんな目に遭わせて…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "許さないッ！　何も知らない、無関係な私の大事な人まで、こんな目に遭わせて…！",
+			NULL, "He didn't know a thing and wasn't involved, yet she did this to him! She'd pay! She'd pay for putting the boy I loved through this...!", Line_Normal);
+	ClearMessage();
+
+//r私、おかーさんを、許さないッッ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私、おかーさんを、許さないッッ！！",
+			NULL, "You'll pay for this, Mom!!", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600262.「余計なときに、首を突っ込んでくるからよ。kvS04/00/310600263.だから——」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600262", 256, TRUE);
+	OutputLine(NULL, "「余計なときに、首を突っ込んでくるからよ。",
+			NULL, "\"He stuck his nose in at the wrong time.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600263", 256, TRUE);
+	OutputLine(NULL, "だから——」",
+			NULL, " So...\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101095.「————ッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101095", 256, TRUE);
+	OutputLine(NULL, "「————ッ！！」",
+			NULL, "\"...!!\"", Line_Normal);
+	ClearMessage();
+
+//r机の上に置いてあった包丁に、おかーさんが手を伸ばす。それを見て私は、弾かれたようにそれに向けて飛びかかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "机の上に置いてあった包丁に、おかーさんが手を伸ばす。それを見て私は、弾かれたようにそれに向けて飛びかかった。",
+			NULL, "Mom reached for the kitchen knife sitting on the desk. Noticing that, I immediately lunged toward it.", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//rその包丁は、おかーさんには渡さないッ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その包丁は、おかーさんには渡さないッ！",
+			NULL, "I won't let Mom grab that knife!", Line_Normal);
+	ClearMessage();
+
+//r私も包丁に手を伸ばす。…が一瞬早く、おかーさんが包丁を手にして、振り上げた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私も包丁に手を伸ばす。…が一瞬早く、おかーさんが包丁を手にして、振り上げた。",
+			NULL, "I reached for the kitchen knife too. ...But Mom snatched it a moment sooner, and raised it overhead.", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101096.「っく…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101096", 256, TRUE);
+	OutputLine(NULL, "「っく…！！」",
+			NULL, "\"Ngh...!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/aka1", 1000 );
+	FadeFilm( 500, TRUE );
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r私の頬を包丁の切っ先がかすめる。それでも私は、おかーさんの両腕に必死にしがみついて抵抗を続けた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私の頬を包丁の切っ先がかすめる。それでも私は、おかーさんの両腕に必死にしがみついて抵抗を続けた。",
+			NULL, "The tip of the knife grazed my cheek. Still, I continued resisting, desperately clinging to Mom's arms.", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//夏美の母rvS04/00/310600264.「離しなさい、夏美ッ！kvS04/00/310600265.　この、——離せッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600264", 256, TRUE);
+	OutputLine(NULL, "「離しなさい、夏美ッ！",
+			NULL, "\"Let me go, Natsumi!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600265", 256, TRUE);
+	OutputLine(NULL, "　この、——離せッ！！」",
+			NULL, " You little... Let me go!!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//夏美rvS04/36/310101097.「いやだ…。kvS04/36/310101098.もうやめてッ…！kvS04/36/310101099.　もう、やめて…！kvS04/36/310101100.　おかーさんには、もう誰も殺させないッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101097", 256, TRUE);
+	OutputLine(NULL, "「いやだ…。",
+			NULL, "\"Not a chance...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101098", 256, TRUE);
+	OutputLine(NULL, "もうやめてッ…！",
+			NULL, " Stop this already...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101099", 256, TRUE);
+	OutputLine(NULL, "　もう、やめて…！",
+			NULL, " Come on, stop it...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101100", 256, TRUE);
+	OutputLine(NULL, "　おかーさんには、もう誰も殺させないッ！」",
+			NULL, " Mom, I won't let you kill anyone else!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r罵声と怒号を受けながらも、私はひるまない。そしておかーさんの手にした包丁の柄に手をかけて、包丁を握り締めたおかーさんの手を、上から強引につかむ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "罵声と怒号を受けながらも、私はひるまない。そしておかーさんの手にした包丁の柄に手をかけて、包丁を握り締めたおかーさんの手を、上から強引につかむ。",
+			NULL, "I remained firm no matter how much she jeered and yelled at me. Then, I reached out for the hilt of the knife and grabbed Mom's hand, gripping it tight.", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r手が血で、ぬるっと滑る。構わない。おかーさんの少し骨ばった手を、両手の爪を立ててしっかりとつかみとった…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "手が血で、ぬるっと滑る。構わない。おかーさんの少し骨ばった手を、両手の爪を立ててしっかりとつかみとった…！",
+			NULL, "Her hands were bloody and slippery. That didn't matter. I firmly grasped Mom's bony fingers with both of my hands, digging my nails into her...!", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//夏美の母rvS04/00/310600266.「このぉッ、——夏美ぃぃッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600266", 256, TRUE);
+	OutputLine(NULL, "「このぉッ、——夏美ぃぃッッ！！」",
+			NULL, "\"Damn you... Natsumiii!!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r…いやだ。何があっても、おかーさんに包丁は渡さない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…いやだ。何があっても、おかーさんに包丁は渡さない！",
+			NULL, "...No. No matter what happens, I won't let Mom take that knife!", Line_Normal);
+	ClearMessage();
+
+//rもうたくさんだ！　もうここで、終わりにするんだ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "もうたくさんだ！　もうここで、終わりにするんだ！！",
+			NULL, "Enough is enough! Let's end this right here!!", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//夏美の母rvS04/00/310600267.「このおぉぉおぉおおぉっっ！！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600267", 256, TRUE);
+	OutputLine(NULL, "「このおぉぉおぉおおぉっっ！！！」",
+			NULL, "\"Dammn youuuuuuuuuuuuuuuuuuuu!!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101101.「ぐぅっ、…ううッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101101", 256, TRUE);
+	OutputLine(NULL, "「ぐぅっ、…ううッッ！！」",
+			NULL, "\"Guh... uuu!!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r一本の包丁を、懸命に奪い合い、つかみ合う。何度もその刃先がおかーさんのほうにも、私のほうにも、ぐらぐらと不安定に傾いてその凶刃を不気味にぎらり、と閃かせていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "一本の包丁を、懸命に奪い合い、つかみ合う。何度もその刃先がおかーさんのほうにも、私のほうにも、ぐらぐらと不安定に傾いてその凶刃を不気味にぎらり、と閃かせていた。",
+			NULL, "Our hands were tied together, scrambling hard to get ahold of the knife. The cutting edge was moving erratically, pointing back and forth between Mom and myself many times. The blade was unstable as it reflected lights back at me.", Line_Normal);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//夏美の母rvS04/00/310600268.「夏美ッ！！kvS04/00/310600269.　いい加減にしなさいぃッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600268", 256, TRUE);
+	OutputLine(NULL, "「夏美ッ！！",
+			NULL, "\"Natsumi!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600269", 256, TRUE);
+	OutputLine(NULL, "　いい加減にしなさいぃッッ！！」",
+			NULL, " Stop this at once!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101102.「もういや…、いやだ！kvS04/36/310101103.　やめてよ、おかーさんッ！kvS04/36/310101104.　やめて、やめて、やめてぇッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101102", 256, TRUE);
+	OutputLine(NULL, "「もういや…、いやだ！",
+			NULL, "\"I can't bear any more... No more!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101103", 256, TRUE);
+	OutputLine(NULL, "　やめてよ、おかーさんッ！",
+			NULL, " Stop it, Mom!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101104", 256, TRUE);
+	OutputLine(NULL, "　やめて、やめて、やめてぇッ！！」",
+			NULL, " Stop, stop, stooop!!\"", Line_Normal);
+	ClearMessage();
+
+//夏美の母rvS04/00/310600270.「————ッッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Natsumi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s04/00/310600270", 256, TRUE);
+	OutputLine(NULL, "「————ッッ？！」",
+			NULL, "\"...?!\"", Line_Normal);
+	ClearMessage();
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+//r次の瞬間。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "次の瞬間。",
+			NULL, "The next moment.", Line_Normal);
+	ClearMessage();
+
+//r力をこめて、おかーさんの手から一気に包丁を奪い取ろうとする。が、一瞬私は力のバランスを失って手を離してしまい、…その隙に、おかーさんは包丁を振り上げた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "力をこめて、おかーさんの手から一気に包丁を奪い取ろうとする。が、一瞬私は力のバランスを失って手を離してしまい、…その隙に、おかーさんは包丁を振り上げた。",
+			NULL, "I mustered all my strength and tried to snatch the knife from Mom with one go. But for a moment, I lost the balance of power and the knife left my hand... In that gap, Mom began to swing the knife upward.", Line_Normal);
+	ClearMessage();
+
+//r振り払われた私は、バランスを崩して、勢い余って尻もちをつく。そして、包丁を振り上げたおかーさんの腕も勢い余って、…包丁の刃がおかーさんの首筋のすぐ側を鋭く切り裂いて——。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "振り払われた私は、バランスを崩して、勢い余って尻もちをつく。そして、包丁を振り上げたおかーさんの腕も勢い余って、…包丁の刃がおかーさんの首筋のすぐ側を鋭く切り裂いて——。",
+			NULL, "Shaken off, I lost my balance and fell hard on my backside. And then, Mom swung her arm up too hard... and the blade of the knife cut into her neck...", Line_Normal);
+	ClearMessage();
+
+	DrawScene("background/ryuuketu1", 1000 );
+	FadeFilm( 500, TRUE );
+	PlaySE(3, "thisikuki", 256, 64);
+	FadeOutBGM( 2, 200, FALSE  );
+
+//rおかーさんの首から、…噴水のように、鮮血が吹き出した——。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの首から、…噴水のように、鮮血が吹き出した——。",
+			NULL, "Blood started bursting out like a fountain... from Mom's neck...", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101105.「……あ…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101105", 256, TRUE);
+	OutputLine(NULL, "「……あ…？」",
+			NULL, "\"......Ah...?\"", Line_Normal);
+	ClearMessage();
+
+//rおかーさんの絶叫が聞こえたような気がしたけれど、…私の耳には届かない。そして、苦しそうに顔をゆがめながら口を大きく開き、何かを叫ぶような顔をしながら、…床にばったりと、…倒れた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おかーさんの絶叫が聞こえたような気がしたけれど、…私の耳には届かない。そして、苦しそうに顔をゆがめながら口を大きく開き、何かを叫ぶような顔をしながら、…床にばったりと、…倒れた。",
+			NULL, "I felt like I could hear Mom screaming, but... the sound didn't reach my ears. Her face warped with agony as her mouth opened like she was screaming something... and then she collapsed... to the floor.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("scene/117", 1000 );
+	PlaySE(3, "down2", 256, 64);
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 200 );
+
+//夏美rvS04/36/310101106.「ごめんなさい…ごめんなさい…ごめんなさい…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101106", 256, TRUE);
+	OutputLine(NULL, "「ごめんなさい…ごめんなさい…ごめんなさい…」",
+			NULL, "\"I'm sorry... I'm sorry... I'm sorry...\"", Line_Normal);
+	ClearMessage();
+
+//r何も聞こえないはずなのに、自分の声によく似た誰かの声が聞こえてきた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "何も聞こえないはずなのに、自分の声によく似た誰かの声が聞こえてきた。",
+			NULL, "Even though I shouldn't be hearing anything, I heard a voice that sounded very similar to my own.", Line_Normal);
+	ClearMessage();
+
+//r…………。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…………。",
+			NULL, "............", Line_Normal);
+	ClearMessage();
+
+//rああ、違う。これ、…私の声だ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ああ、違う。これ、…私の声だ。",
+			NULL, "No, that's wrong. This is... my voice.", Line_Normal);
+	ClearMessage();
+
+//rでも、…そんなの、どうでもいい。もう、…どうでもいい……。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でも、…そんなの、どうでもいい。もう、…どうでもいい……。",
+			NULL, "But... that doesn't matter. It doesn't matter... anymore......", Line_Normal);
+	ClearMessage();
+
+//r…………。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…………。",
+			NULL, "............", Line_Normal);
+	ClearMessage();
+
+//rねぇ、…誰か、教えて。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ねぇ、…誰か、教えて。",
+			NULL, "Hey... Somebody, tell me.", Line_Normal);
+	ClearMessage();
+
+//rいったい、なにがいけなかったの。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "いったい、なにがいけなかったの。",
+			NULL, "Where did things start spiraling out of control?", Line_Normal);
+	ClearMessage();
+
+//r私は、…私たちは、なにを間違えてしまったの…？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私は、…私たちは、なにを間違えてしまったの…？",
+			NULL, "Where did I... where did we go wrong...?", Line_Normal);
+	ClearMessage();
+
+//rねぇ、…教えてよ……。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ねぇ、…教えてよ……。",
+			NULL, "Hey... Please tell me......", Line_Normal);
+	ClearMessage();
+
+//r誰か、私に……ねぇ……。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "誰か、私に……ねぇ……。",
+			NULL, "Someone, tell me...... please......", Line_Normal);
+	ClearMessage();
+
+//夏美rvS04/36/310101107.「ごめんなさい…ごめんなさい…ごめんなさい…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 36, "ps3/s04/36/310101107", 256, TRUE);
+	OutputLine(NULL, "「ごめんなさい…ごめんなさい…ごめんなさい…」",
+			NULL, "\"I'm sorry... I'm sorry... I'm sorry...\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+
+//rそこで、…私の意識は、……まるで電源を落とすように途切れて、真っ暗な闇へと包まれていった…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そこで、…私の意識は、……まるで電源を落とすように途切れて、真っ暗な闇へと包まれていった…。",
+			NULL, "Right there... as if the power had been cut...... my consciousness was swallowed by darkness...", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	SetValidityOfInput( FALSE );
+	Wait( 3000 );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	Wait( 2000 );
+	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	Wait( 1000 );
+	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
+	DrawScene("black", 3000 );
+	SetValidityOfInput( TRUE );
+
+}
