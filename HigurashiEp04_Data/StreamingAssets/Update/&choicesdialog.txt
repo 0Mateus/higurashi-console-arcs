@@ -1,0 +1,30 @@
+void main()
+{
+	ModEnableNVLModeInADVMode();
+	DrawScene("black", 1000 );
+	OutputLine(NULL, "この編には、会話の変更をもたらし、悪い結末を招く可能性のある選択が含まれます。この選択を見たいですか？",
+		   NULL, "Este arco contém escolhas que foram adicionadas na versão de console. Essas escolhas resultam em mudanças nos diálogos e podem levar a finais ruins. Você deseja ver essas escolhas?", Line_Normal);
+
+	DrawBustshotWithFiltering( 6, "3choices", "left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 250, TRUE );
+
+	char ChoiceMode[3];
+
+	if (GetGlobalFlag(GLanguage) == 1) {
+		ChoiceMode[0] = "Pular escolhas. Prosseguir automaticamente até o final bom";
+		ChoiceMode[1] = "Mostrar escolhas normalmente";
+		ChoiceMode[2] = "Mostrar escolhas e realçar respostas corretas";
+	} else {
+		ChoiceMode[0] = "選択を見せません。良い結末へ進みます";
+		ChoiceMode[1] = "普通のように選択する";
+		ChoiceMode[2] = "正解に記号をつける";
+	}
+
+	Select( 3, ChoiceMode );
+
+	SetGlobalFlag(GChoiceMode, LoadValueFromLocalWork(SelectResult));
+
+	ModDisableNVLModeInADVMode();
+	DisableWindow();
+	DrawScene("black", 250 );
+
+}
