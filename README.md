@@ -4,7 +4,7 @@ Tradução para os arcos de console de Higurashi no Naku Koro ni.
 
 ## Progresso
 
-|Capítulo       |Tradução |Edição|Revisão|
+|Arco           |Tradução |Edição|Revisão|
 |---------------|---------|------|-------|
 |Taraimawashi   |100%     |100%  |28%    |
 |Someutsushi    |9%       |0%    |0%     |
