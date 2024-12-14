@@ -328,7 +328,7 @@ void main()
 //rそして必死にノートに写して、説明を聞こうと思っても、…先生はあっさり要点だけを話して次に進んでしまう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして必死にノートに写して、説明を聞こうと思っても、…先生はあっさり要点だけを話して次に進んでしまう。",
-			NULL, "Eu desesperadamente copiei ela para o meu caderno, e apesar de querer ouvir uma explicação... o professor apenas falou sobre os pontos principais e rapidamente passou para o próximo assunto.", Line_Normal);
+			NULL, "Desesperadamente copiei ela para meu caderno, e apesar de querer ouvir uma explicação... o professor apenas falou sobre os pontos principais e rapidamente passou para o próximo assunto.", Line_Normal);
 	ClearMessage();
 
 //rその進みの速さに、私は質問するどころか気を抜くひまもなく、ただ息の詰まるような思いで鉛筆を走らせるしかなかった。
@@ -723,7 +723,7 @@ void main()
 //rおずおずと、朝のＨＲで自己紹介したはずの名前をもう一度繰り返す。と、きらーん☆とそのおさげの女の子は目を輝かせながら、私の両肩をぐわしっ、とつかんで迫ってきた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "おずおずと、朝のＨＲで自己紹介したはずの名前をもう一度繰り返す。と、きらーん☆とそのおさげの女の子は目を輝かせながら、私の両肩をぐわしっ、とつかんで迫ってきた。",
-			NULL, "Eu timidamente repeti meu nome da mesma maneira que havia feito na primeira aula. A garota com maria-chiquinhas me pegou pelos ombros e olhou para meus olhos com um brilho☆ nos dela.", Line_Normal);
+			NULL, "Timidamente repeti meu nome da mesma maneira que havia feito na primeira aula. A garota com maria-chiquinhas me pegou pelos ombros e olhou para meus olhos com um brilho☆ nos dela.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100028.「あっ、あの…？！」
@@ -740,7 +740,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300021", 256, TRUE);
 	OutputLine(NULL, "「そう！　そうなんだよ公由さん！",
-			NULL, "\"Sim! É isso, Kimiyoshi-san!", Line_WaitForInput);
+			NULL, "\"Sim! Isso mesmo, Kimiyoshi-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300022", 256, TRUE);
 	OutputLine(NULL, "　——いや、この際だからフレンドリーに言わせてもらおう、夏美さん！",
 			NULL, " ...Não, na verdade, deixe-me se referir a você de uma maneira mais amigável, Natsumi-san!", Line_WaitForInput);
@@ -867,7 +867,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300040", 256, TRUE);
 	OutputLine(NULL, "「——あ、なんならこの私がこの手で事前に、じっくりねっとり予備診断をぉほぉぉっっ——」",
-			NULL, "\"...Ah, se você quiser, posso aproveitar meu tempo para dar um diagnóstico preliminar a você com minhas próprias mãããos...?\"", Line_Normal);
+			NULL, "\"...Ah, se quiser, posso aproveitar meu tempo para dar um diagnóstico preliminar a você com minhas próprias mãããos...?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_sakebi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2216,7 +2216,7 @@ void main()
 			NULL, " É natural as pessoas mudarem quando estão em um novo ambiente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/310800022", 256, TRUE);
 	OutputLine(NULL, "…おばーちゃん、故郷が懐かしくてね…」",
-			NULL, " ...A vovó está apenas sentindo saudade da sua terra natal...\"", Line_Normal);//;feeling nostalgic
+			NULL, " ...A vovó está apenas sentindo saudade da sua terra natal...\"", Line_Normal);
 	ClearMessage();
 
 //rそう言って、俯くおばーちゃん。…でもすぐに、さっと顔を上げて私ににっこり微笑みかける。その笑顔に、ちょっとだけ鼻白んだ思いがこみ上げてきたけど、すぐに忘れて私は時計を見た。
@@ -2621,7 +2621,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300080", 256, TRUE);
 	OutputLine(NULL, "「そこいらの男衆なら鼻血ブーの代物だ！",
-			NULL, "\"É o tipo de coisa que faria qualquer homem perder a cabeça!", Line_WaitForInput);//;adaptação japonês
+			NULL, "\"É o tipo de coisa que faria qualquer homem perder a cabeça!", Line_WaitForInput);
 
 	ModDrawCharacter(3, 37, "sprite/chisa2_hau_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
@@ -2699,7 +2699,7 @@ void main()
 //rそう言って、千紗登ちゃんは３回転半のおひねりジャンプ（注：イメージです）をしてから、びしぃぃっ！と人差し指を突き出す。…目がコワいです。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう言って、千紗登ちゃんは３回転半のおひねりジャンプ（注：イメージです）をしてから、びしぃぃっ！と人差し指を突き出す。…目がコワいです。",
-			NULL, "Após dizer seu ultimato, Chisato-chan realizou um salto com três giros e meio (Nota: Foi bem impressionante), uau! Depois orgulhosamente apontou com seu dedo indicador. ...Olhei para ela em admiração.", Line_Normal);//;It is quite an image
+			NULL, "Após dizer seu ultimato, Chisato-chan realizou um salto com três giros e meio (Nota: Foi bem impressionante), uau! Depois orgulhosamente apontou seu dedo indicador. ...Olhei para ela em admiração.", Line_Normal);//;It is quite an image
 	ClearMessage();
 
 	PlayBGM( 2, "hm01_06", 128, 0 );
@@ -3612,7 +3612,7 @@ void main()
 //r千紗登ちゃんのありがたい提案に、私は喜んで頷いた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんのありがたい提案に、私は喜んで頷いた。",
-			NULL, "Eu alegremente aceitei a proposta de Chisato-chan.", Line_Normal);
+			NULL, "Alegremente aceitei a proposta de Chisato-chan.", Line_Normal);
 	ClearMessage();
 
 //rさすがは大病院のご令嬢さんというか、千紗登ちゃんは時々お迎えの車で登下校をしている。
