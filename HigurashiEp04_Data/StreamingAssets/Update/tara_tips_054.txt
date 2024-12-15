@@ -174,7 +174,7 @@ void main()
 //r……重度の記憶障害により事件当日、その前後についての記憶が一切なく、また相当の精神的ショックを受けたのか、退行症を引き起こしている可能性が高い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……重度の記憶障害により事件当日、その前後についての記憶が一切なく、また相当の精神的ショックを受けたのか、退行症を引き起こしている可能性が高い。",
-			NULL, "...O incrível choque mental que ela sofreu deixou ela sem memória dos acontecimentos que aconteceram antes e depois do incidente, e ela tem um alto risco de sofrer uma regressão ainda pior.", Line_Normal);
+			NULL, "...O incrível choque mental que ela sofreu deixou ela sem memória dos acontecimentos que ocorreram antes e após o incidente, e ela tem um alto risco de sofrer uma regressão ainda pior.", Line_Normal);
 	ClearMessage();
 
 //r警察の取調べに対しても、正常な応対ができない現状である……。

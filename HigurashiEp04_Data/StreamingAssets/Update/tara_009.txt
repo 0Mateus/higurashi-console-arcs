@@ -65,7 +65,7 @@ void main()
 //r最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最近では、体力に頼らないシルバーグレーなダンスが身についてきたと自賛している。",
-			NULL, "A dança aeróbica ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //;Não faço a menor ideia do que é silver gray dancing style.
+			NULL, "A dança de salão ganhou bastante atenção nos últimos tempos devido a não depender tanto de um bom condicionamento físico.", Line_Normal); //;Não faço a menor ideia do que é silver gray dancing style.
 	ClearMessage();
 
 	PlayBGM( 1, "mati", 128, 0 );
@@ -300,7 +300,7 @@ void main()
 //r真っ白な病院の外壁は、太陽を映して光っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "真っ白な病院の外壁は、太陽を映して光っていた。",
-			NULL, "As paredes brancas da parte de fora do hospital refletiram o brilho sol.", Line_Normal);
+			NULL, "As paredes brancas da parte de fora do hospital refletiram o brilho do sol.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/sinryou_sinsatu4", 1000 );
@@ -591,7 +591,7 @@ void main()
 //r大石と赤坂には、聞きたいことが山ほどあった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石と赤坂には、聞きたいことが山ほどあった。",
-			NULL, "Havia um monte de perguntas que Ooishi e Akasaka queriam perguntar.", Line_Normal);
+			NULL, "Havia um monte de perguntas que Ooishi e Akasaka queriam fazer.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/sinryou_sinsatu4", 1000 );
@@ -657,7 +657,7 @@ void main()
 			NULL, " Você é a única pessoa que restou", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700114", 256, TRUE);
 	OutputLine(NULL, "雛見沢については！」",
-			NULL, " que tenha qualquer ligação com Hinamizawa!\"", Line_Normal);
+			NULL, " que tenha alguma ligação com Hinamizawa!\"", Line_Normal);
 	ClearMessage();
 
 //r魅音はやはり何も答えなかったが、『雛見沢』という言葉の部分で、身体がビクっと反応した。
@@ -669,7 +669,7 @@ void main()
 //rすると彼女は、窓に向けていた身体をゆっくりと室内に戻した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "すると彼女は、窓に向けていた身体をゆっくりと室内に戻した。",
-			NULL, "Então, ela lentamente virou seu corpo que estava em direção à janela, em direção à sala.", Line_Normal);
+			NULL, "Então, ela lentamente virou seu corpo, que estava em direção à janela, em direção a sala.", Line_Normal);
 	ClearMessage();
 
 //rその動作はまるで、電気仕掛けの人形がスイッチを入れられてぎこちなく動き出した、そんな様子だった。
@@ -753,7 +753,7 @@ void main()
 //rしかし、その場にいる人間、その誰もが『みんな』に該当していないことは明白だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし、その場にいる人間、その誰もが『みんな』に該当していないことは明白だった。",
-			NULL, "No entanto, era óbvio de que ela não estava se referindo às pessoas nessa sala quando disse \"todos.\"", Line_Normal);
+			NULL, "No entanto, era óbvio que ela não estava se referindo às pessoas nesta sala quando disse \"todos.\"", Line_Normal);
 	ClearMessage();
 
 //r魅音は見えない『みんな』に向かって語りかけたのだ……。
@@ -785,7 +785,7 @@ void main()
 //rベッドの上にきりおえたカードが配られた。kもちろんそのカードの束を手に取る者はいない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ベッドの上にきりおえたカードが配られた。",
-			NULL, "Ela começou a separar as cartas que ela embaralhou na cama.", Line_WaitForInput);
+			NULL, "Ela começou a separar as cartas que embaralhou na cama.", Line_WaitForInput);
 	OutputLine(NULL, "もちろんそのカードの束を手に取る者はいない。",
 			NULL, " Naturalmente, não havia ninguém aqui para receber essas cartas.", Line_Normal);
 	ClearMessage();
@@ -793,7 +793,7 @@ void main()
 //r魅音は、見えない『みんな』と会話をしながらトランプを続けた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は、見えない『みんな』と会話をしながらトランプを続けた。",
-			NULL, "Mion começou a falar com \"todos\" enquanto continuava a jogar com as cartas.", Line_Normal);//;invisível todos
+			NULL, "Mion começou a falar com \"todos\" enquanto continuava a brincar com as cartas.", Line_Normal);//;invisível todos
 	ClearMessage();
 
 //r大石は、馴染み深い名前を数人確認することができた。
@@ -844,9 +844,9 @@ void main()
 //r魅音は無邪気にトランプを続けている。k誰が見ても高校生くらいにしか見えないだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は無邪気にトランプを続けている。",
-			NULL, "Mion apenas continuou a jogar com as cartas.", Line_WaitForInput);
+			NULL, "Mion apenas continuou a brincar com as cartas.", Line_WaitForInput);
 	OutputLine(NULL, "誰が見ても高校生くらいにしか見えないだろう。",
-			NULL, " Para todos que vissem ela, ela apenas pareceria uma estudante do ensino médio.", Line_Normal);
+			NULL, " Para todos que a vissem, ela apenas pareceria uma estudante do ensino médio.", Line_Normal);
 	ClearMessage();
 
 //r魅音の中の時計は、本当に止まっていたのだ。
@@ -912,7 +912,7 @@ void main()
 //rそして１０年という歳月を受け入れないかのように、１０年前に見た少女の顔そのままだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして１０年という歳月を受け入れないかのように、１０年前に見た少女の顔そのままだった。",
-			NULL, "Era o mesmo rosto da garota de dez anos atrás, que pareceu rejeitar os últimos dez anos.", Line_Normal);
+			NULL, "Era o mesmo rosto da garota de uma década atrás, que pareceu rejeitar os últimos dez anos.", Line_Normal);
 	ClearMessage();
 
 //r大石は思わず息を呑んだ。

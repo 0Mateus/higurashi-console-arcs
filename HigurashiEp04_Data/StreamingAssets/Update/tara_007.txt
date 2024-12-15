@@ -871,7 +871,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s17/11/110700077", 256, TRUE);
 	OutputLine(NULL, "「それとね、実は…………姉の魅音も、行方がわからないんですよ」",
-			NULL, "\"Bem, a verdade é que... Eu também não posso confirmar por onde anda a irmã dela Mion.\"", Line_Normal);
+			NULL, "\"Bem, a verdade é que... Eu também não posso confirmar por onde anda a irmã dela, Mion.\"", Line_Normal);
 	ClearMessage();
 
 //r……えっ？！

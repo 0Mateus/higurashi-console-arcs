@@ -27,7 +27,7 @@ void main()
 //r入り口でやり取りを見守っていた看護師が、おずおずと大石と赤坂に話しかける。赤坂は肩越しに振り返って頷くと、なおも言葉を重ねようとする大石の肩に触れた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "入り口でやり取りを見守っていた看護師が、おずおずと大石と赤坂に話しかける。赤坂は肩越しに振り返って頷くと、なおも言葉を重ねようとする大石の肩に触れた。",
-			NULL, "A enfermeira observando a troca de perto da entrada chamou Ooishi e Akasaka forma tímida. Akasaka olhou para o lado e balançou a cabeça, então colocou a mão no ombro de Ooishi e falou.", Line_Normal);
+			NULL, "A enfermeira observando a briga de perto da entrada, chamou Ooishi e Akasaka de forma tímida. Akasaka olhou para o lado e balançou a cabeça, então, colocou a mão no ombro de Ooishi e falou.", Line_Normal);
 	ClearMessage();
 
 //赤坂rvS20/13/441300061.「大石さん、……今日は、このくらいにしておきましょう」
@@ -150,7 +150,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700329", 256, TRUE);
 	OutputLine(NULL, "「これを解き明かせば、この大災害の秘密に少しでも迫ることができるはずなんです！　だから、目を覚ましてくださいッッ！！」",
-			NULL, "\"Se conseguirmos desvendar isso, podemos chegar um passo mais perto de desvendar o segredo por trás do desastre!! Então por favor, acorde!!\"", Line_Normal);
+			NULL, "\"Se conseguirmos desvendar isso, podemos chegar um passo mais perto de desvendar o segredo por trás do desastre!! Então, por favor, acorde!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "down", 256, 64);
@@ -258,7 +258,7 @@ void main()
 //rそして、大石は赤坂に伴われて、病室を出て行った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、大石は赤坂に伴われて、病室を出て行った。",
-			NULL, "Então, Ooishi saiu para fora do quarto do hospital com Akasaka.", Line_Normal);
+			NULL, "Então, Ooishi saiu do quarto do hospital com Akasaka.", Line_Normal);
 	ClearMessage();
 
 //看護師rvS20/00/nurseA44008.「はぁ、まったく。大丈夫ですか、園崎さん……？」
@@ -342,10 +342,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。",
-			NULL, "<size=-2>Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, ela começou a derramar lágrimas que há muito tempo não derramava...", Line_Normal);
+			NULL, "<size=-2>Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, começou a derramar lágrimas que há muito tempo não caíam...", Line_Normal);
 	} else {
 	OutputLine(NULL, "魅音はいとおしそうに、ビニール袋に封じられた帽子を胸に抱きしめる。そして、その薄汚れた染みが血痕であることを知って、もはや枯れたと思っていた涙をこぼした……。",
-			NULL, "Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, ela começou a derramar lágrimas que há muito tempo não derramava...", Line_Normal);
+			NULL, "Mion aproximou o chapéu que estava na sacola plástica do seu peito e firmemente abraçou ele. E então, sabendo que a mancha imunda que estava no chapéu era uma mancha de sangue, começou a derramar lágrimas que há muito tempo não caíam...", Line_Normal);
 	}
 	ClearMessage();
 

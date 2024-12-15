@@ -1736,7 +1736,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300230", 256, TRUE);
 	OutputLine(NULL, "「…富竹さんは何者かに暴行を受けたらしい。しかも沢山の人間たちに、…よってたかって」",
-			NULL, "\"...Parece que Tomitake-san foi agredido por alguém. Na realidade... provavelmente por mais que uma pessoa.\"", Line_Normal);
+			NULL, "\"...Parece que Tomitake-san foi agredido por alguém. De fato... provavelmente por mais de uma pessoa.\"", Line_Normal);
 	ClearMessage();
 
 //r富竹さんは何者かに取り囲まれ、襲われた。

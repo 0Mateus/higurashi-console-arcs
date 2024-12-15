@@ -1157,7 +1157,7 @@ void main()
 //rしまった！　……そう、表情にも出てしまったのだろう。大石さんの口元が、にやりとゆがむ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しまった！　……そう、表情にも出てしまったのだろう。大石さんの口元が、にやりとゆがむ。",
-			NULL, "Meu arrependimento por ter dito mais do que deveria deveria estar escrito por todo o meu rosto. O rosto de Ooishi-san se distorceu num sorriso.", Line_Normal);
+			NULL, "Meu arrependimento por ter dito mais do que deveria parecia estar escrito por todo o meu rosto. A expressão de Ooishi-san se distorceu num sorriso.", Line_Normal);
 	ClearMessage();
 
 //r大石さんは俺の一瞬の反応から、ある確信を得たようだった。
@@ -1395,7 +1395,7 @@ void main()
 //r余計なことを言えば、俺のことさえ消す……だから黙っていろ――と？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "余計なことを言えば、俺のことさえ消す……だから黙っていろ——と？",
-			NULL, "Esta era a sua maneira de me dizer que eu poderia ser eliminado se eu começasse a me intrometer nesses assuntos... então eu deveria permanecer quieto...?", Line_Normal);
+			NULL, "Esta era a sua maneira de me dizer que eu poderia ser eliminado se começasse a me intrometer nesses assuntos... então deveria permanecer quieto...?", Line_Normal);
 	ClearMessage();
 
 //r園崎魅音……。
@@ -1717,7 +1717,7 @@ void main()
 //rまっすぐに俺の瞳をとらえるレナの鋭い視線。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まっすぐに俺の瞳をとらえるレナの鋭い視線。",
-			NULL, "Rena olhou diretamente para mim nos olhos com um olhar afiado.", Line_Normal);
+			NULL, "Rena me encarou diretamente com um olhar afiado.", Line_Normal);
 	ClearMessage();
 
 //r逃がさないというようなニュアンスの強い口調だった。
@@ -1809,7 +1809,7 @@ void main()
 //r小さく深呼吸すると、できるだけ軽い口調でレナに応えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小さく深呼吸すると、できるだけ軽い口調でレナに応えた。",
-			NULL, "Em seguida, eu respirei fundo e respondi à Rena na tonalidade mais leve que eu conseguisse.", Line_Normal);
+			NULL, "Em seguida, respirei fundo e respondi à Rena na tonalidade mais leve que consegui.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "higurasi", 128, 0 );
@@ -1863,7 +1863,7 @@ void main()
 //rけれど、俺は本当に何も知らないんだ。……動揺する必要なんて、ない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "けれど、俺は本当に何も知らないんだ。……動揺する必要なんて、ない。",
-			NULL, "Mas eu realmente não sabia de nada. ...Então eu não precisava me preocupar.", Line_Normal);
+			NULL, "Mas eu realmente não sabia de nada. ...Então não precisava me preocupar.", Line_Normal);
 	ClearMessage();
 
 //r大丈夫だ、落ち着け。
@@ -2104,7 +2104,7 @@ void main()
 //r俺は毎日が楽しければ、俺はそれでいい。それ以外のことなんて、考えたくもなかった。……おかしなことに巻き込まれるのは、ゴメンだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は毎日が楽しければ、俺はそれでいい。それ以外のことなんて、考えたくもなかった。……おかしなことに巻き込まれるのは、ゴメンだ。",
-			NULL, "Está tudo bem, desde que eu consiga obter a minha vida diária divertida de volta. Eu não quero pensar sobre mais nada. Eu sinto muito por ter se envolvido nessas coisas estranhas.", Line_Normal);
+			NULL, "Está tudo bem, desde que eu consiga obter minha vida diária divertida de volta. Eu não quero pensar em mais nada. Me sinto arrependido por ter me envolvido nessas coisas estranhas.", Line_Normal);
 	ClearMessage();
 
 //rとにかく早く家に入ろう！

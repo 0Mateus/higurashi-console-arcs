@@ -253,7 +253,7 @@ void main()
 //rお袋に見透かされたようで、なんだか気まずかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "お袋に見透かされたようで、なんだか気まずかった。",
-			NULL, "Minha mãe me deu um olhar estranho, como se ela estivesse vendo através de mim.", Line_Normal);
+			NULL, "Minha mãe me deu um olhar estranho, como se estivesse vendo através de mim.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -273,7 +273,7 @@ void main()
 //r聞こえるはずもない、あるいは取るに足らない音。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "聞こえるはずもない、あるいは取るに足らない音。",
-			NULL, "Eu fui bombardeado com sons que eu não deveria poder ouvir e outros sons insignificantes.", Line_Normal);
+			NULL, "Eu fui bombardeado com sons que não deveria poder ouvir e outros sons insignificantes.", Line_Normal);
 	ClearMessage();
 
 //rたとえば、どこか遠くの梢が鳴らす小さな音にまで、びくびくしていた。
@@ -622,7 +622,7 @@ void main()
 //rレナと学校へ向かう間、当たり前だが見るもの見るものが普段通りだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナと学校へ向かう間、当たり前だが見るもの見るものが普段通りだった。",
-			NULL, "Enquanto eu caminhava para a escola com Rena, tudo durante o caminho parecia estar assim como de costume.", Line_Normal);
+			NULL, "Enquanto eu andava para a escola com Rena, tudo durante o caminho parecia estar como de costume.", Line_Normal);
 	ClearMessage();
 
 //r長いこと病気をわずらっていた人が、久しぶりに外へ出た時のような感覚を味わう。
@@ -703,7 +703,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s17/02/110200157", 256, TRUE);
 	OutputLine(NULL, "「だって、最近圭一くんずっと怖い顔してたのに、さっきニコニコしてたよ？」",
-			NULL, "\"Mas você tem feito expressões assustadoras já faz algum um tempo, e agora simplesmente começou a sorrir?\"", Line_Normal);
+			NULL, "\"Mas você tem feito expressões assustadoras já faz algum tempo, e agora simplesmente começou a sorrir?\"", Line_Normal);
 	ClearMessage();
 
 //r……ったくレナのヤツ、いきなり何を言い出すかと思えば。
@@ -1328,7 +1328,7 @@ void main()
 //r教室へ戻ると、授業は後半にさしかかっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "教室へ戻ると、授業は後半にさしかかっていた。",
-			NULL, "Assim que eu entrei na sala de aula, a aula já estava mais que na metade.", Line_Normal);
+			NULL, "Assim que entrei na sala de aula, a aula já estava mais que na metade.", Line_Normal);
 	ClearMessage();
 
 //r体調不良と説明すると、知恵先生はあっさり許してくれた。

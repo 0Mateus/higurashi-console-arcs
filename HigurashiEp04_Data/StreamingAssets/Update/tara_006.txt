@@ -534,10 +534,10 @@ void main()
 //r確かに、年齢のことを考えると単なる『お飾り』なのかもしれない。k……それでも、歳の近い魅音とは同レベルの情報を所持している可能性が高いだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かに、年齢のことを考えると単なる『お飾り』なのかもしれない。",
-			NULL, "Dada a sua idade, ela pode ser apenas uma \"figura decorativa\" naquela posição. (*) pessoa em posição de autoridade, mas não exerce poder ou influência real. ", GetGlobalFlag(GLinemodeSp));
+			NULL, "Dada a sua idade, ela pode ser apenas uma \"figura decorativa\" naquela posição. (*) Pessoa em posição de autoridade, mas não exerce poder ou influência real. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……それでも、歳の近い魅音とは同レベルの情報を所持している可能性が高いだろう。",
-			NULL, "...Ainda assim, ela pode ter perto o suficiente da idade de Mion para obter o mesmo nível de informações.", Line_Normal);
+			NULL, "...Ainda assim, ela pode ser próxima o suficiente da idade de Mion para obter o mesmo nível de informações.", Line_Normal);
 	ClearMessage();
 
 //r魅音のバックに控える園崎家、そして村の動きに不穏なものがあれば、彼女の耳にも届いていてもおかしくない、……はずだ。
@@ -566,13 +566,13 @@ void main()
 //rさっきの梨花ちゃんの瞳を思い出す。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さっきの梨花ちゃんの瞳を思い出す。",
-			NULL, "Eu lembrei do olhar nos olhos de Rika-chan mais cedo.", Line_Normal);
+			NULL, "Eu me lembrei dos olhos de Rika-chan mais cedo.", Line_Normal);
 	ClearMessage();
 
 //r全てを見抜いているかのようなあの視線。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "全てを見抜いているかのようなあの視線。",
-			NULL, "Olhando para mim como se ela soubesse de tudo.", Line_Normal);
+			NULL, "Olhando para mim como se soubesse de tudo.", Line_Normal);
 	ClearMessage();
 
 //r村の老人達からは、不思議な力を持っていると信じられているという梨花ちゃん……。
@@ -599,7 +599,7 @@ void main()
 //rそれでも、選択肢の少ない俺にできる貴重なアプローチには違いない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも、選択肢の少ない俺にできる貴重なアプローチには違いない。",
-			NULL, "Ainda assim, ainda tenho algumas opções.", Line_Normal);
+			NULL, "Mesmo assim, ainda tenho algumas opções.", Line_Normal);
 	ClearMessage();
 
 //r梨花ちゃんに確かめてみよう。
@@ -967,7 +967,7 @@ void main()
 //r追い討ちをかけるように、梨花ちゃんはもの凄く不機嫌そうな声で言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "追い討ちをかけるように、梨花ちゃんはもの凄く不機嫌そうな声で言った。",
-			NULL, "Então Rika-chan se aproveitou da oportunidade e falou numa voz terrivelmente sombrio.", Line_Normal);
+			NULL, "Então, Rika-chan se aproveitou da oportunidade e falou numa voz terrivelmente sombria.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/gr3", 1000 );
@@ -983,7 +983,7 @@ void main()
 			NULL, " Você está se preocupando demais e irritando os cachorros à toa...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s17/05/110500065", 256, TRUE);
 	OutputLine(NULL, "わん、わんわんっ」",
-			NULL, " Woof, woof woof.\"", Line_Normal);
+			NULL, " Au, au au.\"", Line_Normal);
 	ClearMessage();
 
 //rいつもの梨花ちゃんが使いそうな言い回しかもしれない。
@@ -1081,25 +1081,25 @@ void main()
 //r放課後。魅音はバイトへ行くらしく、一人教室を出た。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "放課後。魅音はバイトへ行くらしく、一人教室を出た。",
-			NULL, "A escola acabou. E Mion precisa ir para o seu trabalho de meio-período, então ela saiu da sala sozinha.", Line_Normal);
+			NULL, "As aulas acabaram. E Mion precisa ir para o seu trabalho de meio-período, então ela saiu da sala sozinha.", Line_Normal);
 	ClearMessage();
 
 //r一対一になることを考えると少し緊張した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一対一になることを考えると少し緊張した。",
-			NULL, "Eu estava um pouco nervoso, pensando sobre se aproximar dela cara a cara.", Line_Normal);
+			NULL, "Eu estava um pouco nervoso, pensando sobre me aproximar dela cara a cara.", Line_Normal);
 	ClearMessage();
 
 //rしかし結局二人で話さなければならないことを考えれば、これは好都合かもしれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし結局二人で話さなければならないことを考えれば、これは好都合かもしれない。",
-			NULL, "Mas dado o que precisamos conversar, acho que essa será a única opção.", Line_Normal);
+			NULL, "Mas, considerando o que precisamos conversar, acho que essa será a única opção.", Line_Normal);
 	ClearMessage();
 
 //r俺は魅音の後を追った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は魅音の後を追った。",
-			NULL, "Então, eu fui atrás de Mion.", Line_Normal);
+			NULL, "Então, fui atrás de Mion.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1183,7 +1183,7 @@ void main()
 //r相変わらずのひぐらしの合唱の中、相変わらずの道を、久しぶりに俺達は並んで歩いた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "相変わらずのひぐらしの合唱の中、相変わらずの道を、久しぶりに俺達は並んで歩いた。",
-			NULL, "O coro das higurashi ressoou enquanto nós caminhamos no caminho de sempre lado a lado pela primeira vez em muito tempo.", Line_Normal);
+			NULL, "O coro das higurashi ressoava enquanto andávamos pelo caminho de sempre, lado a lado pela primeira vez em muito tempo.", Line_Normal);
 	ClearMessage();
 
 //rしかし魅音は、今までと違うようにみえる。
@@ -1292,7 +1292,7 @@ void main()
 	OutputLine(NULL, "面倒くさいのは御免だ、そう聞こえた。",
 			NULL, "Como se ela estivesse me dizendo que era melhor ser um bom motivo.", Line_WaitForInput);
 	OutputLine(NULL, "ここは率直にいくしかない。",
-			NULL, " Nesse ponto, eu não tinha escolha a não ser completamente franco.", Line_Normal);
+			NULL, " Nesse ponto, eu não tinha escolha além de ser completamente franco.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS17/01/110100292.「あ、ああ。kvS17/01/110100293.さすがだな」
