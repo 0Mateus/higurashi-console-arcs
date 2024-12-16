@@ -964,7 +964,7 @@ void main()
 			NULL, "\"A conversa ainda está amigável?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400007", 256, TRUE);
 	OutputLine(NULL, "　キャッチバーのお兄さんのほうがよっぽど親しみあるっつの。",
-			NULL, " Só se estiver amigável como a conversa de um velho num clube de swing.", Line_WaitForInput);//;catchbar
+			NULL, " Só se estiver amigável como a conversa de um velho num bar.", Line_WaitForInput);//;catchbar
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400008", 256, TRUE);
 	OutputLine(NULL, "お願いだからこの学校のイメージをガタガタにしないでちょうだい」",
 			NULL, " Então, por favor, tente evitar destruir a imagem da nossa escola.\"", Line_Normal);
@@ -2340,7 +2340,7 @@ void main()
 //r縁結びの神でもあるオヤシロさまのおかげでおとーさんとおかーさんは結ばれたとおばーちゃんは言っているが、実際は大学での恋愛結婚だったとおかーさんから聞いている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "縁結びの神でもあるオヤシロさまのおかげでおとーさんとおかーさんは結ばれたとおばーちゃんは言っているが、実際は大学での恋愛結婚だったとおかーさんから聞いている。",
-			NULL, "A vovó disse que a mamãe e o papai foram unidos graças a benção de Oyashiro-sama, que também parece ser alguma espécie de deus do casamento. Mas eu ouvi da mamãe que eles se apaixonaram na escola.", Line_Normal);
+			NULL, "A vovó disse que a mamãe e o papai foram unidos graças a benção de Oyashiro-sama, que também parece ser alguma espécie de deus do casamento. Mas eu ouvi da mamãe que eles se apaixonaram na faculdade.", Line_Normal);
 	ClearMessage();
 
 //r…そして、おかーさんはオヤシロさまに縛られているおばーちゃんを疎ましく思っていた。

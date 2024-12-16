@@ -39,56 +39,56 @@
 	"2": [
 		{
 			"Id": 75,
-			"Title": "Really, She's a Good Girl",
+			"Title": "Verdadeiramente, Ela é uma Boa Menina",
 			"TitleJp": "ほんとに、いい子なんだよ",
 			"Script": "some_tips_081",
 			"UnlockChapter": 3
 		},
 		{
 			"Id": 75,
-			"Title": "Will of an Old Detective",
+			"Title": "Pedido de um Velho Detetive",
 			"TitleJp": "老刑事の遺言",
 			"Script": "some_tips_082",
 			"UnlockChapter": 6
 		},
 		{
 			"Id": 75,
-			"Title": "Old Local News Article",
+			"Title": "Artigo Velho de um Jornal",
 			"TitleJp": "古新聞の社会面記事",
 			"Script": "some_tips_083",
 			"UnlockChapter": 7
 		},
 		{
 			"Id": 75,
-			"Title": "Mother and Daughter",
+			"Title": "Mãe e Filha",
 			"TitleJp": "母と娘",
 			"Script": "some_tips_084",
 			"UnlockChapter": 7
 		},
 		{
 			"Id": 75,
-			"Title": "Steadily Turning",
+			"Title": "Lentamente se Transformando",
 			"TitleJp": "しっかりせんかいっ",
 			"Script": "some_tips_085",
 			"UnlockChapter": 7
 		},
 		{
 			"Id": 75,
-			"Title": "Investigation Has Begun",
+			"Title": "Início da Investigação",
 			"TitleJp": "捜査はふりだし",
 			"Script": "some_tips_086",
 			"UnlockChapter": 9
 		},
 		{
 			"Id": 75,
-			"Title": "Kindhearted Older Sister",
+			"Title": "Oneesan de Bom Coração",
 			"TitleJp": "優しいお姉ちゃん",
 			"Script": "some_tips_087",
 			"UnlockChapter": 14
 		},
 		{
 			"Id": 75,
-			"Title": "Someutsushi All Cast Review Session",
+			"Title": "Omake do Someutsushi",
 			"TitleJp": "染伝し編お疲れさま会",
 			"Script": "some_omake",
 			"UnlockChapter": 14
