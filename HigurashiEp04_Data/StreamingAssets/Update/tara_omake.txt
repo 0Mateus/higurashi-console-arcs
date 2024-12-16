@@ -531,7 +531,7 @@ void main()
 			NULL, "\"Nfu~ fu fu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700432", 256, TRUE);
 	OutputLine(NULL, "　つまりは私、クラウドこと大石蔵人のダンディズム劇場の始まりなのですよぉ～！」",
-			NULL, " Em outras palavras, é hora do teatro refinado de Kuraudo Ooishi começar~!\"", Line_Normal);
+			NULL, " Em outras palavras, é hora do teatro refinado de Ooishi Kuraudo começar~!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "sword", 256, 64);
