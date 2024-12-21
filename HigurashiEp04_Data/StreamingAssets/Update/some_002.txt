@@ -3574,7 +3574,7 @@ void main()
 			NULL, " ...Ah, Natsumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300144", 256, TRUE);
 	OutputLine(NULL, "今日はバイトの日だよね？」",
-			NULL, " Você tem trabalho de meio-período hoje, certo?\"", Line_Normal);
+			NULL, " Você tem trabalho de meio período hoje, certo?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100138.「うん。kvS04/36/310100139.授業終わったら、すぐ行くつもり」

@@ -2565,13 +2565,13 @@ void main()
 //r実は、…介護福祉センターのアルバイトのことは、おかーさんたちには内緒だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "実は、…介護福祉センターのアルバイトのことは、おかーさんたちには内緒だった。",
-			NULL, "Para ser sincera... minha família não sabe sobre meu trabalho de meio-período no centro de cuidado e bem estar.", Line_Normal);
+			NULL, "Para ser sincera... minha família não sabe sobre meu trabalho de meio período no centro de cuidado e bem estar.", Line_Normal);
 	ClearMessage();
 
 //r確かにアルバイトは校則で禁止されているけど、それだけじゃない。おかーさんとおとーさんの結婚祝いをプレゼントして、驚かせてあげたかったからだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かにアルバイトは校則で禁止されているけど、それだけじゃない。おかーさんとおとーさんの結婚祝いをプレゼントして、驚かせてあげたかったからだ。",
-			NULL, "Naturalmente, trabalhos de meio-período são proíbidos pelo regimento escolar, mas não é esse o motivo. Eu queria surpreender a mamãe e o papai com um presente de aniversário.", Line_Normal);
+			NULL, "Naturalmente, trabalhos de meio período são proíbidos pelo regimento escolar, mas não é esse o motivo. Eu queria surpreender a mamãe e o papai com um presente de aniversário.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100278.「今年で、２０年目だって言ってたしね…」
@@ -2625,7 +2625,7 @@ void main()
 //r動機は、それだけじゃない。…もう一つの理由は、アルバイトを経験することで私は、この街にいる『自分』を変えたかったんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "動機は、それだけじゃない。…もう一つの理由は、アルバイトを経験することで私は、この街にいる『自分』を変えたかったんだ。",
-			NULL, "Essa não é minha única motivação. O outro motivo é que eu queria mudar <i>quem sou</i> nesta cidade, experienciando um trabalho de meio-período.", Line_Normal);
+			NULL, "Essa não é minha única motivação. O outro motivo é que eu queria mudar <i>quem sou</i> nesta cidade, experienciando um trabalho de meio período.", Line_Normal);
 	ClearMessage();
 
 //rずっと私は、興宮にいたときから思ってきたことがある。それは、園崎家の本家で暮らしている女の子、魅音ちゃんが働いている姿を見かけたことがきっかけだった…。
@@ -2834,7 +2834,7 @@ void main()
 //rアルバイトしてることが藤堂くんに知られちゃったら、このことが学校にもばれてしまう。ううん、それだけじゃない。校則違反している子だって私のことを、藤堂くんが軽蔑したりしないだろうか…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "アルバイトしてることが藤堂くんに知られちゃったら、このことが学校にもばれてしまう。ううん、それだけじゃない。校則違反している子だって私のことを、藤堂くんが軽蔑したりしないだろうか…？",
-			NULL, "Se Toudou-kun descobrir que estou trabalhando meio-período, a notícia chegará à escola. Não, não apenas isso. Toudou-kun vai me desprezar por violar as regras da escola...?", Line_Normal);
+			NULL, "Se Toudou-kun descobrir que estou trabalhando meio período, a notícia chegará à escola. Não, não apenas isso. Toudou-kun vai me desprezar por violar as regras da escola...?", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );

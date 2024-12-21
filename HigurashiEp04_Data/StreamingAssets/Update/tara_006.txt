@@ -1081,7 +1081,7 @@ void main()
 //r放課後。魅音はバイトへ行くらしく、一人教室を出た。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "放課後。魅音はバイトへ行くらしく、一人教室を出た。",
-			NULL, "As aulas acabaram. E Mion precisa ir para o seu trabalho de meio-período, então ela saiu da sala sozinha.", Line_Normal);
+			NULL, "As aulas acabaram. E Mion precisa ir para o seu trabalho de meio período, então ela saiu da sala sozinha.", Line_Normal);
 	ClearMessage();
 
 //r一対一になることを考えると少し緊張した。
