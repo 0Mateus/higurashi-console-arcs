@@ -78,14 +78,14 @@ void main()
 			NULL, " Parece que você se tornou mais fria desde a última vez que nos vimos, hein?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3008", 256, TRUE);
 	OutputLine(NULL, "　昔は『クラちゃん』と気安く呼んでくれる仲だったのに、なんだかちょっとショックですよぉ～」",
-			NULL, " Eramos tão próximos que você me chamava de \"Kura-chan,\" então estou meio surpreso.\"", Line_Normal);
+			NULL, " Eramos tão próximos que você até me chamava de \"Kura-chan,\" então estou meio surpreso.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3007.「それは妹です！kvS20/28/VTT_tomoe3008.　何度も言いますけど、私は『巴』で妹は『まどか』！kvS20/28/VTT_tomoe3009.　あの子に対してみたいな感じで接してこられても、私は嬉しくありません！kvS20/28/VTT_tomoe3010.　むしろ迷惑！kvS20/28/VTT_tomoe3011.　これ以上おちょくるなら、もう切りますよ？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3007", 256, TRUE);
 	OutputLine(NULL, "「それは妹です！",
-			NULL, "\"Essa era minha irmã!", Line_WaitForInput);
+			NULL, "\"Essa era a minha irmã!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3008", 256, TRUE);
 	OutputLine(NULL, "　何度も言いますけど、私は『巴』で妹は『まどか』！",
 			NULL, " Eu já te disse isso muitas vezes, eu sou \"Tomoe\" e a minha irmã é \"Madoka\"!", Line_WaitForInput);
@@ -98,7 +98,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3011", 256, TRUE);
 	OutputLine(NULL, "　これ以上おちょくるなら、もう切りますよ？！」",
-			NULL, "Se você continuar me provocando, vou desligar agora, ok?!\"", Line_Normal);
+			NULL, "Se você continuar me provocando, vou desligar agora mesmo, ok?!\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3009.「なっはっはっはっ！kvS20/11/VTT_oishi3010.　まぁまぁ、そう本気で怒らずに。kvS20/11/VTT_oishi3011.ささくれだった日常を和らげる、ちょっとした癒しのジョークですよぉ」
@@ -183,7 +183,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3017", 256, TRUE);
 	OutputLine(NULL, "「最近そっちの山間で、殺人事件があったそうですね？",
-			NULL, "\"Houve um assassinato recente nas montanhas perto de você, não foi?", Line_WaitForInput);
+			NULL, "\"Houve um assassinato recente nas montanhas próximas a você, não foi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3018", 256, TRUE);
 	OutputLine(NULL, "　ほら、ドラム缶に詰められて不審火にこんがり焼かれた、女性のやつ」",
 			NULL, " Sabe, aquele em que o corpo queimado de uma mulher foi encontrado dentro de um tambor.\"", Line_Normal);
@@ -196,7 +196,7 @@ void main()
 			NULL, "\"Sim, isso aconteceu já faz alguns dias.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3020", 256, TRUE);
 	OutputLine(NULL, "でもあの事件、ウチの現場じゃなくてお隣の県警さんの管轄でしたから、現場検証は途中までしかやっていないんですけどね」",
-			NULL, " Mas esse caso não aconteceu sobre nossa jurisdição. Na verdade está sendo investigado pela polícia da prefeitura vizinha, então nossa investigação da cena do crime ficou pela metade.\"", Line_Normal);
+			NULL, " Mas este caso não aconteceu sobre nossa jurisdição. Ele na verdade está sendo investigado pela polícia da prefeitura vizinha, então nossa investigação da cena do crime ficou pela metade.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3019.「そこで焼かれたホトケの、鷹野三四ってのは雛見沢の看護師なんですがね。kvS20/11/VTT_oishi3020.…どうやら、おかしなところが出てきているんですよ」
@@ -240,20 +240,20 @@ void main()
 			NULL, "\"De fato, muitas pessoas da perícia criminal de lá são bastante isoladas, apesar da falta de habilidade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3024", 256, TRUE);
 	OutputLine(NULL, "まともに相談に乗ってくれそうなのは、若手の松岡くんくらいですよ」",
-			NULL, " Recrutas mais jovens, como o Matsuoka-kun, são praticamente os únicos que vão responder alguma coisa.\"", Line_Normal);
+			NULL, " Recrutas mais jovens, como Matsuoka-kun, são praticamente os únicos que vão responder alguma coisa.\"", Line_Normal);
 	ClearMessage();
 
 //rその彼も、年功序列には逆らえずにその能力を飼い殺しにされているらしい。診断の内容にも何やかやと口出しされるそうで、やりにくいとこの前の交流会で愚痴をこぼしていたものだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その彼も、年功序列には逆らえずにその能力を飼い殺しにされているらしい。診断の内容にも何やかやと口出しされるそうで、やりにくいとこの前の交流会で愚痴をこぼしていたものだ。",
-			NULL, "Pelo visto, mesmo seus talentos estão sendo desperdiçados por conta do salário baixo que é pago pelos seus superiores teimosos. Ele reclamou em uma reunião recente sobre como as coisas estão difíceis por causa de uma interferência atrás da outra nos resultados das autópsias.", Line_Normal);
+			NULL, "Pelo visto, mesmo seus talentos estão sendo desperdiçados por causa do salário baixo que é pago pelos seus superiores teimosos. Ele reclamou em uma reunião recente sobre como as coisas estão difíceis por conta de uma interferência atrás da outra nos resultados das autópsias.", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3025.「…にしても今時、海外の法医学研修の経験者が彼一人だけなんて、犯人を捕まえる気がないってことでしょうかね？kvS20/28/VTT_tomoe3026.　ＤＮＡ鑑定も視野に入れた法改正が検討されているご時勢だってのに、まったく…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3025", 256, TRUE);
 	OutputLine(NULL, "「…にしても今時、海外の法医学研修の経験者が彼一人だけなんて、犯人を捕まえる気がないってことでしょうかね？",
-			NULL, "\"...Ainda assim, ele é o único na equipe deles que recebeu treinamento em perícia forense no exterior. É quase como se eles não quisessem capturar criminosos ou algo assim.", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"...Ainda assim, ele é o único na equipe deles que recebeu algum treinamento em perícia forense no exterior. É quase como se eles não quisessem capturar criminosos ou algo assim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3026", 256, TRUE);
 	OutputLine(NULL, "　ＤＮＡ鑑定も視野に入れた法改正が検討されているご時勢だってのに、まったく…」",
@@ -270,7 +270,7 @@ void main()
 			NULL, " Eu gostaria que você usasse seu título e conexões para convencer aquele homem a confirmar os fatos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3026", 256, TRUE);
 	OutputLine(NULL, "特に、…死亡推定時刻のあたりを」",
-			NULL, " Pessoalmente... Estou interessado sobre a hora estimada da morte.\"", Line_Normal);
+			NULL, " Pessoalmente... Estou interessado na hora estimada da morte.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3027.「死亡推定時刻…？」
@@ -289,7 +289,7 @@ void main()
 //rはっきりとは見えないので断定はできないが、…それによると、日付が少なくとも１日ずれている可能性があるというのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "はっきりとは見えないので断定はできないが、…それによると、日付が少なくとも１日ずれている可能性があるというのだ。",
-			NULL, "É difícil de perceber, então não é conclusivo... mas com base nisso, ele afirma que há uma possibilidade da data estar imprecisa em pelo menos um dia.", Line_Normal);
+			NULL, "É difícil de perceber, então não é conclusivo... mas, com base nisso, ele afirma que há uma possibilidade da data estar imprecisa em pelo menos um dia.", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3027.「…ひょっとしたら、ですが。kvS20/11/VTT_oishi3028.被害者が生前、綿流しに参加していたことを突き止めた隣の県警が、辻褄合わせのために鑑識に言って修正させたんじゃないかな、ってね…？」
@@ -299,7 +299,7 @@ void main()
 			NULL, "\"...É apenas uma teoria minha...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3028", 256, TRUE);
 	OutputLine(NULL, "被害者が生前、綿流しに参加していたことを突き止めた隣の県警が、辻褄合わせのために鑑識に言って修正させたんじゃないかな、ってね…？」",
-			NULL, " Mas, é possível que a polícia da prefeitura vizinha tenha descoberto que a vítima estava viva e participando do Watanagashi aquela noite, e então alterado o relatório para fazerem os fatos se encaixarem...?\"", Line_Normal);
+			NULL, " Mas, é possível que a polícia da prefeitura vizinha tenha descoberto que a vítima estava viva e participando do Watanagashi aquela noite, e então alteraram o relatório para fazerem os fatos se encaixarem...?\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3028.「えぇっ？kvS20/28/VTT_tomoe3029.　…それって、改ざんしたってことじゃないですか！kvS20/28/VTT_tomoe3030.　事実なら大問題ですよっ？！」
@@ -439,7 +439,7 @@ void main()
 			NULL, " ...Ainda assim, Tomoe-chan, não fique aí até tarde. Por que não vai para casa logo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3039", 256, TRUE);
 	OutputLine(NULL, "　夜更かしは美容の大敵ですよぉ～？　んっふっふっふっ！」",
-			NULL, " Ficar acordada até tarde vai acabar prejudicando a sua aparência, sabe~? Nfu fu fu!\"", Line_Normal);
+			NULL, " Ficar acordada até tão tarde vai acabar prejudicando a sua aparência, sabe~? Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3041.「…お気遣いは感謝しますが、これでも私は『管理職』なので。kvS20/28/VTT_tomoe3042.片付けなきゃいけない仕事がいっぱいあるんですよ」
@@ -495,10 +495,10 @@ void main()
 			NULL, "\"Na ha ha ha! Ouvir você dizer isso é encorajador.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3043", 256, TRUE);
 	OutputLine(NULL, "持つべきものは物分りのいい上役と、腰の軽い後輩！",
-			NULL, " Que bênção é ter um superior tão compreensivo e um subordinado tão disposto e alegre!", Line_WaitForInput);
+			NULL, " Que bênção é ter um superior tão compreensivo e um subordinado tão disposto!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3044", 256, TRUE);
 	OutputLine(NULL, "　それに優秀なキャリアがつけば、まさに鬼に金棒ってところですかぁ？」",
-			NULL, " Quando você adiciona a sua excelente carreira a isso, você é tão forte quanto se pode ser.\"", Line_Normal);
+			NULL, " Quando você adiciona sua excelente carreira a isso, você é tão forte quanto se pode ser.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3047.「…なんだか大石さんにそう言われても、からかわれてるようにしか聞こえないんですが。kvS20/28/VTT_tomoe3048.大石さんこそ、もうお歳なんですから無理はしないでくださいよ？kvS20/28/VTT_tomoe3049.　年金をもらう前に逝っちゃったら、大金の払い損なんですから」
@@ -512,7 +512,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3049", 256, TRUE);
 	OutputLine(NULL, "　年金をもらう前に逝っちゃったら、大金の払い損なんですから」",
-			NULL, "Se você acabar morrendo antes de ganhar sua aposentadoria, vai perder muito dinheiro.\"", Line_Normal);
+			NULL, "Se você acabar morrendo antes de ganhar a aposentadoria, vai perder muito dinheiro.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3045.「おおぅ、巴ちゃんも言うようになりましたねぇ！kvS20/11/VTT_oishi3046.　まぁ睡眠ももちろんですが、お風呂もちゃんと入ったほうがいいですよ？kvS20/11/VTT_oishi3047.　今のあなたはきっと、日本で一番匂う女刑事さんですからね～！」
@@ -522,10 +522,10 @@ void main()
 			NULL, "\"Ohhh Tomoe-chan, suas palavras cortam fundo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3046", 256, TRUE);
 	OutputLine(NULL, "　まぁ睡眠ももちろんですが、お風呂もちゃんと入ったほうがいいですよ？",
-			NULL, " Bem, o sono é essencial, mas seria melhor se você tomasse banhos regularmente, ok?", Line_WaitForInput);
+			NULL, " Bem, o sono é essencial, mas também seria melhor se você tomasse banhos regularmente, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3047", 256, TRUE);
 	OutputLine(NULL, "　今のあなたはきっと、日本で一番匂う女刑事さんですからね～！」",
-			NULL, " Tenho certeza que você é a detetive feminina mais fedida do Japão agora~!\"", Line_Normal);
+			NULL, " Tenho certeza que você é a detetive feminina mais fedida do Japão neste momento~!\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3050.「ちゃんと毎日洗ってキレイにしてますっ！　匂いなんかしませんッッ！！」
@@ -542,7 +542,7 @@ void main()
 			NULL, "\"Na ha ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3049", 256, TRUE);
 	OutputLine(NULL, "　それじゃ、良いお年を！」",
-			NULL, " Certo então, tenha um bom ano!!\"", Line_Normal);
+			NULL, " Certo então, tenha um bom ano!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ke_s2", 1000 );
@@ -581,7 +581,7 @@ void main()
 //rそのあと、わずか数十分後に大石さんから再び連絡があったが、…浴室にいた私は、それに出ることができなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そのあと、わずか数十分後に大石さんから再び連絡があったが、…浴室にいた私は、それに出ることができなかった。",
-			NULL, "Após isso, Ooishi tentou me ligar novamente algumas dezenas de minutos depois, mas... eu estava no banheiro, então não consegui atender.", Line_Normal);
+			NULL, "Após isso, Ooishi tentou me ligar novamente algumas dezenas de minutos depois, mas... eu estava no banheiro, e não consegui atender.", Line_Normal);
 	ClearMessage();
 
 //rそして。
