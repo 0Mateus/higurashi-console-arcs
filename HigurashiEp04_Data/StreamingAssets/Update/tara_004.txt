@@ -1188,7 +1188,7 @@ void main()
 			NULL, "\"Realmente, não há nenhuma dúvida. Ele está morto.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s17/03/110300217", 256, TRUE);
 	OutputLine(NULL, "婆っちゃから聞いてさ——」",
-			NULL, " Eu ouvi da minha vó...\"", Line_Normal);
+			NULL, " Eu ouvi da minha avó...\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "garasu", 256, 64);
