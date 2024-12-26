@@ -22,33 +22,33 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3001", 256, TRUE);
 	OutputLine(NULL, "「…あら、暁ちゃん。",
-			NULL, "\"...Oh, Akira-chan.", Line_WaitForInput);
+			NULL, "\"...Ora, Akira-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3002", 256, TRUE);
 	OutputLine(NULL, "うちのクラスに何か用？」",
-			NULL, " Did you need something from our classroom?\"", Line_Normal);
+			NULL, " Você precisa de algo da nossa sala?\"", Line_Normal);
 	ClearMessage();
 
 //暁rvS20/39/VTT_akira3001.「あ、いや。kvS20/39/VTT_akira3002.タマにじゃなくて、チサにな」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3001", 256, TRUE);
 	OutputLine(NULL, "「あ、いや。",
-			NULL, "\"Oh, no.", Line_WaitForInput);
+			NULL, "\"Ah, não.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3002", 256, TRUE);
 	OutputLine(NULL, "タマにじゃなくて、チサにな」",
-			NULL, " Not from you, Tama. I'm actually here for Chisa.\"", Line_Normal);
+			NULL, " Não de você, Tama. Na verdade estou procurando por Chisa.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3028.「私にぃ？kvS20/37/VTT_chisa3029.…いや～、まいったねこりゃ。kvS20/37/VTT_chisa3030.あ、でも今週は何かと予定が入ってるから、来週でもいい？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3028", 256, TRUE);
 	OutputLine(NULL, "「私にぃ？",
-			NULL, "\"For meee?", Line_WaitForInput);
+			NULL, "\"Por miiim?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3029", 256, TRUE);
 	OutputLine(NULL, "…いや～、まいったねこりゃ。",
-			NULL, " ...Wow~, what a conundrum this is.", Line_WaitForInput);
+			NULL, " ...Uau~, que situação, hein.", Line_WaitForInput);//;conundrum
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3030", 256, TRUE);
 	OutputLine(NULL, "あ、でも今週は何かと予定が入ってるから、来週でもいい？」",
-			NULL, " Oh, but my schedule is pretty tight this week. Can we do this next week?\"", Line_Normal);
+			NULL, " Ah, mas minha agenda está bem apertada esta semana. Podemos fazer isso na próxima?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_shinken_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -57,17 +57,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3003", 256, TRUE);
 	OutputLine(NULL, "「…何の話をしてるんだ？」",
-			NULL, "\"...What are you talking about?\"", Line_Normal);
+			NULL, "\"...Do que diabos você está falando?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3031.「え、デートのお誘いでしょ？kvS20/37/VTT_chisa3032.　ああ、ちなみにディナーはフランス料理フルコースでよろしくね～」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3031", 256, TRUE);
 	OutputLine(NULL, "「え、デートのお誘いでしょ？",
-			NULL, "\"Don't be coy, you're inviting me on a date, aren't you?", Line_WaitForInput);
+			NULL, "\"Não seja tímido, você está me chamando para um encontro, não está?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3032", 256, TRUE);
 	OutputLine(NULL, "　ああ、ちなみにディナーはフランス料理フルコースでよろしくね～」",
-			NULL, " Oh, by the way, I'd like a full course meal of French cuisine for dinner~.\"", Line_Normal);
+			NULL, " Ah, a propósito, gostaria de uma refeição completa de culinária francesa para o jantar~.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_sakebi_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -76,26 +76,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3004", 256, TRUE);
 	OutputLine(NULL, "「違うっ！！",
-			NULL, "\"No way!!", Line_WaitForInput);
+			NULL, "\"De jeito nenhum!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3005", 256, TRUE);
 	OutputLine(NULL, "　この前貸した教科書、返してもらいに来ただけだ！！」",
-			NULL, " I just came here to get back the textbook I loaned you!!\"", Line_Normal);
+			NULL, " Apenas vim para pegar de volta o livro didático que eu emprestei!!\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3033.「あんだよぉ、ちょっとしたジョークだっての。kvS20/37/VTT_chisa3034.そんなにマジに怒るなよぉ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3033", 256, TRUE);
 	OutputLine(NULL, "「あんだよぉ、ちょっとしたジョークだっての。",
-			NULL, "\"Come on, it was just a little joke.", Line_WaitForInput);
+			NULL, "\"Vamos, foi apenas uma brincadeirinha.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3034", 256, TRUE);
 	OutputLine(NULL, "そんなにマジに怒るなよぉ」",
-			NULL, " You don't have to get angry like that.\"", Line_Normal);
+			NULL, " Não precisa se irritar tanto.\"", Line_Normal);
 	ClearMessage();
 
 //r私はぼやきながら、机の中にしまっていた教科書を取り出す。そして『ほらっ』と、ぞんざいなしぐさで差し出した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私はぼやきながら、机の中にしまっていた教科書を取り出す。そして『ほらっ』と、ぞんざいなしぐさで差し出した。",
-			NULL, "I took out the textbook that was stored in my desk while grumbling to myself. And then I shouted \"Here!\" while offering it with a callous gesture.", Line_Normal);
+			NULL, "Peguei o livro didático que estava guardado na minha mesa, enquanto resmungava para mim mesma. E então gritei: \"Aqui está!\" enquanto o oferecia em um gesto descuidado.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1b_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -114,30 +114,30 @@ void main()
 			NULL, "\"...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3036", 256, TRUE);
 	OutputLine(NULL, "　どうしたのさ、暁」",
-			NULL, " Is something wrong, Akira?\"", Line_Normal);
+			NULL, " Tem algo de errado, Akira?\"", Line_Normal);
 	ClearMessage();
 
 //暁rvS20/39/VTT_akira3007.「あ、いや別に…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3007", 256, TRUE);
 	OutputLine(NULL, "「あ、いや別に…」",
-			NULL, "\"Oh, no, it's nothing...\"", Line_Normal);
+			NULL, "\"Ah, não, não é nada...\"", Line_Normal);
 	ClearMessage();
 
 //r教科書を受け取りながら、暁は訝しげに教室を見渡している。…その様子があまりにもあからさまだったので、私はニヤリ、と意地の悪い笑みを浮かべて言ってやった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "教科書を受け取りながら、暁は訝しげに教室を見渡している。…その様子があまりにもあからさまだったので、私はニヤリ、と意地の悪い笑みを浮かべて言ってやった。",
-			NULL, "Akira carefully surveyed the classroom while grabbing the textbook. ...Since he was so conspicuous about it, I began to speak with a wicked grin on my face.", Line_Normal);
+			NULL, "Akira atentamente inspecionou a sala de aula com os olhos enquanto pegava o livro didático. ...A situação estava tão óbvia que comecei a falar com um sorriso perverso no rosto.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3037.「夏美なら、トイレだよ。kvS20/37/VTT_chisa3038.覗きに行くならつれてってあげるけど～？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3037", 256, TRUE);
 	OutputLine(NULL, "「夏美なら、トイレだよ。",
-			NULL, "\"If you're looking for Natsumi, she's in the bathroom.", Line_WaitForInput);
+			NULL, "\"Se você está procurando por Natsumi, ela está no banheiro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3038", 256, TRUE);
 	OutputLine(NULL, "覗きに行くならつれてってあげるけど～？」",
-			NULL, " And if you're interesting in peeping, I can take you there~.\"", Line_Normal);
+			NULL, " Mas se você insistir em espiar, posso levar você lá~.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_sakebi_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -149,7 +149,7 @@ void main()
 			NULL, "\"...?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3009", 256, TRUE);
 	OutputLine(NULL, "　そ、そんな趣味はねぇっ！」",
-			NULL, " I-I'm not into that sort of thiiing!\"", Line_Normal);
+			NULL, " E-eu não faço esse tipo de coisa!\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3039.「あっはっはっはっ！kvS20/37/VTT_chisa3040.　やっぱりここに来た目的はそれかぁ～！」
@@ -159,7 +159,7 @@ void main()
 			NULL, "\"Aahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3040", 256, TRUE);
 	OutputLine(NULL, "　やっぱりここに来た目的はそれかぁ～！」",
-			NULL, " So that's why you came over here after all~!\"", Line_Normal);
+			NULL, " Então este é o verdadeiro motivo para você ter vindo, afinal~!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_shinken_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -171,7 +171,7 @@ void main()
 			NULL, "\"Guh...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtt_akira3011", 256, TRUE);
 	OutputLine(NULL, "　じゃ、じゃあなっ！」",
-			NULL, " B-Bye!\"", Line_Normal);
+			NULL, " A-até mais!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -179,7 +179,7 @@ void main()
 //r暁は耳まで顔を真っ赤にして、返す言葉を失う。そして、いたたまれずにぷいっと身を翻すと、小走りに教室を出て行った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "暁は耳まで顔を真っ赤にして、返す言葉を失う。そして、いたたまれずにぷいっと身を翻すと、小走りに教室を出て行った。",
-			NULL, "Akira's face turned red all the way to his ears, and he lost the will to respond. Then, he abruptly turned around and walked out of the classroom with a short stride.", Line_Normal);
+			NULL, "O rosto do Akira ficou vermelho até as orelhas, e ele não sabia mais o que responder. Então, abruptamente virou e começou a caminhar para fora da sala de aula numa passada curta.", Line_Normal);//;lost the will
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3041.「くっくっくっ…！kvS20/37/VTT_chisa3042.　ほーんと暁って、ヘタレ街道まっしぐらだよね～。kvS20/37/VTT_chisa3043.別に理由作らなくても、夏美に会いたかったら普通に来ればいいのにさぁ」
@@ -189,10 +189,10 @@ void main()
 			NULL, "\"Mwahaha...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3042", 256, TRUE);
 	OutputLine(NULL, "　ほーんと暁って、ヘタレ街道まっしぐらだよね～。",
-			NULL, " Reeeally Akira, you're driving full speed down loser road~.", Line_WaitForInput);
+			NULL, " Caramba Akira, você está dirigindo a toda velocidade rumo ao fracasso~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3043", 256, TRUE);
 	OutputLine(NULL, "別に理由作らなくても、夏美に会いたかったら普通に来ればいいのにさぁ」",
-			NULL, " I wish he didn't feel the need to make excuses for seeing Natsumi.\"", Line_Normal);
+			NULL, " Gostaria que ele não precisasse de desculpas para poder vir ver a Natsumi.\"", Line_Normal);//;
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -201,17 +201,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3003", 256, TRUE);
 	OutputLine(NULL, "「暁ちゃんは、純情なんだよ。",
-			NULL, "\"Akira-chan is a pure-hearted person.", Line_WaitForInput);
+			NULL, "\"Akira-chan é uma pessoa de coração puro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3004", 256, TRUE);
 	OutputLine(NULL, "…誰かさんと違ってね」",
-			NULL, " ...Unlike someone else around here.\"", Line_Normal);
+			NULL, " ...Ao contrário de alguém por aqui.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3044.「誰かさんって、誰のことだよ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3044", 256, TRUE);
 	OutputLine(NULL, "「誰かさんって、誰のことだよ？」",
-			NULL, "\"Someone, huh? Who do you mean?\"", Line_Normal);
+			NULL, "\"Alguém, hein? De quem você está falando?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -220,17 +220,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3005", 256, TRUE);
 	OutputLine(NULL, "「さ～？",
-			NULL, "\"Well~?", Line_WaitForInput);
+			NULL, "\"Então~?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3006", 256, TRUE);
 	OutputLine(NULL, "　誰のことでしょうか？」",
-			NULL, " Who could it be?\"", Line_Normal);
+			NULL, " De quem será?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3045.「あのね～！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3045", 256, TRUE);
 	OutputLine(NULL, "「あのね～！」",
-			NULL, "\"Look here~!\"", Line_Normal);
+			NULL, "\"Ouça~!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -242,10 +242,10 @@ void main()
 			NULL, "\"Aahahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3008", 256, TRUE);
 	OutputLine(NULL, "…それに、それだけ本気ってことだと思うよ。",
-			NULL, " ...Besides, I think it just goes to show you.", Line_WaitForInput);
+			NULL, " ...Além disso, acho que isso mostra,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3009", 256, TRUE);
 	OutputLine(NULL, "暁ちゃんが、夏美のことを想ってる気持ちは、…ね」",
-			NULL, " How serious Akira-chan is about Natsumi... I mean.\"", Line_Normal);
+			NULL, " o quão sério Akira-chan está sobre a Natsumi...\"", Line_Normal);
 	ClearMessage();
 
 //r………。
@@ -260,7 +260,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3046", 256, TRUE);
 	OutputLine(NULL, "「私だってさ、…結構本気、だったんだよ？」",
-			NULL, "\"I... I was also pretty serious about what I said, you know?\"", Line_Normal);
+			NULL, "\"E-eu também estava séria sobre o que disse, sabia?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -269,23 +269,23 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3010", 256, TRUE);
 	OutputLine(NULL, "「わかってるよ。",
-			NULL, "\"I know.", Line_WaitForInput);
+			NULL, "\"Eu sei.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3011", 256, TRUE);
 	OutputLine(NULL, "一応、私は…わかってるつもり。",
-			NULL, " ...I'm trying to be understanding.", Line_WaitForInput);
+			NULL, " ...Estou tentando ser compreensiva.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3012", 256, TRUE);
 	OutputLine(NULL, "だから、今でも正直、…私はどうしたらいいのかなって、迷ってる」",
-			NULL, " So to be perfectly honest... I still have no idea what I should be doing, even now.\"", Line_Normal);
+			NULL, " Então, para ser honesta... ainda não tenho ideia do que deveria estar fazendo.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3047.「それじゃ、…もし、私がぶち壊したいって言えば、kvS20/37/VTT_chisa3048.…あんたは協力してくれるって、こと？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3047", 256, TRUE);
 	OutputLine(NULL, "「それじゃ、…もし、私がぶち壊したいって言えば、",
-			NULL, "\"Well then... If I said that I wanted to break this up,", Line_WaitForInput);
+			NULL, "\"Bem, então... se eu dissesse que quero acabar com tudo isso,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3048", 256, TRUE);
 	OutputLine(NULL, "…あんたは協力してくれるって、こと？」",
-			NULL, " ...does that mean you would help me out?\"", Line_Normal);
+			NULL, " ...isso significa que você iria me ajudar?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -294,13 +294,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3013", 256, TRUE);
 	OutputLine(NULL, "「そうね。",
-			NULL, "\"I wonder.", Line_WaitForInput);
+			NULL, "\"Eu me pergunto.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3014", 256, TRUE);
 	OutputLine(NULL, "あんたがそう望むなら、…一度限りで手を貸してあげるけど。",
-			NULL, " If that's what you truly want, I'd lend you a hand just that once.", Line_WaitForInput);
+			NULL, " Se for isso que você verdadeiramente quer, te ajudaria dessa vez.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3015", 256, TRUE);
 	OutputLine(NULL, "…本気？」",
-			NULL, " ...But is that really how you feel?\"", Line_Normal);
+			NULL, " ...Mas, realmente é o que você sente?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3049.「………」
@@ -313,19 +313,19 @@ void main()
 //rあの子の恋を邪魔するのは、簡単だ。たった二、三言伝えただけで、…あの子はきっと、自分の恋心を永久に封印してしまうだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あの子の恋を邪魔するのは、簡単だ。たった二、三言伝えただけで、…あの子はきっと、自分の恋心を永久に封印してしまうだろう。",
-			NULL, "It would be easy to destroy that girl's love. A simple word or three... would surely spell the permanent end of her romance.", Line_Normal);
+			NULL, "Seria fácil destruir o amor daquela garota. Com algumas simples palavrinhas... eu certamente conseguiria acabar permanentemente com seu romance.", Line_Normal);
 	ClearMessage();
 
 //r私は、あの子の性格をたぶん、暁よりもわかっている。だから、自分の想いを優先するつもりになれば、…いくらでも取れる手段はあった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は、あの子の性格をたぶん、暁よりもわかっている。だから、自分の想いを優先するつもりになれば、…いくらでも取れる手段はあった。",
-			NULL, "I probably understand her personality even better than Akira. So if I wanted to put my feelings before hers... there are all sorts of tactics I could resort to.", Line_Normal);
+			NULL, "Provavelmente entendo a personalidade dela até melhor que a do Akira. Portanto, se quisesse colocar meus sentimentos na frente dos dela... haveriam uma variedade de táticas que eu poderia utilizar.", Line_Normal);
 	ClearMessage();
 
 //rきわめてフェアな、そして有効的なやり方で————。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "きわめてフェアな、そして有効的なやり方で————。",
-			NULL, "In an extremely fair and effective way......", Line_Normal);
+			NULL, "De uma maneira extremamente justa e eficaz......", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -341,30 +341,30 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3050", 256, TRUE);
 	OutputLine(NULL, "「……おいおい、タマさんよ。",
-			NULL, "\"...Whoa now, Tama-san.", Line_WaitForInput);
+			NULL, "\"...Ei, Tama-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3051", 256, TRUE);
 	OutputLine(NULL, "なんて顔してるのかね、チミは？」",
-			NULL, " Turn that frown upside down, will you?\"", Line_Normal);
+			NULL, " Coloque um sorriso no rosto, certo?\"", Line_Normal);//;
 	ClearMessage();
 
 //r私はちょん、と珠子の前髪を軽く弾く。そしてはあっ、と息をひとつ吐いてから、両腕を上げて大きく伸びをした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私はちょん、と珠子の前髪を軽く弾く。そしてはあっ、と息をひとつ吐いてから、両腕を上げて大きく伸びをした。",
-			NULL, "I lightly played with Tamako's bangs. And then, after letting out a heavy sigh, I stretched my arms as far as they could go.", Line_Normal);
+			NULL, "Levemente brinquei com as mechas do cabelo da Tamako. E então, após soltar um suspiro profundo, estiquei meus braços o máximo que podia.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3052.「まー、ちーちゃんとしてはだ。kvS20/37/VTT_chisa3053.好き合う同士なんだから『二人ともしっかりせんかいっ！』ってのが本音だけどね。kvS20/37/VTT_chisa3054.慌てる様子をからかうのも楽しいけど、そればっかりだといい加減飽きちゃうからさ～」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3052", 256, TRUE);
 	OutputLine(NULL, "「まー、ちーちゃんとしてはだ。",
-			NULL, "\"Well, if I'm to speak my heart...", Line_WaitForInput);
+			NULL, "\"Bem, se for para falar o que sinto...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3053", 256, TRUE);
 	OutputLine(NULL, "好き合う同士なんだから『二人ともしっかりせんかいっ！』ってのが本音だけどね。",
-			NULL, " The two of them like each other, so I really do wish them the best. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " Os dois gostam um do outro, então realmente desejo o melhor para eles. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3054", 256, TRUE);
 	OutputLine(NULL, "慌てる様子をからかうのも楽しいけど、そればっかりだといい加減飽きちゃうからさ～」",
-			NULL, "I admit it's fun to tease how awkward they are about it, but it's gonna get old eventually~.\"", Line_Normal);
+			NULL, "Admito que é divertido brincar com o quão esquisito eles agem, mas vai perder a graça eventualmente~.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_warai_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -373,20 +373,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3017", 256, TRUE);
 	OutputLine(NULL, "「あははは、全く。",
-			NULL, "\"Ahahaha, absolutely.", Line_WaitForInput);
+			NULL, "\"Ahahaha, com certeza.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3018", 256, TRUE);
 	OutputLine(NULL, "あんな感じだと二人とも、デートしても緊張しっぱなしで疲れちゃうでしょうねぇ」",
-			NULL, " I get the feeling that even if the two of them actually dated, they'd both get really nervous and it would be exhausting.\"", Line_Normal);
+			NULL, " Sinto que se os dois realmente saíssem em um encontro, ficariam tão nervosos que seria exaustivo.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3055.「う～む、…そうだ。kvS20/37/VTT_chisa3056.ここはひとつ、私たちが一肌脱ぐか！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3055", 256, TRUE);
 	OutputLine(NULL, "「う～む、…そうだ。",
-			NULL, "\"Hmmm... I've got it.", Line_WaitForInput);
+			NULL, "\"Hmmm... Entendo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3056", 256, TRUE);
 	OutputLine(NULL, "ここはひとつ、私たちが一肌脱ぐか！」",
-			NULL, " Let's really bare our shoulders and lend them a hand!\"", Line_Normal);
+			NULL, " Já que este é o caso, vamos dar uma mãozinha para eles!\"", Line_Normal);//;r
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_akire_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -395,38 +395,38 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3019", 256, TRUE);
 	OutputLine(NULL, "「一肌脱ぐって、…千紗登。",
-			NULL, "\"Bare our shoulders...", Line_WaitForInput);
+			NULL, "\"Dar uma mãozinha...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtt_tama3020", 256, TRUE);
 	OutputLine(NULL, "あんたが言うと、なんかいやらしいんだけど…」",
-			NULL, " That sounds dirty coming from you...\"", Line_Normal);
+			NULL, " Isso soa tão sujo vindo de você...\"", Line_Normal);//;r
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3057.「失礼な！kvS20/37/VTT_chisa3058.　私はとてもフェアに、なおかつ有効的なやり方でだね…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3057", 256, TRUE);
 	OutputLine(NULL, "「失礼な！",
-			NULL, "\"How rude!", Line_WaitForInput);
+			NULL, "\"Que rude!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3058", 256, TRUE);
 	OutputLine(NULL, "　私はとてもフェアに、なおかつ有効的なやり方でだね…」",
-			NULL, " My methods are fair and effective...\"", Line_Normal);
+			NULL, " Meus métodos são justos e eficazes...\"", Line_Normal);
 	ClearMessage();
 
 //rもしかしたら、…私はいつか、山ほど後悔するかもしれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もしかしたら、…私はいつか、山ほど後悔するかもしれない。",
-			NULL, "Perhaps... I'll come to deeply regret this someday.", Line_Normal);
+			NULL, "Talvez... eu me arrependa profundamente disso algum dia.", Line_Normal);
 	ClearMessage();
 
 //rでも。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも。",
-			NULL, "But.", Line_Normal);
+			NULL, "Mas.", Line_Normal);
 	ClearMessage();
 
 //r今の私には、これが一番と思える選択だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今の私には、これが一番と思える選択だった。",
-			NULL, "Right now, this seems like the best choice to me.", Line_Normal);
+			NULL, "Atualmente, esta parece ser a melhor opção para mim.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
