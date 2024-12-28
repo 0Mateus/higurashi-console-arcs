@@ -264,7 +264,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s04/31/vt1b_fujita1006", 256, TRUE);
 	OutputLine(NULL, "「はぁ…タフというかなんというか、俺には真似できませんよ。",
-			NULL, "\"Você realmente é resistente, hein... Não consigo competir com isso.", Line_WaitForInput);
+			NULL, "\"Você realmente é resistente, hein... Não posso competir com isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s04/31/vt1b_fujita1007", 256, TRUE);
 	OutputLine(NULL, "とても同い年とは思えないっていうか…」",
 			NULL, " Nós realmente temos a mesma idade...?\"", Line_Normal);
@@ -350,7 +350,7 @@ void main()
 			NULL, "\"Aparentemente os três painéis eram feitos sob medida, por causa disso eram realmente caros, mas tenho certeza que você encontraria uma maneira de pagar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500022", 256, TRUE);
 	OutputLine(NULL, "一ヶ月間昼食とパチンコを止めたら『十分』足りるだろうし、ね」",
-			NULL, " Se você pular o almoço e não jogar <i>pachinko</i> por um mês, deve ser o <i>suficiente</i>, certo?\"", Line_Normal);
+			NULL, " Se pular o almoço e não jogar pachinko por um mês, deve ser o <i>suficiente</i>, certo?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 31, "sprite/huji_sakebi_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -392,7 +392,7 @@ void main()
 			NULL, "\"Ah, ahaha...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_kisoua1006", 256, TRUE);
 	OutputLine(NULL, "それじゃ、現場までご案内します」",
-			NULL, " Bem, agora eu irei levá-los a cena do crime.\"", Line_Normal);
+			NULL, " Bem, agora irei levá-los a cena do crime.\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 1000, FALSE  );
