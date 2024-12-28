@@ -15,7 +15,7 @@ Tradução para os arcos de console de Higurashi no Naku Koro ni.
 > É necessário ter o Capítulo 4: Himasubushi instalado.
 > O patch converterá seu jogo e apenas os arcos listados acima poderão ser jogados.
 
-1. Baixe e abra o [instalador do 07th-mod](https://github.com/07th-mod/python-patcher/releases/latest/download/07th-Mod.Installer.Windows.exe).
+1. Baixe e abra o [instalador do 07th-mod](https://github.com/07th-mod/python-patcher/releases/latest/).
 2. Selecione a última opção chamada _Console Arcs_. <br/><img src="img/console.png" alt="opção console arcs" width="300px">
 3. Selecione o diretório onde seu Himatsubushi está instalado e clique em "_START UPDATE!_".
 4. Após a instalação ser finalizada, baixe a [versão mais recente da tradução](https://github.com/0Mateus/higurashi-console-arcs/releases/latest/download/Higurashi-console-arcs_PT-BR.7z) e substitua os arquivos na pasta do jogo.
