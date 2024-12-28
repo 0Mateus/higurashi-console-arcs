@@ -64,7 +64,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3005", 256, TRUE);
 	OutputLine(NULL, "「あの担任の性格だと、一番気合の入った初日に持ってきそうな気がするんだ」",
-			NULL, "\"Conhecendo a personalidade daquela professora, tenho certeza que ela estará muito irritada no primeiro dia.\"", Line_Normal);
+			NULL, "\"Conhecendo a personalidade daquela professora, tenho certeza que estará muito irritada no primeiro dia.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登の父rvS20/00/VTT_saekiF3005.「…『あの担任』とは、ずいぶんな言いようだな。kvS20/00/VTT_saekiF3006.確か尾形という名の先生だったと思うが、ひょっとして気に入らんのか？」
@@ -93,7 +93,7 @@ void main()
 //r生徒に順位をつけるのは、まだいい。競争意識をあおるのも、教育者としては必要なことだろう。…だけど、それで将来の選択に勝手な枠をあてはめていくのは、越権じゃなく横暴というものだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "生徒に順位をつけるのは、まだいい。競争意識をあおるのも、教育者としては必要なことだろう。…だけど、それで将来の選択に勝手な枠をあてはめていくのは、越権じゃなく横暴というものだ。",
-			NULL, "Está tudo bem que eles classifiquem os alunos. Isso provavelmente deve ser necessário para que nos ajudem a competir adequadamente. Mas a maneira como eles forçam decisões futuras em você não é apenas excessiva, é tirânica.", Line_Normal);
+			NULL, "Está tudo bem que eles classifiquem os alunos. Isso provavelmente deve ser necessário para que nos ajudem a competir adequadamente. Mas, a maneira como eles forçam decisões futuras em você não é apenas excessiva, é tirânica.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3007.「尾形先生って去年から進路指導の担当になったんだけど、…なんか全校の合格率あげることばっかり考えてる先生でさ。kvS20/37/VTT_chisa3008.生徒にはあまり冒険させないっていうか、堅実なところしか受けさせないんだよ」
@@ -115,7 +115,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3010", 256, TRUE);
 	OutputLine(NULL, "だから先輩の話だと、これから頑張ろうって思ってる子にまで『あなたのレベルだと、大学はこことここ』って、ばっさりやっちゃってさ」",
-			NULL, "Pelo que nossos senpais disseram, ela está dizendo para até mesmo as crianças dedicadas: \"No seu nível, as universidades que pode escolher são essa e essa,\" drasticamente limitando elas.\"", Line_Normal);
+			NULL, "Pelo que nossos senpais disseram, ela está dizendo para até mesmo as crianças dedicadas: \"No seu nível, as universidades que pode escolher são esta e esta,\" drasticamente limitando elas.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3011.「あれって、夏美みたいに真面目にやってる子には結構、キツイと思うんだよ」
@@ -134,7 +134,7 @@ void main()
 //r…でも、私は知っている。あの子が前の学校からの遅れを取り戻すために、毎日一生懸命ノートを取ったり、授業を聞いたりしているかを。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…でも、私は知っている。あの子が前の学校からの遅れを取り戻すために、毎日一生懸命ノートを取ったり、授業を聞いたりしているかを。",
-			NULL, "...Mas, eu conheço a verdade. Aquela garota esteve prestando muita atenção e colocando muito esforço nas suas anotações para superar o atraso de ter se transferido para uma nova escola.", Line_Normal);
+			NULL, "...Mas, eu sei a verdade. Aquela garota esteve prestando muita atenção e colocando muito esforço nas suas anotações para superar o atraso de ter se transferido para uma nova escola.", Line_Normal);
 	ClearMessage();
 
 //rそんな夏美だから、…力になってあげたいんだ。数字には表れない努力だけど、わからず屋の教師どもにそれが蹂躙されるなんてこと、絶対に認めたくなかった。
@@ -153,7 +153,7 @@ void main()
 			NULL, " ...mas, não tem um show amanhã que você estava ansiosa para ir?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_saekif3009", 256, TRUE);
 	OutputLine(NULL, "　何ヶ月も前からチケットを手に入れて、昨日の晩も話していたじゃないか」",
-			NULL, " Com quantos meses de antecedência você comprou os ingressos? Você até estava falando sobre ele ontem a noite, não lembra?\"", Line_Normal);
+			NULL, " Com quantos meses de antecedência você comprou os ingressos? Você estava até falando sobre ele noite passada, não lembra?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3012.「あははは、…そだっけ？kvS20/37/VTT_chisa3013.　まぁ来日するのも今回限りじゃないみたいだし、次の機会を待てばいいって」
@@ -163,7 +163,7 @@ void main()
 			NULL, "\"Ahahaha, ...é mesmo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtt_chisa3013", 256, TRUE);
 	OutputLine(NULL, "　まぁ来日するのも今回限りじゃないみたいだし、次の機会を待てばいいって」",
-			NULL, " Bem, essa não vai ser a única vez que eles virão para o Japão, só preciso esperar pela próxima chance.\"", Line_Normal);
+			NULL, " Bem, esta não será a única vez que eles virão para o Japão, apenas preciso esperar pela próxima chance.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3014.「それに裕美、ものすごく行きたがっていたのに抽選外れて落ち込んでたから、彼女に恩を売って一石二鳥ってとこかな～？kvS20/37/VTT_chisa3015.　くっくっくっ…！」
@@ -307,7 +307,7 @@ void main()
 //r自分の触れられたくない場所をなでられたような不快感に、私は鋭く言葉を差し向ける。…やっぱり親子だけあって、それだけで父さんはその意図を理解してくれた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分の触れられたくない場所をなでられたような不快感に、私は鋭く言葉を差し向ける。…やっぱり親子だけあって、それだけで父さんはその意図を理解してくれた。",
-			NULL, "Eu o ataquei por ter tocado em assuntos que eu não gostava. ...Sendo o meu pai, foi o suficiente para perceber que havia me incomodado.", Line_Normal);
+			NULL, "Eu o critiquei por ter tocado em assuntos que eu não gostava. ...Sendo o meu pai, foi o suficiente para perceber que havia me incomodado.", Line_Normal);
 	ClearMessage();
 
 //千紗登の父rvS20/00/VTT_saekiF3021.「……すまんな。kvS20/00/VTT_saekiF3022.つまらないことを言った」
@@ -349,7 +349,7 @@ void main()
 //r私は口の中で言葉を転がすように、そっと呟く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は口の中で言葉を転がすように、そっと呟く。",
-			NULL, "Suavemente murmurei para mim mesma, deixando as palavras saírem da minha boca.", Line_Normal);
+			NULL, "Suavemente murmurei para mim mesma, deixando as palavras saírem de minha boca.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTT_chisa3027.「——————」
@@ -362,7 +362,7 @@ void main()
 //rその時ふと、…脳裏に浮かんだあの子の笑顔にもう一つの顔が重なって見えて、思わず、ため息がもれ出た——。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時ふと、…脳裏に浮かんだあの子の笑顔にもう一つの顔が重なって見えて、思わず、ため息がもれ出た——。",
-			NULL, "Repentinamente, naquele momento... vi o rosto daquela garota sorrindo em minha mente, mas havia um outro rosto sobrepondo ele, deixei um suspiro escapar...", Line_Normal);
+			NULL, "Repentinamente, naquele momento... vi o rosto daquela garota sorrindo em minha mente, mas, havia um outro rosto sobrepondo ele, deixei um suspiro escapar...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
