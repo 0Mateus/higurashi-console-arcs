@@ -1337,7 +1337,7 @@ void main()
 //r佐伯病院には隣接して、お年寄り向けの介護福祉センターがある。そこに入所している人たちは家で普通に生活できるよう、最新式の設備の整った環境の中でリハビリや治療を受けていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "佐伯病院には隣接して、お年寄り向けの介護福祉センターがある。そこに入所している人たちは家で普通に生活できるよう、最新式の設備の整った環境の中でリハビリや治療を受けていた。",
-			NULL, "Há um centro de cuidado e bem estar para idosos próximo ao Hospital Saeki. As pessoas nele passam por tratamento e reabilitação numa instalação com equipamentos de última geração, para que possam voltar a viver em casa normalmente.", Line_Normal);
+			NULL, "Há um centro de cuidado e bem-estar para idosos próximo ao Hospital Saeki. As pessoas nele passam por tratamento e reabilitação numa instalação com equipamentos de última geração, para que possam voltar a viver em casa normalmente.", Line_Normal);
 	ClearMessage();
 
 //rこのセンターでは看護師さんやお医者さんに加えて、補助的な役割として介護を専門にした人たちが働いている。
@@ -2420,7 +2420,7 @@ void main()
 //r介護福祉センターでは、夕食を済ませるとすぐに就寝時間だ。そして全ての部屋を見て回り、リビングの掃除を終えると私のアルバイトは終了だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "介護福祉センターでは、夕食を済ませるとすぐに就寝時間だ。そして全ての部屋を見て回り、リビングの掃除を終えると私のアルバイトは終了だった。",
-			NULL, "Aqui no centro de cuidado e bem estar, os idosos são mandados imediatamente para a cama após o jantar. Verifiquei todos os quartos, e assim que terminei de limpar a sala de convivência, meu trabalho do dia havia terminado.", Line_Normal);
+			NULL, "Aqui no centro de cuidado e bem-estar, os idosos são mandados imediatamente para a cama após o jantar. Verifiquei todos os quartos, e assim que terminei de limpar a sala de convivência, meu trabalho do dia havia terminado.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100271.「お疲れ様でしたー」
@@ -2565,7 +2565,7 @@ void main()
 //r実は、…介護福祉センターのアルバイトのことは、おかーさんたちには内緒だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "実は、…介護福祉センターのアルバイトのことは、おかーさんたちには内緒だった。",
-			NULL, "Para ser honesta... minha família não sabe sobre meu trabalho de meio período no centro de cuidado e bem estar.", Line_Normal);
+			NULL, "Para ser honesta... minha família não sabe sobre meu trabalho de meio período no centro de cuidado e bem-estar.", Line_Normal);
 	ClearMessage();
 
 //r確かにアルバイトは校則で禁止されているけど、それだけじゃない。おかーさんとおとーさんの結婚祝いをプレゼントして、驚かせてあげたかったからだ。
@@ -2822,7 +2822,7 @@ void main()
 //rここを出入りする人は病院の関係者か、隣の介護福祉センターの職員だけだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ここを出入りする人は病院の関係者か、隣の介護福祉センターの職員だけだ。",
-			NULL, "Qualquer pessoa que entre ou saia do hospital por aqui teria que ser da equipe do centro de cuidado e bem estar.", Line_Normal);
+			NULL, "Qualquer pessoa que entre ou saia do hospital por aqui teria que ser da equipe do centro de cuidado e bem-estar.", Line_Normal);
 	ClearMessage();
 
 //rど、どうしよう…？
