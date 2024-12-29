@@ -239,7 +239,7 @@ void main()
 //r今日は土曜日。先週は期末試験で休んだけど、介護福祉センターでのアルバイトの日だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今日は土曜日。先週は期末試験で休んだけど、介護福祉センターでのアルバイトの日だ。",
-			NULL, "Hoje é sábado. Eu estava me recuperando das provas finais, mas tinha que trabalhar de meio período no centro de cuidado e bem estar hoje.", Line_Normal);
+			NULL, "Hoje é sábado. Eu estava me recuperando das provas finais, mas tinha que trabalhar de meio período no centro de cuidado e bem-estar hoje.", Line_Normal);
 	ClearMessage();
 
 //r入居しているおじーちゃんたちはみんな、私が明るく振舞う姿を期待して、楽しみにしてくれている。だから、こんな暗い気分を引きずって心配をかけたくない。
@@ -260,7 +260,7 @@ void main()
 //r電車に乗って、センターに着く。k…雨雲の隙間にでも入っているのか、少しだけ明るい空を見てほっとする。k本当にここだけが、…いまの私にとって心を安らげる場所だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "電車に乗って、センターに着く。",
-			NULL, "Peguei o trem para chegar ao centro de cuidado e bem estar.", Line_WaitForInput);
+			NULL, "Peguei o trem para chegar ao centro de cuidado e bem-estar.", Line_WaitForInput);
 	OutputLine(NULL, "…雨雲の隙間にでも入っているのか、少しだけ明るい空を見てほっとする。",
 			NULL, " ...Havia uma pequena abertura entre as nuvens de chuva, fiquei aliviada por poder ver um pouco do brilho do céu. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1877,7 +1877,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>山瀬</color>", NULL, "<color=#f5e6d3>Yamase</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1058", 256, TRUE);
 	OutputLine(NULL, "「この介護福祉センターに来る全てが、問題のない人だとは限らない。",
-			NULL, "\"Nem todo mundo que vem para o centro de cuidado e bem estar está necessariamente livre de seus problemas.", Line_WaitForInput);
+			NULL, "\"Nem todo mundo que vem para o centro de cuidado e bem-estar está necessariamente livre de seus problemas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1059", 256, TRUE);
 	OutputLine(NULL, "中にはご家族との共同生活がうまくいかずに、ここへ来てリハビリを行う人もいる」",
 			NULL, " Alguns falharam em viver com seus familiares e vieram para se reabilitar.\"", Line_Normal);
