@@ -2363,7 +2363,7 @@ void main()
 //rそうだ、…思い出した。ちょっと前に、私は介護福祉センターの通用口から出てきた直後に藤堂くんとばったり出くわしてしまったんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうだ、…思い出した。ちょっと前に、私は介護福祉センターの通用口から出てきた直後に藤堂くんとばったり出くわしてしまったんだ。",
-			NULL, "Isso mesmo... Eu me lembro. Encontrei Toudou-kun outro dia, logo após ter saído do centro de cuidado e bem estar.", Line_Normal);
+			NULL, "Isso mesmo... Eu me lembro. Encontrei Toudou-kun outro dia, logo após ter saído do centro de cuidado e bem-estar.", Line_Normal);
 	ClearMessage();
 
 //rあの時彼は私を見て、…確かに驚いていた。まるで、見てはいけないところを見てしまったような、そんな表情で。
@@ -2691,7 +2691,7 @@ void main()
 			NULL, "\"T-Toudou-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100383", 256, TRUE);
 	OutputLine(NULL, "あのね、…私、あの介護福祉センターでアルバイトしてて…」",
-			NULL, " Umm... Eu estive trabalhando de meio período no centro de cuidado e bem estar...\"", Line_Normal);
+			NULL, " Umm... Eu estive trabalhando de meio período no centro de cuidado e bem-estar...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 39, "sprite/tou1a_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
