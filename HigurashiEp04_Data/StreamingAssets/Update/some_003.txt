@@ -1223,7 +1223,7 @@ void main()
 //rあまり有名でなかった大学の出身のために、おとーさんもおかーさんも職場でずっと苦労をしたことを以前から聞かされてきたから、私にはそれなりの大学に進むことを期待しているんだと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あまり有名でなかった大学の出身のために、おとーさんもおかーさんも職場でずっと苦労をしたことを以前から聞かされてきたから、私にはそれなりの大学に進むことを期待しているんだと思う。",
-			NULL, "A mamãe e o papai já mencionaram no passado que tiveram dificuldades para conseguir um emprego por conta da faculdade desconhecida que eles frequentaram, por conta disso, eles gostariam que eu fosse para uma boa faculdade.", Line_Normal);
+			NULL, "A mamãe e o papai já mencionaram no passado que tiveram dificuldades para conseguir um emprego por conta da universidade desconhecida que eles frequentaram, por conta disso, gostariam que eu fosse para uma boa universidade.", Line_Normal);
 	ClearMessage();
 
 //rそしてそれが、二人が一番喜んでくれる最良の選択なんだと、さすがに私でもわかる。
