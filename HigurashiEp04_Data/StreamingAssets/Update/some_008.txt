@@ -28,13 +28,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100669", 256, TRUE);
 	OutputLine(NULL, "「——えっ？」",
-			NULL, "\"...Huh?\"", Line_Normal);
+			NULL, "\"...Hã?\"", Line_Normal);
 	ClearMessage();
 
 //rぽんっ、と。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ぽんっ、と。",
-			NULL, "Whack.", Line_Normal);
+			NULL, "Bam.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 200, FALSE  );
@@ -42,7 +42,7 @@ void main()
 //r肩を叩かれる感触を覚えて、私ははっ、と我に返る。振り返ると背後には、いつの間に来たのか千紗登ちゃんと珠子ちゃんが立っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "肩を叩かれる感触を覚えて、私ははっ、と我に返る。振り返ると背後には、いつの間に来たのか千紗登ちゃんと珠子ちゃんが立っていた。",
-			NULL, "A sudden impact on my shoulder brought me back to my senses. I turned around to find Chisato-chan and Tamako-chan had been standing behind me for who knows how long.", Line_Normal);
+			NULL, "Um impacto repentino no meu ombro me trouxe de volta para a realidade. Quando me virei, percebi que Chisato-chan e Tamako-chan estavam paradas atrás de mim sabe-se lá há quanto tempo.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(3, 256, "none");
@@ -52,10 +52,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100670", 256, TRUE);
 	OutputLine(NULL, "「な、…なに？",
-			NULL, "\"Wh... what is it?", Line_WaitForInput);
+			NULL, "\"O-o que foi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100671", 256, TRUE);
 	OutputLine(NULL, "　どうしたの？」",
-			NULL, " What's wrong?\"", Line_Normal);
+			NULL, " Qual o problema?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -64,10 +64,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300412", 256, TRUE);
 	OutputLine(NULL, "「どうしたの、は私の台詞だよ。",
-			NULL, "\"That's what I wanna ask.", Line_WaitForInput);
+			NULL, "\"Era isso que eu queria perguntar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300413", 256, TRUE);
 	OutputLine(NULL, "もう授業終わったよ？」",
-			NULL, " School's out already, you know?\"", Line_Normal);
+			NULL, " As aulas já acabaram, sabia?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100672.「あっ…」
@@ -80,13 +80,13 @@ void main()
 //r訝しげな千紗登ちゃんの指摘を受けて、机の上に顔を戻す。…まだ授業中のつもりで私は、ノートと教科書を広げっぱなしだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "訝しげな千紗登ちゃんの指摘を受けて、机の上に顔を戻す。…まだ授業中のつもりで私は、ノートと教科書を広げっぱなしだった。",
-			NULL, "Chisato's puzzled statement brought my eyes back to my desk. ...My notebooks and textbooks were still strewn around it, as though I'd thought class was still ongoing.", Line_Normal);
+			NULL, "A declaração perplexa de Chisato me fez olhar para minha mesa. ...Meus cadernos e livros didáticos ainda estavam espalhados nela, como se a aula ainda estivesse acontecendo.", Line_Normal);
 	ClearMessage();
 
 //r結局、今日はずっと授業に身が入らなかった。…チャイムの音さえ、記憶が曖昧だ。お昼休みには三人一緒でお弁当を食べたはずなのに、何を食べてどんな話をしたのか、まったく覚えていない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "結局、今日はずっと授業に身が入らなかった。…チャイムの音さえ、記憶が曖昧だ。お昼休みには三人一緒でお弁当を食べたはずなのに、何を食べてどんな話をしたのか、まったく覚えていない。",
-			NULL, "In the end, I couldn't muster any enthusiasm for classes today. ...I think I heard the bell, but my memory was foggy. The three of us must have eaten lunch together during the break, but I couldn't remember what I ate or what we talked about at all.", Line_Normal);
+			NULL, "No fim, não consegui demonstrar nenhum entusiasmo para as aulas de hoje. ...Acho que ouvi o sino, mas minha memória estava nublada. Nós três devemos ter almoçado juntas durante o intervalo, mas não consigo lembrar de nada que comi nem sobre o que conversamos.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_shinken_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -95,10 +95,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300414", 256, TRUE);
 	OutputLine(NULL, "「授業中も、なんだかぼんやりしてたしさ。",
-			NULL, "\"You looked like you were spacing out in class.", Line_WaitForInput);
+			NULL, "\"Parecia que você estava muito distraída durante a aula.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300415", 256, TRUE);
 	OutputLine(NULL, "私ゃてっきり、目を開けたまんまで寝てるのかと思ったよ」",
-			NULL, " I seriously wondered if you were sleeping with your eyes open.\"", Line_Normal);
+			NULL, " Realmente me perguntei se você estava dormindo com os olhos abertos.\"", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(4, 256, "none");
@@ -108,7 +108,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400177", 256, TRUE);
 	OutputLine(NULL, "「…そんな器用なことができるのはあんただけだ」",
-			NULL, "\"...Only you are capable of such an advanced technique.\"", Line_Normal);
+			NULL, "\"...Apenas você deve ser capaz de desenvolver uma técnica tão avançada.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_sakebi_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -117,10 +117,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300416", 256, TRUE);
 	OutputLine(NULL, "「魚か私は？！",
-			NULL, "\"What am I, a fish?!", Line_WaitForInput);
+			NULL, "\"Você acha que sou o quê? Um peixe?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300417", 256, TRUE);
 	OutputLine(NULL, "　冗談に決まってるでしょうがっ」",
-			NULL, " I was kidding, obviously!\"", Line_Normal);
+			NULL, " É claro que eu estava brincando!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -129,22 +129,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400178", 256, TRUE);
 	OutputLine(NULL, "「冗談だとしても、時と場合を選びなさいっての。",
-			NULL, "\"There's a time and place for every joke.", Line_WaitForInput);
+			NULL, "\"Existe local e hora para cada piada.", Line_WaitForInput);
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
 
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400179", 256, TRUE);
 	OutputLine(NULL, "…それにしても、大丈夫？",
-			NULL, " ...Anyway, Natsumi, are you all right?", Line_WaitForInput);
+			NULL, " ...Enfim, Natsumi, está mesmo tudo bem com você?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400180", 256, TRUE);
 	OutputLine(NULL, "　夏美の顔色、あんまり良くないよ？」",
-			NULL, " Your face looks pale, you know?\"", Line_Normal);
+			NULL, " Seu rosto parece meio pálido, sabia?\"", Line_Normal);
 	ClearMessage();
 
 //r心配げに『ちょっとごめん』と断ってから、珠子ちゃんはそっと手を私の額に当てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "心配げに『ちょっとごめん』と断ってから、珠子ちゃんはそっと手を私の額に当てた。",
-			NULL, "Looking concerned, Tamako-chan motioned me to hold still for a moment, then gently placed her hand on my forehead.", Line_Normal);
+			NULL, "Parecendo preocupada, Tamako-chan sinalizou para que eu ficasse parada por um momento, e então, gentilmente colocou sua mão na minha testa.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -153,10 +153,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400181", 256, TRUE);
 	OutputLine(NULL, "「熱はないみたいだね…。",
-			NULL, "\"It looks like you don't have a fever...", Line_WaitForInput);
+			NULL, "\"Parece que você não está com febre...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400182", 256, TRUE);
 	OutputLine(NULL, "千紗登、今日は車呼べる？」",
-			NULL, " Chisato, can you call your car today?\"", Line_Normal);
+			NULL, " Chisato, pode chamar seu carro hoje?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -165,20 +165,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300418", 256, TRUE);
 	OutputLine(NULL, "「そうだね、すぐ電話してみるよ。",
-			NULL, "\"Good idea, I'll give it a call right away.", Line_WaitForInput);
+			NULL, "\"Boa ideia, vou chamá-lo agora mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300419", 256, TRUE);
 	OutputLine(NULL, "ちょっと待ってて」",
-			NULL, " Just a minute.\"", Line_Normal);
+			NULL, " Espere um pouco.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100673.「い、いいよぉ～。kvS04/36/310100674.私、全然平気だから…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100673", 256, TRUE);
 	OutputLine(NULL, "「い、いいよぉ～。",
-			NULL, "\"I-It's ok~.", Line_WaitForInput);
+			NULL, "\"E-está tudo bem~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100674", 256, TRUE);
 	OutputLine(NULL, "私、全然平気だから…」",
-			NULL, " I'm totally fine, so...\"", Line_Normal);
+			NULL, " Estou perfeitamente bem, então não precisa...\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 500, TRUE );
@@ -186,7 +186,7 @@ void main()
 //r私は慌てて遠慮したが、千紗登ちゃんは遠慮はなし、とばかりに手を振って、教室を出て行く。それを追いかけようとして席を立つと、珠子ちゃんは肩を押さえてぽん、と私を強引に席へと戻した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は慌てて遠慮したが、千紗登ちゃんは遠慮はなし、とばかりに手を振って、教室を出て行く。それを追いかけようとして席を立つと、珠子ちゃんは肩を押さえてぽん、と私を強引に席へと戻した。",
-			NULL, "I tried to stop her, but Chisato shook her head with a friendly smile, then waved at me and ran out of the classroom. When I got up to follow her, Tamako-chan grabbed my shoulders and pushed me back into my seat.", Line_Normal);
+			NULL, "Tentei impedi-la, mas Chisato balançou sua cabeça com um sorriso amigável, acenou para mim e saiu correndo da sala de aula. Quando me levantei para ir atrás dela, Tamako-chan segurou nos meus ombros e me fez voltar para minha cadeira.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -195,26 +195,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400183", 256, TRUE);
 	OutputLine(NULL, "「いいから座ってなさい、夏美。",
-			NULL, "\"Just stay where you are, Natsumi.", Line_WaitForInput);
+			NULL, "\"Apenas fique aqui, Natsumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400184", 256, TRUE);
 	OutputLine(NULL, "これ、委員長命令。",
-			NULL, " This is an order from your class president.", Line_WaitForInput);
+			NULL, " É uma ordem da representante de classe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400185", 256, TRUE);
 	OutputLine(NULL, "いいね？」",
-			NULL, " All right?\"", Line_Normal);
+			NULL, " Entendeu?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100675.「大げさだってば…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100675", 256, TRUE);
 	OutputLine(NULL, "「大げさだってば…」",
-			NULL, "\"You're blowing this out of proportion...\"", Line_Normal);
+			NULL, "\"Não acho que seja assim que funciona...\"", Line_Normal);//;
 	ClearMessage();
 
 //rそういって苦笑を返しても、珠子ちゃんは『だめ』と静かに首を横に振る。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そういって苦笑を返しても、珠子ちゃんは『だめ』と静かに首を横に振る。",
-			NULL, "I said that with a forced smile, but Tamako-chan just shook her head at me.", Line_Normal);
+			NULL, "Disse isso com um sorriso forçado, mas Tamako-chan apenas sacudiu a cabeça para mim.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -223,14 +223,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400186", 256, TRUE);
 	OutputLine(NULL, "「ウチの弟たちもね、風邪引きかけでも平気だ何だって無理して、余計にこじらせるんだよね」",
-			NULL, "\"I've seen it with my younger brothers. They insist they're fine even when they catch colds, and it just makes things worse for them, you know.\"", Line_Normal);
+			NULL, "\"Acontece a mesma coisa com meus irmãos mais novos. Eles insistem que estão bem, mesmo quando ficam resfriados, e isso apenas acaba os deixando piores.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100676.「珠子ちゃん、私、同い年なんだけど…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100676", 256, TRUE);
 	OutputLine(NULL, "「珠子ちゃん、私、同い年なんだけど…」",
-			NULL, "\"Tamako-chan, we're supposed to be the same age...\"", Line_Normal);
+			NULL, "\"Mas, Tamako-chan, nós temos a mesma idade...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -239,10 +239,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400187", 256, TRUE);
 	OutputLine(NULL, "「世話のかかり度合いで言えば同じレベルよ。",
-			NULL, "\"Everyone gets treated the same way in times of ill health.", Line_WaitForInput);
+			NULL, "\"Todos devem ser tratados da mesma maneira quando estão doentes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400188", 256, TRUE);
 	OutputLine(NULL, "違う？」",
-			NULL, " Wouldn't you agree?\"", Line_Normal);
+			NULL, " Você não acha?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100677.「……」
@@ -255,7 +255,7 @@ void main()
 //r無言で肩をすくめる。…口惜しいけど、仰る通りです。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "無言で肩をすくめる。…口惜しいけど、仰る通りです。",
-			NULL, "I silently shrugged my shoulders. ...I hated to admit it, but she was right.", Line_Normal);
+			NULL, "Silenciosamente encolhi os ombros. ...Odiava admitir, mas ela estava certa.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -263,19 +263,19 @@ void main()
 //r…そして隣の席に腰を下ろすと、周囲の様子を気遣うようにちら、と教室の反対側に視線をめぐらせた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして隣の席に腰を下ろすと、周囲の様子を気遣うようにちら、と教室の反対側に視線をめぐらせた。",
-			NULL, "...She sat down next to me, then looked across the classroom as if concerned about our surroundings.", Line_Normal);
+			NULL, "...Ela se sentou próxima a mim, e olhou ao redor da sala para verificar nossos arredores.", Line_Normal);
 	ClearMessage();
 
 //r他のクラスメイトはすでに下校かクラブ活動なのか、教室に残っている数はまばらだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "他のクラスメイトはすでに下校かクラブ活動なのか、教室に残っている数はまばらだ。",
-			NULL, "Most of our other classmates must have gone home or left to do extracurricular activities. Very few remained in the classroom.", Line_Normal);
+			NULL, "A maioria dos nossos outros colegas de classe já devem ter ido para casa ou saído para fazerem atividades extracurriculares. Pouquíssimos restaram na sala de aula.", Line_Normal);
 	ClearMessage();
 
 //rまた、その生徒たちも少し離れたところで談笑して、こちらに気にしたふうもない。…それを確かめてから、珠子ちゃんは少し声を潜めていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、その生徒たちも少し離れたところで談笑して、こちらに気にしたふうもない。…それを確かめてから、珠子ちゃんは少し声を潜めていった。",
-			NULL, "And those remaining students were chatting some distance away, unconcerned about what was happening over here. ...After verifying the coast was clear, Tamako whispered to me.", Line_Normal);
+			NULL, "E esses que restaram, estavam conversando um pouco longe, totalmente indiferentes sobre o que estava acontecendo aonde estávamos sentadas. ...Após verificar se a barra estava limpa, Tamako sussurrou para mim.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -285,10 +285,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400189", 256, TRUE);
 	OutputLine(NULL, "「…千紗登から、話は聞いた。",
-			NULL, "\"...I heard from Chisato.", Line_WaitForInput);
+			NULL, "\"...Eu ouvi da Chisato.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400190", 256, TRUE);
 	OutputLine(NULL, "土曜日、大変だったみたいだね」",
-			NULL, " Saturday must have been rough.\"", Line_Normal);
+			NULL, " Sábado deve ter sido um dia difícil.\"", Line_Normal);//;rough
 	ClearMessage();
 
 //夏美rvS04/36/310100678.「……」
@@ -304,19 +304,19 @@ void main()
 //r気まずい思いで、私は俯く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "気まずい思いで、私は俯く。",
-			NULL, "I awkwardly hung my head.", Line_Normal);
+			NULL, "Desconfortavelmente abaixei a cabeça.", Line_Normal);
 	ClearMessage();
 
 //r内緒にしておくつもりで、私は土曜日の一件を二人には話さなかった。…でも、よく考えてみれば私のアルバイト先の介護福祉センターは、千紗登ちゃんのお父さんが経営しているところだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "内緒にしておくつもりで、私は土曜日の一件を二人には話さなかった。…でも、よく考えてみれば私のアルバイト先の介護福祉センターは、千紗登ちゃんのお父さんが経営しているところだ。",
-			NULL, "I wanted to keep it a secret, so I never told either of them about what happened on Saturday. ...But now that I really thought about it, Chisato-chan's father ran that care and welfare center.", Line_Normal);
+			NULL, "Eu queria manter aquilo em segredo, portanto nunca contei para as duas o que havia acontecido sábado. ...Mas agora, parando para pensar, o centro de cuidado e bem-estar é administrado pelo pai de Chisato-chan.", Line_Normal);
 	ClearMessage();
 
 //rだから昨晩、センターから報告を受けたお父さんから話を聞く流れは、…簡単に想像がつく。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから昨晩、センターから報告を受けたお父さんから話を聞く流れは、…簡単に想像がつく。",
-			NULL, "So it's not hard to imagine he got a report from the center and told his daughter last night.", Line_Normal);
+			NULL, "Então, não é difícil de imaginar que ele tenha contado para ela o que havia acontecido.", Line_Normal);//;last night
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -325,14 +325,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400191", 256, TRUE);
 	OutputLine(NULL, "「なんで、相談してくれなかったの？」",
-			NULL, "\"Why didn't you tell us?\"", Line_Normal);
+			NULL, "\"Por que você não contou para a gente?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100679.「…ごめんね」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100679", 256, TRUE);
 	OutputLine(NULL, "「…ごめんね」",
-			NULL, "\"...Sorry.\"", Line_Normal);
+			NULL, "\"...Eu sinto muito.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -341,26 +341,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400192", 256, TRUE);
 	OutputLine(NULL, "「いや、責めてるわけじゃないの。",
-			NULL, "\"No, I'm not blaming you.", Line_WaitForInput);
+			NULL, "\"Não, não estou te culpando.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400193", 256, TRUE);
 	OutputLine(NULL, "だけど、お昼休みも私たちに話を合わせて、なんだか無理してるみたいだったから、",
-			NULL, " But it seemed like you were really forcing yourself to play along with our conversations at lunch,", Line_WaitForInput);
+			NULL, " Mas, pareceu que você estava fazendo muito esforço para falar com a gente na hora do almoço,", Line_WaitForInput);//;
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400194", 256, TRUE);
 	OutputLine(NULL, "…大丈夫かな、ってね」",
-			NULL, " ...so I was wondering if you were all right, you see.\"", Line_Normal);
+			NULL, " ...então, me pergunto se você passou a noite toda acordada.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100680.「そう、…だったんだ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100680", 256, TRUE);
 	OutputLine(NULL, "「そう、…だったんだ」",
-			NULL, "\"Oh... You noticed.\"", Line_Normal);
+			NULL, "\"Ah... Você percebeu.\"", Line_Normal);
 	ClearMessage();
 
 //r自嘲交じりにため息をつく。…一応頑張ったつもりだけど、やっぱり二人には誤魔化せなかったみたいだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自嘲交じりにため息をつく。…一応頑張ったつもりだけど、やっぱり二人には誤魔化せなかったみたいだ。",
-			NULL, "I let out a slightly self-deprecating sigh. ...I tried my best, but it seems I couldn't fool my friends after all.", Line_Normal);
+			NULL, "Soltei um suspiro levemente autodepreciativo. ...Dei o meu melhor, mas parece que realmente não consegui enganar minhas amigas.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -369,22 +369,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400195", 256, TRUE);
 	OutputLine(NULL, "「当たり前じゃない。",
-			NULL, "\"How could I not?", Line_WaitForInput);
+			NULL, "\"Como eu não perceberia?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400196", 256, TRUE);
 	OutputLine(NULL, "私だって、これでも夏美の親友のつもりだよ？",
-			NULL, " We're supposed to be best friends, aren't we?", Line_WaitForInput);
+			NULL, " Nós somos melhores amigas, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400197", 256, TRUE);
 	OutputLine(NULL, "　気づかないわけがないでしょうに。",
-			NULL, " There's no way I wouldn't.", Line_WaitForInput);
+			NULL, " Não tem jeito de eu não perceber.", Line_WaitForInput);//;
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400198", 256, TRUE);
 	OutputLine(NULL, "…千紗登だって」",
-			NULL, " ...The same goes for Chisato.\"", Line_Normal);
+			NULL, " ...O mesmo vale para Chisato.\"", Line_Normal);
 	ClearMessage();
 
 //r珠子ちゃんは千紗登ちゃんが出て行った、教室の出口に振り返りながら言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "珠子ちゃんは千紗登ちゃんが出て行った、教室の出口に振り返りながら言った。",
-			NULL, "While looking back at the classroom door Chisato-chan just left through, Tamako-chan continued.", Line_Normal);
+			NULL, "Enquanto olhava para a porta da sala de aula que Chisato-chan havia utilizado para sair, Tamako-chan continuou.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -393,27 +393,27 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400199", 256, TRUE);
 	OutputLine(NULL, "「ああ見えて、結構気にしてたんだよ？",
-			NULL, "\"Despite how she behaves, she's really worried, you know?", Line_WaitForInput);
+			NULL, "\"Apesar do seu comportamento, ela realmente se preocupa com você, sabia?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400200", 256, TRUE);
 	OutputLine(NULL, "　あのセンターなら変なトラブルに巻き込まれることはないはず、って夏美にアルバイトを世話したのは、千紗登だったからね」",
-			NULL, " She said she told you about the job there because she thought it wasn't the sort of place where you'd get caught up in strange incidents.\"", Line_Normal);
+			NULL, " Ela me disse que te recomendou este trabalho, porque pensou que não era o tipo de lugar onde você se envolveria em incidentes estranhos.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100681.「…千紗登ちゃんが？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100681", 256, TRUE);
 	OutputLine(NULL, "「…千紗登ちゃんが？」",
-			NULL, "\"...She did?\"", Line_Normal);
+			NULL, "\"...Ela disse?\"", Line_Normal);
 	ClearMessage();
 
 //珠子rvS04/38/310400201.「まさか、センターに雛見沢出身の人が入居してたなんて知らなかったらしくてね。kvS04/38/310400202.…珍しく落ち込んでたよ、『夏美に悪いことした』って」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400201", 256, TRUE);
 	OutputLine(NULL, "「まさか、センターに雛見沢出身の人が入居してたなんて知らなかったらしくてね。",
-			NULL, "\"It seems she had no idea that a resident from Hinamizawa had moved into the center.", Line_WaitForInput);
+			NULL, "\"Parece que ela não tinha ideia que um morador de Hinamizawa havia sido transferido para o centro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400202", 256, TRUE);
 	OutputLine(NULL, "…珍しく落ち込んでたよ、『夏美に悪いことした』って」",
-			NULL, " ...She's taking it pretty hard. \"I did something awful to Natsumi,\" she said.\"", Line_Normal);
+			NULL, " ...Ela está muito arrependida, dizendo: \"fiz algo terrível com a Natsumi\".\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -422,10 +422,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400203", 256, TRUE);
 	OutputLine(NULL, "「あなたのことだから、千紗登に苦情みたいに言うのは嫌だったからなのかもしれないけど、",
-			NULL, "\"This is you we're talking about, so maybe you didn't want to sound like you were complaining to Chisato,", Line_WaitForInput);
+			NULL, "\"Já que é de você quem estamos falando, tenho certeza que apenas não queria parecer uma pessoa ingrata para ela,", Line_WaitForInput);//;
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400204", 256, TRUE);
 	OutputLine(NULL, "…親友だったらやっぱ、直接に教えて欲しかったんじゃないかなぁ…」",
-			NULL, " ...but since we're best friends, she might have wanted you to just tell her...\"", Line_Normal);
+			NULL, " ...mas, já que somos melhores amigas, talvez ela queira que você diga esse tipo de coisa para ela...\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100682.「……」
@@ -441,49 +441,49 @@ void main()
 //r親友、…か。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "親友、…か。",
-			NULL, "Best friends... huh.", Line_Normal);
+			NULL, "Melhores amigas...", Line_Normal);
 	ClearMessage();
 
 //r私だって、二人のことをそう思ってる。…でも、だからこそ話さなかったんだってことを、本当はわかってもらいたかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私だって、二人のことをそう思ってる。…でも、だからこそ話さなかったんだってことを、本当はわかってもらいたかった。",
-			NULL, "I consider the both of them that too. ...But that's why I wanted them to truly understand why I didn't talk about it.", Line_Normal);
+			NULL, "Eu também as considero assim. ...Mas, é justamente por isso que eu gostaria que elas entendessem o motivo para não ter contado.", Line_Normal);
 	ClearMessage();
 
 //rもし、…話していたら、どうなっていたか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もし、…話していたら、どうなっていたか。",
-			NULL, "If... if I told them about it, what would they have said?", Line_Normal);
+			NULL, "Se... eu as contasse, o que será que elas diriam?", Line_Normal);
 	ClearMessage();
 
 //rきっと私のことを気遣って、『とんだ災難だったね』と慰めてくれるだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "きっと私のことを気遣って、『とんだ災難だったね』と慰めてくれるだろう。",
-			NULL, "I'm sure they'd sympathize with me, saying things like \"must have been rough\" to comfort me.", Line_Normal);
+			NULL, "Tenho certeza que simpatizariam comigo, dizendo coisas como: \"deve ter sido difícil\" para me confortar.", Line_Normal);
 	ClearMessage();
 
 //r…でも、その一方できっと、雛見沢の人は異常者だって決め付けて、軽蔑して、…聞きたくない不愉快な罵詈を気安く口にするに決まっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…でも、その一方できっと、雛見沢の人は異常者だって決め付けて、軽蔑して、…聞きたくない不愉快な罵詈を気安く口にするに決まっていた。",
-			NULL, "...But, on the other hand, I'm sure they'd label people from Hinamizawa as nuts, mock them, and say all kinds of unpleasant slander about them without a second thought.", Line_Normal);
+			NULL, "...Mas, por outro lado, também tenho certeza que elas rotulariam as pessoas de Hinamizawa como malucas, zombariam delas, e diriam todos os tipos de coisas desagradáveis sem nem pensar duas vezes.", Line_Normal);
 	ClearMessage();
 
 //r正直、私は雛見沢とか興宮とか、まして御三家であることには感慨も、誇りも感じてはいなかったし、その意味では郷土愛なんて薄いと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "正直、私は雛見沢とか興宮とか、まして御三家であることには感慨も、誇りも感じてはいなかったし、その意味では郷土愛なんて薄いと思う。",
-			NULL, "To be honest, I've never felt any pride in being from Hinamizawa and Okinomiya, or for being a member of one of the Three Families, so in that sense I wouldn't say I hold all that much love for my roots.", Line_Normal);
+			NULL, "Para ser honesta, nunca senti nenhum tipo orgulho por ser de Hinamizawa e Okinomiya, ou por fazer parte das Três Famílias, nesse sentido, não diria que tenho tanto amor pelas minhas raízes.", Line_Normal);
 	ClearMessage();
 
 //r…でも、元々住んでいた場所、そして顔と名前が一致する人たちのことを『親友』の口から悪辣に言われるのは、やはり気持ちのいいものではなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…でも、元々住んでいた場所、そして顔と名前が一致する人たちのことを『親友』の口から悪辣に言われるのは、やはり気持ちのいいものではなかった。",
-			NULL, "...But hearing amoral things about my hometown and my former acquaintances from the mouths of my <i>best friends</i> sounded very unpleasant.", Line_Normal);
+			NULL, "...Mas, ouvir todos os tipos de coisas imorais sendo ditas da minha cidade natal e meus conhecidos saindo diretamente da boca das minhas <i>melhores amigas</i> parecia ser muito desagradável.", Line_Normal);
 	ClearMessage();
 
 //r…それならばいっそのこと、私が雛見沢に近親の人がいる、と相談していたらどうなっていただろう？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それならばいっそのこと、私が雛見沢に近親の人がいる、と相談していたらどうなっていただろう？",
-			NULL, "...So how would they react if I told them I had relatives living in Hinamizawa?", Line_Normal);
+			NULL, "...Portanto, como será que elas reagiriam se eu dissesse que tinha parentes em Hinamizawa?", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ng_kyo", 1000 );
@@ -499,31 +499,31 @@ void main()
 //r冗談じゃない。そう打ち明けたとしたら、今まで通りの関係でいてくれるわけがない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "冗談じゃない。そう打ち明けたとしたら、今まで通りの関係でいてくれるわけがない。",
-			NULL, "It was no laughing matter. If I had confided in them, our relationship wouldn't be the same.", Line_Normal);
+			NULL, "Era um assunto sério. Se eu contasse para nelas, nosso relacionamento não seria mais o mesmo.", Line_Normal);
 	ClearMessage();
 
 //r二人がどれだけ優しくて、頼りになる『親友』でも、それは私が普通の女の子で、奇異なところがないという前提で保証された関係だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "二人がどれだけ優しくて、頼りになる『親友』でも、それは私が普通の女の子で、奇異なところがないという前提で保証された関係だった。",
-			NULL, "No matter how kind and reliable my <i>best friends</i> were, our relationship was founded on the notion that I was an ordinary girl without any connection to some strange place.", Line_Normal);
+			NULL, "Não importa o quão gentil e confiáveis minhas <i>melhores amigas</i> eram, nosso relacionamento era baseado na ideia de que eu era uma garota comum sem nenhum tipo de conexão com algum lugar estranho.", Line_Normal);
 	ClearMessage();
 
 //rもしも、私がその異常者と同じ地区の出身だと知れば、きっと同じように軽蔑するか、奇異な人間のひとりと見なして扱うだけだと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もしも、私がその異常者と同じ地区の出身だと知れば、きっと同じように軽蔑するか、奇異な人間のひとりと見なして扱うだけだと思う。",
-			NULL, "If they learned that I was from the same place as a person with some mental disorder, I think they would end up looking down on me the same way or treating me as another weirdo.", Line_Normal);
+			NULL, "Se elas descobrissem que eu vim do mesmo lugar que alguém com um transtorno mental, acho que acabariam olhando para mim da mesma maneira ou me tratando como esquisita.", Line_Normal);
 	ClearMessage();
 
 //rそして、…もし二人に知られたら、次は？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、…もし二人に知られたら、次は？",
-			NULL, "And... what would happen after they learned?", Line_Normal);
+			NULL, "E... o que aconteceria após descobrirem?", Line_Normal);
 	ClearMessage();
 
 //r考えるまでもない。その話はきっと、幼馴染の暁くんにも伝わるだろう。それが知られた後もなお、暁くんが同じ気持ちでいてくれる、…なんてありえない。きっと同じだ。そうに決まっている…！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "考えるまでもない。その話はきっと、幼馴染の暁くんにも伝わるだろう。それが知られた後もなお、暁くんが同じ気持ちでいてくれる、…なんてありえない。きっと同じだ。そうに決まっている…！",
-			NULL, "That's obvious. They'd probably tell Akira-kun, since they're childhood friends. After he finds out, would he still feel the same...? I can't imagine he would. Surely that's the case. It has to be...!", Line_Normal);
+			NULL, "Isso é óbvio. Elas provavelmente contariam para Akira-kun, já que eles são amigos de infância. Após ele descobrir, será que continuaria sentindo o mesmo por mim...? Acho que não. Absolutamente...!", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -532,10 +532,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400205", 256, TRUE);
 	OutputLine(NULL, "「それにしても、雛見沢の人ってのは厄介なものよねぇ。",
-			NULL, "\"But I must say, people from Hinamizawa sure are a bother, aren't they.", Line_WaitForInput);
+			NULL, "\"Mas, tenho que dizer, as pessoas de Hinamizawa realmente são um incômodo, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s04/38/310400206", 256, TRUE);
 	OutputLine(NULL, "変な民間宗教をあがめるのは自由だけど、周りにまで迷惑をかけるのはやめてくれ、っての」",
-			NULL, " They're welcome to worship that strange folk religion of theirs, but they shouldn't impose on others with it.\"", Line_Normal);
+			NULL, " Elas até podem adorar aquela religião esquisita, mas não deveriam incomodar os outros com isso.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100684.「……」
@@ -548,31 +548,31 @@ void main()
 //r今の珠子ちゃんの言葉で、…私は確信する。雛見沢の関係者であることは、絶対に、誰に対しても秘密にしておかなくてはいけないんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今の珠子ちゃんの言葉で、…私は確信する。雛見沢の関係者であることは、絶対に、誰に対しても秘密にしておかなくてはいけないんだ。",
-			NULL, "After hearing that from Tamako-chan... I was convinced. Anyone related to Hinamizawa had to keep that connection a secret at all costs.", Line_Normal);
+			NULL, "Após ouvir isso de Tamako-chan... Estava convencida. Qualquer pessoa relacionada com Hinamizawa tinha que manter essa conexão em segredo a todo custo.", Line_Normal);
 	ClearMessage();
 
 //r千紗登ちゃんと珠子ちゃんと一緒にいるのは、楽しい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんと珠子ちゃんと一緒にいるのは、楽しい。",
-			NULL, "It's fun to be with Chisato-chan and Tamako-chan.", Line_Normal);
+			NULL, "É divertido estar com Chisato-chan e Tamako-chan.", Line_Normal);
 	ClearMessage();
 
 //r暁くんに好きでいてもらえることは、嬉しい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "暁くんに好きでいてもらえることは、嬉しい。",
-			NULL, "I'm glad to know that Akira-kun has feelings for me.", Line_Normal);
+			NULL, "Estou feliz em saber que Akira-kun tem sentimentos por mim.", Line_Normal);
 	ClearMessage();
 
 //rこの町に来てから、一年かけてようやく掴んだ小さな幸せ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "この町に来てから、一年かけてようやく掴んだ小さな幸せ。",
-			NULL, "I'd finally found a smidge of happiness after a year of living in this town.", Line_Normal);
+			NULL, "Eu finalmente havia encontrado um pouquinho de felicidade após viver nesta cidade por um ano.", Line_Normal);
 	ClearMessage();
 
 //r失いたくない。…もう、手放したくなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "失いたくない。…もう、手放したくなかった。",
-			NULL, "I didn't want to lose it. ...Or rather, I didn't want to let it get away.", Line_Normal);
+			NULL, "Eu não queria perdê-la. ...Ou melhor, não queria deixá-la escapar.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "hm01_01", 128, 0 );
@@ -583,38 +583,38 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300420", 256, TRUE);
 	OutputLine(NULL, "「…ねぇ、夏美。",
-			NULL, "\"...Hey, Natsumi.", Line_WaitForInput);
+			NULL, "\"...Ei, Natsumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300421", 256, TRUE);
 	OutputLine(NULL, "やっぱ今日は、このまま家に帰ったほうがいいんじゃない？」",
-			NULL, " I seriously think you'd be better off just going straight home today.\"", Line_Normal);
+			NULL, " Eu realmente acho que seria melhor você ir direto para casa hoje.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100685.「ごめん、わがまま言って。kvS04/36/310100686.…すぐ終わるから、ね？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100685", 256, TRUE);
 	OutputLine(NULL, "「ごめん、わがまま言って。",
-			NULL, "\"Sorry, I know I'm being selfish.", Line_WaitForInput);
+			NULL, "\"Eu sinto muito, sei que estou sendo egoísta.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100686", 256, TRUE);
 	OutputLine(NULL, "…すぐ終わるから、ね？」",
-			NULL, " ...I'll be quick, ok?\"", Line_Normal);
+			NULL, " ...Serei rápida, ok?\"", Line_Normal);
 	ClearMessage();
 
 //r申し訳ない気分で謝りながら、私は手を合わせる。千紗登ちゃんはやれやれと肩をすくめると、気乗りのしない声のまま『このままで』と運転手の山科さんに言ってくれた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "申し訳ない気分で謝りながら、私は手を合わせる。千紗登ちゃんはやれやれと肩をすくめると、気乗りのしない声のまま『このままで』と運転手の山科さんに言ってくれた。",
-			NULL, "I clapped my hands together and apologized. Chisato-chan shrugged her shoulders in exasperation, then with a dull voice told the driver Yamashina-san \"keep going.\"", Line_Normal);
+			NULL, "Juntei minhas mãos e me desculpei. Chisato-chan encolheu os ombros em exasperação, e com uma voz monótona disse para o motorista Yamashina-san: \"continue.\"", Line_Normal);
 	ClearMessage();
 
 //r…私が家に帰る前に、介護福祉センターに立ち寄ってほしいとお願いしたとき、千紗登ちゃんはあまりいい顔をしなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…私が家に帰る前に、介護福祉センターに立ち寄ってほしいとお願いしたとき、千紗登ちゃんはあまりいい顔をしなかった。",
-			NULL, "...Chisato-chan didn't look the least bit thrilled with my request to stop by the care and welfare center before I headed home.", Line_Normal);
+			NULL, "...Chisato-chan não pareceu nem um pouco empolgada com o meu pedido para parar no centro de cuidado e bem-estar antes de ir para casa.", Line_Normal);
 	ClearMessage();
 
 //r土曜日の揉め事があって日も浅く、私の体調のことを気遣ってのこともある。…でも、一番の理由はもう、畠山のおじーちゃんと接触してもらいたくなかったのだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "土曜日の揉め事があって日も浅く、私の体調のことを気遣ってのこともある。…でも、一番の理由はもう、畠山のおじーちゃんと接触してもらいたくなかったのだろう。",
-			NULL, "It hadn't been long since the incident on Saturday, and she was concerned about my health. ...But most of all, she probably didn't want me seeing old man Hatakeyama anymore.", Line_Normal);
+			NULL, "Não fazia muito tempo desde o incidente de sábado, e ela estava preocupada com a minha saúde. ...Mas, acima de tudo, ela provavelmente não queria que eu visse mais o idoso Hatakeyama.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 500 );
@@ -627,16 +627,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300422", 256, TRUE);
 	OutputLine(NULL, "『今日でなくてもいいんじゃない？",
-			NULL, "\"You don't have to go today, you know?", Line_WaitForInput);
+			NULL, "\"Você não precisar ir hoje, sabia?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300423", 256, TRUE);
 	OutputLine(NULL, "　今週は水曜も午前授業で働くんだから、その時でも遅くないでしょ？』",
-			NULL, " You'll be working during morning classes on Wednesday too, so you can just wait until then, right?\"", Line_Normal);
+			NULL, " Você também tem trabalho no turno da manhã de quarta feira, poderia simplesmente esperar até lá, certo?\"", Line_Normal);//;
 	ClearMessage();
 
 //r千紗登ちゃんはそう言って私を諭したが、…やっぱり今日行っておきたかったので、無理を聞いてもらうことにした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんはそう言って私を諭したが、…やっぱり今日行っておきたかったので、無理を聞いてもらうことにした。",
-			NULL, "Chisato-chan tried talking me down... but I wanted to go today, so I made an unreasonable request.", Line_Normal);
+			NULL, "Chisato-chan tentou me impedir... mas, eu queria ir hoje, portanto fiz um pedido injustificável.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -645,25 +645,25 @@ void main()
 //r土曜日、——私はおじーちゃんに、直接ではなかったけどとても酷いことを言ってしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "土曜日、——私はおじーちゃんに、直接ではなかったけどとても酷いことを言ってしまった。",
-			NULL, "I didn't say it directly to old man Hatakeyama... but I said something horrible last Saturday.", Line_Normal);
+			NULL, "Não foi diretamente para o idoso Hatakeyama... mas eu disse algo terrível sábado passado.", Line_Normal);
 	ClearMessage();
 
 //r刑事さんに迫られてのこととはいえ、自分が『雛見沢の人間じゃない』と、まるでおじーちゃんと仲間であることを拒絶するような宣告だったと、…今でも思って、後悔している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "刑事さんに迫られてのこととはいえ、自分が『雛見沢の人間じゃない』と、まるでおじーちゃんと仲間であることを拒絶するような宣告だったと、…今でも思って、後悔している。",
-			NULL, "I know I was under pressure from that detective, but when I said I was \"not from Hinamizawa\" it was like I'd rejected my bond with him... Even now, I regret it.", Line_Normal);
+			NULL, "Sei que estava sendo pressionada por aquela detetive, mas quando disse que: \"não era de Hinamizawa\" foi como se eu estivesse rejeitando meus laços com ele... Até agora, eu ainda me arrependia disso.", Line_Normal);
 	ClearMessage();
 
 //rあの後結局、…顔を見ることができなかった。ただ、私のあの一言がひどくショックだったことは、簡単に想像ができる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あの後結局、…顔を見ることができなかった。ただ、私のあの一言がひどくショックだったことは、簡単に想像ができる。",
-			NULL, "In the end... I hadn't managed to see him after that. But I imagine my words were terribly shocking.", Line_Normal);
+			NULL, "No fim... não consegui mais ver ele após aquilo. Mas, imagino que minhas palavras tenham sido terrivelmente chocantes para ele.", Line_Normal);
 	ClearMessage();
 
 //rだから、発熱は刑事さんの尋問というよりも、私の失言が原因だったんじゃないだろうか…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから、発熱は刑事さんの尋問というよりも、私の失言が原因だったんじゃないだろうか…？",
-			NULL, "Then perhaps his sudden fever wasn't caused by the detective's interrogation, but my poorly chosen words...?", Line_Normal);
+			NULL, "Será que, talvez a febre repentina dele não tenha sido causada pelo interrogatório da detetive, mas sim pela minha péssima escolha de palavras...?", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/kuruma1_03", 1000 );
@@ -673,10 +673,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300424", 256, TRUE);
 	OutputLine(NULL, "「別に様子を見に行かなくても、あの人は元気だって。",
-			NULL, "\"That man will be fine even if you don't check up on him.", Line_WaitForInput);
+			NULL, "\"Aquele homem vai ficar bem mesmo se você não for olhar para ele.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300425", 256, TRUE);
 	OutputLine(NULL, "夏美ひとりで面倒を見ているわけじゃないんだしさ？」",
-			NULL, " It's not like you're the only one taking care of him, you know?\"", Line_Normal);
+			NULL, " Não é como se você fosse a única pessoa tomando conta dele, sabia?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100687.「……」
@@ -690,20 +690,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300426", 256, TRUE);
 	OutputLine(NULL, "「あ、いや。",
-			NULL, "\"Oh, wait.", Line_WaitForInput);
+			NULL, "\"Ah, espere.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300427", 256, TRUE);
 	OutputLine(NULL, "…ごめん、そういう意味じゃなくて」",
-			NULL, " ...Sorry, I didn't mean it like that.\"", Line_Normal);
+			NULL, " ...Sinto muito, não foi isso o que eu quis dizer.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100688.「ううん、いいの。kvS04/36/310100689.…自己満足だって、自分でも思うから」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100688", 256, TRUE);
 	OutputLine(NULL, "「ううん、いいの。",
-			NULL, "\"No, it's ok.", Line_WaitForInput);
+			NULL, "\"Não, está tudo bem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100689", 256, TRUE);
 	OutputLine(NULL, "…自己満足だって、自分でも思うから」",
-			NULL, " ...Even I know I'm just doing this for my own satisfaction.\"", Line_Normal);
+			NULL, " ...Eu mesma sei que apenas estou fazendo isso pela minha própria satisfação.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300428.「夏美…」
@@ -716,7 +716,7 @@ void main()
 //r心配げに唇をきゅっ、と結んで、千紗登ちゃんは私に顔を向ける。そして、言葉を選ぶように何度か目を動かしてから、その口を開いて言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "心配げに唇をきゅっ、と結んで、千紗登ちゃんは私に顔を向ける。そして、言葉を選ぶように何度か目を動かしてから、その口を開いて言った。",
-			NULL, "Chisato-chan anxiously pursed her lip and turned toward me. Her eyes darted back and forth as though she were carefully considering her words, but then she finally broke her silence.", Line_Normal);
+			NULL, "Chisato-chan angustiadamente mordeu os lábios e se virou para mim. Seus olhos se mexiam para a frente e para trás enquanto ela cuidadosamente escolhia suas palavras, e então, finalmente quebrou seu silêncio.", Line_Normal);//;anxiously
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -725,37 +725,37 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300429", 256, TRUE);
 	OutputLine(NULL, "「…あのさ、夏美」",
-			NULL, "\"...Hey, Natsumi.\"", Line_Normal);
+			NULL, "\"...Ei, Natsumi.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100690.「なに？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100690", 256, TRUE);
 	OutputLine(NULL, "「なに？」",
-			NULL, "\"What is it?\"", Line_Normal);
+			NULL, "\"O quê?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300430.「別にさ、kvS04/37/310300431.…もう、辞めてもいいんだよ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300430", 256, TRUE);
 	OutputLine(NULL, "「別にさ、",
-			NULL, "\"You know,", Line_WaitForInput);
+			NULL, "\"Sabe,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300431", 256, TRUE);
 	OutputLine(NULL, "…もう、辞めてもいいんだよ？」",
-			NULL, " ...you can quit if you want.\"", Line_Normal);
+			NULL, " ...você pode pedir demissão se quiser.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100691.「え——」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100691", 256, TRUE);
 	OutputLine(NULL, "「え——」",
-			NULL, "\"Huh...?\"", Line_Normal);
+			NULL, "\"Hã...?\"", Line_Normal);
 	ClearMessage();
 
 //rいつにもなく沈んだその口調に、私は思わず身体ごと向き直る。…こんなにも真剣に、私を心配そうに見つめる千紗登ちゃんの顔を見たのは、たぶん初めてだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いつにもなく沈んだその口調に、私は思わず身体ごと向き直る。…こんなにも真剣に、私を心配そうに見つめる千紗登ちゃんの顔を見たのは、たぶん初めてだった。",
-			NULL, "When her tone dropped, I instinctively turned my body. ...This may have been the first time Chisato-chan stared at my face with such concern.", Line_Normal);
+			NULL, "Quando o tom da voz dela abaixou, instintivamente virei meu corpo. ...Esta talvez tenha sido a primeira vez que Chisato-chan olhou para meu rosto com tanta preocupação.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "hm05_23", 128, 0 );
@@ -765,59 +765,59 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300432", 256, TRUE);
 	OutputLine(NULL, "「正直言ってさ、",
-			NULL, "\"I'll be honest here,", Line_WaitForInput);
+			NULL, "\"Serei sincera aqui,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300433", 256, TRUE);
 	OutputLine(NULL, "…怒ってもいいよ？",
-			NULL, " ...and you can get mad at me for it.", Line_WaitForInput);
+			NULL, " ...e você tem todo o direito de ficar brava comigo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300434", 256, TRUE);
 	OutputLine(NULL, "　夏美って結構、人見知りするでしょ？",
-			NULL, " You're pretty shy when it comes to strangers, aren't you Natsumi?", Line_WaitForInput);
+			NULL, " Você fica bem tímida perto de estranhos, não é mesmo Natsumi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300435", 256, TRUE);
 	OutputLine(NULL, "　それに、都会にまだ慣れていないっていうか、…すごく、危なっかしいし」",
-			NULL, " Plus, it's like you're not fully accustomed to the city yet... so you're not exactly street smart.\"", Line_Normal);
+			NULL, " Além disso, é como se você não estivesse completamente familiarizada com a cidade... então você não sabe exatamente onde procurar.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300436.「だからアルバイトをしたいって相談された時はね、絶対ここなら大丈夫、って思ったところを紹介するつもりだったんだよ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300436", 256, TRUE);
 	OutputLine(NULL, "「だからアルバイトをしたいって相談された時はね、絶対ここなら大丈夫、って思ったところを紹介するつもりだったんだよ？」",
-			NULL, "\"So when you told me you wanted a part-time job, I introduced you to the center because I figured you'd be absolutely safe there.\"", Line_Normal);
+			NULL, "\"Por causa disso, quando você me disse que queria encontrar um trabalho de meio período, te apresentei para o centro porque pensei que você estaria completamente segura aqui.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100692.「そんな、…オーバーだよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100692", 256, TRUE);
 	OutputLine(NULL, "「そんな、…オーバーだよ」",
-			NULL, "\"I think... You're exaggerating there.\"", Line_Normal);
+			NULL, "\"Acho... Que você está exagerando um pouco.\"", Line_Normal);
 	ClearMessage();
 
 //r私は肩をすくめて苦笑する。でも、千紗登ちゃんはいつものようにからかったりはしなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は肩をすくめて苦笑する。でも、千紗登ちゃんはいつものようにからかったりはしなかった。",
-			NULL, "I shrugged and smiled bitterly. But Chisato-chan didn't tease me like usual.", Line_Normal);
+			NULL, "Encolhi os ombros e sorri amargamente. Mas, Chisato-chan não me provocou como de costume.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300437.「私ってほら、かなりいい加減でちゃらんぽらんだから。kvS04/37/310300438.どんな仕事でも平気だと思うし、多少誰かに馬鹿にされても笑って済ませられる。kvS04/37/310300439.…でも、あんたは違う」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300437", 256, TRUE);
 	OutputLine(NULL, "「私ってほら、かなりいい加減でちゃらんぽらんだから。",
-			NULL, "\"You know how happy-go-lucky I can be. Even I can't believe myself sometimes.", Line_WaitForInput);
+			NULL, "\"Você sabe o quão despreocupada sou. Nem mesmo consigo acreditar nisso algumas vezes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300438", 256, TRUE);
 	OutputLine(NULL, "どんな仕事でも平気だと思うし、多少誰かに馬鹿にされても笑って済ませられる。",
-			NULL, " I like to believe I can survive in any kind of job, and that I can laugh off any humiliation I face.", Line_WaitForInput);
+			NULL, " Então acho que consiga sobreviver em qualquer tipo de trabalho, e possa relevar qualquer tipo de humilhação que sofrer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300439", 256, TRUE);
 	OutputLine(NULL, "…でも、あんたは違う」",
-			NULL, " ...But you're different.\"", Line_Normal);
+			NULL, " ...Mas, você é diferente.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300440.「すごく純粋で、優しくて、…それに、責任感もある。kvS04/37/310300441.だから、変なアルバイトで難癖つけられるとか、嫌な思いをするとかは一切なしでいてもらいたかったんだけどね…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300440", 256, TRUE);
 	OutputLine(NULL, "「すごく純粋で、優しくて、…それに、責任感もある。",
-			NULL, "\"You're so kind, so pure... plus you have a sense of responsibility.", Line_WaitForInput);
+			NULL, "\"Você é muito gentil, muito pura... e tem um grande senso de responsabilidade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300441", 256, TRUE);
 	OutputLine(NULL, "だから、変なアルバイトで難癖つけられるとか、嫌な思いをするとかは一切なしでいてもらいたかったんだけどね…」",
-			NULL, " So I wanted to give you a job where people wouldn't nitpick you over every little thing and wouldn't leave you with an unpleasant experience... But look how that went.\"", Line_Normal);
+			NULL, " Por causa disso, eu queria te dar um trabalho aonde as pessoas não ficassem procurando defeitos e nem a fizessem ter uma experiência desagradável... Mas, veja o que aconteceu.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100693.「……」
@@ -831,13 +831,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300442", 256, TRUE);
 	OutputLine(NULL, "「今回の件、ほんとにごめん。",
-			NULL, "\"I'm really sorry about all this.", Line_WaitForInput);
+			NULL, "\"Eu realmente sinto muito por tudo isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300443", 256, TRUE);
 	OutputLine(NULL, "夏美が落ち込むような思いにさせたの、私のせい。",
-			NULL, " It's all my fault you've been feeling depressed.", Line_WaitForInput);
+			NULL, " A culpa é totalmente minha por você estar se sentindo deprimida.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300444", 256, TRUE);
 	OutputLine(NULL, "だから、私に気を遣って続けなくても本当に構わないんだから、ね？」",
-			NULL, " So even if you think less of me for all this, I really won't object, ok?\"", Line_Normal);
+			NULL, " Portanto, mesmo que você me menospreze, não irei reclamar, ok?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100694.「千紗登ちゃん…」
@@ -850,44 +850,44 @@ void main()
 //r…千紗登ちゃんのその優しさが、とても温かい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…千紗登ちゃんのその優しさが、とても温かい。",
-			NULL, "...Chisato-chan's kindness filled me with warmth.", Line_Normal);
+			NULL, "...A gentileza de Chisato-chan me preencheu com aconchego.", Line_Normal);//;warmth
 	ClearMessage();
 
 //rでもそれと同時に、…辛かった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でもそれと同時に、…辛かった。",
-			NULL, "But at the same time... it was painful.", Line_Normal);
+			NULL, "Mas, ao mesmo tempo... também era dolorosa.", Line_Normal);
 	ClearMessage();
 
 //rこの思いやりは、ひょっとしたら私の正体がわかった瞬間に、…あっという間に霧散してなくなってしまうんじゃないか、って考えてしまうから——。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "この思いやりは、ひょっとしたら私の正体がわかった瞬間に、…あっという間に霧散してなくなってしまうんじゃないか、って考えてしまうから——。",
-			NULL, "For I fear if she ever learns the truth about me... all this compassion will go up in smoke...", Line_Normal);
+			NULL, "Porque se ela descobrisse toda a verdade sobre mim... toda essa compaixão sairia voando pelos ares...", Line_Normal);
 	ClearMessage();
 
 //rそう、…これは、罰だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう、…これは、罰だ。",
-			NULL, "That's right... this is my punishment.", Line_Normal);
+			NULL, "É isso mesmo... esta é a minha punição.", Line_Normal);
 	ClearMessage();
 
 //r自分の幸せを守るためについてしまった、…そして、今でもつき続けている嘘を生み出してしまったことの、私の罪だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分の幸せを守るためについてしまった、…そして、今でもつき続けている嘘を生み出してしまったことの、私の罪だった。",
-			NULL, "My punishment for protecting my happiness... And for upholding a lie for so long.", Line_Normal);
+			NULL, "Minha punição por proteger minha felicidade... E manter uma mentira por tanto tempo.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100695.「…大丈夫だよ、kvS04/36/310100696.ほんとに。kvS04/36/310100697.だから、気にしないで」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100695", 256, TRUE);
 	OutputLine(NULL, "「…大丈夫だよ、",
-			NULL, "\"...I'm okay,", Line_WaitForInput);
+			NULL, "\"...Eu estou bem,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100696", 256, TRUE);
 	OutputLine(NULL, "ほんとに。",
-			NULL, " really.", Line_WaitForInput);
+			NULL, " realmente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100697", 256, TRUE);
 	OutputLine(NULL, "だから、気にしないで」",
-			NULL, " So you don't need to worry.\"", Line_Normal);
+			NULL, " Então, não precisa se preocupar.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300445.「夏美…」
@@ -901,32 +901,32 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100698", 256, TRUE);
 	OutputLine(NULL, "「この仕事を紹介してくれて私、千紗登ちゃんには本当に感謝してるの。",
-			NULL, "\"I'm truly grateful that you introduced me to this job.", Line_WaitForInput);
+			NULL, "\"Estou realmente grata por você ter me mostrado este trabalho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100699", 256, TRUE);
 	OutputLine(NULL, "なんていうか、…天分？",
-			NULL, " Maybe I should say... I was destined for this?", Line_WaitForInput);
+			NULL, " Talvez deva dizer... que foi obra do destino?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100700", 256, TRUE);
 	OutputLine(NULL, "　なんて言い方は偉そうだけど、働いていて楽しいし、やりがいがあるしね？」",
-			NULL, " Maybe that sounds rather arrogant, but the job's fun and rewarding, don't you think?\"", Line_Normal);
+			NULL, " Isso pode soar um pouco arrogante, mas o trabalho e divertido e recompensador, não acha?\"", Line_Normal);
 	ClearMessage();
 
 //r…そう、今も背負い続けている『嘘』はともかく、この気持ちは本心で、真実だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そう、今も背負い続けている『嘘』はともかく、この気持ちは本心で、真実だった。",
-			NULL, "...Yes, I'm nurturing my <i>lie</i> even now, but my feelings here are completely genuine.", Line_Normal);
+			NULL, "...Sim, estou nutrindo minha <i>mentira</i> neste exato momento, mas meus sentimentos são completamente verdadeiros.", Line_Normal);//;genuine
 	ClearMessage();
 
 //夏美rvS04/36/310100701.「できれば、…このまま続けたいの。kvS04/36/310100702.お金が貯まった後も、千紗登ちゃんさえＯＫしてくれるならずっと、この仕事を続けたい。kvS04/36/310100703.…だめかな？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100701", 256, TRUE);
 	OutputLine(NULL, "「できれば、…このまま続けたいの。",
-			NULL, "\"If possible... I'd like to keep coming here.", Line_WaitForInput);
+			NULL, "\"Se possível... Gostaria de continuar trabalhando aqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100702", 256, TRUE);
 	OutputLine(NULL, "お金が貯まった後も、千紗登ちゃんさえＯＫしてくれるならずっと、この仕事を続けたい。",
-			NULL, " Even after I've made the money I need, I want to continue working here as long as you're ok with it.", Line_WaitForInput);
+			NULL, " Mesmo após conseguir todo o dinheiro que eu preciso, quero continuar trabalhando aqui enquanto você estiver OK com isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100703", 256, TRUE);
 	OutputLine(NULL, "…だめかな？」",
-			NULL, " ...Would that be wrong?\"", Line_Normal);
+			NULL, " ...Isso seria errado?\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -941,13 +941,13 @@ void main()
 //rしばらくじっと、千紗登ちゃんは私の顔を見つめ続け、…そしてふうっ、と脱力したようにため息をつく。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しばらくじっと、千紗登ちゃんは私の顔を見つめ続け、…そしてふうっ、と脱力したようにため息をつく。",
-			NULL, "Chisato-chan stared intently at me for a while... and then she let out an exhausted sigh.", Line_Normal);
+			NULL, "Chisato-chan olhou para mim intensamente durante um tempo... e então, soltou um suspiro exausto.", Line_Normal);
 	ClearMessage();
 
 //rその時、『ほんとに、この子は…』と呆れるような呟きが聞こえた後、いつもの明るい表情に戻ってぐわし、と私の頭を掴んだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時、『ほんとに、この子は…』と呆れるような呟きが聞こえた後、いつもの明るい表情に戻ってぐわし、と私の頭を掴んだ。",
-			NULL, "Just then, she muttered \"This girl, I swear...\" in exasperation, then her usual cheer returned to her face before she suddenly grabbed me by the head.", Line_Normal);
+			NULL, "Naquele momento, ela murmurou: \"Esta garota, sinceramente...\" em exasperação, e então seu ânimo de sempre retornou para seu resto antes dela repentinamente me agarrar pela cabeça.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "hm01_01", 128, 0 );
@@ -970,17 +970,17 @@ void main()
 			NULL, "\"Ahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300448", 256, TRUE);
 	OutputLine(NULL, "　そこまでお願いされちゃあ、このちーちゃんも頷くしかないでしょうに！",
-			NULL, " If you're that desperate, then Chi-chan has no choice but to agree!", Line_WaitForInput);
+			NULL, " Se você está tão desesperada, Chi-chan não tem escolha a não ser concordar!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300449", 256, TRUE);
 	OutputLine(NULL, "　…安心しなさい、あんたの骨はこの私がちゃぁん、と拾ってあげるからね～？」",
-			NULL, " ...Don't you worry about a thing. I'll make sure to gather your ashes, ok~?\"", Line_Normal);
+			NULL, " ...Não se preocupe com isso. Me certificarei de recolher todas as suas cinzas, ok~?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100706.「ま、まだ死にたくはないよ～？kvS04/36/310100707.　きゃぁあぁっ？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100706", 256, TRUE);
 	OutputLine(NULL, "「ま、まだ死にたくはないよ～？",
-			NULL, "\"W-wait, I don't want to die yet~.", Line_WaitForInput);
+			NULL, "\"E-espere, eu não quero morrer ainda~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100707", 256, TRUE);
 	OutputLine(NULL, "　きゃぁあぁっ？！」",
 			NULL, " Kyaaah?!\"", Line_Normal);
@@ -989,28 +989,28 @@ void main()
 //rそうして、狭い車内の中私と千紗登ちゃんは、きゃいきゃいとはしゃぎ回って、盛大に笑いあった——。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうして、狭い車内の中私と千紗登ちゃんは、きゃいきゃいとはしゃぎ回って、盛大に笑いあった——。",
-			NULL, "And so the cramped car was filled with the sounds of Chisato-chan and screaming and laughing at the top of our lungs...", Line_Normal);
+			NULL, "Assim, o carro apertado foi preenchido com os sons de Chisato-chan e gritos e risadas a plenos pulmões...", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300450.「ったく、あんたにゃ負けたよ…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300450", 256, TRUE);
 	OutputLine(NULL, "「ったく、あんたにゃ負けたよ…」",
-			NULL, "\"Geez, you've bested me...\"", Line_Normal);
+			NULL, "\"Caramba, você me venceu...\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100708.「え？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100708", 256, TRUE);
 	OutputLine(NULL, "「え？」",
-			NULL, "\"Huh?\"", Line_Normal);
+			NULL, "\"Hã?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300451.「いや、こっちの話」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300451", 256, TRUE);
 	OutputLine(NULL, "「いや、こっちの話」",
-			NULL, "\"Nothing, just me talking to myself.\"", Line_Normal);
+			NULL, "\"Nada, estou apenas falando sozinha.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/jyu1", 1000 );
@@ -1023,74 +1023,74 @@ void main()
 //rやがて、車は市街地を抜けて、佐伯病院の見える県道へと出る。そして病院正門の手前の交差点で信号が赤に変わり、横断歩道の前でゆっくりと停車した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "やがて、車は市街地を抜けて、佐伯病院の見える県道へと出る。そして病院正門の手前の交差点で信号が赤に変わり、横断歩道の前でゆっくりと停車した。",
-			NULL, "Eventually, the car drove past the urban area and onto the prefectural road where I could see Saeki Hospital. The traffic light right before the hospital entrance turned red and we slowly stopped in front of the pedestrian crossing.", Line_Normal);
+			NULL, "Eventualmente, o carro passou pela área urbana e entrou na rua prefeitural de onde o Hospital Saeki já poderia ser visto. O semáforo que fica um pouco antes da entrada do hospital ficou vermelho e nós lentamente paramos antes da faixa de pedestres.", Line_Normal);//;prefectural road
 	ClearMessage();
 
 //千紗登rvS04/37/310300452.「ここの信号って、いつも赤で止められるんだよね。kvS04/37/310300453.なんか嫌がらせっていうか、タイミング悪すぎだっての」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300452", 256, TRUE);
 	OutputLine(NULL, "「ここの信号って、いつも赤で止められるんだよね。",
-			NULL, "\"The light here always turns red.", Line_WaitForInput);
+			NULL, "\"A luz deste semáforo sempre fica vermelha.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300453", 256, TRUE);
 	OutputLine(NULL, "なんか嫌がらせっていうか、タイミング悪すぎだっての」",
-			NULL, " The timing sucks. Feels like someone's idea of a prank.\"", Line_Normal);
+			NULL, " Que timing terrível. Parece até que é de propósito.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100709.「…たまたまでしょ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100709", 256, TRUE);
 	OutputLine(NULL, "「…たまたまでしょ？」",
-			NULL, "\"...Are you sure it's not just once in a while?\"", Line_Normal);
+			NULL, "\"...Você tem certeza que não é apenas de vez em quando?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300454.「いや！kvS04/37/310300455.　病院に行く時は私の記憶してる限り、青であったためしがない。kvS04/37/310300456.きっと信号機のシステムを作ったやつって、すんごく意地悪なヤツなんだよ！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300454", 256, TRUE);
 	OutputLine(NULL, "「いや！",
-			NULL, "\"No way!", Line_WaitForInput);
+			NULL, "\"Impossível!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300455", 256, TRUE);
 	OutputLine(NULL, "　病院に行く時は私の記憶してる限り、青であったためしがない。",
-			NULL, " As far as I can remember, the light has never been green any of the times I've gone to the hospital.", Line_WaitForInput);
+			NULL, " Até onde me lembro, a luz nunca esteve verde em todas as vezes que vim para o hospital.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300456", 256, TRUE);
 	OutputLine(NULL, "きっと信号機のシステムを作ったやつって、すんごく意地悪なヤツなんだよ！」",
-			NULL, " I'm sure the guy who designed these traffic lights is a sadist!\"", Line_Normal);
+			NULL, " Tenho certeza que o cara que projetou esses semáforos deve ser um sádico!\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300457.「あるいは、佐伯病院に恨みを持ってるとかだ、きっと！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300457", 256, TRUE);
 	OutputLine(NULL, "「あるいは、佐伯病院に恨みを持ってるとかだ、きっと！」",
-			NULL, "\"Or they hold a grudge against Saeki Hospital!\"", Line_Normal);
+			NULL, "\"Ou guardam rancor contra o Hospital Saeki!\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100710.「か、考えすぎだって…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100710", 256, TRUE);
 	OutputLine(NULL, "「か、考えすぎだって…」",
-			NULL, "\"Y-you're overthinking this...\"", Line_Normal);
+			NULL, "\"V-você está exagerando...\"", Line_Normal);
 	ClearMessage();
 
 //rこぶしを振り上げて力説する千紗登ちゃんの姿に、相変わらずと思いながらもやんわりと突っ込む。そこへ予想外にも、運転席の山科さんから声が飛んできた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こぶしを振り上げて力説する千紗登ちゃんの姿に、相変わらずと思いながらもやんわりと突っ込む。そこへ予想外にも、運転席の山科さんから声が飛んできた。",
-			NULL, "I tried to gently let Chisato down as she emphatically thrust her fist into the air and pontificated. Just then, Yamashima-san suddenly chimed in from the driver's seat.", Line_Normal);
+			NULL, "Suavemente tentei acalmar Chisato-chan enquanto ela energicamente golpeava o ar com seus punhos e falava de maneira dogmática. Neste momento, Yamashima-san repentinamente falou do assento do motorista.", Line_Normal);
 	ClearMessage();
 
 //山科rvS04/00/VT1B_yamash1002.「…お嬢様にならともかく、旦那様に恨みを持つ方はちょっと考えられませんね」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>山科</color>", NULL, "<color=#f5e6d3>Yamashina</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamash1002", 256, TRUE);
 	OutputLine(NULL, "「…お嬢様にならともかく、旦那様に恨みを持つ方はちょっと考えられませんね」",
-			NULL, "\"...For a lady like you, I can't imagine what would happen to someone with a grudge against your husband.\"", Line_Normal);
+			NULL, "\"...Para uma dama como você, não consigo nem imaginar o que aconteceria com alguém que tivesse um rancor contra o seu marido.\"", Line_Normal);//;
 	ClearMessage();
 
 //千紗登rvS04/37/310300458.「ちょっと、山科さん！kvS04/37/310300459.　そりゃどーいう意味ですか？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300458", 256, TRUE);
 	OutputLine(NULL, "「ちょっと、山科さん！",
-			NULL, "\"Hold on, Yamashina-san!", Line_WaitForInput);
+			NULL, "\"Espere, Yamashina-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300459", 256, TRUE);
 	OutputLine(NULL, "　そりゃどーいう意味ですか？！」",
-			NULL, " Just what do you mean by that?!\"", Line_Normal);
+			NULL, " O que você quer dizer com isso?!\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100711.「あっはっはっはっはっ！！」
@@ -1103,7 +1103,7 @@ void main()
 //r勤勉な山科さんからのツッコミに、私は思いっきりお腹を抱えて笑う。千紗登ちゃんも私の顔をしばらく見てから、ふいに吹き出して笑った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "勤勉な山科さんからのツッコミに、私は思いっきりお腹を抱えて笑う。千紗登ちゃんも私の顔をしばらく見てから、ふいに吹き出して笑った。",
-			NULL, "After hearing such a flippant remark from mild-mannered Yamashina-san, I had to hold my stomach to contain the laughter. Chisato-chan looked at me for a while, then burst into laughter.", Line_Normal);
+			NULL, "Após ouvir este comentário do bem educado Yamashina-san, tive que segurar meu estômago para conter as risadas. Chisato-chan olhou para mim por algum tempo, e depois irrompeu em gargalhadas.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100712.「あははは！kvS04/36/310100713.　…あれ？」
@@ -1113,7 +1113,7 @@ void main()
 			NULL, "\"Ahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100713", 256, TRUE);
 	OutputLine(NULL, "　…あれ？」",
-			NULL, " ...Oh, what's that?\"", Line_Normal);
+			NULL, " ...Ah, o que é isso?\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -1122,46 +1122,46 @@ void main()
 //rその時、かすかに後方からパトカーのサイレンの音が聞こえてくる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時、かすかに後方からパトカーのサイレンの音が聞こえてくる。",
-			NULL, "Just then, I faintly heard a police siren coming from behind us.", Line_Normal);
+			NULL, "Neste momento, sutilmente ouvi o barulho de uma sirene policial vindo de trás de nós.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300460.「…何かあったのかな」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300460", 256, TRUE);
 	OutputLine(NULL, "「…何かあったのかな」",
-			NULL, "\"...What do you think happened?\"", Line_Normal);
+			NULL, "\"...O que será que aconteceu?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100714.「さぁ…？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100714", 256, TRUE);
 	OutputLine(NULL, "「さぁ…？」",
-			NULL, "\"I have no idea...\"", Line_Normal);
+			NULL, "\"Não tenho ideia...\"", Line_Normal);
 	ClearMessage();
 
 //rそう思いながらも、山科さんはずっと安全運転でここまで来ていたので関係ないと、私と千紗登ちゃんは横の車線を通って追い抜いてゆくパトカーを傍目で見送った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう思いながらも、山科さんはずっと安全運転でここまで来ていたので関係ないと、私と千紗登ちゃんは横の車線を通って追い抜いてゆくパトカーを傍目で見送った。",
-			NULL, "But I realized that it couldn't be related to us because Yamashina-san had been driving responsibly the whole time, so Chisato-chan and I watched the police car drive past us along the traffic lane.", Line_Normal);
+			NULL, "Mas, percebi que não tinha nenhuma nenhuma relação com a gente porque Yamashina-san esteve dirigindo responsavelmente durante todo o caminho, portanto Chisato-chan e eu ficamos apenas observando enquanto a viatura ultrapassava e seguia a via de transito.", Line_Normal);//;traffic lane
 	ClearMessage();
 
 //rだけど。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど。",
-			NULL, "However.", Line_Normal);
+			NULL, "No entanto.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300461.「——え…？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300461", 256, TRUE);
 	OutputLine(NULL, "「——え…？！」",
-			NULL, "\"...Huh...?!\"", Line_Normal);
+			NULL, "\"...Hã...?!\"", Line_Normal);
 	ClearMessage();
 
 //rフロントガラス越しに見えた、二台のパトカーは交差点を横切り、そして。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "フロントガラス越しに見えた、二台のパトカーは交差点を横切り、そして。",
-			NULL, "Through the windshield, I saw two police cars crossing the intersection. And then.", Line_Normal);
+			NULL, "Através do para-brisa, vi duas viaturas cruzando a intersecção. E então,", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100715.「————！！」
@@ -1174,7 +1174,7 @@ void main()
 //rすぐに左折して、…佐伯病院の門を通って中へと、入って、いった…！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "すぐに左折して、…佐伯病院の門を通って中へと、入って、いった…！！",
-			NULL, "They immediately turned left... through the Saeki Hospital entrance gate...!!", Line_Normal);
+			NULL, "Elas imediatamente viraram a esquerda... e atravessaram o portão de entrada para o Hospital Saeki...!!", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/byo1", 1000 );
@@ -1190,19 +1190,19 @@ void main()
 //r病院の敷地内に入ると、パトカーは裏へと回って、…介護福祉センターの建物の前で停まった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "病院の敷地内に入ると、パトカーは裏へと回って、…介護福祉センターの建物の前で停まった。",
-			NULL, "After they entered the hospital grounds, the police cars circled around the back... and stopped in front of the care and welfare center.", Line_Normal);
+			NULL, "Após entrarem no terreno do hospital, as viaturas deram a volta por trás... e pararam na frente do centro de cuidado e bem-estar.", Line_Normal);
 	ClearMessage();
 
 //r…そして、その２台だけじゃない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして、その２台だけじゃない。",
-			NULL, "...And those weren't the only two here.", Line_Normal);
+			NULL, "...Não tinha apenas duas.", Line_Normal);
 	ClearMessage();
 
 //rすでに３台、あわせて５台ものパトカーが赤い警光灯をいくつもひらめかせながら停車して、その周りには病院の人たち、そして警察らしき人たちの姿がたくさん見えた…！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "すでに３台、あわせて５台ものパトカーが赤い警光灯をいくつもひらめかせながら停車して、その周りには病院の人たち、そして警察らしき人たちの姿がたくさん見えた…！",
-			NULL, "Another three police cars were already there, making for five cars in total parked with their red lights flashing. Encircling them were many police officers and hospital staff...!", Line_Normal);
+			NULL, "Já haviam outras três viaturas lá antes, fazendo com que agora tenham cinco carros estacionados com suas luzes vermelhas piscando. Ao redor deles haviam muitos policiais e funcionários do hospital...!", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_sakebi_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1211,13 +1211,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300462", 256, TRUE);
 	OutputLine(NULL, "「ど、どうしたんですかっ？！」",
-			NULL, "\"W-what's happening?!\"", Line_Normal);
+			NULL, "\"O-o que está acontecendo?!\"", Line_Normal);
 	ClearMessage();
 
 //r私と千紗登ちゃんは車を降りると、居並ぶ人たちに声をかける。が、ほとんどが騒ぎを聞きつけて集まった人らしく、要領の得ない表情で首を横に振るだけだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私と千紗登ちゃんは車を降りると、居並ぶ人たちに声をかける。が、ほとんどが騒ぎを聞きつけて集まった人らしく、要領の得ない表情で首を横に振るだけだった。",
-			NULL, "Chisato-chan and I tried asking some of the nearby onlookers after getting out of the car. However, most of them seemed to have been drawn by the noise, so they simply shook their heads looking just as clueless as us.", Line_Normal);
+			NULL, "Chisato-chan e eu tentamos perguntar para algumas das pessoas em volta após sairmos do carro. No entanto, a maioria parece apenas ter vindo por conta de toda a comoção, e simplesmente balançaram a cabeça tão desinformadas quanto a gente.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -1226,45 +1226,45 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100716", 256, TRUE);
 	OutputLine(NULL, "「何があったんですか？",
-			NULL, "\"What happened here?", Line_WaitForInput);
+			NULL, "\"O que houve?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100717", 256, TRUE);
 	OutputLine(NULL, "　いったい——」",
-			NULL, " What's going on...?\"", Line_Normal);
+			NULL, " O que está acontecendo...?\"", Line_Normal);
 	ClearMessage();
 
 //高屋敷rvS04/00/VT1B_takaya1001.「危ないから下がって！kvS04/00/VT1B_takaya1002.　関係者以外は立ち入らないでください！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>高屋敷</color>", NULL, "<color=#f5e6d3>Takayashiki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_takaya1001", 256, TRUE);
 	OutputLine(NULL, "「危ないから下がって！",
-			NULL, "\"Please stay back, it's dangerous!", Line_WaitForInput);
+			NULL, "\"Por favor, se afaste, é perigoso!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_takaya1002", 256, TRUE);
 	OutputLine(NULL, "　関係者以外は立ち入らないでください！」",
-			NULL, " Please, only staff are permitted to enter!\"", Line_Normal);
+			NULL, " Apenas membros da equipe podem entrar!\"", Line_Normal);
 	ClearMessage();
 
 //rならばと思って警察の人に話しかけても、両手を広げてそれ以上進ませてもくれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ならばと思って警察の人に話しかけても、両手を広げてそれ以上進ませてもくれない。",
-			NULL, "I tried pressing my luck with a nearby policeman, but he spread his hands and prevented me from going any closer.", Line_Normal);
+			NULL, "Tentei pedir informações para um policial próximo, mas ele fez um gesto com as mãos e impediu que eu me aproximasse.", Line_Normal);//;gesto.pare
 	ClearMessage();
 
 //r…ただ、その手の向こうに見えたセンターの入り口には黄色いテープがべたべたと貼られ、そこには黒字で『立入禁止』と無数に書かれてあった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…ただ、その手の向こうに見えたセンターの入り口には黄色いテープがべたべたと貼られ、そこには黒字で『立入禁止』と無数に書かれてあった。",
-			NULL, "...All I could see behind him was yellow tape blocking the entrance with the words \"Do not enter\" written over and over again across them.", Line_Normal);
+			NULL, "...Tudo que eu podia ver atrás dele era uma fita amarela com a frase: \"Não Ultrapasse\" escrita repetidamente.", Line_Normal);
 	ClearMessage();
 
 //r普通じゃない…！　こんなの、全然、普通じゃないッッ…！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "普通じゃない…！　こんなの、全然、普通じゃないッッ…！！",
-			NULL, "This isn't normal...! This is completely abnormal...!!", Line_Normal);
+			NULL, "Isso não é normal...! É completamente anormal...!!", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100718.「ど、どうして、kvS04/36/310100719.——あっ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100718", 256, TRUE);
 	OutputLine(NULL, "「ど、どうして、",
-			NULL, "\"W-why,", Line_WaitForInput);
+			NULL, "\"P-por que,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100719", 256, TRUE);
 	OutputLine(NULL, "——あっ！！」",
 			NULL, " ...Ah!!\"", Line_Normal);
@@ -1273,20 +1273,20 @@ void main()
 //r呆然と視線をめぐらせた私は、そこでふと、何人かの制服の警察官に入り混じって赤いスーツの女性の姿を見つける。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "呆然と視線をめぐらせた私は、そこでふと、何人かの制服の警察官に入り混じって赤いスーツの女性の姿を見つける。",
-			NULL, "I surveyed the area, and was surprised to see a woman in a red suit standing amidst some police officers in uniform.", Line_Normal);
+			NULL, "Olhei com mais atenção ao redor, e fiquei surpresa ao perceber uma mulher num terno vermelho no meio dos policiais.", Line_Normal);
 	ClearMessage();
 
 //rその人は集まってきた警察の関係者らしき人たちと話しながら、そのつど何かの指示を与えているようだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その人は集まってきた警察の関係者らしき人たちと話しながら、そのつど何かの指示を与えているようだった。",
-			NULL, "She was talking to what appeared to be people associated with the police on-site as she apparently gave them orders.", Line_Normal);
+			NULL, "Ela estava conversando com pessoas que aparentavam estar relacionadas com a polícia e estava dando ordens para elas.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100720.「あの人ッ——！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100720", 256, TRUE);
 	OutputLine(NULL, "「あの人ッ——！」",
-			NULL, "\"That woman...!\"", Line_Normal);
+			NULL, "\"Aquela mulher...!\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300463.「夏美っ？！」
@@ -1299,7 +1299,7 @@ void main()
 //r私は弾かれたような勢いで、その人のもとへと駆けだす。そして話がいったん落ち着いたように見えたのをこれ幸いとばかりに、そのスーツの袖を引っ張って呼びかけた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は弾かれたような勢いで、その人のもとへと駆けだす。そして話がいったん落ち着いたように見えたのをこれ幸いとばかりに、そのスーツの袖を引っ張って呼びかけた。",
-			NULL, "I rushed over to that woman with the momentum of a bullet in flight. And once their conversation began to settle down, I seized the opportunity to pull on her sleeve and call out to her.", Line_Normal);
+			NULL, "Corri na direção daquela mulher com o impulso de uma bala. E, assim que pareceu que ela tinha terminado de falar, usei a oportunidade para puxar sua manga e chamá-la.", Line_Normal);//;
 	ClearMessage();
 
 //夏美rvS04/36/310100721.「南井さん！kvS04/36/310100722.　南井刑事さん！！」
@@ -1309,7 +1309,7 @@ void main()
 			NULL, "\"Minai-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100722", 256, TRUE);
 	OutputLine(NULL, "　南井刑事さん！！」",
-			NULL, " Detective Minai-san!!\"", Line_Normal);
+			NULL, " Detetive Minai-san!!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_shinken_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1321,23 +1321,23 @@ void main()
 			NULL, "\"Hm?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500193", 256, TRUE);
 	OutputLine(NULL, "　あなた、——夏美さん？」",
-			NULL, " You are... Natsumi-san?\"", Line_Normal);
+			NULL, " Você... Natsumi-san?\"", Line_Normal);
 	ClearMessage();
 
 //r南井刑事は私を見て、驚いた表情を浮かべる。そして私は、仕事の邪魔だと怒られることを覚悟の上で、必死の思いで訊ねかけた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "南井刑事は私を見て、驚いた表情を浮かべる。そして私は、仕事の邪魔だと怒られることを覚悟の上で、必死の思いで訊ねかけた。",
-			NULL, "Detective Minai gave me a surprised look. Prepared for her to scold me for interrupting her work, I hastily voiced the question on my mind.", Line_Normal);
+			NULL, "A Detetive Minai me deu um olhar surpreso. Preparada para ser repreendida por interromper seu trabalho, rapidamente comecei a falar a pergunta que estava em minha mente.", Line_Normal);//;
 	ClearMessage();
 
 //夏美rvS04/36/310100723.「な、何があったんですか？kvS04/36/310100724.　教えてください、お願いします！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100723", 256, TRUE);
 	OutputLine(NULL, "「な、何があったんですか？",
-			NULL, "\"W-what happened here?", Line_WaitForInput);
+			NULL, "\"O-que houve?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100724", 256, TRUE);
 	OutputLine(NULL, "　教えてください、お願いします！」",
-			NULL, " Please, tell me!\"", Line_Normal);
+			NULL, " Por favor, me diga!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_kanashimi_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1352,45 +1352,45 @@ void main()
 //r予想通り、南井刑事は気圧されたように身を引きながらも、複雑な表情で視線を微妙にそらす。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "予想通り、南井刑事は気圧されたように身を引きながらも、複雑な表情で視線を微妙にそらす。",
-			NULL, "As expected, Detective Minai stepped back like she'd been overpowered, yet her eyes turned slightly away with a troubled look on her face.", Line_Normal);
+			NULL, "Como esperado, a Detetive Minai deu um passo para trás como se estivesse sendo pressionada, e virou seus olhos para outra direção com uma expressão preocupada no rosto.", Line_Normal);
 	ClearMessage();
 
 //rそれでも、なおも食い下がるつもりでその先へと回りこもうとした時、——突然、誰かの嗚咽するような声が聞こえて、私は振り向いた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも、なおも食い下がるつもりでその先へと回りこもうとした時、——突然、誰かの嗚咽するような声が聞こえて、私は振り向いた。",
-			NULL, "Nevertheless, I was undeterred, and when I began to move around to the other side... I suddenly heard a sob and turned around.", Line_Normal);
+			NULL, "No entanto, isso não me impediu, quando comecei a me mover na direção para a qual ela virou os olhos... Repentinamente ouvi um soluço e me virei.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
 
 //介護士rvS04/00/VT1B_kaigoFb1001.「…ううっ、…なんで…、なんでッ…！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>介護士</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>介護士</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_kaigofb1001", 256, TRUE);
 	OutputLine(NULL, "「…ううっ、…なんで…、なんでッ…！！」",
-			NULL, "\"...Uuhh... Why... Why...?!\"", Line_Normal);
+			NULL, "\"...Uuhh... Por quê... Por quê...?!\"", Line_Normal);
 	ClearMessage();
 
 //r見るとその人は、介護士さんだった。あまり親しくなかったので名前は知らないけど、時々シフトが一緒になって、挨拶くらいは交わして顔は覚えている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "見るとその人は、介護士さんだった。あまり親しくなかったので名前は知らないけど、時々シフトが一緒になって、挨拶くらいは交わして顔は覚えている。",
-			NULL, "It was one of the caregivers. I didn't know her name because we were never very close, but we occasionally had shifts together. At the very least, I knew her well enough to say hi to her when I recognized her face.", Line_Normal);
+			NULL, "Era uma das cuidadoras. Eu nem mesmo sabia seu nome porque nós não éramos muito próximas, mas, vez ou outra tínhamos turnos juntas. Pelo menos, a conheço bem o suficiente para dizer \"olá\" quando vejo ela.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100725.「どうしたんですか？kvS04/36/310100726.　何があったんですか？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100725", 256, TRUE);
 	OutputLine(NULL, "「どうしたんですか？",
-			NULL, "\"What's going on here?", Line_WaitForInput);
+			NULL, "\"O que houve?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100726", 256, TRUE);
 	OutputLine(NULL, "　何があったんですか？！」",
-			NULL, " What happened?!\"", Line_Normal);
+			NULL, " O que foi que aconteceu?!\"", Line_Normal);
 	ClearMessage();
 
 //介護士rvS04/00/VT1B_kaigoFb1002.「山瀬さんが…山瀬さんがッ…、kvS04/00/VT1B_kaigoFb1003.ううぅうぅっっ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>介護士</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>介護士</color>", NULL, "<color=#f5e6d3>Enfermeira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_kaigofb1002", 256, TRUE);
 	OutputLine(NULL, "「山瀬さんが…山瀬さんがッ…、",
-			NULL, "\"Yamase-san was... Yamase-san was...", Line_WaitForInput);
+			NULL, "\"Yamase-san foi... Yamase-san foi...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_kaigofb1003", 256, TRUE);
 	OutputLine(NULL, "ううぅうぅっっ！！」",
 			NULL, " Uuuuuuuughh!!\"", Line_Normal);
@@ -1406,91 +1406,91 @@ void main()
 //r愕然と、…目がくらむような思いで絶句した私の、すぐ横のパトカーから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "愕然と、…目がくらむような思いで絶句した私の、すぐ横のパトカーから。",
-			NULL, "I was rendered speechless with shock that left my knees weak. Then, from the police car right next to me.", Line_Normal);
+			NULL, "Fiquei tão sem palavras pelo choque que meus joelhos perderam a força. E então, da viatura próxima a mim.", Line_Normal);
 	ClearMessage();
 
 //r抑揚のない、ノイズ交じりの不明瞭な声で、…それは、聞こえて、しまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "抑揚のない、ノイズ交じりの不明瞭な声で、…それは、聞こえて、しまった。",
-			NULL, "I could hear... a barely comprehensible voice mixed with static.", Line_Normal);
+			NULL, "Pude ouvir... uma voz quase incompreensível misturada com estática.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
 
 //垣内ＰＳrvS04/00/VT1B_centP1001.『垣内ＰＳより、各車両へ。kvS04/00/VT1B_centP1002.垣内ＰＳより、巡回中の各車両へ。kvS04/00/VT1B_centP1003.殺人事件発生。kvS04/00/VT1B_centP1004.繰り返す、佐伯病院敷地内の佐伯介護福祉センターにて、殺人事件発生』
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Kakiuchi PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Kakiuchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1001", 256, TRUE);
 	OutputLine(NULL, "『垣内ＰＳより、各車両へ。",
-			NULL, "\"This is Kakiuchi Police Station, calling all units.", Line_WaitForInput);
+			NULL, "\"Delegacia de Polícia de Kakiuchi, chamando todas as unidades.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1002", 256, TRUE);
 	OutputLine(NULL, "垣内ＰＳより、巡回中の各車両へ。",
-			NULL, " This is Kakiuchi PS, calling all units currently on patrol.", Line_WaitForInput);
+			NULL, " Delegacia de Polícia de Kakiuchi chamando todas as unidades que estiverem atualmente em patrulha.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1003", 256, TRUE);
 	OutputLine(NULL, "殺人事件発生。",
-			NULL, " A murder has been reported. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Kakiuchi PS</color>", NULL, Line_ContinueAfterTyping); }
+			NULL, " Um assassinato foi relatado. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Kakiuchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1004", 256, TRUE);
 	OutputLine(NULL, "繰り返す、佐伯病院敷地内の佐伯介護福祉センターにて、殺人事件発生』",
-			NULL, "I repeat, a murder has occurred at the Saeki Care and Welfare Center located at Saeki Hospital.\"", Line_Normal);
+			NULL, "Repito, um assassinato ocorreu no Centro de Cuidado e Bem-Estar Saeki localizado no Hospital Saeki.\"", Line_Normal);
 	ClearMessage();
 
 //垣内ＰＳrvS04/00/VT1B_centP1005.『被害者は、山瀬加寿子。kvS04/00/VT1B_centP1006.近くの車両は、至急応援に向かわれたし。kvS04/00/VT1B_centP1007.繰り返す…』
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Kakiuchi PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Kakiuchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1005", 256, TRUE);
 	OutputLine(NULL, "『被害者は、山瀬加寿子。",
-			NULL, "\"The victim is Kazuko Yamase.", Line_WaitForInput);
+			NULL, "\"A vítima é Yamase Kazuko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1006", 256, TRUE);
 	OutputLine(NULL, "近くの車両は、至急応援に向かわれたし。",
-			NULL, " Nearby units, please head in for emergency backup.", Line_WaitForInput);
+			NULL, " Unidades próximas, por favor, dirijam-se para dar apoio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1007", 256, TRUE);
 	OutputLine(NULL, "繰り返す…』",
-			NULL, " I repeat...\"", Line_Normal);
+			NULL, " Repito...\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100728.「……え……？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100728", 256, TRUE);
 	OutputLine(NULL, "「……え……？」",
-			NULL, "\"......Huh......?\"", Line_Normal);
+			NULL, "\"......Hã......?\"", Line_Normal);
 	ClearMessage();
 
 //r呆然と。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "呆然と。",
-			NULL, "I couldn't believe what I'd heard.", Line_Normal);
+			NULL, "Não consegui acreditar no que acabei de ouvir.", Line_Normal);
 	ClearMessage();
 
 //r魂が抜けたように立ち尽くす私のそばを横切って、南井刑事は無線が聞こえたパトカーへと近づく。そして中からレシーバーを手に取り、口元に当てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魂が抜けたように立ち尽くす私のそばを横切って、南井刑事は無線が聞こえたパトカーへと近づく。そして中からレシーバーを手に取り、口元に当てた。",
-			NULL, "As I stood there rooted like a soulless doll, Detective Minai passed by me and approached that police car. She picked up the receiver from inside and held it to her mouth.", Line_Normal);
+			NULL, "Enquanto fiquei ali parada como uma boneca sem alma, a Detetive Minai passou por mim e se aproximou da viatura. Ela pegou o receptor e aproximou da boca.", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500195.「南井車より垣内ＰＳへ。kvS04/28/310500196.一課次長の南井、出ました。kvS04/28/310500197.こちら応援含めて、計５台集合しています。kvS04/28/310500198.あと３台、一般人の規制と整理のため、佐伯病院側へ回してください」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500195", 256, TRUE);
 	OutputLine(NULL, "「南井車より垣内ＰＳへ。",
-			NULL, "\"This is the Minai car, calling Kakiuchi Police Station.", Line_WaitForInput);
+			NULL, "\"Carro de Minai, chamando a Delegacia de Polícia de Kakiuchi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500196", 256, TRUE);
 	OutputLine(NULL, "一課次長の南井、出ました。",
-			NULL, " This is first division assistant director Minai. I have arrived on-scene.", Line_WaitForInput);
+			NULL, " Diretora assistente da primeira divisão Minai. Cheguei a cena.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500197", 256, TRUE);
 	OutputLine(NULL, "こちら応援含めて、計５台集合しています。",
-			NULL, " Including the support here, a total of five units are assembled. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " Incluindo o apoio, temos um total de cinco unidades reunidas. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500198", 256, TRUE);
 	OutputLine(NULL, "あと３台、一般人の規制と整理のため、佐伯病院側へ回してください」",
-			NULL, "We need three more units at Saeki Hospital site for crowd control.\"", Line_Normal);
+			NULL, "Precisamos de mais três unidades no Hospital Saeki para conter a multidão.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500199.「それから、犯人追跡の必要はありません。kvS04/28/310500200.容疑者は——」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500199", 256, TRUE);
 	OutputLine(NULL, "「それから、犯人追跡の必要はありません。",
-			NULL, "\"Be advised that no pursuit of the perpetrator will be necessary.", Line_WaitForInput);
+			NULL, "\"Informo que não será necessário perseguir o criminoso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500200", 256, TRUE);
 	OutputLine(NULL, "容疑者は——」",
-			NULL, " The suspect is...\"", Line_Normal);
+			NULL, " O suspeito é...\"", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "hm06_26", 128, 0 );
@@ -1499,70 +1499,70 @@ void main()
 //r…一瞬、ちら、と南井刑事は私に目を向ける。そして、
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…一瞬、ちら、と南井刑事は私に目を向ける。そして、",
-			NULL, "...For a moment, Detective Minai glanced back at me. And then,", Line_Normal);
+			NULL, "...Por um instante, a Detetive Minai olhou para mim atrás dela. E então,", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500201.「容疑者の畠山一馬は、kvS04/28/310500202.…１３時５１分、センター内一室にて死亡を確認。kvS04/28/310500203.死因は失血死。kvS04/28/310500204.詳細は追って連絡します。kvS04/28/310500205.どうぞ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500201", 256, TRUE);
 	OutputLine(NULL, "「容疑者の畠山一馬は、",
-			NULL, "\"The suspect, Kazuma Hatakeyama,", Line_WaitForInput);
+			NULL, "\"O suspeito, Hatakeyama Kazuma,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500202", 256, TRUE);
 	OutputLine(NULL, "…１３時５１分、センター内一室にて死亡を確認。",
-			NULL, " ...has been found dead in a room inside the center as of 1:51 PM.", Line_WaitForInput);
+			NULL, " ...foi encontrado morto dentro de um quarto do centro as 1:51 da tarde.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500203", 256, TRUE);
 	OutputLine(NULL, "死因は失血死。",
-			NULL, " The cause of death is severe blood loss.", Line_WaitForInput);
+			NULL, " A causa da morte é perda de sangue severa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500204", 256, TRUE);
 	OutputLine(NULL, "詳細は追って連絡します。",
-			NULL, " Details will be announced later.", Line_WaitForInput);
+			NULL, " Mais detalhes serão divulgados em breve.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500205", 256, TRUE);
 	OutputLine(NULL, "どうぞ」",
-			NULL, " Over.\"", Line_Normal);
+			NULL, " Cambio.\"", Line_Normal);
 	ClearMessage();
 
 //垣内ＰＳrvS04/00/VT1B_centP1008.『垣内ＰＳより南井警部へ。kvS04/00/VT1B_centP1009.了解しました。kvS04/00/VT1B_centP1010.引き続き捜査に当たってください。kvS04/00/VT1B_centP1011.どうぞ』
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Kakiuchi PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>垣内ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Kakiuchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1008", 256, TRUE);
 	OutputLine(NULL, "『垣内ＰＳより南井警部へ。",
-			NULL, "\"Officer Minai, this is Kakiuchi Police Station.", Line_WaitForInput);
+			NULL, "\"Inspetora Minai, Delegacia de Polícia de Kakiuchi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1009", 256, TRUE);
 	OutputLine(NULL, "了解しました。",
-			NULL, " Understood.", Line_WaitForInput);
+			NULL, " Entendido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1010", 256, TRUE);
 	OutputLine(NULL, "引き続き捜査に当たってください。",
-			NULL, " Please continue your investigation.", Line_WaitForInput);
+			NULL, " Por favor, continue com sua investigação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_centp1011", 256, TRUE);
 	OutputLine(NULL, "どうぞ』",
-			NULL, " Over.\"", Line_Normal);
+			NULL, " Cambio.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500206.「了解。kvS04/28/310500207.交信終わります」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500206", 256, TRUE);
 	OutputLine(NULL, "「了解。",
-			NULL, "\"Roger.", Line_WaitForInput);
+			NULL, "\"Entendido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500207", 256, TRUE);
 	OutputLine(NULL, "交信終わります」",
-			NULL, " Over and out.\"", Line_Normal);
+			NULL, " Cambio, desligo.\"", Line_Normal);
 	ClearMessage();
 
 //r……今…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……今…。",
-			NULL, "......What...", Line_Normal);
+			NULL, "......O quê...", Line_Normal);
 	ClearMessage();
 
 //r刑事さん、…今、なんて…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "刑事さん、…今、なんて…？",
-			NULL, "What did Detective Minai... just say...?", Line_Normal);
+			NULL, "O que a Detetive Minai... acabou de dizer...?", Line_Normal);
 	ClearMessage();
 
 //r山瀬さんを、…殺した犯人の名前、…それって…それって…っっ？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "山瀬さんを、…殺した犯人の名前、…それって…それって…っっ？！",
-			NULL, "The person... who murdered Yamase-san is... is... is...?!", Line_Normal);
+			NULL, "A pessoa... que assassinou Yamase-san foi... foi... foi...?!", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/kai1", 1000 );
@@ -1571,20 +1571,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100729", 256, TRUE);
 	OutputLine(NULL, "「……け、刑事、さんっ…」",
-			NULL, "\"......D-detective...\"", Line_Normal);
+			NULL, "\"......D-detetive...\"", Line_Normal);
 	ClearMessage();
 
 //rふらふらと、…まるで夢の中で彷徨うような感覚のまま、私は南井刑事に歩み寄る。レシーバーを車内に戻し終えた刑事さんは、その気配を感じたのかゆっくりと振り返って向き直った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ふらふらと、…まるで夢の中で彷徨うような感覚のまま、私は南井刑事に歩み寄る。レシーバーを車内に戻し終えた刑事さんは、その気配を感じたのかゆっくりと振り返って向き直った。",
-			NULL, "I staggered toward Detective Minai... feeling as if I were wandering through a dream. The detective finished returning the receiver to the car, then slowly turned around as though she'd sensed my presence.", Line_Normal);
+			NULL, "Cambaleei em direção a Detetive Minai... sentindo como se estivesse vagando por um pesadelo. A detetive terminou de guardar o receptor de volta no carro, e então, lentamente se virou quando percebeu minha presença.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100730.「……いったい…、なに、が…っ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100730", 256, TRUE);
 	OutputLine(NULL, "「……いったい…、なに、が…っ？」",
-			NULL, "\"......What on earth... what is this...?\"", Line_Normal);
+			NULL, "\"......Que diabos... aconteceu...?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_shinken_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1593,19 +1593,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500208", 256, TRUE);
 	OutputLine(NULL, "「——あなたが、聞いた通りです。",
-			NULL, "\"...It is as you heard.", Line_WaitForInput);
+			NULL, "\"...Exatamente como você ouviu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500209", 256, TRUE);
 	OutputLine(NULL, "今日の朝、殺人事件があって、",
-			NULL, " A murder occurred this morning.", Line_WaitForInput);
+			NULL, " Um assassinato aconteceu esta manhã.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500210", 256, TRUE);
 	OutputLine(NULL, "…この介護センターの介護士さんが一人、…亡くなられました」",
-			NULL, " ...One caregiver at this care center... passed away.\"", Line_Normal);
+			NULL, " ...Uma cuidadora deste centro de cuidado... faleceu.\"", Line_Normal);
 	ClearMessage();
 
 //rつとめて感情を抑えるように、南井刑事は事務的な口調で、そう言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "つとめて感情を抑えるように、南井刑事は事務的な口調で、そう言った。",
-			NULL, "Detective Minai spoke in a clerical tone, as though trying to keep her emotions in check as much as possible.", Line_Normal);
+			NULL, "A Detetive Minai falou num tom formal, como se estivesse tentando controlar suas emoções o máximo possível.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100731.「………」
@@ -1618,31 +1618,31 @@ void main()
 //r嘘だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "嘘だ。",
-			NULL, "That can't be.", Line_Normal);
+			NULL, "Não pode ser.", Line_Normal);
 	ClearMessage();
 
 //r信じられない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じられない。",
-			NULL, "I don't believe it.", Line_Normal);
+			NULL, "Eu não acredito nisso.", Line_Normal);
 	ClearMessage();
 
 //rだって山瀬さんも、畠山のおじーちゃんも、…二人とも、一昨日まで、ちゃんと生きてたんだよ？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって山瀬さんも、畠山のおじーちゃんも、…二人とも、一昨日まで、ちゃんと生きてたんだよ？",
-			NULL, "Because Yamase-san and old man Hatakeyama... were both alive just two days ago, right?", Line_Normal);
+			NULL, "Porque Yamase-san e o idoso Hatakeyama... estavam ambos bem vivos até dois dias atrás, certo?", Line_Normal);
 	ClearMessage();
 
 //rおじーちゃん、あんなことがあって、熱出して元気なかったけど、…大したことないってお医者さんも言ってたよ？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "おじーちゃん、あんなことがあって、熱出して元気なかったけど、…大したことないってお医者さんも言ってたよ？",
-			NULL, "The old man wasn't feeling very well back then... but the doctor said it wasn't a big deal, right?", Line_Normal);
+			NULL, "Hatakeyama não estava se sentindo muito bem... mas o médico havia dito que não era nada demais, certo?", Line_Normal);
 	ClearMessage();
 
 //rそれに山瀬さんは、帰り際、『お疲れ様』って私に、笑って、言ってくれたんだよ？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに山瀬さんは、帰り際、『お疲れ様』って私に、笑って、言ってくれたんだよ？",
-			NULL, "And Yamase-san smiled and told me \"good job\" just before I went home, right?", Line_Normal);
+			NULL, "E Yamase-san havia sorrido para mim e falado: \"bom trabalho\" logo antes de eu ir para casa, certo?", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1653,17 +1653,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>山瀬</color>", NULL, "<color=#f5e6d3>Yamase</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1067", 256, TRUE);
 	OutputLine(NULL, "『…あなたみたいな優しい子が、介護士になってくれると嬉しいわ』",
-			NULL, "\"...I'd be happy if a girl as kind and compassionate as you could become a caregiver.\"", Line_Normal);
+			NULL, "\"...Eu ficaria feliz se uma garota tão gentil e compassiva como você se tornasse cuidadora.\"", Line_Normal);
 	ClearMessage();
 
 //山瀬rvS04/00/VT1B_yamase1068.『頑張って資格を取りなさい。kvS04/00/VT1B_yamase1069.私も、出来る限り応援するから』
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>山瀬</color>", NULL, "<color=#f5e6d3>Yamase</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1068", 256, TRUE);
 	OutputLine(NULL, "『頑張って資格を取りなさい。",
-			NULL, "\"Please work hard and consider getting certified.", Line_WaitForInput);
+			NULL, "\"Por favor, trabalhe duro e considere obter uma certificação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1069", 256, TRUE);
 	OutputLine(NULL, "私も、出来る限り応援するから』",
-			NULL, " I will do everything I can to support you.\"", Line_Normal);
+			NULL, " Farei tudo que puder para apoiá-la.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 500 );
@@ -1683,84 +1683,84 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100732", 256, TRUE);
 	OutputLine(NULL, "「……嘘だよ…」",
-			NULL, "\"......It's a lie...\"", Line_Normal);
+			NULL, "\"......É mentira...\"", Line_Normal);
 	ClearMessage();
 
 //r両足と、両手と、…全身から力が消えてなくなったように、私はその場に、ぺたん、とへたりこむ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "両足と、両手と、…全身から力が消えてなくなったように、私はその場に、ぺたん、とへたりこむ。",
-			NULL, "I slumped right where I stood, as though all strength had been drained from my limbs... no, my whole body.", Line_Normal);
+			NULL, "Caí exatamente onde estava, como se toda força tivesse sido drenada de meus membros... não, de meu corpo inteiro.", Line_Normal);
 	ClearMessage();
 
 //rその後ろから、…きっと、千紗登ちゃんだろう、両腕を回して懸命に抱きしめる感触。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後ろから、…きっと、千紗登ちゃんだろう、両腕を回して懸命に抱きしめる感触。",
-			NULL, "I felt two arms wrap around me and embrace me for dear life... It must have been Chisato-chan.", Line_Normal);
+			NULL, "Senti dois braços me envolvendo e abraçando com força... Devem ser de Chisato-chan.", Line_Normal);
 	ClearMessage();
 
 //r何かが聞こえる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "何かが聞こえる。",
-			NULL, "I heard something.", Line_Normal);
+			NULL, "Ouvi algo.", Line_Normal);
 	ClearMessage();
 
 //r私の耳元で、誰かが叫んでいる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私の耳元で、誰かが叫んでいる。",
-			NULL, "Someone was shouting in my ear.", Line_Normal);
+			NULL, "Alguém estava gritando em meus ouvidos.", Line_Normal);
 	ClearMessage();
 
 //rでも、…よく、聞こえない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも、…よく、聞こえない。",
-			NULL, "But... I couldn't understand any of it.", Line_Normal);
+			NULL, "Mas... Eu não conseguia entender sequer uma palavra.", Line_Normal);
 	ClearMessage();
 
 //r目の前の景色もぐるぐると回って、…形も、色も、何もかもが溶けるように崩れて、ぼんやりともやがかかって——。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "目の前の景色もぐるぐると回って、…形も、色も、何もかもが溶けるように崩れて、ぼんやりともやがかかって——。",
-			NULL, "Everything before me was spinning... Shapes, colors, everything collapsed and melted into a gentle haze...", Line_Normal);
+			NULL, "Tudo ao meu redor estava girando... Formas, cores, tudo colapsou e derreteu numa névoa...", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
 	FadeOutBGM( 2, 200, FALSE  );
 
 //救急隊員rvS04/00/VT1B_qqMa1001.「——はい、通して！kvS04/00/VT1B_qqMa1002.　道を開けてください！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramedic</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramédico</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqma1001", 256, TRUE);
 	OutputLine(NULL, "「——はい、通して！",
-			NULL, "\"...Attention, coming through!", Line_WaitForInput);
+			NULL, "\"...Atenção, me deixem passar!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqma1002", 256, TRUE);
 	OutputLine(NULL, "　道を開けてください！」",
-			NULL, " Make way, please!\"", Line_Normal);
+			NULL, " Abram caminho, por favor!\"", Line_Normal);
 	ClearMessage();
 
 //救急隊員rvS04/00/VT1B_qqMb1001.「被害者を搬出します！kvS04/00/VT1B_qqMb1002.　ほら、どいて！　邪魔だ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramedic</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramédico</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqmb1001", 256, TRUE);
 	OutputLine(NULL, "「被害者を搬出します！",
-			NULL, "\"We are carrying out the victim!", Line_WaitForInput);
+			NULL, "\"Estamos carregando o corpo da vítima!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqmb1002", 256, TRUE);
 	OutputLine(NULL, "　ほら、どいて！　邪魔だ！！」",
-			NULL, " Everyone, move! Out of the way!!\"", Line_Normal);
+			NULL, " Todos, se mexam! Saiam da frente!!\"", Line_Normal);
 	ClearMessage();
 
 //rそんな、怒声とともに。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな、怒声とともに。",
-			NULL, "A harsh voice rang out.", Line_Normal);
+			NULL, "Uma voz áspera soou.", Line_Normal);
 	ClearMessage();
 
 //rごった返して騒がしかった人の壁が割れて、中から白い布をかぶせられた担架が二人がかりで運び出されてくる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ごった返して騒がしかった人の壁が割れて、中から白い布をかぶせられた担架が二人がかりで運び出されてくる。",
-			NULL, "The wall of noisy people parted, and two paramedics exited the hospital, carrying out a stretcher covered with a white cloth.", Line_Normal);
+			NULL, "A parede de pessoas barulhentas se dividiu, e dois paramédicos saíram do hospital, carregando uma maca coberta com um tecido branco.", Line_Normal);
 	ClearMessage();
 
 //r被害者…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "被害者…？",
-			NULL, "The victim...?", Line_Normal);
+			NULL, "A vítima...?", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/kai1", 1000 );
@@ -1775,7 +1775,7 @@ void main()
 //rそれを聞いて私は、後ろから巻きついていた二つの腕を強引に振りほどいて立ち上がり、その担架に向かって走り出した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを聞いて私は、後ろから巻きついていた二つの腕を強引に振りほどいて立ち上がり、その担架に向かって走り出した。",
-			NULL, "When I heard that, I shook off the two arms wrapped around me from behind, and I ran toward the stretcher.", Line_Normal);
+			NULL, "Quando ouvi aquilo, afastei os braços me envolvendo por trás, e corri em direção a maca.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, TRUE );
@@ -1792,7 +1792,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500211", 256, TRUE);
 	OutputLine(NULL, "「待ちなさい、夏美さんっ！！」",
-			NULL, "\"Please wait, Natsumi-san!!\"", Line_Normal);
+			NULL, "\"Por favor, espere, Natsumi-san!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 500, TRUE );
@@ -1800,19 +1800,19 @@ void main()
 //rそうだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうだ。",
-			NULL, "That's right.", Line_Normal);
+			NULL, "É isso mesmo.", Line_Normal);
 	ClearMessage();
 
 //r絶対、何かの間違いだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "絶対、何かの間違いだ。",
-			NULL, "This has all got to be some kind of huge misunderstanding.", Line_Normal);
+			NULL, "Tem que ser algum tipo de mal entendido.", Line_Normal);
 	ClearMessage();
 
 //r山瀬さんが死んだなんて、…そんなの、嘘だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "山瀬さんが死んだなんて、…そんなの、嘘だ。",
-			NULL, "Yamase-san can't be dead... That's impossible.", Line_Normal);
+			NULL, "Yamase-san não pode estar morta... É impossível.", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500212.「藤田くん！kvS04/28/310500213.　その子を取り押さえてっ！！」
@@ -1822,26 +1822,26 @@ void main()
 			NULL, "\"Fujita-kun!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500213", 256, TRUE);
 	OutputLine(NULL, "　その子を取り押さえてっ！！」",
-			NULL, " Restrain that girl!\"", Line_Normal);
+			NULL, " Detenha esta garota!\"", Line_Normal);
 	ClearMessage();
 
 //rあの担架に乗せられているのは、山瀬さんじゃない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あの担架に乗せられているのは、山瀬さんじゃない。",
-			NULL, "Whatever is on that stretcher, it's not Yamase-san.", Line_Normal);
+			NULL, "O que quer que esteja nesta maca, não é Yamase-san.", Line_Normal);
 	ClearMessage();
 
 //r同じ苗字の、きっと、違う誰かなんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "同じ苗字の、きっと、違う誰かなんだ。",
-			NULL, "It must be someone else with the same last name.", Line_Normal);
+			NULL, "Deve ser alguma outra pessoa com o mesmo sobrenome.", Line_Normal);
 	ClearMessage();
 
 //救急隊員rvS04/00/VT1B_qqMa1003.「なっ？！　君っ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramedic</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramédico</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqma1003", 256, TRUE);
 	OutputLine(NULL, "「なっ？！　君っ！！」",
-			NULL, "\"Hey! You!!\"", Line_Normal);
+			NULL, "\"Ei! Você!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1849,35 +1849,35 @@ void main()
 //rだから、信じない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから、信じない。",
-			NULL, "That's why I don't believe it.", Line_Normal);
+			NULL, "É por isso que eu não conseguia acreditar.", Line_Normal);
 	ClearMessage();
 
 //r水曜になれば、山瀬さんと、また会えて。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "水曜になれば、山瀬さんと、また会えて。",
-			NULL, "I'll see Yamase-san again on Wednesday.", Line_Normal);
+			NULL, "Verei Yamase-san novamente quarta-feira.", Line_Normal);
 	ClearMessage();
 
 //r『お疲れさま』『頑張ってね』と言ってくれる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『お疲れさま』『頑張ってね』と言ってくれる。",
-			NULL, "She'll tell me \"do your best\" and \"good work.\"", Line_Normal);
+			NULL, "Ela me dirá: \"dê o seu melhor\" e \"bom trabalho.\"", Line_Normal);
 	ClearMessage();
 
 //r笑顔でいつものように、優しい声で……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "笑顔でいつものように、優しい声で……。",
-			NULL, "With her usual smile, in that kind voice......", Line_Normal);
+			NULL, "Com o seu sorriso de sempre, e aquela voz gentil......", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500214.「やめなさいッ！！kvS04/28/310500215.　見ちゃダメ、——見るなッ！！kvS04/28/310500216.　夏美さんッッ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500214", 256, TRUE);
 	OutputLine(NULL, "「やめなさいッ！！",
-			NULL, "\"Stop it!", Line_WaitForInput);
+			NULL, "\"Pare!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500215", 256, TRUE);
 	OutputLine(NULL, "　見ちゃダメ、——見るなッ！！",
-			NULL, " You mustn't look... Don't look!!", Line_WaitForInput);
+			NULL, " Você não deve olhar... Não olhe!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500216", 256, TRUE);
 	OutputLine(NULL, "　夏美さんッッ！！」",
 			NULL, " Natsumi-san!!\"", Line_Normal);
@@ -1891,7 +1891,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100733", 256, TRUE);
 	OutputLine(NULL, "「………ぃいいいいいぃいいああいああぁあぁあぁああッッ！！！」",
-			NULL, "\".........Noooooooooooooooooooooooooooooooooooooo!!!\"", Line_Normal);
+			NULL, "\".........Nãooooooooooooooooooooooooooooooooooooo!!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ryuuketu2", 1000 );
@@ -1899,31 +1899,31 @@ void main()
 //r違う…
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "違う…",
-			NULL, "It can't be...", Line_Normal);
+			NULL, "Não pode ser...", Line_Normal);
 	ClearMessage();
 
 //r違う…ッ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "違う…ッ",
-			NULL, "It can't be...", Line_Normal);
+			NULL, "Não pode ser...", Line_Normal);
 	ClearMessage();
 
 //rこれ、違う、山瀬さんじゃない…ッッ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これ、違う、山瀬さんじゃない…ッッ",
-			NULL, "This can't be. This can't be Yamase-san...", Line_Normal);
+			NULL, "Esta pessoa. Não pode ser Yamase-san...", Line_Normal);
 	ClearMessage();
 
 //rだって、山瀬さんはとっても綺麗で
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって、山瀬さんはとっても綺麗で",
-			NULL, "Because... Yamase-san is very beautiful.", Line_Normal);
+			NULL, "Porque... Yamase-san é muito bonita.", Line_Normal);
 	ClearMessage();
 
 //r白い肌がすべすべしていて、やわらかくて
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "白い肌がすべすべしていて、やわらかくて",
-			NULL, "She has smooth, soft white skin.", Line_Normal);
+			NULL, "Ela tem uma pele suave, macia e branca.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100734.「ぁあぁぁあぁぁぁあぁっっっ！！　ひぃゃあぁぁあぁっっ！！　うぎゃぁああぁぁあァッッ！！！」
@@ -1944,43 +1944,43 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500217", 256, TRUE);
 	OutputLine(NULL, "「落ち着きなさい！！",
-			NULL, "\"Please calm down!!", Line_WaitForInput);
+			NULL, "\"Por favor, se acalme!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500218", 256, TRUE);
 	OutputLine(NULL, "　落ち着いてっ！！　——ぐぅッ？！」",
-			NULL, " Calm down!! ...Guh?!\"", Line_Normal);
+			NULL, " Se acalme!! ...Guh?!\"", Line_Normal);
 	ClearMessage();
 
 //救急隊員rvS04/00/VT1B_qqMb1003.「君っ！　だから、離れてっ！！kvS04/00/VT1B_qqMb1004.　お前ら早く持って行けッッ！！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramedic</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急隊員</color>", NULL, "<color=#f5e6d3>Paramédico</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqmb1003", 256, TRUE);
 	OutputLine(NULL, "「君っ！　だから、離れてっ！！",
-			NULL, "\"You there! Get away!!", Line_WaitForInput);
+			NULL, "\"Você aí! Se afaste!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_qqmb1004", 256, TRUE);
 	OutputLine(NULL, "　お前ら早く持って行けッッ！！」",
-			NULL, " Get her out of here immediately!!\"", Line_Normal);
+			NULL, " Tirem ela daqui imediatamente!!\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100735.「いいぃやあぁぁあぁぁぁっっ！！　ぎゃぁあぁぁあぁっっ！！　ひゃぁあぁがぁぁあぁぁっっ！！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100735", 256, TRUE);
 	OutputLine(NULL, "「いいぃやあぁぁあぁぁぁっっ！！　ぎゃぁあぁぁあぁっっ！！　ひゃぁあぁがぁぁあぁぁっっ！！！」",
-			NULL, "\"Nooooooooooooooooooo!! Gyaaaaaaahh!! Hyaaaagaaaaaahh!!!\"", Line_Normal);
+			NULL, "\"Nãoooooooooooooooooo!! Gyaaaaaaahh!! Hyaaaagaaaaaahh!!!\"", Line_Normal);
 	ClearMessage();
 
 //rこんな、…こんなっ、…ザクロみたいな顔なんかしていないんだァァッッ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こんな、…こんなっ、…ザクロみたいな顔なんかしていないんだァァッッ！！！",
-			NULL, "She... she... she didn't have this split pomegranate for a face!!", Line_Normal);
+			NULL, "Ela... ela... ela não tinha um rosto tão desfigurado quanto o interior de uma romã!!", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300468.「しっかりして、しっかりして夏美いっ！！kvS04/37/310300469.　お願い、お願いだからぁっっ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300468", 256, TRUE);
 	OutputLine(NULL, "「しっかりして、しっかりして夏美いっ！！",
-			NULL, "\"Calm down! Get a hold of yourself, Natsumiii!!", Line_WaitForInput);
+			NULL, "\"Se acalme! Controle-se, Natsumiii!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300469", 256, TRUE);
 	OutputLine(NULL, "　お願い、お願いだからぁっっ！！」",
-			NULL, " Please, pleeeease!!\"", Line_Normal);
+			NULL, " Por favor, por faaavor!!\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS04/28/310500219.「——藤田ぁッ！kvS04/28/310500220.　私が責任取る、やれッッ！！」
@@ -1990,14 +1990,14 @@ void main()
 			NULL, "\"...Fujitaaa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500220", 256, TRUE);
 	OutputLine(NULL, "　私が責任取る、やれッッ！！」",
-			NULL, " I'll take responsibility, do iiit!!\"", Line_Normal);
+			NULL, " Eu me responsabilizo, faça!!\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS04/31/VT1B_fujita1060.「は、はいッ！　す、すまんっ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s04/31/vt1b_fujita1060", 256, TRUE);
 	OutputLine(NULL, "「は、はいッ！　す、すまんっ！！」",
-			NULL, "\"Y-yes! I-I'm sorry!!\"", Line_Normal);
+			NULL, "\"E-entendido! S-sinto muito!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2006,25 +2006,25 @@ void main()
 //r突然、首に激しい圧迫を感じた途端、…息が止まって、視界が真っ暗になる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "突然、首に激しい圧迫を感じた途端、…息が止まって、視界が真っ暗になる。",
-			NULL, "I suddenly felt a heavy pressure on my neck. My breathing ceased and my vision went dark.", Line_Normal);
+			NULL, "Repentinamente senti uma forte pressão em meu pescoço. Minha respiração cessou e minha visão escureceu.", Line_Normal);
 	ClearMessage();
 
 //r…………夢、だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…………夢、だ。",
-			NULL, "............A dream.", Line_Normal);
+			NULL, "............Um sonho.", Line_Normal);
 	ClearMessage();
 
 //rそう、…これは、きっと、夢だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう、…これは、きっと、夢だ。",
-			NULL, "That's right... this had to be a dream.", Line_Normal);
+			NULL, "É isso mesmo... tem de ser um sonho.", Line_Normal);
 	ClearMessage();
 
 //r誰か、そうだと言ってください。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "誰か、そうだと言ってください。",
-			NULL, "Someone, please tell me it is.", Line_Normal);
+			NULL, "Por favor, alguém me diga que tudo isso foi apenas um sonho.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
