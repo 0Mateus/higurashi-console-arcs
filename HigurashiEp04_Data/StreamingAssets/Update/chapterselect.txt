@@ -614,7 +614,7 @@ void SomeDay3()
 
 	SetLocalFlag(LConsoleArc, 2);
 	StoreValueToLocalWork( ChapterNumber, 3 );
-	SavePoint("Ch.3 終わり", "End of Chapter 3");
+	SavePoint("Ch.3 終わり", "Fim do Capítulo 3");
 	CallSection( "SetDay" );
 	CallSection( "ViewTips" );
 
@@ -645,7 +645,7 @@ void SomeDay6()
 
 	SetLocalFlag(LConsoleArc, 2);
 	StoreValueToLocalWork( ChapterNumber, 6 );
-	SavePoint("Ch.6 終わり", "End of Chapter 6");
+	SavePoint("Ch.6 終わり", "Fim do Capítulo 6");
 	CallSection( "SetDay" );
 	CallSection( "ViewTips" );
 
@@ -660,7 +660,7 @@ void SomeDay7()
 
 	SetLocalFlag(LConsoleArc, 2);
 	StoreValueToLocalWork( ChapterNumber, 7 );
-	SavePoint("Ch.7 終わり", "End of Chapter 7");
+	SavePoint("Ch.7 終わり", "Fim do Capítulo 7");
 	CallSection( "SetDay" );
 	CallSection( "ViewTips" );
 
@@ -683,7 +683,7 @@ void SomeDay9()
 
 	SetLocalFlag(LConsoleArc, 2);
 	StoreValueToLocalWork( ChapterNumber, 9 );
-	SavePoint("Ch.9 終わり", "End of Chapter 9");
+	SavePoint("Ch.9 終わり", "Fim do Capítulo 9");
 	CallSection( "SetDay" );
 	CallSection( "ViewTips" );
 
@@ -730,7 +730,7 @@ void SomeDay14()
 
 	SetLocalFlag(LConsoleArc, 2);
 	StoreValueToLocalWork( ChapterNumber, 14 );
-	SavePoint("Ch.14 終わり", "End of Chapter 14");
+	SavePoint("Ch.14 終わり", "Fim do Capítulo 14");
 	CallSection( "SetDay" );
 	CallSection( "ViewTips" );
 
