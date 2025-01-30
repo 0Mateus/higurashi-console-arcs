@@ -19,7 +19,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100515", 256, TRUE);
 	OutputLine(NULL, "「おかーさーん！",
-			NULL, "\"Mãmãeee!", Line_WaitForInput);
+			NULL, "\"Mamãeee!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100516", 256, TRUE);
 	OutputLine(NULL, "　おばーちゃーん！　………」",
 			NULL, " Vovóoo! .........\"", Line_Normal);
