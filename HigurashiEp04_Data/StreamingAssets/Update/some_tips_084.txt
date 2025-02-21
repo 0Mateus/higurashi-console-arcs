@@ -46,13 +46,13 @@ void main()
 //r…門扉の両側に一本一本立てられた、毒々しいほど鮮やかな色の青竹。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…門扉の両側に一本一本立てられた、毒々しいほど鮮やかな色の青竹。",
-			NULL, "...Uma chamativa exibição de velas, estava enfileirada de cada lado do portão.", Line_Normal);//;colorful
+			NULL, "...Uma chamativa exibição de velas coloridas, estava enfileirada de cada lado do portão.", Line_Normal);//;colorful
 	ClearMessage();
 
 //rその間に太いbしめなわ.<注連縄>が渡され、bかみしで.<紙垂>が何枚も揺れている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その間に太い注連縄(しめなわ)が渡され、紙垂(かみしで)が何枚も揺れている。",
-			NULL, "Um grosso Shimenawa estava sobrepondo o portão, com diversas tiras de papel em formato de zigue-zague balançando com o vento.", Line_Normal);
+			NULL, "Um grosso Shimenawa estava sobrepondo o portão, com diversas tiras de papel em formato de zigue-zague balançando ao vento.", Line_Normal);
 	ClearMessage();
 
 //rそして、それは門ばかりでなく庭を囲む塀伝いに家をぐるりと囲むように、玄関や窓の上にも飾られてあった…。
@@ -211,7 +211,7 @@ void main()
 			NULL, "\"...Aqui na terra do deus... preparamos seu vinho sagrado por gerações... nos comprometemos com você...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3010", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…平らげく安らげく…聞召て…",
-			NULL, " apenas os infiéis temerão... sua subjugação nos trará paz de espírito... ouça... grande deus Oyashiro... suas bençãos nos fortalecem... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " apenas os infiéis temerão... sua subjugação nos trará paz de espírito... ouça... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Mãe de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3011", 256, TRUE);
 	OutputLine(NULL, "オヤシロの大神の…高きひろきいかしき…。",
