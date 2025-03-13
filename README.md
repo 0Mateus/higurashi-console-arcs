@@ -12,7 +12,7 @@ Tradução para os arcos de console de Higurashi no Naku Koro ni.
 ## Instalação
 
 > [!WARNING]
-> É necessário ter o Capítulo 4: Himasubushi instalado.
+> É necessário ter o Capítulo 4: Himatsubushi instalado.
 > O patch converterá seu jogo e apenas os arcos listados acima poderão ser jogados.
 
 1. Baixe e abra o [instalador do 07th-mod](https://github.com/07th-mod/python-patcher/releases/latest/).
