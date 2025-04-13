@@ -22,10 +22,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1001", 256, TRUE);
 	OutputLine(NULL, "「『ひぐらしのなく頃に粋』アドバンスドストーリー、『染伝し』をプレイされた皆さん、お疲れ様でした！",
-			NULL, "\"Muito obrigado por jogarem \"Higurashi no Naku Koro ni Sui\", \"Someutsushi.\"", Line_WaitForInput);
+			NULL, "\"Muito obrigado a todos por terem jogado \"Higurashi no Naku Koro ni Sui\", \"Someutsushi.\"", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1002", 256, TRUE);
 	OutputLine(NULL, "　新キャラクターのみで構成されたこのお話は、いかがでしたか？」",
-			NULL, " O que vocês acharam desta história, composta inteiramente por personagens novos?\"", Line_Normal);
+			NULL, " O que vocês acharam desta história, composta inteiramente por novos personagens?\"", Line_Normal);
 	ClearMessage();
 
 //珠子rvS20/38/VTP_tamako1003.「これは、コミック版『ひぐらしのなく頃に』シリーズの外伝で人気を博したひとつ、『bおにさら.<鬼曝>し編』をベースに組み上げられたエピソードになります」
@@ -39,7 +39,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1004", 256, TRUE);
 	OutputLine(NULL, "「本編とはまた違う面白さをちょっとでも楽しんでもらえましたら、とっても嬉しいです」",
-			NULL, "\"Ele é um pouco diferente do resto da série principal, mas me deixaria muito feliz caso você tenha gostado.\"", Line_Normal);
+			NULL, "\"Ele é um pouco diferente do resto da série principal, mas me deixaria muito feliz se vocês tiverem gostado.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -54,13 +54,13 @@ void main()
 			NULL, "\"Ei, espera um pouco!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1002", 256, TRUE);
 	OutputLine(NULL, "　楽しむどころか、主人公の夏美まで死んじゃう最悪のバッドエンドじゃん！",
-			NULL, " Gostado? A nossa heroína Natsumi morreu da pior maneira possível!", Line_WaitForInput);
+			NULL, " Gostado? A nossa heroína principal Natsumi morreu da pior forma possível!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1003", 256, TRUE);
 	OutputLine(NULL, "　これで何を愉快に思えって言うのさ？",
 			NULL, " O que há para gostar nisso, hein?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1004", 256, TRUE);
 	OutputLine(NULL, "　しかも珠子！　なんでアンタが進行役やってんだ？！」",
-			NULL, " Além disso, Tamako! Quem foi que lhe deu o papel de mediadora aqui?!\"", Line_Normal);
+			NULL, " E além disso, Tamako! Quem foi que te escolheu para o papel de mediadora aqui?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -79,11 +79,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1007", 256, TRUE);
 	OutputLine(NULL, "「まぁおそらく、夏美に任せると押しが弱くてまともに進まないし、千紗登だと内容そのものをぶち壊しにしかねないから、消去法で選ばれたんでしょ？",
-			NULL, "\"Bem, a Natsumi provavelmente seria muito submissa, e Chisato provavelmente destruiria tudo, então eu acho que fui escolhida por processo de eliminação? ", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"Bem, a Natsumi provavelmente seria muito submissa, e a Chisato provavelmente destruiria tudo, então eu talvez tenha sido escolhida por processo de eliminação? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1008", 256, TRUE);
 	OutputLine(NULL, "　暁ちゃんも口下手だから、進行向きじゃないしね」",
-			NULL, "Sem mencionar que o Akira não é um bom falante, então ele provavelmente também não conseguiria direcionar a conversação.\"", Line_Normal);
+			NULL, "Sem mencionar que o Akira não é um bom falante, então ele provavelmente também não conseguiria direcionar a conversa.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -106,7 +106,7 @@ void main()
 			NULL, " Ei, Natsumi! Diga algo em sua defesa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1007", 256, TRUE);
 	OutputLine(NULL, "　仮にもこのお話の主人公でしょー？！」",
-			NULL, " Você não é suposta a ser a personagem principal dessa história?!\"", Line_Normal);
+			NULL, " Você não é suposta a ser a personagem principal desta história?!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -116,14 +116,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1002", 256, TRUE);
 	OutputLine(NULL, "「そ、そんなの私に言わないでよ～！」",
-			NULL, "\"V-você não precisa falar assim~!\"", Line_Normal);
+			NULL, "\"V-você não precisa me chamar assim~!\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS20/36/VTP_natsumi1003.「私だって今回、『やっと隠れキャラ扱いからヒロイン昇格？！』って喜んでたのに、危うく暁くんを殺しかけるわ、最期はおかしくなって死んじゃうわで、今もずずーん、って落ち込んでるんだからぁ～！」
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1003", 256, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_Continue); }
 	OutputLine(NULL, "「私だって今回、『やっと隠れキャラ扱いからヒロイン昇格？！』って喜んでたのに、危うく暁くんを殺しかけるわ、最期はおかしくなって死んじゃうわで、今もずずーん、って落ち込んでるんだからぁ～！」",
-			NULL, "\"Embora eu finalmente tenha conseguido ser promovida de personagem secundário para heroína principal, eu quase matei Akira-kun, enlouqueci e morri, então ainda estou deprimida, até agora~!\"", Line_Normal);
+			NULL, "\"Embora eu finalmente tenha conseguido ser promovida de personagem secundário para heroína principal, eu quase matei Akira-kun, enlouqueci e morri, então ainda estou deprimida, mesmo agora~!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -136,7 +136,7 @@ void main()
 			NULL, "\"Ah, inclusive, Natsumi apareceu diversas vezes durante a série principal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1010", 256, TRUE);
 	OutputLine(NULL, "で、念願のメイン昇格がこんなお話じゃあ、……確かに納得はできないわよねぇ」",
-			NULL, " Então, o seu sonho de ser promovida finalmente se realizou, apenas para se tornar esse tipo de história... Realmente, agora eu posso ver porque não me encaixei bem com você.\"", Line_Normal);
+			NULL, " Então, o seu sonho de ser promovida finalmente se realizou, apenas para se tornar este tipo de história... Realmente, agora eu posso ver porque não me encaixei bem com você.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -178,7 +178,7 @@ void main()
 			NULL, "\"Você está dizendo que as palavras que eu falo são poluentes?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1012", 256, TRUE);
 	OutputLine(NULL, "　光化学スモッグとでも言いたいのかっ？！」",
-			NULL, " Ou são algum tipo de fumaça fotoquímica?!\"", Line_Normal);
+			NULL, " Ou algum tipo de fumaça fotoquímica?!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -203,10 +203,10 @@ void main()
 			NULL, "\"Hmph!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1014", 256, TRUE);
 	OutputLine(NULL, "　あんたに意見なんて求めてないっての、この究極ヘタレ！",
-			NULL, " Eu não pedi sua opinião, seu covarde!", Line_WaitForInput);
+			NULL, " Eu não pedi a sua opinião, covarde!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1015", 256, TRUE);
 	OutputLine(NULL, "　夏美を救えなかったくせにいけしゃあしゃあと出てくるなんて、いい度胸してるじゃないの？」",
-			NULL, " Ainda teve a coragem de aparecer, após ter falhado em salvar a Natsumi!\"", Line_Normal);
+			NULL, " Você ainda teve a coragem de aparecer, depois de ter falhado em salvar a Natsumi!\"", Line_Normal);
 	ClearMessage();
 
 //暁rvS20/39/VTP_akira1004.「う、うぐっ……？！」
@@ -226,7 +226,7 @@ void main()
 			NULL, "\"Espere, pare com isso Chisato-chan!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1005", 256, TRUE);
 	OutputLine(NULL, "　暁くんは辛い目に遭って傷ついてるんだから、もう少し気を遣ってあげて？」",
-			NULL, " Akira-kun passou por momentos difíceis, então você não poderia mostrar um pouco mais de consideração?\"", Line_Normal);
+			NULL, " Akira-kun passou por momentos difíceis, então você poderia mostrar um pouco mais de consideração?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -257,14 +257,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1017", 256, TRUE);
 	OutputLine(NULL, "「いや、まったく。私だったら、３ヶ月は夢にうなされるね。",
-			NULL, "\"Bem, é verdade. Se eu fosse ele, seria assombrada nos sonhos pelos próximos três meses.", Line_WaitForInput);
+			NULL, "\"Bem, é verdade. Se eu estivesse no lugar dele, sonharia com isso pelos próximos três meses.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1018", 256, TRUE);
 	OutputLine(NULL, "あと、肉料理は金輪際パスして、一生ベジタリアンへの道を突き進むだろーなぁ。",
 			NULL, " E deixaria de comer carne, provavelmente me tornaria vegetariana para o resto da vida. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1019", 256, TRUE);
 	OutputLine(NULL, "特に、鶏肉のフリカッセなんて見た日にゃ……」",
-			NULL, "Mesmo que eu visse um guisado de frango...\"", Line_Normal);
+			NULL, "Mesmo se eu visse um guisado de frango...\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -277,7 +277,7 @@ void main()
 			NULL, "\"Vocês...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtp_akira1006", 256, TRUE);
 	OutputLine(NULL, "　可哀想とは言わなくてもいいから、せめていたわりの言葉ひとつあってもいいと思うんだがな！」",
-			NULL, " Não dá para terem um pouco de simpatia por mim?! Vocês não precisam forçar tanto, mas ainda assim!\"", Line_Normal);
+			NULL, " Não dá pra ter um pouco de simpatia comigo?! Vocês não precisam forçar tanto, mas ainda assim!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_hau_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -310,7 +310,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1023", 256, TRUE);
 	OutputLine(NULL, "「あら、一文字違うだけでえらい違い。",
-			NULL, "\"Uau, essas duas silabas fazem bastante diferença.", Line_WaitForInput);
+			NULL, "\"Uau, essas duas silabas fazem a total diferença.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1024", 256, TRUE);
 	OutputLine(NULL, "何かのネタにしておこう。メモメモ……」",
 			NULL, " Acho que vou precisar escrever essa no meu livro de piadas...\"", Line_Normal);
@@ -322,7 +322,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c8647c>暁</color>", NULL, "<color=#c8647c>Akira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 39, "ps3/s20/39/vtp_akira1008", 256, TRUE);
 	OutputLine(NULL, "「話を聞けチサっ！！」",
-			NULL, "\"Escute, Chisaaa!!\"", Line_Normal);
+			NULL, "\"Escuta, Chisaaa!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -335,7 +335,7 @@ void main()
 			NULL, "\"E-ei, se acalmem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1007", 256, TRUE);
 	OutputLine(NULL, "千紗登ちゃんは黙っていれば美人なんだから、もう少し珠子ちゃんの言うとおり、言葉控えめに振舞ったほうが人気出ると思うんだけど……」",
-			NULL, " Chisato-chan, você fica linda quando está em silêncio, mas acho que se tornaria ainda mais popular se agisse mais discretamente como Tamako-chan disse...\"", Line_Normal);
+			NULL, " Chisato-chan, você fica linda quando está em silêncio, mas acho que seria ainda mais popular caso agisse de maneira mais discreta como Tamako-chan tinha dito...\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTP_chisato1025.「……おい、夏美。kvS20/37/VTP_chisato1026.それって黙ってない私は美人じゃない、って言ってるようにも聞こえるんだが？」
@@ -345,7 +345,7 @@ void main()
 			NULL, "\"......Ei, Natsumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1026", 256, TRUE);
 	OutputLine(NULL, "それって黙ってない私は美人じゃない、って言ってるようにも聞こえるんだが？」",
-			NULL, " Você está falando que eu não sou linda quando estou falando?\"", Line_Normal);
+			NULL, " Você está dizendo que eu não fico linda quando estou falando?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na1_kanashii_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -369,7 +369,7 @@ void main()
 			NULL, "\"Ei, isso foi rude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1028", 256, TRUE);
 	OutputLine(NULL, "この院長の娘の美少女に向かってなんて言い草だ」",
-			NULL, " Como você poderia dizer isto de uma linda e jovem dama, filha do diretor de um hospital?\"", Line_Normal);
+			NULL, " Como você poderia dizer isto para uma linda e jovem dama, filha do diretor de um hospital?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS20/36/VTP_natsumi1010.「び、美少女って……」
@@ -386,7 +386,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6f6599>珠子</color>", NULL, "<color=#6f6599>Tamako</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1016", 256, TRUE);
 	OutputLine(NULL, "「美少女、——それは、美の少ない女と書く。",
-			NULL, "\"Linda e jovem dama... Eu descreveria como dama de beleza mínima.", Line_WaitForInput);
+			NULL, "\"Linda e jovem dama... Eu descreveria como uma dama de beleza mínima.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1017", 256, TRUE);
 	OutputLine(NULL, "確かにあんたにゃ、ぴったりなキャッチコピーだね」",
 			NULL, " Essa frase combina perfeitamente com você.\"", Line_Normal);
@@ -404,7 +404,7 @@ void main()
 			NULL, " Isso foi desnecessário!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1031", 256, TRUE);
 	OutputLine(NULL, "　私になんか恨みでもあるのかぁっ？！」",
-			NULL, " Você tem algum tipo de rancor contra mim?!\"", Line_Normal);
+			NULL, " Você guarda algum tipo de rancor contra mim?!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -463,7 +463,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1033", 256, TRUE);
 	OutputLine(NULL, "「それにしても、……オヤシロさまの祟りがあって、雛見沢で大災害が起きたってことはまだ理解できたとしてもさ」",
-			NULL, "\"De qualquer jeito...... eu entendi sobre a maldição de Oyashiro-sama e que um grande desastre atingiu Hinamizawa.\"", Line_Normal);
+			NULL, "\"De qualquer forma...... eu entendi sobre a maldição de Oyashiro-sama e que um grande desastre atingiu Hinamizawa.\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS20/37/VTP_chisato1034.「村から離れた私たちの町に住んでる雛見沢の人たちまでもが惨劇を立て続けに起こすなんて、いったいどうなってんだよ？」
@@ -477,7 +477,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1035", 256, TRUE);
 	OutputLine(NULL, "「これじゃあ私たちだって、雛見沢やその出身の人のことを色眼鏡で見ちゃうっての」",
-			NULL, "\"Bem, mesmo nós olhamos para Hinamizawa e seus moradores usando óculos coloridos.\"", Line_Normal);
+			NULL, "\"Bem, até nós olhamos para Hinamizawa e seus moradores através de óculos coloridos.\"", Line_Normal);//;
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_kanashimi_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -539,13 +539,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1036", 256, TRUE);
 	OutputLine(NULL, "「だとしたら、犯人は『人間』じゃなくってまさしく『祟り』ってことになっちゃうけどね。",
-			NULL, "\"Se for este o caso, então o culpado não é um <i>humano</i> mas sim uma <i>maldição</i>, eu suponho.", Line_WaitForInput);
+			NULL, "\"Se este for o caso, então o culpado não é um <i>humano</i> e sim uma <i>maldição</i>, eu suponho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1037", 256, TRUE);
 	OutputLine(NULL, "超常現象によるものだから、トリックもなにもなし。",
 			NULL, " Se for um fenômeno sobrenatural, então não há truques ou nada do tipo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1038", 256, TRUE);
 	OutputLine(NULL, "でも、それで本当に解決、ってことでいいんだろうか？」",
-			NULL, " Mas, está realmente tudo bem em esta ser a respostar?\"", Line_Normal);
+			NULL, " Mas, está realmente tudo bem em esta ser a solução?\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -558,7 +558,7 @@ void main()
 			NULL, "\"Certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1025", 256, TRUE);
 	OutputLine(NULL, "でも、今回の構成をつくった監督のお話だと、今回の『染伝し』はあえて『鬼曝(おにさら)し』という本来のタイトルをつかわなかったことにトリックがある、って言ってたけど」",
-			NULL, " Mas o diretor deste arco alega que haja um truque no título \"Someutsushi\" que não estava no título original \"Onisarashi\".\"", Line_Normal);
+			NULL, " Mas o diretor deste arco alega que existe um truque no título \"Someutsushi\" que não estava no título original \"Onisarashi\".\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_shinken_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -583,7 +583,7 @@ void main()
 			NULL, "Mas, quando você escreve esses caracteres ao contrário você obtém \"伝染\" que significa \"infecção\"...... hm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 38, "ps3/s20/38/vtp_tamako1028", 256, TRUE);
 	OutputLine(NULL, "　じゃあ祟りってのは、このまま伝染していくっての？！」",
-			NULL, " Então, isto significa que a maldição é contagiosa?!\"", Line_Normal);
+			NULL, " Então, isso significa que a maldição é contagiosa?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -595,7 +595,7 @@ void main()
 			NULL, "\"Ei, ei, não faça piadas......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1041", 256, TRUE);
 	OutputLine(NULL, "こんな惨劇がずっと続いたりなんてしたら、さすがに精神が持たないよ～！」",
-			NULL, " Se uma tragédia como essa continuar se espalhando por muito tempo, eu não acho que o meu coração aguentaria~!\"", Line_Normal);
+			NULL, " Se uma tragédia como essa continuar se espalhando por muito tempo, eu não acho que o meu coração vai aguentar~!\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 500, TRUE );
@@ -630,7 +630,7 @@ void main()
 			NULL, "\"Boa tarde, pessoal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtp_tomoe1004", 256, TRUE);
 	OutputLine(NULL, "遅くなってすみませんね」",
-			NULL, " Desculpe por ter me atrasado.\"", Line_Normal);
+			NULL, " Desculpem por ter me atrasado.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_def_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -672,7 +672,7 @@ void main()
 			NULL, " Ah, você está falando daqueles dois detetives que você respeita, Minai-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1017", 256, TRUE);
 	OutputLine(NULL, "　確かにあの人たちが加われば、もっと『祟り』について詳しいお話が聞けるかも！」",
-			NULL, " Eu tenho certeza que poderemos descobrir mais sobre a \"maldição\" se eles participarem!\"", Line_Normal);
+			NULL, " Eu tenho certeza que poderemos descobrir mais sobre a \"maldição\" caso eles participem!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 28, "sprite/tomo1a_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -725,10 +725,10 @@ void main()
 			NULL, "\"Mmmhmm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1045", 256, TRUE);
 	OutputLine(NULL, "　言ったからには責任持ちなさいよ、チミ？",
-			NULL, " Agora que você falou, você precisa assumir responsabilidade, certo?", Line_WaitForInput);
+			NULL, " Agora que você falou, precisa assumir responsabilidade, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1046", 256, TRUE);
 	OutputLine(NULL, "　これで同じことの繰り返しだったら、ちーちゃんのイビリはこの程度じゃすまないよぉ～？」",
-			NULL, " Chii-chan não vai ficar satisfeita apenas te provocando se a mesma coisa acontecer de novo, certo?\"", Line_Normal);
+			NULL, " Chii-chan não vai se satisfazer apenas te provocando se a mesma coisa acontecer de novo, certo?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 38, "sprite/tama1_akire_", "1", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -823,7 +823,7 @@ void main()
 			NULL, " Vamos ver.... Ah, é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s20/37/vtp_chisato1051", 256, TRUE);
 	OutputLine(NULL, "この人って——？」",
-			NULL, " Quem é esta pessoa...?\"", Line_Normal);
+			NULL, " Quem é essa pessoa...?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 28, "sprite/tomo1a_shinken_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -838,10 +838,10 @@ void main()
 			NULL, " Agora!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtp_tomoe1016", 256, TRUE);
 	OutputLine(NULL, "　速やかに！",
-			NULL, " Imediatamem!", Line_WaitForInput);
+			NULL, " Imediatamente!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtp_tomoe1017", 256, TRUE);
 	OutputLine(NULL, "　さぁ、綺麗さっぱり抹消してっ！！」",
-			NULL, " Eliminem de suas mentes!!\"", Line_Normal);
+			NULL, " Eliminem das suas mentes!!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_kanashimi_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1398,11 +1398,10 @@ void main()
 	ClearMessage();
 
 //夏美rvS20/36/VTP_natsumi1029.「最初の事件では、犠牲者が出たことで村の人たちが『祟り』の存在を強く感じて、ますます『オヤシロさま』への信奉を篤くしていったよね？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s20/36/vtp_natsumi1029", 256, TRUE);
-	if (GetGlobalFlag(GADVMode)) {
-		OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_Continue);
-		OutputLine(NULL, "「最初の事件では、犠牲者が出たことで村の人たちが『祟り』の存在を強く感じて、ますます『オヤシロさま』への信奉を篤くしていったよね？」",
-				NULL, "\"No primeiro incidente, a descoberta das vítimas fez mais pessoas acreditarem na \"maldição\" e aprofundou a sua fé relacionada à \"Oyashiro-sama\", certo?\"", Line_Normal);
+	OutputLine(NULL, "「最初の事件では、犠牲者が出たことで村の人たちが『祟り』の存在を強く感じて、ますます『オヤシロさま』への信奉を篤くしていったよね？」",
+			NULL, "\"No primeiro incidente, a descoberta das vítimas fez mais pessoas acreditarem na \"maldição\" e aprofundou a sua fé relacionada à \"Oyashiro-sama\", certo?\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS20/36/VTP_natsumi1032_1.「……でも、二度目はその存在を一番敬う立場にいるはずの、オヤシロさまの巫女を殺している。kvS20/36/VTP_natsumi1033.これって、自分を信奉させるためって目的を考えたら、絶対に逆効果だよね？」
