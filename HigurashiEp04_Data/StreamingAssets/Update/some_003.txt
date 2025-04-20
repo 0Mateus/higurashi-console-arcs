@@ -104,13 +104,13 @@ void main()
 //r反論しようにも、あまり自信がなかった。…あやふやな記憶だけど、確か千紗登ちゃんが最近流行りのアーティストについて熱く語っていた、ような気がする。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "反論しようにも、あまり自信がなかった。…あやふやな記憶だけど、確か千紗登ちゃんが最近流行りのアーティストについて熱く語っていた、ような気がする。",
-			NULL, "Tentei protestar, mas não estava muito confiante. ...Minha memória era vaga, mas senti como se Chisato-chan estivesse falando fervorosamente sobre cantores populares da atualidade.", Line_Normal);
+			NULL, "Eu tentei protestar, mas não estava muito confiante. ...Minha memória era vaga, mas senti como se Chisato-chan estivesse falando apaixonadamente sobre cantores populares da atualidade.", Line_Normal);
 	ClearMessage();
 
 //rといっても、私はあまり音楽系には興味がなかったし、それ以上に眠気が一気に押し寄せてきたせいでそのまま寝入ってしまったみたいだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "といっても、私はあまり音楽系には興味がなかったし、それ以上に眠気が一気に押し寄せてきたせいでそのまま寝入ってしまったみたいだ。",
-			NULL, "Eu não tenho muito interesse em música, então rapidamente fiquei cansada e caí no sono.", Line_Normal);
+			NULL, "Eu não tenho muito interesse em música, então rapidamente fiquei cansada e adormeci.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300161.「しかしまぁ、私のトークの腕もまだまだだねぇ。kvS04/37/310300162.聞き手の眠気さえも吹き飛ばして耳を傾けさせるくらいでなければ、真の達人とはいえないな。kvS04/37/310300163.う～む…」
@@ -205,7 +205,7 @@ void main()
 //rそうこうするうちに信号が青になり、車は音も静かに発進する。そして少し進んでから病院の正門をくぐり、ロータリーを経て送迎口へと向かった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そうこうするうちに信号が青になり、車は音も静かに発進する。そして少し進んでから病院の正門をくぐり、ロータリーを経て送迎口へと向かった。",
-			NULL, "Nesse meio tempo, o semáforo ficou verde e o carro saiu silenciosamente. Pouco tempo depois, passamos pelo portão principal do hospital e atravessamos uma rotatória em direção a entrada.", Line_Normal);//;passenger loading area
+			NULL, "Nesse meio tempo, o semáforo ficou verde e o carro saiu silenciosamente. Pouco tempo depois, passamos pelo portão principal do hospital e atravessamos uma rotatória em direção à entrada.", Line_Normal);//;passenger loading area
 	ClearMessage();
 
 //千紗登rvS04/37/310300169.「あ、通用口って裏手だっけ。kvS04/37/310300170.そっちに回ったほうがいい？」
@@ -319,7 +319,7 @@ void main()
 			NULL, "\"Mas, sabe, ficar dentro de um carro não combina muito comigo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300177", 256, TRUE);
 	OutputLine(NULL, "密閉された空間でじっとしているのが苦手なんだよね～」",
-			NULL, " Não suporto ficar presa dentro de lugares apertados~.\"", Line_Normal);
+			NULL, " Eu não suporto ficar presa dentro de lugares apertados~.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100172.「あははは、そうだね。kvS04/36/310100173.千紗登ちゃんはどちらかっていえば肉体派だもん」
@@ -370,7 +370,7 @@ void main()
 			NULL, "\"Eu gostaria de oferecer isso toda semana se possível.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300181", 256, TRUE);
 	OutputLine(NULL, "もともとお父さんの車だから、週末は出払ってることが多くてさ～」",
-			NULL, " Esse é o carro do meu pai, então ele passa frequentemente por aqui nos fins de semana~.\"", Line_Normal);
+			NULL, " Esse é o carro do meu pai, então ele passa frequentemente por aqui nos finais de semana~.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100176.「ううん、時々でも嬉しいよ。kvS04/36/310100177.私って電車、苦手だから」
@@ -399,7 +399,7 @@ void main()
 //r周囲にはお構いなしで、ただ行き先だけに顔を向けてずんずんと足を進めるたくさんの人。そんな大勢であふれかえっている駅のホーム。階段。電車の中。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "周囲にはお構いなしで、ただ行き先だけに顔を向けてずんずんと足を進めるたくさんの人。そんな大勢であふれかえっている駅のホーム。階段。電車の中。",
-			NULL, "Existem muitas pessoas sem consideração pelo ambiente ao seu redor. Elas apenas apontam as cabeças em direção ao destino e caminham em frente. A estação perto da minha casa está sempre cheia de pessoas assim. Nas escadas. Dentro do trem.", Line_Normal);
+			NULL, "Existem muitas pessoas sem consideração pelo ambiente ao seu redor. Elas apenas apontam suas cabeças em direção ao destino e caminham em frente. A estação perto da minha casa está sempre cheia de pessoas assim. Nas escadas. Dentro do trem.", Line_Normal);
 	ClearMessage();
 
 //r無機質な自動改札を出て、騒がしい雑音に満ちた駅前。交差点。歓楽街。
@@ -423,7 +423,7 @@ void main()
 //r確かに、千紗登ちゃんや珠子ちゃんと一緒に居るときは、とりとめもない話をしながらショッピングしたり、あちこち歩き回ったりできて、楽しい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かに、千紗登ちゃんや珠子ちゃんと一緒に居るときは、とりとめもない話をしながらショッピングしたり、あちこち歩き回ったりできて、楽しい。",
-			NULL, "Naturalmente, quando estou com Chisato-chan e Tamako-chan, nos divertimos muito enquanto caminhamos pelas lojas, divagando e contando histórias.", Line_Normal);
+			NULL, "Naturalmente, quando estou com Chisato-chan e Tamako-chan, nós nos divertimos muito enquanto caminhamos pelas lojas, divagando e contando histórias.", Line_Normal);
 	ClearMessage();
 
 //r……だけど、何かの拍子で独りになった途端、異世界の中に放り出されたような錯覚にとらわれて、急に不安で胸が苦しくなることが時々ある。
@@ -444,13 +444,13 @@ void main()
 //r誰も自分を見てくれない、話しかけてくれない冷たくて無機質な、都会の空間。まるで自分が言葉の通じない異邦人になったようで、…孤独な場違い感に苛まれるんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "誰も自分を見てくれない、話しかけてくれない冷たくて無機質な、都会の空間。まるで自分が言葉の通じない異邦人になったようで、…孤独な場違い感に苛まれるんだ。",
-			NULL, "Ninguém olha para mim. É um espaço urbano frio, e sem vida, que não fala comigo. Sinto como se tivesse me tornado uma estrangeira que não entende a língua nativa... Sofrendo com um sentimento solitário de deslocação.", Line_Normal);
+			NULL, "Ninguém olha para mim. É um espaço urbano frio, e sem vida, que não fala comigo. Eu sinto como se tivesse me tornado uma estrangeira que não entende a língua nativa... Sofrendo com um sentimento solitário de deslocação.", Line_Normal);
 	ClearMessage();
 
 //rいつになったら、この違和感はなくなるのかな…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いつになったら、この違和感はなくなるのかな…？",
-			NULL, "Eu me pergunto quando esse sentimento de desconforto irá passar...", Line_Normal);
+			NULL, "Eu me pergunto quando esse desconforto irá passar...", Line_Normal);
 	ClearMessage();
 
 //rというよりも、本当に私は、…都会に馴染めるようになるんだろうか…？
@@ -484,7 +484,7 @@ void main()
 //r千紗登ちゃんの表情が曇ったことに気づいた私は、慌てて取り繕うように手を振ってごまかす。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんの表情が曇ったことに気づいた私は、慌てて取り繕うように手を振ってごまかす。",
-			NULL, "Chisato-chan percebeu que eu estava com a cabeça nas nuvens, então movi minhas mãos para escondê-la.", Line_Normal);
+			NULL, "Chisato-chan percebeu que eu estava com a cabeça nas nuvens, então coloquei minhas mãos na frente dela para escondê-la.", Line_Normal);
 	ClearMessage();
 
 //r…だめだな、私。お友達に余計な心配させるなんて、こんなところが都会っ子失格なんだろう。
@@ -500,7 +500,7 @@ void main()
 			NULL, "\"Alguma coisa aconteceu com você dentro do trem, Natsumi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300184", 256, TRUE);
 	OutputLine(NULL, "　悩みがあるなら相談に乗るけど」",
-			NULL, " Você pode falar comigo se tiver acontecido algo.\"", Line_Normal);
+			NULL, " Você pode falar comigo se tiver algum problema.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100179.「ううん、そうじゃなくって。kvS04/36/310100180.…私、自動改札機がまだうまく通り抜けられないから。kvS04/36/310100181.この前も切符を入れたのに途中で止められちゃって、苦手意識があるっていうか…」
@@ -646,7 +646,7 @@ void main()
 			NULL, "\"...Não fale dos direitos das mulheres apenas quando for conveniente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_saekif1006", 256, TRUE);
 	OutputLine(NULL, "権利と義務は表裏一体だと、前から言ってるだろう？」",
-			NULL, " Direitos e deveres são dois lados da mesma moeda, você mesma já não disse antes?\"", Line_Normal);
+			NULL, " Direitos e deveres são dois lados da mesma moeda, você mesma já não disse isso antes?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -705,7 +705,7 @@ void main()
 //rそんなやりとりに、私は緊張しながらも思わず、吹き出してしまう。紳士然として良識を語っているけど、千紗登ちゃんとお父さんは雰囲気も言動もそっくりだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんなやりとりに、私は緊張しながらも思わず、吹き出してしまう。紳士然として良識を語っているけど、千紗登ちゃんとお父さんは雰囲気も言動もそっくりだ。",
-			NULL, "A batalha tinha me deixado nervosa, só que depois apenas comecei a rir. Aquela atitude e bom senso de um cavalheiro... Chisato-chan e o pai dela falavam e agiam de maneira muito similar.", Line_Normal);
+			NULL, "A batalha tinha me deixado nervosa, só que depois apenas comecei a rir. Aquela atitude e bom senso de um cavalheiro... Chisato-chan e o pai dela falavam e agiam de maneira muito parecida.", Line_Normal);
 	ClearMessage();
 
 //rこの子にしてこの親あり、…逆だっけ。
@@ -926,7 +926,7 @@ void main()
 //r千紗登ちゃんが本当に嘘やお世辞を言っているんじゃないとしても、…『可愛い』と言えばどんなbろうぜき.<狼藉>も許されるなら、時代劇の悪代官はあんなに女の人から嫌われたりはしないと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんが本当に嘘やお世辞を言っているんじゃないとしても、…『可愛い』と言えばどんな狼藉(ろうぜき)も許されるなら、時代劇の悪代官はあんなに女の人から嫌われたりはしないと思う。",
-			NULL, "Mesmo que Chisato-chan tenha dito sinceramente aquilo como um elogio... a palavra \"fofa\" me dava nos nervos. Se qualquer ofensa pudesse ser perdoada só com aquela palavra, tenho certeza que não existiriam tantos vilões em dramas históricos que são tão odiados pelas mulheres.", Line_Normal);
+			NULL, "Mesmo que Chisato-chan tenha dito aquilo sinceramente como um elogio... a palavra \"fofa\" me dava nos nervos. Se qualquer ofensa pudesse ser perdoada só com essa palavra, tenho certeza que não existiriam tantos vilões em dramas históricos que são tão odiados pelas mulheres.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -1004,7 +1004,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fda762>千紗登</color>", NULL, "<color=#fda762>Chisato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300220", 256, TRUE);
 	OutputLine(NULL, "　大学の説明会とかも強制的に参加させられるし、…嫌でしょ、それ」",
-			NULL, "E talvez também forcem você a participar de palestras em universidades... Elas são terríveis.\"", Line_Normal);
+			NULL, "E talvez também a forcem a participar de palestras em universidades... Elas são terríveis.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100197.「ええっ？！kvS04/36/310100198.　そ、そんなの嫌だよ～！」
@@ -1020,7 +1020,7 @@ void main()
 //r前の学校では進路相談というか、私は先生との個人面談を受ける前に転校しちゃったからよくわからないけど、聞いた限りだと将来何になりたいか、程度の質問で終わっていたと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "前の学校では進路相談というか、私は先生との個人面談を受ける前に転校しちゃったからよくわからないけど、聞いた限りだと将来何になりたいか、程度の質問で終わっていたと思う。",
-			NULL, "Isso era chamado de orientação profissional na minha antiga escola. Eu me transferi para cá antes que pudesse ter minha reunião privada com o professor, então não sei muita coisa, mas apenas pensei que eles faziam perguntas sobre o que você queria ser no futuro e coisas assim.", Line_Normal);
+			NULL, "Isso era chamado de orientação profissional na minha antiga escola. Eu me transferi para cá antes que pudesse ter a minha reunião privada com o professor, então não sei muita coisa, mas apenas pensei que eles faziam perguntas sobre o que você queria ser no futuro e coisas assim.", Line_Normal);
 	ClearMessage();
 
 //rだから、ここでも大したこともないと勝手に思って、聞き流していたんだ。
@@ -1032,7 +1032,7 @@ void main()
 //r…といっても、今の私には志望校どころか、進路だって全然どこがどこで、なにがなにやらの状況だ。準備とか下調べとかも、当たり前だけど全然できていない…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…といっても、今の私には志望校どころか、進路だって全然どこがどこで、なにがなにやらの状況だ。準備とか下調べとかも、当たり前だけど全然できていない…。",
-			NULL, "...No entanto, o meu futuro era incerto. Eu não tinha nenhuma universidade para a qual quisesse ir, e nem ideia de qual carreira seguir. Normalmente os estudantes vão para cursos preparatórios e exames preliminares, mas eu não fiz nada disso.", Line_Normal);
+			NULL, "...No entanto, o meu futuro era incerto. Eu não tinha nenhuma universidade para a qual desejasse ir, e nem ideia de qual carreira seguir. Normalmente os estudantes vão para cursos preparatórios e exames preliminares, mas eu não tinha feito nada disso.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100199.「ど、どうしよう…私…？」
@@ -1052,7 +1052,7 @@ void main()
 //r…そんな私の困惑を見て、千紗登ちゃんはふいに真面目な顔に戻ると、手帳を取り出しぱらぱらとめくる。そして隣に座るお父さんに何かを伝えてから、私に顔を戻して言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そんな私の困惑を見て、千紗登ちゃんはふいに真面目な顔に戻ると、手帳を取り出しぱらぱらとめくる。そして隣に座るお父さんに何かを伝えてから、私に顔を戻して言った。",
-			NULL, "Percebendo minha perplexidade, Chisato-chan de repente colocou uma expressão séria no rosto, puxou um caderno, e começou a folhear as páginas. Ela disse algo para o pai que estava sentado ao seu lado, virou em minha direção e começou a falar.", Line_Normal);
+			NULL, "Percebendo a minha perplexidade, Chisato-chan de repente colocou uma expressão séria no rosto, puxou um caderno, e começou a folhear as páginas. Ela disse algo para o pai que estava sentado ao seu lado, virou em minha direção e começou a falar.", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300222.「それじゃあさ、夏美。kvS04/37/310300223.明日ちょっと、時間ある？」
@@ -1119,7 +1119,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100203", 256, TRUE);
 	OutputLine(NULL, "「でも、…せっかくの日曜日なのに、私のせいで…」",
-			NULL, "\"Mas... vocês vão gastar o seu domingo, por minha causa...\"", Line_Normal);
+			NULL, "\"Mas... vocês vão gastar o seu domingo, por minha culpa...\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300231.「あははは、それくらい平気だって。kvS04/37/310300232.その代わり終わった後は、アイスでもおごってもらうからね～？」
@@ -1147,7 +1147,7 @@ void main()
 //rだけど二人のアドバイスがなければ、きっと何を訊かれても答えに詰まって、先生の心証を悪くするだけだろう。だから私は、そのありがたい提案を受けることにした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど二人のアドバイスがなければ、きっと何を訊かれても答えに詰まって、先生の心証を悪くするだけだろう。だから私は、そのありがたい提案を受けることにした。",
-			NULL, "Sem o conselho das minhas amigas, teria dificuldade para responder as perguntas, não importa o que perguntassem. Isso apenas faria o professor ter uma péssima impressão minha. Portanto decidi aceitar a oferta gentil de Chisato-chan.", Line_Normal);
+			NULL, "Sem o conselho das minhas amigas, eu teria dificuldade para responder as perguntas, não importa o que perguntassem. Isso apenas faria o professor ter uma péssima impressão minha. Portanto decidi aceitar a oferta gentil de Chisato-chan.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100204.「…ごめんね、千紗登ちゃん。kvS04/36/310100205.珠子ちゃんにも悪いけど、お願いしてもいい？」
@@ -1157,7 +1157,7 @@ void main()
 			NULL, "\"...Sinto muito, Chisato-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100205", 256, TRUE);
 	OutputLine(NULL, "珠子ちゃんにも悪いけど、お願いしてもいい？」",
-			NULL, " Me sinto mal por envolver Tamako-chan. Você poderia perguntar para ela se está tudo bem assim?\"", Line_Normal);
+			NULL, " Me sinto mal por envolver Tamako-chan. Você poderia perguntar para ela se está tudo bem com isso?\"", Line_Normal);
 	ClearMessage();
 
 //千紗登rvS04/37/310300233.「おっけー！kvS04/37/310300234.　また夜に電話するよ。kvS04/37/310300235.それじゃ、バイト頑張ってね～？」
@@ -1189,7 +1189,7 @@ void main()
 //r上げた手を曖昧に下ろしながら一人残されて、また、ため息がもれ出る。…さっきの脱力してのものじゃない。もっと重く、…そして、沈んだ気持ちが入り混じっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "上げた手を曖昧に下ろしながら一人残されて、また、ため息がもれ出る。…さっきの脱力してのものじゃない。もっと重く、…そして、沈んだ気持ちが入り混じっていた。",
-			NULL, "Fui deixada sozinha, abaixando a mão que levantei, em seguida soltei outro suspiro. ...Não era um suspiro exausto como o de antes. Era ainda mais pesado... e minha angustia estava misturada nele.", Line_Normal);
+			NULL, "Fui deixada sozinha, abaixando a mão que levantei, em seguida soltei outro suspiro. ...Não foi um suspiro exausto como o de antes. Foi ainda mais pesado... e minha angustia estava misturada nele.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/sora", 1000 );
@@ -1211,7 +1211,7 @@ void main()
 //r…ただ、この一年ずっと周囲の流れに従うだけで、置き去りにされないようにするのが精一杯だった私にとっては希望する選択肢も、そして選ぶ余裕すらも持つことができなかったんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…ただ、この一年ずっと周囲の流れに従うだけで、置き去りにされないようにするのが精一杯だった私にとっては希望する選択肢も、そして選ぶ余裕すらも持つことができなかったんだ。",
-			NULL, "...Já tinha sido difícil o suficiente apenas conseguir acompanhar a matéria deste ano sem ficar para trás, então nem mesmo tive a oportunidade para pensar em qual carreira seguir.", Line_Normal);
+			NULL, "...Já tinha sido difícil o suficiente apenas conseguir acompanhar a matéria deste ano sem ficar para trás, então nem mesmo tive oportunidade para pensar em qual carreira seguir.", Line_Normal);
 	ClearMessage();
 
 //rおかーさんはきっと、進学を勧めるだろう。
@@ -1223,19 +1223,19 @@ void main()
 //rあまり有名でなかった大学の出身のために、おとーさんもおかーさんも職場でずっと苦労をしたことを以前から聞かされてきたから、私にはそれなりの大学に進むことを期待しているんだと思う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あまり有名でなかった大学の出身のために、おとーさんもおかーさんも職場でずっと苦労をしたことを以前から聞かされてきたから、私にはそれなりの大学に進むことを期待しているんだと思う。",
-			NULL, "A mamãe e o papai já mencionaram no passado que tiveram dificuldades para conseguir um emprego por causa da universidade desconhecida que eles frequentaram, por conta disso, gostariam que eu fosse para uma boa universidade.", Line_Normal);
+			NULL, "A mamãe e o papai já mencionaram no passado que tiveram dificuldade para conseguir um emprego por causa da universidade desconhecida que eles frequentaram, por conta disso, eles gostariam que eu fosse para uma boa universidade.", Line_Normal);
 	ClearMessage();
 
 //rそしてそれが、二人が一番喜んでくれる最良の選択なんだと、さすがに私でもわかる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてそれが、二人が一番喜んでくれる最良の選択なんだと、さすがに私でもわかる。",
-			NULL, "Mesmo eu tinha percebido que essa era a escolha que os mais deixaria felizes.", Line_Normal);
+			NULL, "Mesmo eu tinha percebido que aquela escolha era a que os mais deixaria felizes.", Line_Normal);
 	ClearMessage();
 
 //rだけど、…正直言って私は特にやりたいこともなかったし、学歴を積み重ねたいとも考えていない。それにきっと、能力だって欠けている。…だって、今までそんな『環境』に居なかったんだから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど、…正直言って私は特にやりたいこともなかったし、学歴を積み重ねたいとも考えていない。それにきっと、能力だって欠けている。…だって、今までそんな『環境』に居なかったんだから。",
-			NULL, "Mas... honestamente, não havia nada em particular que eu quisesse me tornar, e eu nem mesmo tinha pensado sobre acumular formações acadêmicas. Naturalmente, minhas habilidades eram completamente insuficientes . ...Porque eu nunca estive no <i>ambiente</i> certo até agora.", Line_Normal);
+			NULL, "Mas... honestamente, não havia nada em particular que eu quisesse me tornar, e eu sequer tinha pensado sobre acumular formações acadêmicas. Naturalmente, minhas habilidades eram completamente insuficientes . ...Porque eu nunca estive no <i>ambiente</i> certo até agora.", Line_Normal);
 	ClearMessage();
 
 //r心を許せる友達と、楽しく遊ぶ。
@@ -1265,7 +1265,7 @@ void main()
 //rそれが、興宮にいた私。そして、興宮にいた私の同年代の子達の姿だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが、興宮にいた私。そして、興宮にいた私の同年代の子達の姿だ。",
-			NULL, "Era assim comigo em Okinomiya. Onde era comparada com crianças parecidas da mesma idade.", Line_Normal);
+			NULL, "Era assim comigo em Okinomiya. Onde era comparada com crianças parecidas da minha mesma idade.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100207.「………」
@@ -1278,7 +1278,7 @@ void main()
 //rでも、…この『都会』では、きっとそれは許してもらえないだろう。嫉妬や敵対心とも無縁の世界ではいられなくて、周囲の目を気にするようになる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも、…この『都会』では、きっとそれは許してもらえないだろう。嫉妬や敵対心とも無縁の世界ではいられなくて、周囲の目を気にするようになる。",
-			NULL, "Mas... tenho certeza que eles não serão tão compassivos aqui na <i>cidade</i>. Não poderei continuar naquele mundo livre de inveja e hostilidade. Agora vou ter que começar a me preocupar com os olhares das pessoas em volta.", Line_Normal);
+			NULL, "Mas... tenho certeza que eles não serão tão compassivos aqui na <i>cidade</i>. Eu não poderei mais continuar naquele mundo livre de inveja e hostilidade. Agora vou ter que começar a me preocupar com os olhares das pessoas em volta.", Line_Normal);
 	ClearMessage();
 
 //rううん、…実際もう、そうなっている。そしてひょっとしたら、千紗登ちゃんや珠子ちゃんを意識する日が来るのかもしれない。
@@ -1327,7 +1327,7 @@ void main()
 //r私は気を取り直して、病院の中へと入ってゆく。そして入り口のすぐ右横にある職員用のエレベータの前に来て、昇降のボタンを押した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は気を取り直して、病院の中へと入ってゆく。そして入り口のすぐ右横にある職員用のエレベータの前に来て、昇降のボタンを押した。",
-			NULL, "Limpei minha mente e fui em direção ao hospital. Me aproximei do elevador de serviço que ficava ao lado da entrada e pressionei o botão.", Line_Normal);
+			NULL, "Eu limpei a minha mente e fui em direção ao hospital. Me aproximei do elevador de serviço que ficava ao lado da entrada e pressionei o botão.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/kai1", 1000 );
@@ -1378,7 +1378,7 @@ void main()
 //rさすがに医療施設の中だから駆けてはこなかったけど、時間ギリギリに着いた緊張で額には汗がにじんでいた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さすがに医療施設の中だから駆けてはこなかったけど、時間ギリギリに着いた緊張で額には汗がにじんでいた。",
-			NULL, "Naturalmente, esta era uma instituição médica respeitável, eu não poderia sair correndo por aí, a minha testa estava soando por conta da tensão de chegar no último minuto.", Line_Normal);
+			NULL, "Naturalmente, esta era uma instituição médica respeitável, eu não poderia sair correndo por ela, a minha testa estava soando por conta da tensão de chegar no último minuto.", Line_Normal);
 	ClearMessage();
 
 //山瀬rvS04/00/VT1B_yamase1001.「あらあら、ご苦労様。kvS04/00/VT1B_yamase1002.全然遅くなんてないわよ？kvS04/00/VT1B_yamase1003.　時間ぴったりだから」
@@ -1409,7 +1409,7 @@ void main()
 //r別に義務じゃないから、とは言ってくれていたけど、出来ることが限られている私にとっては与えられた仕事を怠っているようで、とても申し訳なかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "別に義務じゃないから、とは言ってくれていたけど、出来ることが限られている私にとっては与えられた仕事を怠っているようで、とても申し訳なかった。",
-			NULL, "Me disseram que não era uma obrigação, mas, por conta das minhas habilidades limitadas, eu senti como se estivesse neglicenciando o trabalho que me foi dado, e isso era injustificável.", Line_Normal);
+			NULL, "Me disseram que não era uma obrigação, mas, por conta das minhas habilidades limitadas, eu sentia como se estivesse neglicenciando o trabalho que me foi dado, e isso era injustificável.", Line_Normal);
 	ClearMessage();
 
 //山瀬rvS04/00/VT1B_yamase1004.「夏美ちゃんは学生なんだし、それにここまで遠いんでしょう？kvS04/00/VT1B_yamase1005.　だから、少しくらいは遅れても大丈夫よ」
@@ -1461,7 +1461,7 @@ void main()
 			NULL, "\"Eu sinto muito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1009", 256, TRUE);
 	OutputLine(NULL, "来て早々で申し訳ないんだけど、もうすぐ３時のおやつの時間だから配膳を手伝ってくれるかしら？",
-			NULL, " Falta pouquíssimo tempo, mas já está quase na hora do lanche das 3, poderia me ajudar a preparar tudo?", Line_WaitForInput);
+			NULL, " Falta pouquíssimo tempo, mas já está quase na hora do lanche das 3, você poderia me ajudar a preparar tudo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s04/00/vt1b_yamase1010", 256, TRUE);
 	OutputLine(NULL, "　今日は常勤の人が急用でいないから」",
 			NULL, " É urgente porque não há ninguém hoje trabalhando em tempo integral.\"", Line_Normal);
@@ -1509,7 +1509,7 @@ void main()
 //r病院よりも広めの室内では仲良しの人たちが集まってわいわいと談笑したり、持ち込みのテレビを見たり、ベッドに横になったりしていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "病院よりも広めの室内では仲良しの人たちが集まってわいわいと談笑したり、持ち込みのテレビを見たり、ベッドに横になったりしていた。",
-			NULL, "Num quarto espaçoso do hospital, bons amigos haviam se reunido para conversar, assistirem TV, e deitarem na cama.", Line_Normal);
+			NULL, "Num quarto espaçoso do hospital, bons amigos tinham se reunido para conversar, assistirem TV, e deitarem na cama.", Line_Normal);
 	ClearMessage();
 
 //老人rvS04/00/VT1B_elderMa1001.「おぉ、今日は夏美ちゃんかぁ。kvS04/00/VT1B_elderMa1002.久しぶりだの～！」
@@ -1532,13 +1532,13 @@ void main()
 //rお年寄りの人たちは私の顔を見るなり、人懐っこい笑顔を向けてくれる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "お年寄りの人たちは私の顔を見るなり、人懐っこい笑顔を向けてくれる。",
-			NULL, "Os idosos reconheceram meu rosto e me deram um sorriso acolhedor.", Line_Normal);
+			NULL, "Os idosos reconheceram o meu rosto e me deram um sorriso acolhedor.", Line_Normal);
 	ClearMessage();
 
 //r…初めてのときはちゃんと働けるのか不安だったけど、ちいさい時からおばあちゃんっ子だったこともあって、意外に早く馴染むことができた。今ではみんなとも、すっかり仲良しだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…初めてのときはちゃんと働けるのか不安だったけど、ちいさい時からおばあちゃんっ子だったこともあって、意外に早く馴染むことができた。今ではみんなとも、すっかり仲良しだ。",
-			NULL, "...No início, eu estava me perguntando se conseguiria lidar com o trabalho. Mas, desde pequena, sempre fui uma 'criancinha da vovó', por conta disso consegui me adaptar surpreendentemente rápido. A este ponto, já me dava bem com todo mundo.", Line_Normal);
+			NULL, "...No início, eu estava me perguntando se conseguiria lidar com o trabalho. Mas, desde pequena, sempre fui uma 'criancinha da vovó', por este motivo consegui me adaptar surpreendentemente rápido. A este ponto, já me dava bem com todo mundo.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100216.「あははは、こんにちはおじーちゃん、おばーちゃん。kvS04/36/310100217.…あ、ちょっと待ってね」
@@ -1725,13 +1725,13 @@ void main()
 //r…ここに入所したばかりの頃は、足腰が弱くなったことですっかり落ち込んでいて、元気がなかった。それでも、今はすっかり明るくなって、部屋の皆を楽しませる存在になっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…ここに入所したばかりの頃は、足腰が弱くなったことですっかり落ち込んでいて、元気がなかった。それでも、今はすっかり明るくなって、部屋の皆を楽しませる存在になっている。",
-			NULL, "...Eu não estava me sentindo bem quando cheguei aqui, estava completamente deprimida e minhas pernas estavam fracas. Mas, mesmo assim, as coisas se alegraram quando entreti todos na sala.", Line_Normal);
+			NULL, "...Eu não estava me sentindo bem quando cheguei aqui, eu estava completamente deprimida e minhas pernas estavam fracas. Mas, mesmo assim, as coisas se alegraram quando entreti todos na sala.", Line_Normal);
 	ClearMessage();
 
 //rこんなふうに、おばーちゃんと同じくらいの人たちが元気を取り戻してくれるのを見ることが出来たときは、心から嬉しくて、…幸せだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こんなふうに、おばーちゃんと同じくらいの人たちが元気を取り戻してくれるのを見ることが出来たときは、心から嬉しくて、…幸せだった。",
-			NULL, "Ver pessoas como aquela idosa recuperando a sua energia trazia alegria para o fundo do meu coração... Eu estava encantada.", Line_Normal);
+			NULL, "Ver pessoas como aquela idosa recuperando sua energia trazia alegria para o fundo do meu coração... Eu estava encantada.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100226.「それじゃみんな、いつも通り席は名札のあるところに座ってね。kvS04/36/310100227.ちゃんとみんなに同じ分あるから、喧嘩しちゃ駄目だよ？」
@@ -1908,7 +1908,7 @@ void main()
 //rよく目を凝らしてみると、…その唇がかすかに動いて、何かを呟いている。ちょっと失礼かなと思ったけど、意を決してほんの少しだけ近づき、耳をそばだてる。すると、
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "よく目を凝らしてみると、…その唇がかすかに動いて、何かを呟いている。ちょっと失礼かなと思ったけど、意を決してほんの少しだけ近づき、耳をそばだてる。すると、",
-			NULL, "Prestando atenção... percebi que os seus lábios estavam se movendo levemente, murmurando algo. Pensei que pudesse ser um pouco rude, mas ainda assim me aproximei para escutar. E então,", Line_Normal);
+			NULL, "Prestando mais atenção... percebi que os seus lábios estavam se movendo levemente, murmurando algo. Pensei que pudesse ser um pouco rude, mas ainda assim me aproximei para escutar. E então,", Line_Normal);
 	ClearMessage();
 
 //畠山老rvS04/00/VT1B_hatakeG1003.「……オヤシロさま…、kvS04/00/VT1B_hatakeG1004.…しわけ…せん…」
