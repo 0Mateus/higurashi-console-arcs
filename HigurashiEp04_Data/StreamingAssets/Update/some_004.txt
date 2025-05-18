@@ -3418,7 +3418,7 @@ void main()
 //r千紗登ちゃんはその手に、購買部の紙袋を持っている。きっと、それは文房具が入っているんだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "千紗登ちゃんはその手に、購買部の紙袋を持っている。きっと、それは文房具が入っているんだろう。",
-			NULL, "Chisato-chan segurava uma sacola de papel de uma loja na mão, provavelmente cheia de materiais escolares.", Line_Normal);
+			NULL, "Chisato-chan estava segurando uma sacola de papel de uma loja na mão, provavelmente cheia de materiais escolares.", Line_Normal);
 	ClearMessage();
 
 //r…でも、どうしてだろう。それをぎゅっ、と跡が残るくらいに握り締めながら、…千紗登ちゃんは心の奥底まで射抜くような視線で、私をじっと見つめていた。
@@ -3447,13 +3447,13 @@ void main()
 //r顔色をうかがおうと、私はおそるおそる覗き込む。…だけど、視線を断ち切るように千紗登ちゃんはさっと、背を向けた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "顔色をうかがおうと、私はおそるおそる覗き込む。…だけど、視線を断ち切るように千紗登ちゃんはさっと、背を向けた。",
-			NULL, "Eu tentei analizar a sua expressão, olhando para ela com medo. ...No entanto, Chisato-chan abruptamente se virou, evitando contato visual comigo.", Line_Normal);
+			NULL, "Eu tentei analizar a sua expressão, olhando para ela com medo. ...Porém, Chisato-chan abruptamente se virou, evitando contato visual comigo.", Line_Normal);
 	ClearMessage();
 
 //rそれは千紗登ちゃんがたぶん、初めて見せた拒絶。だからその衝撃に、私は思わず足が竦んだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それは千紗登ちゃんがたぶん、初めて見せた拒絶。だからその衝撃に、私は思わず足が竦んだ。",
-			NULL, "Esta talvez tenha sido a primeira vez que Chisato-chan havia me rejeitado. Isso foi tão inesperado, que o choque me deixou paralisada.", Line_Normal);
+			NULL, "Esta talvez tenha sido a primeira vez que Chisato-chan havia me rejeitado. E isso foi tão inesperado, que o choque me deixou paralisada.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100418.「ち、…千紗登ちゃん？kvS04/36/310100419.　…ど、どうしたの？」
@@ -3965,7 +3965,7 @@ void main()
 			NULL, "\"Ahahaha, você é uma pessoa de sorte!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300331", 256, TRUE);
 	OutputLine(NULL, "　だいたい私に言ってりゃもっと早くハッピーになってたのにさぁ！",
-			NULL, " Eu estaria ainda mais feliz se você tivesse me contado antes!", Line_WaitForInput);
+			NULL, " Eu estaria ainda mais feliz se você tivesse me contado isso antes!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 37, "ps3/s04/37/310300332", 256, TRUE);
 	OutputLine(NULL, "　夏美、遠慮しすぎ！」",
 			NULL, " Natsumi, você não precisa ter vergonha!\"", Line_Normal);
@@ -3978,7 +3978,7 @@ void main()
 			NULL, "\"S-sinto muito...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100447", 256, TRUE);
 	OutputLine(NULL, "千紗登ちゃん、藤堂くんのことよく知ってるし、恥ずかしくて…」",
-			NULL, " Chisato-chan, você conhece Toudou-kun há muito tempo, por isso eu fiquei com vergonha...\"", Line_Normal);
+			NULL, " Chisato-chan, você conhece Toudou-kun há muito tempo, então eu fiquei com vergonha...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -4054,7 +4054,7 @@ void main()
 //r慌てて止めようとする私に構わず、片手ですっぽり私の肩を抱きすくめると、千紗登ちゃんは軽快な足取りでスキップを踏みだした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "慌てて止めようとする私に構わず、片手ですっぽり私の肩を抱きすくめると、千紗登ちゃんは軽快な足取りでスキップを踏みだした。",
-			NULL, "Ignorando os meus esforços desesperados para acalmá-la, Chisato-chan começou a saltar com seus pés ágeis, e os braços ainda envoltos nos meus ombros.", Line_Normal);
+			NULL, "Ignorando os meus esforços desesperados para acalmá-la, Chisato-chan começou a saltar com seus pés ágeis, e os braços ainda envoltos em meus ombros.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
