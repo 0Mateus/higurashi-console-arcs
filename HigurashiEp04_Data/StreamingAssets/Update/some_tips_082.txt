@@ -72,7 +72,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3006", 256, TRUE);
 	OutputLine(NULL, "「おやおやぁ？",
-			NULL, "\"Nossa.", Line_WaitForInput);
+			NULL, "\"Minha nossa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3007", 256, TRUE);
 	OutputLine(NULL, "　ちょっと会わない間に冷たくなっちゃいましたねぇ？",
 			NULL, " Parece que você se tornou mais fria desde a última vez que nos vimos, hein?", Line_WaitForInput);
@@ -88,7 +88,7 @@ void main()
 			NULL, "\"Essa era a minha irmã!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3008", 256, TRUE);
 	OutputLine(NULL, "　何度も言いますけど、私は『巴』で妹は『まどか』！",
-			NULL, " Eu já te disse isso muitas vezes, eu sou \"Tomoe\" e a minha irmã é \"Madoka\"!", Line_WaitForInput);
+			NULL, " Eu já te disse muitas vezes, o meu nome é \"Tomoe\" e o da minha irmã é \"Madoka\"!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3009", 256, TRUE);
 	OutputLine(NULL, "　あの子に対してみたいな感じで接してこられても、私は嬉しくありません！",
 			NULL, " Não estou nem um pouco feliz por você me tratar como ela!", Line_WaitForInput);
@@ -98,7 +98,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3011", 256, TRUE);
 	OutputLine(NULL, "　これ以上おちょくるなら、もう切りますよ？！」",
-			NULL, "Se você continuar me provocando, vou desligar agora mesmo, ok?!\"", Line_Normal);
+			NULL, "Se você continuar me provocando, eu vou desligar agora mesmo, ok?!\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3009.「なっはっはっはっ！kvS20/11/VTT_oishi3010.　まぁまぁ、そう本気で怒らずに。kvS20/11/VTT_oishi3011.ささくれだった日常を和らげる、ちょっとした癒しのジョークですよぉ」
@@ -111,7 +111,7 @@ void main()
 			NULL, " Calma, calma. Não precisa ficar tão irritada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3011", 256, TRUE);
 	OutputLine(NULL, "ささくれだった日常を和らげる、ちょっとした癒しのジョークですよぉ」",
-			NULL, " Eu só estava fazendo uma piada reconfortante para animar seus dias de estresse.\"", Line_Normal);
+			NULL, " Eu só estava fazendo uma piada reconfortante para animar os seus dias de estresse.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3012.「…『癒し』じゃなくって、『イヤラシ』だっつの。kvS20/28/VTT_tomoe3013.それはともかく、何か御用ですか？kvS20/28/VTT_tomoe3014.　ほんとに気晴らしにかけてきただけなら、今から興宮に乗り込んで蹴っ飛ばしてあげますけど？」
@@ -124,17 +124,17 @@ void main()
 			NULL, " Aliás, o que você quer?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3014", 256, TRUE);
 	OutputLine(NULL, "　ほんとに気晴らしにかけてきただけなら、今から興宮に乗り込んで蹴っ飛ばしてあげますけど？」",
-			NULL, " Se você está me ligando apenas para passar o tempo, vou direto para Okinomiya chutar sua bunda, ok?\"", Line_Normal);
+			NULL, " Se você está apenas me ligando para passar o tempo, eu vou ir direto para Okinomiya chutar a sua bunda, ok?\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3012.「おぉぉ、怖い怖い。kvS20/11/VTT_oishi3013.カモシカみたいな巴ちゃんの脚で蹴られたりなんかしたら、ちょっとはこのビール腹も引っ込んでくれますかねぇ？kvS20/11/VTT_oishi3014.　んっふっふっふっ！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3012", 256, TRUE);
 	OutputLine(NULL, "「おぉぉ、怖い怖い。",
-			NULL, "\"Ahhh, que assustadora.", Line_WaitForInput);
+			NULL, "\"Ohhh, que assustadora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3013", 256, TRUE);
 	OutputLine(NULL, "カモシカみたいな巴ちゃんの脚で蹴られたりなんかしたら、ちょっとはこのビール腹も引っ込んでくれますかねぇ？",
-			NULL, " Você acha que suas perninhas de cabra afundariam na minha barriga de cerveja?", Line_WaitForInput);
+			NULL, " Você acha que as suas perninhas de cabra afundariam na minha barriga de cerveja?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3014", 256, TRUE);
 	OutputLine(NULL, "　んっふっふっふっ！」",
 			NULL, " Nfu fu fu!\"", Line_Normal);
@@ -160,7 +160,7 @@ void main()
 			NULL, "\"...Na verdade, Tomoe-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3016", 256, TRUE);
 	OutputLine(NULL, "ちょっとマジに、力貸してもらいたいんですよ」",
-			NULL, " Falando sério, eu gostaria você me ajudasse com uma coisa.\"", Line_Normal);
+			NULL, " Falando sério, eu gostaria que você me ajudasse com uma coisa.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3018.「え……？！」
@@ -173,7 +173,7 @@ void main()
 //r久しぶりに聞いた、大石さんの真剣な声。…その張り詰めた口調に、私は瞬時にだらけた気分を投げ捨てて、受話器を持ち直した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "久しぶりに聞いた、大石さんの真剣な声。…その張り詰めた口調に、私は瞬時にだらけた気分を投げ捨てて、受話器を持ち直した。",
-			NULL, "Fazia muito tempo que eu não ouvia Ooishi-san usar esse tom sério na voz. ...Depois dessa mudança, imediatamente deixei de lado meu mau humor e segurei melhor o telefone.", Line_Normal);
+			NULL, "Fazia muito tempo que eu não ouvia Ooishi-san usar esse tom sério na voz. ...Depois dessa mudança, eu imediatamente deixei meu mau humor de lado e segurei melhor o telefone.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 200, FALSE  );
@@ -196,7 +196,7 @@ void main()
 			NULL, "\"Sim, isso aconteceu já faz alguns dias.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3020", 256, TRUE);
 	OutputLine(NULL, "でもあの事件、ウチの現場じゃなくてお隣の県警さんの管轄でしたから、現場検証は途中までしかやっていないんですけどね」",
-			NULL, " Mas este caso não aconteceu sobre nossa jurisdição. Ele na verdade está sendo investigado pela polícia da prefeitura vizinha, então nossa investigação da cena do crime ficou pela metade.\"", Line_Normal);
+			NULL, " Mas este caso não aconteceu sobre nossa jurisdição. Ele na verdade está sendo investigado pela polícia da prefeitura vizinha, então a nossa investigação da cena do crime ficou pela metade.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3019.「そこで焼かれたホトケの、鷹野三四ってのは雛見沢の看護師なんですがね。kvS20/11/VTT_oishi3020.…どうやら、おかしなところが出てきているんですよ」
@@ -223,14 +223,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3021", 256, TRUE);
 	OutputLine(NULL, "「いやね、そのお隣さんの鑑識から司法解剖の診断書を回してもらって読んだんですが、",
-			NULL, "\"Bem, veja só... Eu estava lendo o relatório de autópsia da investigação dos seus vizinhos.", Line_WaitForInput);
+			NULL, "\"Bem, veja só... Eu estava lendo o relatório de autópsia da investigação da prefeitura vizinha,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3022", 256, TRUE);
 	OutputLine(NULL, "…どうも修正箇所が多いというか、ちょっと信憑性が低いんですよ。",
 			NULL, " ...e parece que eles fizeram várias correções, então estou começando a duvidar da sua credibilidade. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3023", 256, TRUE);
 	OutputLine(NULL, "おまけに不明な点を質問してみても、全く戻しがナシのつぶてでしてね」",
-			NULL, "E também, quando os questionei sobre as partes que não estavam claras, não quiseram responder.\"", Line_Normal);
+			NULL, "E também, quando eu questionei sobre as partes que não estavam claras, eles não quiseram responder.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3023.「あそこの鑑識課って、腕が悪いくせにやたら閉鎖的な人、多いですしね。kvS20/28/VTT_tomoe3024.まともに相談に乗ってくれそうなのは、若手の松岡くんくらいですよ」
@@ -253,11 +253,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3025", 256, TRUE);
 	OutputLine(NULL, "「…にしても今時、海外の法医学研修の経験者が彼一人だけなんて、犯人を捕まえる気がないってことでしょうかね？",
-			NULL, "\"...Ainda assim, ele é o único na equipe deles que recebeu algum treinamento em perícia forense no exterior. É quase como se eles não quisessem capturar criminosos ou algo assim.", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"...Ainda assim, ele é o único na equipe que recebeu algum treinamento em perícia forense no exterior. É quase como se eles não quisessem capturar criminosos ou algo assim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3026", 256, TRUE);
 	OutputLine(NULL, "　ＤＮＡ鑑定も視野に入れた法改正が検討されているご時勢だってのに、まったく…」",
-			NULL, "Embora já seja hora de considerarmos revisar nosso sistema legal, com testes de DNA em mente... Sinceramente...\"", Line_Normal);
+			NULL, "Embora já seja hora de considerarmos revisar o nosso sistema legal, com foco em testes de DNA... Sinceramente...\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3024.「それでですね？kvS20/11/VTT_oishi3025.　ちょっと巴ちゃんの肩書きとコネをうまく使って、その若い彼に本当のところを確かめてもらいたいんですよ。kvS20/11/VTT_oishi3026.特に、…死亡推定時刻のあたりを」
@@ -267,7 +267,7 @@ void main()
 			NULL, "\"Tomoe-chan, sobre isso...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3025", 256, TRUE);
 	OutputLine(NULL, "　ちょっと巴ちゃんの肩書きとコネをうまく使って、その若い彼に本当のところを確かめてもらいたいんですよ。",
-			NULL, " Eu gostaria que você usasse seu título e conexões para convencer aquele homem a confirmar os fatos.", Line_WaitForInput);
+			NULL, " Eu gostaria que você usasse o seu título e conexões para convencer aquele homem a confirmar os fatos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3026", 256, TRUE);
 	OutputLine(NULL, "特に、…死亡推定時刻のあたりを」",
 			NULL, " Pessoalmente... Estou interessado na hora estimada da morte.\"", Line_Normal);
@@ -289,7 +289,7 @@ void main()
 //rはっきりとは見えないので断定はできないが、…それによると、日付が少なくとも１日ずれている可能性があるというのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "はっきりとは見えないので断定はできないが、…それによると、日付が少なくとも１日ずれている可能性があるというのだ。",
-			NULL, "É difícil de perceber, então não é conclusivo... mas, com base nisso, ele afirma que há uma possibilidade da data estar imprecisa em pelo menos um dia.", Line_Normal);
+			NULL, "É difícil de perceber, então não é conclusivo... mas, com base nisso, ele afirma que existe a possibilidade da data estar imprecisa em pelo menos um dia.", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3027.「…ひょっとしたら、ですが。kvS20/11/VTT_oishi3028.被害者が生前、綿流しに参加していたことを突き止めた隣の県警が、辻褄合わせのために鑑識に言って修正させたんじゃないかな、ってね…？」
@@ -299,7 +299,7 @@ void main()
 			NULL, "\"...É apenas uma teoria minha...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3028", 256, TRUE);
 	OutputLine(NULL, "被害者が生前、綿流しに参加していたことを突き止めた隣の県警が、辻褄合わせのために鑑識に言って修正させたんじゃないかな、ってね…？」",
-			NULL, " Mas, é possível que a polícia da prefeitura vizinha tenha descoberto que a vítima estava viva e participando do Watanagashi aquela noite, e então alteraram o relatório para fazerem os fatos se encaixarem...?\"", Line_Normal);
+			NULL, " Mas, é possível que a polícia da prefeitura vizinha tenha descoberto que a vítima estava viva e participando do Watanagashi naquela noite, e então alterado o relatório para fazerem os fatos se encaixarem...?\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3028.「えぇっ？kvS20/28/VTT_tomoe3029.　…それって、改ざんしたってことじゃないですか！kvS20/28/VTT_tomoe3030.　事実なら大問題ですよっ？！」
@@ -322,14 +322,14 @@ void main()
 			NULL, "\"Bem, eles podem ter apenas corrigido um erro de transcrição.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3030", 256, TRUE);
 	OutputLine(NULL, "…書き直される数字のほうが正確な時間だったとしたら、結構笑えなくなるんですよ。",
-			NULL, " ...Mas, se os números que eles escreveram antes realmente forem os corretos, isso é algo bem sério. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " ...Mas, se os números que eles escreveram antes realmente forem os dados corretos, isso é algo bem sério. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3031", 256, TRUE);
 	OutputLine(NULL, "さっきも言ったように被害者の看護師、その前日に村祭りの会場で何人かに目撃されていましてね。",
 			NULL, "Como já mencionei antes, várias pessoas testemunharam a vítima no festival da vila no dia anterior.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3032", 256, TRUE);
 	OutputLine(NULL, "だから、１日違えば——」",
-			NULL, " Então, se a data estiver errada em um dia..\"", Line_Normal);
+			NULL, " Então, se a data estiver errada em um dia...\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3031.「……すでに殺されていた人間が、歩いていた？kvS20/28/VTT_tomoe3032.　あっはっはっはっ！　ありえない～！」
@@ -353,7 +353,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3033", 256, TRUE);
 	OutputLine(NULL, "「…つまり、そういうことですね」",
-			NULL, "\"...Então é isso mesmo, né.\"", Line_Normal);
+			NULL, "\"...Então é isso mesmo, né...\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3034.「察しが良くて助かります。kvS20/11/VTT_oishi3035.ただ、まだあくまで憶測の範囲内ですので、ウラ取っておきたいんですよ。kvS20/11/VTT_oishi3036.連中から真相をシメ上げる前に、信用のできる筋からね」
@@ -363,7 +363,7 @@ void main()
 			NULL, "\"Que bom que você entende rápido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3035", 256, TRUE);
 	OutputLine(NULL, "ただ、まだあくまで憶測の範囲内ですので、ウラ取っておきたいんですよ。",
-			NULL, " Entretanto, não é nada mais do que apenas uma teoria, então gostaria de juntar mais algumas evidências.", Line_WaitForInput);
+			NULL, " Entretanto, não é nada mais do que apenas uma teoria, então eu gostaria de juntar mais algumas evidências.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3036", 256, TRUE);
 	OutputLine(NULL, "連中から真相をシメ上げる前に、信用のできる筋からね」",
 			NULL, " Nós precisamos de uma argumentação sólida antes de movermos qualquer acusação, entende?\"", Line_Normal);
@@ -391,7 +391,7 @@ void main()
 //rだとしたら、…この死亡時間のずれの有無で、今後の捜査内容が変わってくる可能性が高いだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だとしたら、…この死亡時間のずれの有無で、今後の捜査内容が変わってくる可能性が高いだろう。",
-			NULL, "Neste caso... há uma grande probabilidade de que o verdadeiro horário estimado da morte mude com base numa investigação mais aprofundada.", Line_Normal);
+			NULL, "Neste caso... há uma grande chance de que o verdadeiro horário estimado da morte mude com base em uma investigação mais aprofundada.", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3035.「わかりました。kvS20/28/VTT_tomoe3036.とりあえず松岡くんにつないで、確認してみます。kvS20/28/VTT_tomoe3037.…と」
@@ -420,7 +420,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3038", 256, TRUE);
 	OutputLine(NULL, "「さすがに、もう上がったかもしれませんね…。",
-			NULL, "\"Ele já deve ter terminado o expediente a esta hora...", Line_WaitForInput);
+			NULL, "\"Ele já deve ter terminado o expediente a essa hora...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3039", 256, TRUE);
 	OutputLine(NULL, "明日の朝一でも大丈夫ですか？",
 			NULL, " Seria melhor deixar para resolver isso amanhã de manhã?", Line_WaitForInput);
@@ -439,17 +439,17 @@ void main()
 			NULL, " ...Ainda assim, Tomoe-chan, não fique aí até tarde. Por que não vai para casa logo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtt_oishi3039", 256, TRUE);
 	OutputLine(NULL, "　夜更かしは美容の大敵ですよぉ～？　んっふっふっふっ！」",
-			NULL, " Ficar acordada até tão tarde vai acabar prejudicando a sua aparência, sabe~? Nfu fu fu!\"", Line_Normal);
+			NULL, " Ficar acordada até tarde vai acabar prejudicando a sua aparência, sabe~? Nfu fu fu!\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3041.「…お気遣いは感謝しますが、これでも私は『管理職』なので。kvS20/28/VTT_tomoe3042.片付けなきゃいけない仕事がいっぱいあるんですよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3041", 256, TRUE);
 	OutputLine(NULL, "「…お気遣いは感謝しますが、これでも私は『管理職』なので。",
-			NULL, "\"Aprecio sua preocupação, mas eu sou a <i>gerente</i> aqui.", Line_WaitForInput);
+			NULL, "\"Aprecio a sua preocupação, mas eu sou a <i>gerente</i> aqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3042", 256, TRUE);
 	OutputLine(NULL, "片付けなきゃいけない仕事がいっぱいあるんですよ」",
-			NULL, " Ainda há muitas coisas que preciso terminar de organizar.\"", Line_Normal);
+			NULL, " Ainda há muitas coisas que eu preciso terminar de organizar.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3040.「おおっ、そいつは失礼しました。kvS20/11/VTT_oishi3041.そんなお忙しい中、余計な仕事を増やしてしまってすみませんねぇ～」
@@ -472,7 +472,7 @@ void main()
 //rちょっと皮肉が過ぎて偉そうだったかなと反省して、私は真面目に言葉をつないでいった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ちょっと皮肉が過ぎて偉そうだったかなと反省して、私は真面目に言葉をつないでいった。",
-			NULL, "Parece que meu sarcasmo passou despercebido, e ele levou minhas palavras a sério.", Line_Normal);
+			NULL, "Parece que o meu sarcasmo passou despercebido, e ele levou minhas palavras a sério.", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3044.「大石さんには、今までにもお返しなきゃいけない『借り』がたくさんありますからね。kvS20/28/VTT_tomoe3045.これくらいのことはお安い御用ですよ。kvS20/28/VTT_tomoe3046.お金に関することでなければ、いつでも喜んで」
@@ -485,7 +485,7 @@ void main()
 			NULL, " Então não é nenhum tipo de problema.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3046", 256, TRUE);
 	OutputLine(NULL, "お金に関することでなければ、いつでも喜んで」",
-			NULL, " Se não envolver dinheiro, estou sempre disposta a ajudar.\"", Line_Normal);
+			NULL, " Se não envolver dinheiro, eu estou sempre disposta a ajudar.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3042.「なっはっはっはっ！　そういっていただけると、私も心強い限りですよ。kvS20/11/VTT_oishi3043.持つべきものは物分りのいい上役と、腰の軽い後輩！kvS20/11/VTT_oishi3044.　それに優秀なキャリアがつけば、まさに鬼に金棒ってところですかぁ？」
@@ -532,7 +532,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3050", 256, TRUE);
 	OutputLine(NULL, "「ちゃんと毎日洗ってキレイにしてますっ！　匂いなんかしませんッッ！！」",
-			NULL, "\"Aah, eu tomo banho todos os dias! Eu não fico fedendo!!\"", Line_Normal);
+			NULL, "\"Ei, eu tomo banho todos os dias! Eu não fico fedendo!!\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS20/11/VTT_oishi3048.「なっはっはっはっ！kvS20/11/VTT_oishi3049.　それじゃ、良いお年を！」
@@ -560,14 +560,14 @@ void main()
 //r受話器を置いてから、…私は、袖口を鼻の先に持っていく。そして息を吸い込むなり、思わず顔をしかめた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "受話器を置いてから、…私は、袖口を鼻の先に持っていく。そして息を吸い込むなり、思わず顔をしかめた。",
-			NULL, "Após colocar o telefone de volta no gancho... Levantei as mangas da jaqueta até o nariz, dei uma fungada e fiz uma careta.", Line_Normal);
+			NULL, "Após colocar o telefone de volta no gancho... Eu levantei as mangas da jaqueta até o nariz, dei uma fungada e fiz uma careta.", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3053.「……シャワー、浴びてこよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3053", 256, TRUE);
 	OutputLine(NULL, "「……シャワー、浴びてこよ」",
-			NULL, "\"......Acho que realmente preciso tomar um banho.\"", Line_Normal);
+			NULL, "\"......Acho que realmente preciso de um banho.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -581,7 +581,7 @@ void main()
 //rそのあと、わずか数十分後に大石さんから再び連絡があったが、…浴室にいた私は、それに出ることができなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そのあと、わずか数十分後に大石さんから再び連絡があったが、…浴室にいた私は、それに出ることができなかった。",
-			NULL, "Após isso, Ooishi tentou me ligar novamente algumas dezenas de minutos depois, mas... eu estava no banheiro, e não consegui atender.", Line_Normal);
+			NULL, "Após isso, Ooishi tentou me ligar novamente algumas dezenas de minutos depois, mas... eu estava no banheiro, então não consegui atender.", Line_Normal);
 	ClearMessage();
 
 //rそして。
@@ -593,7 +593,7 @@ void main()
 //r雛見沢村のガス災害が起こったのは、それから数時間後のことだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢村のガス災害が起こったのは、それから数時間後のことだった。",
-			NULL, "O desastre de gás em Hinamizawa ocorreu apenas algumas horas depois.", Line_Normal);
+			NULL, "O desastre de gás em Hinamizawa aconteceu apenas algumas horas depois.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
