@@ -2059,7 +2059,7 @@ void main()
 //r身体がぐったりと疲れて、鉛のように重い。…早く帰って、寝たい。ご飯はいらないから、すぐにベッドに横になって、泥のように眠りたい…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "身体がぐったりと疲れて、鉛のように重い。…早く帰って、寝たい。ご飯はいらないから、すぐにベッドに横になって、泥のように眠りたい…。",
-			NULL, "O meu corpo estava muito cansado, e eu me sentia pesada como chumbo. ...Tudo que eu queria fazer era chegar em casa e ir direto para a cama. Não precisava nem jantar. Só queria deitar na cama e dormir como um bebê...", Line_Normal);
+			NULL, "O meu corpo estava muito cansado, e eu me sentia pesada como chumbo. ...Tudo o que eu queria fazer era chegar em casa e ir direto para a cama. Não precisava nem jantar. Só queria deitar na cama e dormir como um bebê...", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100656.「………」
@@ -2084,7 +2084,7 @@ void main()
 //rそう思って、正門をくぐって出ようとした、——その時。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう思って、正門をくぐって出ようとした、——その時。",
-			NULL, "Enquanto pensava nisso, eu tentei sair pelo portão principal... mas, nesse momento.", Line_Normal);
+			NULL, "Enquanto eu pensava nisso, eu tentei sair pelo portão principal... mas, nesse momento.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310100657.「……あ…！」
@@ -2208,7 +2208,7 @@ void main()
 //rまさか素直に謝られるとは思っていなかった私は、さらに叩きつけようと思っていた言葉を飲み込む。そして、その場の居づらさに耐え切れずぷい、と顔を背けてその横を通り過ぎた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まさか素直に謝られるとは思っていなかった私は、さらに叩きつけようと思っていた言葉を飲み込む。そして、その場の居づらさに耐え切れずぷい、と顔を背けてその横を通り過ぎた。",
-			NULL, "Eu nunca imaginei receber um pedido de desculpas, então engoli as palavras ácidas que estava planejando dizer. Incapaz de suportar a atmosfera desconfortável, eu olhei para outra direção e comecei a caminhar.", Line_Normal);
+			NULL, "Eu nunca imaginei que receberia um pedido de desculpas, então engoli as palavras ácidas que estava planejando dizer. Incapaz de suportar a atmosfera desconfortável, eu olhei para outra direção e comecei a caminhar.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2224,7 +2224,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500182", 256, TRUE);
 	OutputLine(NULL, "「ええ、『また』会いましょうね。",
-			NULL, "\"Sim, <i>até a próxima</i>.", Line_WaitForInput);
+			NULL, "\"Sim, até <i>a próxima vez</i> que nos virmos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s04/28/310500183", 256, TRUE);
 	OutputLine(NULL, "——公由、夏美さん」",
 			NULL, " ...Kimiyoshi Natsumi-san.\"", Line_Normal);
@@ -2315,7 +2315,7 @@ void main()
 //r調べようとしているんですか、…そう答えようとして、喉に空気が詰まったように、声が出なくなる。そして私のあえぎを遮るように、南井刑事は厳かに言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "調べようとしているんですか、…そう答えようとして、喉に空気が詰まったように、声が出なくなる。そして私のあえぎを遮るように、南井刑事は厳かに言った。",
-			NULL, "O que você está tentando descobrir...? Eu tentei perguntar, mas a minha voz se recusou a sair, como se minha garganta estivesse obstruída. Mas, o ataque da Detetive Minai continuou antes mesmo que eu pudesse me recompor.", Line_Normal);
+			NULL, "O que você está tentando descobrir...? Eu tentei perguntar, mas a minha voz se recusou a sair, como se a minha garganta estivesse obstruída. Mas, o ataque da Detetive Minai continuou antes mesmo que eu pudesse me recompor.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 28, "sprite/tomo1a_shinken_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
