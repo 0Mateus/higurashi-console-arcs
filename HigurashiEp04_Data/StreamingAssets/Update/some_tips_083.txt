@@ -17,7 +17,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２５日午前１時３０分ごろ、世田谷区在住の警視庁警部補、南井雄介さん（４３）方から出火、２階建ての木造平屋住宅と車庫約１７０平方メートルが全焼した。",
-			NULL, "Por volta das 1:30 da manhã do dia 25, um incêndio ocorreu em um apartamento de dois andares que pertencia a Minai Yuusuke-san (43 anos), o inspetor chefe da delegacia de polícia do distrito de Setagaya. Aparentemente 170m² da propriedade foram queimados.", Line_Normal);
+			NULL, "Por volta das 1:30 da manhã do dia 25, um incêndio aconteceu em um apartamento de dois andares que pertencia a Minai Yuusuke-san (43 anos), o inspetor chefe da delegacia de polícia do distrito de Setagaya. Aparentemente 170m² da propriedade foram queimados.", Line_Normal);
 	ClearMessage();
 
 //r世田谷署の調べによると、隣の住宅に住んでいた会社員が帰宅直後南井さん宅の１階寝室より火が出ているのに気付き、１１９番通報した。
@@ -41,7 +41,7 @@ void main()
 //r同署は同日朝から実況見分を行っている。これまでのところ１階寝室には火の気がなく、今回の火災の原因は放火の可能性もあるとみて、事件と事故の両面で調査されている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "同署は同日朝から実況見分を行っている。これまでのところ１階寝室には火の気がなく、今回の火災の原因は放火の可能性もあるとみて、事件と事故の両面で調査されている。",
-			NULL, "A delegacia conduziu no mesmo dia uma investigação no local. Devido a falta de uma fonte de calor adequada no quarto do primeiro andar, tanto acidente quanto incêndio proposital estão sendo considerados como possíveis causas do incêndio.", Line_Normal);
+			NULL, "A delegacia conduziu no mesmo dia uma investigação no local. Devido a falta de uma fonte de calor apropriada no quarto do primeiro andar, tanto acidente quanto incêndio proposital estão sendo considerados como possíveis causas do incêndio.", Line_Normal);
 	ClearMessage();
 
 //rともえさんは女子走り高跳びの高校記録保持者で、今年の国体で東京都代表の有力候補として期待を集めていた。そのため、関係者は突然の凶事に衝撃を受けている。
@@ -53,7 +53,7 @@ void main()
 //r近所の主婦は『サイレンを聞いて駆けつけたら、１階のあたりが激しく燃えていた。近所でも評判の仲の良い家族だったので、残された二人の娘さんが可哀相』と話していた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "近所の主婦は『サイレンを聞いて駆けつけたら、１階のあたりが激しく燃えていた。近所でも評判の仲の良い家族だったので、残された二人の娘さんが可哀相』と話していた。",
-			NULL, "Uma dona de casa da vizinhança relatou: \"Vim olhar quando ouvi as sirenes, e a área ao redor do primeiro andar estava completamente em chamas. Eles eram uma boa família com uma boa reputação na vizinhança, então realmente sinto muito pelas duas filhas terem sido as únicas que sobraram.\"", Line_Normal);//;burning intensely
+			NULL, "Uma dona de casa da vizinhança relatou: \"Eu vim olhar quando ouvi as sirenes, e a área ao redor do primeiro andar estava completamente em chamas. Eles eram uma boa família com uma boa reputação na vizinhança, então eu realmente sinto muito pelas duas filhas serem as únicas que restaram.\"", Line_Normal);//;burning intensely
 	ClearMessage();
 
 //r昭和４６年６月４日　夕刊社会面より
