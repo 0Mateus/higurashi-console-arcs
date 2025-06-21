@@ -21,13 +21,13 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それを目にした瞬間、全身をゾッと寒気が走った。",
-			NULL, "...No momento em que vi aquilo, um calafrio correu através de todo o meu corpo.", Line_Normal);
+			NULL, "...No momento em que eu vi aquilo, um calafrio correu através de todo o meu corpo.", Line_Normal);
 	ClearMessage();
 
 //r肌には無数の鳥肌が立って、冷たい汗が背中をつぅっ、と流れ落ちる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "肌には無数の鳥肌が立って、冷たい汗が背中をつぅっ、と流れ落ちる。",
-			NULL, "Inúmeros arrepios irromperam por toda minha pele, e um suor frio começo a descer pelas minhas costas.", Line_Normal);
+			NULL, "Inúmeros arrepios irromperam por toda minha pele, e um suor frio começou a descer pelas minhas costas.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3001.「…な…に、これ…っ？」
@@ -40,7 +40,7 @@ void main()
 //r自分の家の、あまりにも変わり果てた惨状に、私は買い物かごを落としそうになった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分の家の、あまりにも変わり果てた惨状に、私は買い物かごを落としそうになった。",
-			NULL, "Ao ver a minha casa nesse terrível estado, quase derrubei minha cesta de compras.", Line_Normal);
+			NULL, "Ao ver minha casa nesse terrível estado, eu quase derrubei a minha cesta de compras.", Line_Normal);
 	ClearMessage();
 
 //r…門扉の両側に一本一本立てられた、毒々しいほど鮮やかな色の青竹。
@@ -52,13 +52,13 @@ void main()
 //rその間に太いbしめなわ.<注連縄>が渡され、bかみしで.<紙垂>が何枚も揺れている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その間に太い注連縄(しめなわ)が渡され、紙垂(かみしで)が何枚も揺れている。",
-			NULL, "Um grosso Shimenawa estava sobrepondo o portão, com diversas tiras de papel em formato de zigue-zague balançando ao vento.", Line_Normal);
+			NULL, "Um grosso Shimenawa estava sobrepondo o portão, com diversas tiras de papel em formato de zigue-zague balançando com o vento.", Line_Normal);
 	ClearMessage();
 
 //rそして、それは門ばかりでなく庭を囲む塀伝いに家をぐるりと囲むように、玄関や窓の上にも飾られてあった…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、それは門ばかりでなく庭を囲む塀伝いに家をぐるりと囲むように、玄関や窓の上にも飾られてあった…。",
-			NULL, "Não era apenas no portão. Também haviam diversas decorações na passagem, nas janelas, e na cerca ao redor do jardim.", Line_Normal);
+			NULL, "Não era apenas no portão. Também haviam diversas decorações na porta da frente, nas janelas, e na cerca ao redor do jardim.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3002.「——————」
@@ -71,7 +71,7 @@ void main()
 //rおりからの風が一条、目の前を吹き抜ける。…それにあおられてbしめなわ.<注連縄>のところどころから下がる白いbかみしで.<紙垂>が、気持ちの悪い音でざわめき立った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "おりからの風が一条、目の前を吹き抜ける。…それにあおられて注連縄(しめなわ)のところどころから下がる白い紙垂(かみしで)が、気持ちの悪い音でざわめき立った。",
-			NULL, "Naquele momento, uma brisa passou por mim. ...Como resultado, as tiras de papel penduradas no Shimenawa fizeram um barulho terrível enquanto balançavam.", Line_Normal);
+			NULL, "Naquele momento, uma brisa passou por mim. ...E como resultado, as tiras de papel penduradas no Shimenawa fizeram um barulho terrível enquanto balançavam.", Line_Normal);
 	ClearMessage();
 
 //rばさばさばさ…、ばさばさばさ…、ばさばさばさ…ッ！！
@@ -83,7 +83,7 @@ void main()
 //rそしてそれは、bかみしで.<紙垂>がなびく音ばかりではなかった。見上げると庭の木々には、人型に切り抜かれた人間と等身大の白い紙があって、
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてそれは、紙垂(かみしで)がなびく音ばかりではなかった。見上げると庭の木々には、人型に切り抜かれた人間と等身大の白い紙があって、",
-			NULL, "As tiras não eram a única coisa fazendo muito barulho. Quando olhei para as árvores no jardim, percebi diversas figuras de papel em formato humano.", Line_Normal);
+			NULL, "As tiras não eram a única coisa fazendo muito barulho. Quando eu olhei para as árvores no jardim, percebi diversas figuras de papel em formato humano.", Line_Normal);
 	ClearMessage();
 
 //rばさばさばさ…、ばさばさばさ…、ばさばさばさ…、ばさばさばさ…、ばさばさばさ…、ばさばさばさ…ッ！！
@@ -108,7 +108,7 @@ void main()
 //rその人型には、よく見ると文字が書かれている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その人型には、よく見ると文字が書かれている。",
-			NULL, "Quando olhei mais de perto para as figuras humanoides, percebi caracteres escritos nelas.", Line_Normal);
+			NULL, "Quando eu olhei mais de perto para as figuras humanoides, percebi caracteres escritos nelas.", Line_Normal);
 	ClearMessage();
 
 //r『冬司』。
@@ -151,14 +151,14 @@ void main()
 //r焦げ臭いにおいに、思わず顔をしかめる。…足元を見ると、門から少し入ったところに薪が交互に組まれて、火が燃え盛っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "焦げ臭いにおいに、思わず顔をしかめる。…足元を見ると、門から少し入ったところに薪が交互に組まれて、火が燃え盛っていた。",
-			NULL, "Meu nariz repentinamente se contorceu quando senti um cheiro de queimado. ...Olhei para meus pés e vi uma pilha de lenha queimando não muito longe do portão.", Line_Normal);
+			NULL, "O meu nariz repentinamente se contorceu quando eu senti o cheiro de queimado. ...Eu olhei para os meus pés e vi uma pilha de lenha queimando não muito longe do portão.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3005.「か、火事…っ？！kvS20/00/VTT_natsuM3006.　大変っ！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Mãe de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3005", 256, TRUE);
 	OutputLine(NULL, "「か、火事…っ？！",
-			NULL, "\"I-isso é fogo...?!", Line_WaitForInput);
+			NULL, "\"F-fogo...?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3006", 256, TRUE);
 	OutputLine(NULL, "　大変っ！」",
 			NULL, " Ah não!\"", Line_Normal);
@@ -167,7 +167,7 @@ void main()
 //r私は我を忘れて、組まれた薪を蹴り崩して踏み消す。…火はすぐに消えたが、買ったばかりのお気に入りの靴が煤で黒くなってしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は我を忘れて、組まれた薪を蹴り崩して踏み消す。…火はすぐに消えたが、買ったばかりのお気に入りの靴が煤で黒くなってしまった。",
-			NULL, "Antes que eu percebesse, estava em cima da lenha. ...O fogo logo se apagou, mas agora, havia fuligem sobre meu par de sapatos favorito que havia comprado recentemente.", Line_Normal);
+			NULL, "Antes que eu pudesse perceber, eu estava em cima da lenha. ...O fogo logo se apagou, mas agora, havia fuligem sobre meu par de sapatos favorito que havia comprado recentemente.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3007.「ど…どうなってるのよ、kvS20/00/VTT_natsuM3008.——なっ？！」
@@ -183,7 +183,7 @@ void main()
 //rあまりの違和感に思わず顔を振り仰いで、——さらに、驚く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あまりの違和感に思わず顔を振り仰いで、——さらに、驚く。",
-			NULL, "Instintivamente, olhei para cima para afastar meus olhos da bizarra profanação da minha casa... e me encontrei chocada mais uma vez.", Line_Normal);
+			NULL, "Instintivamente, eu olhei para cima para afastar meus olhos da bizarra profanação da minha casa... e me encontrei chocada mais uma vez.", Line_Normal);
 	ClearMessage();
 
 //r白いはずの外壁が、真っ黒になっていたのだ…。
@@ -208,14 +208,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Mãe de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3009", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…禮代のみけ御酒を…ささげ奉りて…",
-			NULL, "\"...Aqui na terra do deus... preparamos seu vinho sagrado por gerações... nos comprometemos com você...", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... nós fermentamos o seu vinho sagrado por gerações... comprometendo-nos a você...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3010", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…平らげく安らげく…聞召て…",
-			NULL, " apenas os infiéis temerão... sua subjugação nos trará paz de espírito... ouça... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " apenas os infiéis temerão... a sua subjugação nos trará paz de espírito... ouça... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の母</color>", NULL, "<color=#f5e6d3>Mãe de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3011", 256, TRUE);
 	OutputLine(NULL, "オヤシロの大神の…高きひろきいかしき…。",
-			NULL, "grande deus Oyashiro... suas bençãos nos fortalecem...", Line_WaitForInput);
+			NULL, "grande deus Oyashiro... as suas bençãos nos fortalecem...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsum3012", 256, TRUE);
 	OutputLine(NULL, "————はっ？！」",
 			NULL, " ......Hã?!\"", Line_Normal);
@@ -224,7 +224,7 @@ void main()
 //r人の視線を感じて、私は振り返る。…見知った顔だ。３軒隣に住んでいる河野さんの奥さんと、その友達の白石さん。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人の視線を感じて、私は振り返る。…見知った顔だ。３軒隣に住んでいる河野さんの奥さんと、その友達の白石さん。",
-			NULL, "Sentindo os olhares das pessoas passando, me virei. ...E vi alguns rostos familiares. A esposa de Kono-san que vivia três casas para baixo, e sua amiga Shiraishi-san.", Line_Normal);
+			NULL, "Sentindo os olhares das pessoas em volta passando, eu me virei. ...E vi alguns rostos familiares. A esposa de Kono-san que vivia três casas para baixo, e sua amiga Shiraishi-san.", Line_Normal);
 	ClearMessage();
 
 //rその二人は私の家を怪訝な目で見ながら、…ヒソヒソと囁きあっていた。
@@ -247,7 +247,7 @@ void main()
 			NULL, "\"Ei... ela não mora com a avó?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_shuhub3002", 256, TRUE);
 	OutputLine(NULL, "　道で挨拶しても俯いてブツブツ言ってる、変わったお年寄りが…」",
-			NULL, " Ela é uma idosa estranha que apenas olha para baixo e murmura sempre que cumprimento ela na rua...\"", Line_Normal);
+			NULL, " Ela é uma idosa estranha que apenas olha para baixo e murmura sempre que eu cumprimento ela na rua...\"", Line_Normal);
 	ClearMessage();
 
 //主婦rvS20/00/VTT_shuhuA3002.「なんだか、変なおまじないにとりつかれているそうね…。kvS20/00/VTT_shuhuA3003.あの奥さんも、お気の毒に…」
@@ -257,7 +257,7 @@ void main()
 			NULL, "\"Ela deve ter desenvolvido algum um tipo de obsessão por esses amuletos estranhos...", Line_WaitForInput);//;somehow
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_shuhua3003", 256, TRUE);
 	OutputLine(NULL, "あの奥さんも、お気の毒に…」",
-			NULL, " Sinto muito pela dona de casa que deve morar nela...\"", Line_Normal);
+			NULL, " Eu sinto muito pela dona de casa que deve morar nela...\"", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3013.「————っ…！」
@@ -270,19 +270,19 @@ void main()
 //r私は顔をそむけると、さっさと家の中へ駆け込む。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は顔をそむけると、さっさと家の中へ駆け込む。",
-			NULL, "Me virei rapidamente e corri para dentro da casa.", Line_Normal);
+			NULL, "Eu me virei rapidamente e corri para dentro de casa.", Line_Normal);
 	ClearMessage();
 
 //r何が『お気の毒』だ…！　そう言いながら顔は、明らかに好奇心と優越感で歪みきっていたじゃないか！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "何が『お気の毒』だ…！　そう言いながら顔は、明らかに好奇心と優越感で歪みきっていたじゃないか！",
-			NULL, "De jeito nenhum elas \"sentem muito\"...! Acham que eu não consigo enxergar a superioridade e desprezo em seus rostos enquanto dizem isso!?", Line_Normal);
+			NULL, "De jeito nenhum elas \"sentem muito\"...! Vocês acham que eu não consigo enxergar a superioridade e desprezo em seus rostos enquanto dizem isso!?", Line_Normal);
 	ClearMessage();
 
 //r私は唾棄したい思いを懸命にこらえながら、蹴飛ばすように黒焦げた靴を脱ぎ捨てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は唾棄したい思いを懸命にこらえながら、蹴飛ばすように黒焦げた靴を脱ぎ捨てた。",
-			NULL, "Tirei meus sapatos cheios de fuligem enquanto lutava para conter meu desdém.", Line_Normal);
+			NULL, "Eu tirei os meus sapatos cheios de fuligem enquanto lutava para conter meu desdém.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 200, FALSE  );
@@ -304,7 +304,7 @@ void main()
 //r玄関口から、中に呼びかける。今の時間だと、お母さんは起きているはずだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "玄関口から、中に呼びかける。今の時間だと、お母さんは起きているはずだった。",
-			NULL, "Chamei da entrada. Ela deveria estar acordada a esta hora.", Line_Normal);
+			NULL, "Eu chamei da entrada. Ela deveria estar acordada a esta hora.", Line_Normal);
 	ClearMessage();
 
 //r…この近所は若い世代の家庭が多く、お年寄りがほとんどいない。そのために、母は同年代の友人を見つけることができず、昔のように出掛けることがなくなってしまった。
@@ -323,13 +323,13 @@ void main()
 //r確かに、そのことについては申し訳なかったと、今でも思っている。渋る母を無理やり興宮から連れ出したことで、逆に寂しい思いをさせてしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かに、そのことについては申し訳なかったと、今でも思っている。渋る母を無理やり興宮から連れ出したことで、逆に寂しい思いをさせてしまった。",
-			NULL, "Até hoje, eu ainda me sentia culpada por causa disso. Por forçar minha mãe relutante a sair de Okinomiya, e a deixar realmente solitária.", Line_Normal);
+			NULL, "Até hoje, eu ainda me sentia culpada por causa disso. Por forçar a minha mãe relutante a sair de Okinomiya, e deixar ela muito solitária.", Line_Normal);
 	ClearMessage();
 
 //rでも、…ひとり寂しくあの町に置き去りにするほうが、よっぽど親不孝じゃないか。そう考えたから私は、主人にも無理を言って母との同居を決めたのに…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも、…ひとり寂しくあの町に置き去りにするほうが、よっぽど親不孝じゃないか。そう考えたから私は、主人にも無理を言って母との同居を決めたのに…。",
-			NULL, "Mas... acreditei que seria ainda mais desrespeitoso deixar ela sozinha naquela cidade. Foi por causa disso que insisti para que meu marido deixasse ela viver com a gente.", Line_Normal);
+			NULL, "Mas... eu acreditei que seria ainda mais desrespeitoso deixar ela sozinha naquela cidade. Foi por causa disso que eu insisti para que meu marido deixasse ela viver com a gente.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3016.「お母さん、…帰ってますか？kvS20/00/VTT_natsuM3017.　お母さん…？」
@@ -345,7 +345,7 @@ void main()
 //r家に上がり、廊下を歩いて部屋を覗き込む。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "家に上がり、廊下を歩いて部屋を覗き込む。",
-			NULL, "Caminhando pela casa, andei pelo corredor em direção ao cômodo mais próximo.", Line_Normal);
+			NULL, "Caminhando pela casa, eu andei pelo corredor em direção ao cômodo mais próximo.", Line_Normal);
 	ClearMessage();
 
 //r…居間には、いない。ということは、…奥の神棚のあるあの部屋か。
@@ -364,7 +364,7 @@ void main()
 //rその時、わずかに開いた襖の隙間から、かすかな声が聞こえてきた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時、わずかに開いた襖の隙間から、かすかな声が聞こえてきた。",
-			NULL, "Neste momento, ouvi uma voz fraca saindo de uma fresta na porta deslizante.", Line_Normal);
+			NULL, "Neste momento, eu ouvi uma voz fraca saindo de uma fresta na porta deslizante.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "iwakannnohatuga", 128, 0 );
@@ -374,14 +374,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3016", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…禮代のみけ御酒を…ささげ奉りて…",
-			NULL, "\"...Aqui na terra do deus... preparamos seu vinho sagrado por gerações... nos comprometemos com você...", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... nós fermentamos o seu vinho sagrado por gerações... comprometendo-nos a você...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3017", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…平らげく安らげく…聞召て…",
-			NULL, " apenas os infiéis temerão... sua subjugação nos trará paz de espírito... ouça... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " apenas os infiéis temerão... a sua subjugação nos trará paz de espírito... ouça... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3018", 256, TRUE);
 	OutputLine(NULL, "オヤシロの大神の…高きひろきいかしき…」",
-			NULL, "grande deus Oyashiro... suas bençãos nos fortalecem...\"", Line_Normal);
+			NULL, "grande deus Oyashiro... as suas bençãos nos fortalecem...\"", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3019.「お母さん…？」
@@ -394,7 +394,7 @@ void main()
 //rそっと覗くと、お母さんは一心不乱に神棚に向かって、わけのわからない祈りを捧げていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そっと覗くと、お母さんは一心不乱に神棚に向かって、わけのわからない祈りを捧げていた。",
-			NULL, "Silenciosamente espreitei e vi minha mãe devotamente oferecendo orações incompreensíveis para o santuário.", Line_Normal);
+			NULL, "Eu silenciosamente olhei pela fresta e vi a minha mãe devotamente oferecendo orações incompreensíveis para o santuário.", Line_Normal);
 	ClearMessage();
 
 //r抑揚のない、気味が悪いほどの規則的な旋律。…まるで、お経だ。
@@ -407,10 +407,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3019", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…いわい奉り…ささげ奉りて…鎮め奉る……",
-			NULL, "\"...Aqui na terra do deus... o celebramos... nos comprometemos com você... e oferecemos este sacrifício......", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... o celebramos... comprometendo-nos a você... e oferecemos este sacrifício......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3020", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…オヤシロの大神の…高きひろきいかしき…",
-			NULL, " apenas os infiéis temerão... grande deus Oyashiro... suas bençãos nos fortalecem... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " apenas os infiéis temerão... grande deus Oyashiro... as suas bençãos nos fortalecem... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3021", 256, TRUE);
 	OutputLine(NULL, "オヤシロの大神の…」",
@@ -427,13 +427,13 @@ void main()
 //rその、小さく丸まった後姿に、…嫌悪感がこみ上げてくる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その、小さく丸まった後姿に、…嫌悪感がこみ上げてくる。",
-			NULL, "Ver ela curvada e prostrada dessa maneira... transformou minha preocupação em repulsa.", Line_Normal);
+			NULL, "Ver ela curvada e prostrada dessa maneira... transformou a minha preocupação em repulsa.", Line_Normal);
 	ClearMessage();
 
 //r皺と白髪に覆われた、いびつな身体。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "皺と白髪に覆われた、いびつな身体。",
-			NULL, "Seu corpo deformado, coberto de rugas e o cabelo cinza.", Line_Normal);
+			NULL, "O corpo dela parecia deformado, coberto de rugas e com o cabelo cinza.", Line_Normal);
 	ClearMessage();
 
 //r本当にこの人は、…私の母親なんだろうか…？
@@ -459,10 +459,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3022", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…いわい奉り…ささげ奉りて…鎮め奉る……",
-			NULL, "\"...Aqui na terra do deus... o celebramos... nos comprometemos com você... e oferecemos este sacrifício......", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... o celebramos... comprometendo-nos a você... e oferecemos este sacrifício......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3023", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…オヤシロの大神の…高きひろきいかしき…",
-			NULL, " apenas os infiéis temerão... grande deus Oyashiro... suas bençãos nos fortalecem... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " apenas os infiéis temerão... grande deus Oyashiro... as suas bençãos nos fortalecem... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3024", 256, TRUE);
 	OutputLine(NULL, "オヤシロの大神の…」",
@@ -479,7 +479,7 @@ void main()
 //rぞくり、と。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ぞくり、と。",
-			NULL, "Sinto calafrios.", Line_Normal);
+			NULL, "Eu senti calafrios.", Line_Normal);
 	ClearMessage();
 
 //r熱いような、それとも冷たいような感覚が全身を駆け巡って、心を鷲掴みにする。
@@ -497,13 +497,13 @@ void main()
 //rせっかく、声をかけたのに。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "せっかく、声をかけたのに。",
-			NULL, "Depois de todo o esforço que fiz para chamá-la.", Line_Normal);
+			NULL, "Depois de todo o esforço que eu fiz para chamá-la.", Line_Normal);
 	ClearMessage();
 
 //rここにいることは、わかっているはずなのに。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ここにいることは、わかっているはずなのに。",
-			NULL, "Ela deve saber que estou aqui.", Line_Normal);
+			NULL, "Ela deve saber que eu estou aqui.", Line_Normal);
 	ClearMessage();
 
 //r………ああ、そうだ。そういえば、そうだ。
@@ -521,7 +521,7 @@ void main()
 //r私が呼んでも、話しかけても、一生懸命に謝っても、…まるで路傍の石のように知らんぷりを決め込んで、まるで相手にしてくれないんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私が呼んでも、話しかけても、一生懸命に謝っても、…まるで路傍の石のように知らんぷりを決め込んで、まるで相手にしてくれないんだ。",
-			NULL, "Mesmo que eu a chamasse, tentasse falar com ela, ou pedisse desculpas sinceramente... ela apenas fingiria que não estou aqui, como uma pedra no caminho.", Line_Normal);
+			NULL, "Mesmo que eu a chame, tente falar com ela, ou peça desculpas sinceramente... ela apenas vai fingir que eu não estou aqui, como uma pedra no caminho.", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3023.「……ねぇ、…お母…さん…？」
@@ -535,10 +535,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3025", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…いわい奉り…ささげ奉りて…鎮め奉る……",
-			NULL, "\"...Aqui na terra do deus... o celebramos... nos comprometemos com você... e oferecemos este sacrifício......", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... o celebramos... comprometendo-nos a você... e oferecemos este sacrifício......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3026", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…オヤシロの大神の…高きひろきいかしき…」",
-			NULL, " apenas os infiéis temerão... grande deus Oyashiro... suas bençãos nos fortalecem...\"", Line_Normal);
+			NULL, " apenas os infiéis temerão... grande deus Oyashiro... as suas bençãos nos fortalecem...\"", Line_Normal);
 	ClearMessage();
 
 //rあの時のこと謝ったよね、…私。
@@ -550,7 +550,7 @@ void main()
 //r夏美がいたから後回しになったけど、…寝る前にも、次の日の朝にもちゃんと、言いすぎたって、…謝ったよね？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "夏美がいたから後回しになったけど、…寝る前にも、次の日の朝にもちゃんと、言いすぎたって、…謝ったよね？",
-			NULL, "Eu posso ter adiado um pouco porque Natsumi estava por perto... mas me desculpei com ela por ter sido muito severa no jantar, antes de ir para a cama e também na manhã seguinte... certo?", Line_Normal);
+			NULL, "Eu posso ter adiado um pouco porque Natsumi estava por perto... mas eu me desculpei com ela por ter sido muito severa no jantar, antes de ir para a cama e também na manhã seguinte... certo?", Line_Normal);
 	ClearMessage();
 
 //rでも、……お母さんは、どうなの？
@@ -599,17 +599,17 @@ void main()
 //r冬司さんや夏美に余計な心配をさせる前に、尻拭いをしなければいけないのはワタシなのよッッ！？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "冬司さんや夏美に余計な心配をさせる前に、尻拭いをしなければいけないのはワタシなのよッッ！？",
-			NULL, "Sou eu quem vai ter que encobrir você para que Touji-san e Natsumi não fiquem preocupados, sabia?!", Line_Normal);
+			NULL, "Sou eu quem vai ter que encobrir você para que Touji-san e a Natsumi não fiquem preocupados, sabia?!", Line_Normal);
 	ClearMessage();
 
 //夏美の祖母rvS20/00/VTT_natsuB3027.「…此れの神床に…いわい奉り…ささげ奉りて…鎮め奉る……kvS20/00/VTT_natsuB3028.恐み恐みも乞いのみ奉らくを…オヤシロの大神の…高きひろきいかしき…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>夏美の祖母</color>", NULL, "<color=#f5e6d3>Avó de Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3027", 256, TRUE);
 	OutputLine(NULL, "「…此れの神床に…いわい奉り…ささげ奉りて…鎮め奉る……",
-			NULL, "\"...Aqui na terra do deus... o celebramos... nos comprometemos com você... e oferecemos este sacrifício......", Line_WaitForInput);
+			NULL, "\"...Aqui na terra do deus... o celebramos... comprometendo-nos a você... e oferecemos este sacrifício......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_natsub3028", 256, TRUE);
 	OutputLine(NULL, "恐み恐みも乞いのみ奉らくを…オヤシロの大神の…高きひろきいかしき…」",
-			NULL, " apenas os infiéis temerão... grande deus Oyashiro... suas bençãos nos fortalecem...\"", Line_Normal);
+			NULL, " apenas os infiéis temerão... grande deus Oyashiro... as suas bençãos nos fortalecem...\"", Line_Normal);
 	ClearMessage();
 
 //夏美の母rvS20/00/VTT_natsuM3025.「………ッ！！」
@@ -647,7 +647,7 @@ void main()
 //rワタシは、もっと簡単な方法を、選ぶだけだから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ワタシは、もっと簡単な方法を、選ぶだけだから。",
-			NULL, "Só preciso escolher uma maneira mais simples de lidar com isso.", Line_Normal);
+			NULL, "Eu só vou ter que escolher uma maneira mais simples de acabar com isso.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
