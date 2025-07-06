@@ -17,7 +17,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "刑事一課のフロアに入り、藤田慎吾は吹き出す汗をぬぐいながら、自分の席に戻った。",
-			NULL, "Fujita Shingo limpou o suor de sua testa enquanto entrava no andar da Primeira Divisão de Investigação, em seguida retornou para sua mesa.", Line_Normal);
+			NULL, "Fujita Shingo limpou o suor de sua testa enquanto entrava no andar da Primeira Divisão de Investigação, e em seguida retornou para a sua mesa.", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3001.「おつかれーっす。ただいま帰りま、kvS20/31/VTT_fujita3002.——うおッ？！」
@@ -33,7 +33,7 @@ void main()
 //rそして、そのすぐ斜め前の窓際にある南井次長席の机にふと顔を向けて、…文字通り『ぎょっ？』と目を見開く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、そのすぐ斜め前の窓際にある南井次長席の机にふと顔を向けて、…文字通り『ぎょっ？』と目を見開く。",
-			NULL, "Quando virou o rosto para a mesa da Diretora Assistente Minai, posicionada diagonalmente próxima à janela... arregalou os olhos em surpresa.", Line_Normal);
+			NULL, "Quando ele virou o rosto para a mesa da Diretora Assistente Minai, posicionada diagonalmente próxima à janela... ele arregalou os olhos em surpresa.", Line_Normal);
 	ClearMessage();
 
 //rそこには、赤、青、黄色、と色とりどりの丸い包みが１０、…いや２０、…いやいやそれ以上の数がこんもりと山になって、うず高く積み上げられていたのだ。
@@ -75,7 +75,7 @@ void main()
 //r…と、その先にあったゴミ箱には、くしゃくしゃに丸められたハンバーガーの包みがあふれんばかりに詰め込まれているのを見て、さらに唖然となった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…と、その先にあったゴミ箱には、くしゃくしゃに丸められたハンバーガーの包みがあふれんばかりに詰め込まれているのを見て、さらに唖然となった。",
-			NULL, "...Ele ficou ainda mais surpreso ao perceber que a lata de lixo do lado dela estava transbordando de embalagens de hambúrgueres.", Line_Normal);
+			NULL, "...Ele ficou ainda mais surpreso ao perceber que a lata de lixo ao lado dela estava transbordando de embalagens de hambúrgueres.", Line_Normal);
 	ClearMessage();
 
 //rまさか、…これ全部、次長席に座るこの人がひとりで食べたってことなんだろうか？
@@ -111,7 +111,7 @@ void main()
 //r巴はやおら机の上のカップを手に取り、突きさしたストローを咥えてちゅうぅ、と勢いよく吸い込む。…おいおい、飲み物まで甘ったるいシェイクかよ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "巴はやおら机の上のカップを手に取り、突きさしたストローを咥えてちゅうぅ、と勢いよく吸い込む。…おいおい、飲み物まで甘ったるいシェイクかよ。",
-			NULL, "Tomoe bruscamente pegou um copo que estava em cima da sua mesa, levou o canudo até a boca e vigorosamente engoliu. ...Espera, milkshake? É sério isso? Até a bebida dela é porcaria?", Line_Normal);
+			NULL, "Tomoe bruscamente pegou um copo que estava em cima de sua mesa, levou o canudo até a boca e vigorosamente engoliu. ...Espera, milkshake? É sério isso? Até a bebida dela é porcaria?", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3059.「ふうっ…、一息ついた～」
@@ -125,10 +125,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3006", 256, TRUE);
 	OutputLine(NULL, "「…『一息』つくまでにいくら食べたんですか、南井さん。",
-			NULL, "\"...Quanto você consegue comer sem fazer uma <i>pausa,</i> Minai-san?", Line_WaitForInput);
+			NULL, "\"...Quanto você consegue comer sem fazer <i>uma pausa,</i> Minai-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3007", 256, TRUE);
 	OutputLine(NULL, "失礼を重々承知の上で言わせていただきますが、…よく太りませんね？",
-			NULL, " Com todo respeito... você não tem medo de engordar? ", GetGlobalFlag(GLinemodeSp));
+			NULL, " Com todo o respeito... você não tem medo de engordar? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3008", 256, TRUE);
 	OutputLine(NULL, "　不思議を通り越して、むしろ不気味ですよ」",
@@ -142,13 +142,13 @@ void main()
 			NULL, "\"Dá um tempo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3061", 256, TRUE);
 	OutputLine(NULL, "肉体労働にはエネルギーが必要なのよ。",
-			NULL, " Preciso de energia para todas as atividades físicas que faço.", Line_WaitForInput);
+			NULL, " Eu preciso de energia para todas as atividades físicas que faço.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3062", 256, TRUE);
 	OutputLine(NULL, "そして使いすぎた頭脳の回復には、糖分を大量に摂取しないと。",
-			NULL, " Quando trabalho demais, preciso de muito açúcar para fazer meu cérebro voltar a funcionar.", Line_WaitForInput);
+			NULL, " Quando eu trabalho demais, eu preciso de muito açúcar para fazer meu cérebro voltar a funcionar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3063", 256, TRUE);
 	OutputLine(NULL, "…なんか文句あるの？」",
-			NULL, " ...Algum problema com isso?\"", Line_Normal);
+			NULL, " ...Você tem algum problema com isso?\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3009.「いや、ないですけどね…」
@@ -167,7 +167,7 @@ void main()
 //r…この、とても同い年とは思えないほど童顔の女警部を上司に仰いでから、早や半年が過ぎた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…この、とても同い年とは思えないほど童顔の女警部を上司に仰いでから、早や半年が過ぎた。",
-			NULL, "...Cerca de meio ano se passou desde quando ele começou a trabalhar com esta Inspetora Chefe, ele ainda acha difícil acreditar que esta mulher alegre tem a mesma idade que a dele.", Line_Normal);
+			NULL, "...Cerca de meio ano se passou desde quando ele começou a trabalhar com esta Inspetora Chefe, ele ainda acha difícil de acreditar que esta mulher enérgica tem a mesma idade que a dele.", Line_Normal);
 	ClearMessage();
 
 //r彼女は、この垣内署の山沖署長が直々に人脈を駆使してまで呼んできた、いわゆる『準キャリア組』のエリートだった。
@@ -186,25 +186,26 @@ void main()
 //rどこの組織にでもある常識に漏れず、この署にも派閥というものが存在する。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どこの組織にでもある常識に漏れず、この署にも派閥というものが存在する。",
-			NULL, "Como em todos os tipo de organizações, esta delegacia já havia desenvolvido suas próprias facções.", Line_Normal);
+			NULL, "Como em todos os tipo de organizações, esta delegacia já havia desenvolvido suas próprias seções.", Line_Normal);
 	ClearMessage();
 
 //rそのため配属当初、署長派と（勝手に）決め付けられた巴は副署長派のやっかみと妨害を受けて、『次長』という課長よりも上役だが、ラインとしての権限を持たない名誉職にまつりあげられてしまったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "そのため配属当初、署長派と（勝手に）決め付けられた巴は副署長派のやっかみと妨害を受けて、『次長』という課長よりも上役だが、ラインとしての権限を持たない名誉職にまつりあげられてしまったのだ。",
-			NULL, "Por conta disso, Tomoe foi (arbitrariamente) selecionada para fazer parte da facção do Chefe e tinha de lidar com a inveja da facção do vice-chefe. Por consequência, Tomoe recebeu o título honorário de \"Diretora Assistente\", que tecnicamente era um cargo maior que chefe de seção, mas não possuía nenhuma autoridade real.", Line_Normal);
+			NULL, "Por conta disso, Tomoe foi (arbitrariamente) selecionada para fazer parte da seção do Chefe e tinha de lidar com a inveja da seção do vice-chefe. E por consequência, Tomoe recebeu o título honorário de \"Diretora Assistente\", que tecnicamente era um cargo maior do que chefe de seção, mas não possuía nenhuma autoridade real.", Line_Normal);
 	ClearMessage();
 
 //r…よって、藤田の本来の上司にあたるのは、実は刑事一課の山村課長であったりする。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…よって、藤田の本来の上司にあたるのは、実は刑事一課の山村課長であったりする。",
-			NULL, "...Portanto, o chefe de Fujita no papel era o chefe de seção da Primeira Divisão de Investigação, Yamamura.", Line_Normal);
+			NULL, "...Portanto, o chefe de Fujita era tecnicamente o chefe de seção da Primeira Divisão de Investigação, Yamamura.", Line_Normal);
 	ClearMessage();
 
 //rそんな巴のことを最初は彼も、他の刑事たちも気の毒とは思いつつ、彼女がキャリア持ちの若い女性だという先入観から興味本位に『お手並み拝見』と冷ややかに見ていたものだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな巴のことを最初は彼も、他の刑事たちも気の毒とは思いつつ、彼女がキャリア持ちの若い女性だという先入観から興味本位に『お手並み拝見』と冷ややかに見ていたものだ。",
-			NULL, "No inicio, ele e os outros detetives olhavam com desdém para Tomoe com base em seus preconceitos contra uma mulher neste cargo, eles friamente a observavam com  \"Mostre-me do que é capaz\" escrito em seus rostos.", Line_Normal);
+			NULL, "No inicio, ele e os outros detetives olhavam com desdém para Tomoe com base em seus preconceitos contra uma mulher em um cargo elevado, eles friamente a observavam com  \"Mostre-me do que é capaz\" escrito em seus rostos.", Line_Normal);
 	ClearMessage();
 
 //藤田r-vS20/31/VTT_fujita3011.（普通なら怒るか、不貞腐れるかだろうな。…でも、彼女は違った）
@@ -217,7 +218,7 @@ void main()
 //r着任して早々、巴は男顔負けの血気盛んな行動力と明敏な洞察力を発揮して、迷宮入り直前の難事件を解決してしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "着任して早々、巴は男顔負けの血気盛んな行動力と明敏な洞察力を発揮して、迷宮入り直前の難事件を解決してしまった。",
-			NULL, "Assim que chegou, Tomoe demonstrou sua inteligência e perspicácia, sendo capaz de resolver um caso difícil que nunca havia sido solucionado.", Line_Normal);
+			NULL, "Assim que chegou, Tomoe demonstrou sua inteligência e perspicácia, sendo capaz de resolver um caso difícil que nunca tinha sido solucionado.", Line_Normal);
 	ClearMessage();
 
 //rそして、それに驕ることなく様々な現場に足を運び、昼夜を徹して労を惜しまずに働き続け、事件解決に真っ向から取り組んでいったのだ。
@@ -238,14 +239,14 @@ void main()
 			NULL, "Por causa disso... ela passou a ser respeitada. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "この大食い癖さえなければ巴は、人前以上の容姿と快活な性格であまたの色男たちをはべらす才媛でいられたであろうことが非常に悔やまれて仕方がなかった…。",
-			NULL, "Ele lamentava profundamente o fato de que uma mulher tão bonita e talentosa, com uma personalidade tão vibrante como a dela, pudesse, se não fossem seus hábitos extremos de alimentação, ter o mais belo dos homens na palma de sua mão...", Line_Normal);//;
+			NULL, "Ele lamentava profundamente o fato de que uma mulher tão bonita e talentosa, com uma personalidade tão vibrante como a dela, pudesse, se não fossem os seus hábitos extremos de alimentação, ter o mais belo dos homens bem na palma da sua mão...", Line_Normal);//;
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3064.「そんなことより、そっちの捜査はどう？kvS20/28/VTT_tomoe3065.　畠山一馬の家族の様子は？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3064", 256, TRUE);
 	OutputLine(NULL, "「そんなことより、そっちの捜査はどう？",
-			NULL, "\"De todo modo, como está indo sua investigação?", Line_WaitForInput);
+			NULL, "\"De todo modo, como está indo a sua investigação?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3065", 256, TRUE);
 	OutputLine(NULL, "　畠山一馬の家族の様子は？」",
 			NULL, " Como está a família de Hatakeyama Kazuma?\"", Line_Normal);
@@ -255,7 +256,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3012", 256, TRUE);
 	OutputLine(NULL, "「とりあえず、息子夫婦には早退してもらいまして。",
-			NULL, "\"Seu filho e nora responderam algumas perguntas.", Line_WaitForInput);
+			NULL, "\"O seu filho e nora responderam algumas perguntas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3013", 256, TRUE);
 	OutputLine(NULL, "色々と任意で聞き込みをしましたが、…収穫は、ゼロでした。",
 			NULL, " Mas não consegui obter nenhuma pista.", Line_WaitForInput);
@@ -271,7 +272,7 @@ void main()
 			NULL, "\"Se calaram...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3067", 256, TRUE);
 	OutputLine(NULL, "前に会ったときは、雛見沢のこととかも結構話してくれたんだけど」",
-			NULL, " Quando conversei com eles antes, tinham muito para falar sobre Hinamizawa.\"", Line_Normal);
+			NULL, " Quando eu conversei com eles antes, eles tinham muito para falar sobre Hinamizawa.\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3015.「やはり、祟りを恐れているようでしたね。kvS20/31/VTT_fujita3016.畠山一馬の豹変ぶりが当人たちには、相当なショックだったようです」
@@ -297,7 +298,7 @@ void main()
 //r巴はそう言って、ポテトをぱくりと口に放り込んだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "巴はそう言って、ポテトをぱくりと口に放り込んだ。",
-			NULL, "Após dizer isso, Tomoe jogou uma batata chips na boca.", Line_Normal);
+			NULL, "Após dizer isso, Tomoe jogou uma batatinha na boca.", Line_Normal);
 	ClearMessage();
 
 //r…公由　夏美の証言通り、雛見沢の出身者でも『オヤシロさまの祟り』を信奉しているのは老人たちがほとんどで、k中年層から下はほとんど笑い飛ばすか、せいぜい道徳的なうすい敬虔しか持っていなかった。
@@ -306,13 +307,13 @@ void main()
 			NULL, "...De acordo com Kimiyoshi Natsumi, a maioria das pessoas que acreditam na \"maldição de Oyashiro-sama\" são idosos, até mesmo em Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "中年層から下はほとんど笑い飛ばすか、せいぜい道徳的なうすい敬虔しか持っていなかった。",
-			NULL, "Os mais jovens são muito menos devotos, e acham isso ridículo.", Line_Normal);
+			NULL, "Os mais jovens são muito menos devotos, e acham aquilo ridículo.", Line_Normal);
 	ClearMessage();
 
 //r息子夫婦が一馬への捜査協力に同意してくれたのも、おそらく『祟り』に対する畏怖の念が低かったからだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "息子夫婦が一馬への捜査協力に同意してくれたのも、おそらく『祟り』に対する畏怖の念が低かったからだ。",
-			NULL, "O filho de Kazuma e sua nora provavelmente não deviam ter medo da \"maldição,\" razão pela qual haviam concordado em cooperar com a investigação.", Line_Normal);
+			NULL, "O filho de Kazuma e sua nora provavelmente não deviam ter medo da \"maldição,\" razão pela qual eles haviam concordado em cooperar com a investigação.", Line_Normal);
 	ClearMessage();
 
 //rそれでも、…以後はそういうわけにはいかないだろう。
@@ -325,7 +326,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3070", 256, TRUE);
 	OutputLine(NULL, "「ひょっとしたら、その発端が警察にあるんじゃないかって、こちらを恨んでいることだって考えられるでしょうね…」",
-			NULL, "\"Talvez eles tenham desenvolvido uma espécie de rancor contra a gente, pensando que somos os responsáveis por fazer Kazuma causar aquele incidente...\"", Line_Normal);
+			NULL, "\"Talvez eles tenham desenvolvido uma espécie de rancor nós, pensando que somos os responsáveis por fazer Kazuma causar aquele incidente...\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3017.「そんな…。kvS20/31/VTT_fujita3018.そんなこと言い出したら、介護福祉センターに入居させたことがそもそもの始まりじゃないですか。kvS20/31/VTT_fujita3019.警察を逆恨みするのは、筋違いだと思いますが？」
@@ -338,26 +339,26 @@ void main()
 			NULL, " Se disserem isso, você não poderia simplesmente explicar que tudo começou quando decidiram mandar ele para o centro de cuidado e bem-estar?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3019", 256, TRUE);
 	OutputLine(NULL, "警察を逆恨みするのは、筋違いだと思いますが？」",
-			NULL, " Não parece irracional que desenvolvam rancor contra a polícia?\"", Line_Normal);
+			NULL, " Não parece irracional desenvolverem um rancor contra a polícia?\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3071.「そんなこと、当人たちだってわかっているわよ。…おそらくね。kvS20/28/VTT_tomoe3072.でも、認めたくないのよ。kvS20/28/VTT_tomoe3073.自分たちのせいで、畠山一馬を死に追いやったんじゃないか、…なんてことは」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3071", 256, TRUE);
 	OutputLine(NULL, "「そんなこと、当人たちだってわかっているわよ。…おそらくね。",
-			NULL, "\"Com toda certeza... eles também devem saber disso.", Line_WaitForInput);
+			NULL, "\"Com toda a certeza... eles também devem saber disso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3072", 256, TRUE);
 	OutputLine(NULL, "でも、認めたくないのよ。",
 			NULL, " Mas nunca vão querer admitir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3073", 256, TRUE);
 	OutputLine(NULL, "自分たちのせいで、畠山一馬を死に追いやったんじゃないか、…なんてことは」",
-			NULL, " Admitir que a culpa foi deles. E que suas ações conduziram Hatakeyama Kazuma... para a própria morte.\"", Line_Normal);
+			NULL, " Admitir que a culpa foi deles. E que as suas ações conduziram Hatakeyama Kazuma... para a própria morte.\"", Line_Normal);
 	ClearMessage();
 
 //r一馬の息子である畠山正雄氏は、第一印象からして人の良い熟年男性だった。その妻の芳子氏も世話好きな、近所でも評判の主婦だという。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一馬の息子である畠山正雄氏は、第一印象からして人の良い熟年男性だった。その妻の芳子氏も世話好きな、近所でも評判の主婦だという。",
-			NULL, "À primeira vista, o filho de Kazuma, Masao Hatakeyama, parece ser um homem de meia-idade de boa índole. Sua esposa, Yoshiko, também parece ser uma pessoa gentil. Ela tem uma ótima reputação na vizinhança como boa dona de casa.", Line_Normal);
+			NULL, "À primeira vista, o filho de Kazuma, Masao Hatakeyama, parece ser um homem íntegro de meia-idade. Sua esposa, Yoshiko, também parece ser uma pessoa gentil. Ela tem uma ótima reputação na vizinhança como boa dona de casa.", Line_Normal);
 	ClearMessage();
 
 //rそして二人とも、一馬のことを非常に気遣っていたようで、昨年末に長年の連れ添いを失った彼に同居を申し出たのも、息子よりむしろ妻の方だったとのことだ。
@@ -382,7 +383,7 @@ void main()
 			NULL, " Se este é o caso, por que eles decidiram mandar ele para o centro apenas alguns meses após terem se mudado?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3022", 256, TRUE);
 	OutputLine(NULL, "一緒に住んでいて、何か問題でもあったんでしょうか？」",
-			NULL, " Eles tinham problemas de convivência ou algo do tipo?\"", Line_Normal);
+			NULL, " Eles tinham problemas de convivência ou algo assim?\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3074.「介護士の話だとね、…奥さんを失ったショックで落ち込んで、自分の殻に閉じこもるようになったそうなの。kvS20/28/VTT_tomoe3075.足が弱くなって、救急車で運ばれたことがあってからは、…余計にね」
@@ -414,7 +415,7 @@ void main()
 //r正雄氏は元の雛見沢に戻すことも考えたそうだが、…今のままでは可哀想だと、芳子氏が反対したらしい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "正雄氏は元の雛見沢に戻すことも考えたそうだが、…今のままでは可哀想だと、芳子氏が反対したらしい。",
-			NULL, "Parece que Masao considerou mandar ele de volta para Hinamizawa... Porém, Yoshiko achou que seria uma má ideia considerando o estado atual dele.", Line_Normal);
+			NULL, "Parece que Masao considerou mandar ele de volta para Hinamizawa... Porém, Yoshiko achou que seria uma má ideia considerando a situação atual dele.", Line_Normal);
 	ClearMessage();
 
 //rだから一馬が元気になってから、改めて同居か帰郷かを家族みんなで相談するんだと、巴は近所の親しい主婦から聞かされた……。
@@ -440,7 +441,7 @@ void main()
 			NULL, " Se uma ação feita para deixar uma pessoa feliz apenas acabar deixando ela triste...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3081", 256, TRUE);
 	OutputLine(NULL, "…優しさって、一体なんなのかしら」",
-			NULL, " ...Qual o significado da gentileza?\"", Line_Normal);//;
+			NULL, " ...Qual o sentido da gentileza?\"", Line_Normal);//;
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3024.「………」
@@ -476,7 +477,7 @@ void main()
 			NULL, " ...Minai-san, o que você vai fazer depois?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3027", 256, TRUE);
 	OutputLine(NULL, "　雛見沢のことをまだ調べるつもりなら、俺も一緒に付き合いますが」",
-			NULL, " Se planeja continuar investigando Hinamizawa, estou disposto a ir com você.\"", Line_Normal);
+			NULL, " Se planeja continuar investigando Hinamizawa, eu estou disposto a ir com você.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3084.「そうね……」
@@ -489,17 +490,17 @@ void main()
 //r巴は首をめぐらせて、背後の窓から外の景色に目を向ける。日よけのブラインドで隙間越しにしか見えなかったが、建物の影には夜のネオンがちかちかと色鮮やかに灯っていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "巴は首をめぐらせて、背後の窓から外の景色に目を向ける。日よけのブラインドで隙間越しにしか見えなかったが、建物の影には夜のネオンがちかちかと色鮮やかに灯っていた。",
-			NULL, "Tomoe virou o rosto para o cenário do outro lado da janela. Mesmo que só pudessem ser vistas através de uma pequena abertura nas persianas, as luzes noturnas brilhavam na sombra do prédio.", Line_Normal);
+			NULL, "Tomoe virou o rosto para o cenário do outro lado da janela. Mesmo que só pudessem ser vistas através de uma pequena abertura nas persianas, as luzes noturnas estavam brilhando na sombra do prédio.", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3085.「…行方不明になった大石さんの手がかりにでもなれば、と思ったんだけど、どうやらこれ以上の見入りはなさそうね。kvS20/28/VTT_tomoe3086.あの子とも、これで最後にするって約束しちゃったし」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3085", 256, TRUE);
 	OutputLine(NULL, "「…行方不明になった大石さんの手がかりにでもなれば、と思ったんだけど、どうやらこれ以上の見入りはなさそうね。",
-			NULL, "\"...Queria obter mais informações sobre o paradeiro de Ooishi-san, mas não encontrei mais nenhuma pista.", Line_WaitForInput);
+			NULL, "\"...Eu gostaria de obter mais informações sobre o paradeiro de Ooishi-san, mas não encontrei nenhuma pista.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3086", 256, TRUE);
 	OutputLine(NULL, "あの子とも、これで最後にするって約束しちゃったし」",
-			NULL, " E eu prometi para aquela garota que nunca mais a perturbaria.\"", Line_Normal);
+			NULL, " E eu prometi para aquela garota que nunca mais perturbaria ela.\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3028.「あの、南井さん。kvS20/31/VTT_fujita3029.本当に、『オヤシロさまの祟り』を調べることが、…その大石って刑事さんの消息を確かめることになるんですか？kvS20/31/VTT_fujita3030.　なんか、その理屈がわからないっていうか…」
@@ -529,17 +530,17 @@ void main()
 			NULL, "\"...Eu sinto muito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s20/31/vtt_fujita3032", 256, TRUE);
 	OutputLine(NULL, "難癖をつけるわけじゃないんです、ただ…」",
-			NULL, " Não estava te criticando, é só que...\"", Line_Normal);
+			NULL, " Eu tão estava te criticando, é só que...\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3088.「いいの、藤田くんの言いたいことはわかってるつもりだから。kvS20/28/VTT_tomoe3089.私もね、正直言って半信半疑なの。kvS20/28/VTT_tomoe3090.でも——」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3088", 256, TRUE);
 	OutputLine(NULL, "「いいの、藤田くんの言いたいことはわかってるつもりだから。",
-			NULL, "\"Está tudo bem, Fujita-kun, sei onde você está tentando chegar.", Line_WaitForInput);
+			NULL, "\"Está tudo bem, Fujita-kun, eu sei onde você está tentando chegar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3089", 256, TRUE);
 	OutputLine(NULL, "私もね、正直言って半信半疑なの。",
-			NULL, " Para ser honesta, também não tenho certeza.", Line_WaitForInput);
+			NULL, " Para ser honesta, eu também não tenho certeza.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3090", 256, TRUE);
 	OutputLine(NULL, "でも——」",
 			NULL, " Mas...\"", Line_Normal);
@@ -566,7 +567,7 @@ void main()
 //rだからその真相を探ることで、彼が突き止めようとしたことの一端を知ることができるのでは、と考えたのだけど…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だからその真相を探ることで、彼が突き止めようとしたことの一端を知ることができるのでは、と考えたのだけど…。",
-			NULL, "Portanto, ela pensou que investigando a verdade por trás dos fatos, poderia entender onde Ooishi estava tentando chegar...", Line_Normal);
+			NULL, "Então, ela pensou que investigando a verdade por trás dos fatos, poderia entender onde Ooishi estava tentando chegar...", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3091.「まぁ、…とりあえずこの一件は、まずここで置きましょう。kvS20/28/VTT_tomoe3092.他にも仕事がないわけじゃないし、kvS20/28/VTT_tomoe3093.…これ以上藤田くんを連れ回して奥さんに浮気相手って疑われるのも、いろんな意味で心外だし、ね♪」
@@ -580,7 +581,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3093", 256, TRUE);
 	OutputLine(NULL, "…これ以上藤田くんを連れ回して奥さんに浮気相手って疑われるのも、いろんな意味で心外だし、ね♪」",
-			NULL, "se eu monopolizar seu tempo ainda mais, Fujita-kun, sua esposa vai achar que está traindo ela, e isso seria ruim para você de diversas formas, não é mesmo?♪\"", Line_Normal);
+			NULL, "se eu monopolizar ainda mais o seu tempo, Fujita-kun, sua esposa vai achar que está traindo ela, e isso seria ruim para você de diversas formas, não é mesmo?♪\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3033.「み、南井さんしつこいですよ！kvS20/31/VTT_fujita3034.　あの件では俺も祐子も、平謝りに謝ったじゃないですか？！」
@@ -603,7 +604,7 @@ void main()
 			NULL, " Mas você não acha que é um pouco triste deixar uma mulher sozinha e solitária desse jeito~?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3096", 256, TRUE);
 	OutputLine(NULL, "　困ったときの伝家の宝刀として、生涯私の家宝としておきます」",
-			NULL, " Sua família é seu tesouro, deveria passar mais tempo com ela.\"", Line_Normal);
+			NULL, " Sua família é o seu tesouro, você deveria passar mais tempo com ela.\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3035.「お…鬼や、あんたはっ！」
@@ -623,7 +624,7 @@ void main()
 			NULL, " De qualquer forma. Fujita-kun, que tal irmos para algum lugar?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3099", 256, TRUE);
 	OutputLine(NULL, "　おなか空いてるでしょ」",
-			NULL, " Estou com um pouco de fome.\"", Line_Normal);
+			NULL, " Eu estou com um pouco de fome.\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3036.「結構です」
@@ -640,7 +641,7 @@ void main()
 			NULL, "\"...Resposta rápida.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3101", 256, TRUE);
 	OutputLine(NULL, "私の勧める食事が食べられないっての？」",
-			NULL, " Não gosta das comidas que recomendo?\"", Line_Normal);
+			NULL, " Não gosta das comidas que eu recomendo?\"", Line_Normal);
 	ClearMessage();
 
 //藤田rvS20/31/VTT_fujita3037.「ハンバーガーは好きですけどね。kvS20/31/VTT_fujita3038.…さすがにそれだけの量目の前にして、食指は動きませんっての」
@@ -727,7 +728,7 @@ void main()
 //r巴はその気遣いに目礼で答えると、出動名簿を流し読みする。そして振り返り、すでに席を立ち上がって指令を待つ刑事たちに向き直って言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "巴はその気遣いに目礼で答えると、出動名簿を流し読みする。そして振り返り、すでに席を立ち上がって指令を待つ刑事たちに向き直って言った。",
-			NULL, "Tomoe respondeu acenando a cabeça enquanto vasculhava a escala de serviço. Em seguida se virou de volta para os detetives que estavam em pé esperando suas ordens, e disse:", Line_Normal);
+			NULL, "Tomoe respondeu acenando a cabeça enquanto vasculhava a escala de serviço. Em seguida se virou de volta para os detetives que estavam de pé esperando ordens, e disse:", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3105.「高屋敷さんと花田くん、５号車で出動！　鑑識対応よろしく！kvS20/28/VTT_tomoe3106.山上さんと安藤さんは、交通課と連携して４丁目交差点の交通整理と左折道路の封鎖を！」
@@ -768,7 +769,7 @@ void main()
 			NULL, "\"Chefe de Seção Yamamura!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s20/28/vtt_tomoe3110", 256, TRUE);
 	OutputLine(NULL, "　状況次第では本店とつなぎます、その時はよろしくお願いします！」",
-			NULL, " Dependendo da situação, talvez precisemos contatar a central, se isto for necessário apreciaremos sua cooperação!\"", Line_Normal);
+			NULL, " Dependendo da situação, talvez precisemos contatar a central, se isto for necessário apreciaremos a sua cooperação!\"", Line_Normal);
 	ClearMessage();
 
 //山村rvS20/00/VTT_yamamura3002.「わかった。kvS20/00/VTT_yamamura3003.頼んだぞ！！」
@@ -778,7 +779,7 @@ void main()
 			NULL, "\"Entendido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtt_yamamura3003", 256, TRUE);
 	OutputLine(NULL, "頼んだぞ！！」",
-			NULL, " Conto com você!!\"", Line_Normal);
+			NULL, " Estou contando com você!!\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS20/28/VTT_tomoe3111.「はいっ！！kvS20/28/VTT_tomoe3112.　それじゃみんな、出動ッッ！！！」
@@ -810,7 +811,7 @@ void main()
 //r——しかし、続いてスピーカーから流れたアナウンスの内容に巴は廊下で立ち止まり、愕然とした思いで振り返った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "——しかし、続いてスピーカーから流れたアナウンスの内容に巴は廊下で立ち止まり、愕然とした思いで振り返った。",
-			NULL, "...Entretanto, Tomoe parou e se virou em surpresa quando outro comunicado começou a ser reproduzido pelos alto falantes.", Line_Normal);
+			NULL, "...Entretanto, Tomoe parou e se virou em surpresa quando outro comunicado começou a ser reproduzido através dos alto falantes.", Line_Normal);
 	ClearMessage();
 
 //窓口警官rvS20/00/VTT_cent3006.「——県警本部第一機動捜査隊より、連絡あり。kvS20/00/VTT_cent3007.容疑者は捜査員到着後、事件現場の家屋内にて自殺を図った模様。kvS20/00/VTT_cent3008.意識は不明、所轄の刑事は至急救急車両および隊員の進路を確保されたし」
@@ -866,7 +867,7 @@ void main()
 //rそれどころか、始まってもいなかったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それどころか、始まってもいなかったのだ。",
-			NULL, "Muito pelo contrário, ele está apenas começando.", Line_Normal);
+			NULL, "Muito pelo contrário, ele está só começando.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
