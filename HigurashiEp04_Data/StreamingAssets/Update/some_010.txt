@@ -41,7 +41,7 @@ void main()
 //r私は状況がまったく把握できていないまま、目の前で仁王立ちに胸を張る千紗登ちゃんと、…机に置かれたチケット２枚を交互に見る。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "私は状況がまったく把握できていないまま、目の前で仁王立ちに胸を張る千紗登ちゃんと、…机に置かれたチケット２枚を交互に見る。",
-			NULL, "Confusa, olhei para Chisato-chan, que estava em pé orgulhosamente na minha frente, em seguida para os dois ingressos coloridos que foram colocados em cima da minha mesa.", Line_Normal);
+			NULL, "Confusa, eu olhei para Chisato-chan, que estava em pé orgulhosamente na minha frente, em seguida para os dois ingressos coloridos que foram colocados em cima da minha mesa.", Line_Normal);
 	ClearMessage();
 
 //rカラフルな印刷で彩られたそれは、どうやら映画館の入場券のようだった。
@@ -119,7 +119,7 @@ void main()
 			NULL, "\"Esse cinema fica no complexo que construíram recentemente, certo?", Line_WaitForInput);//;cinema complex
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100861", 256, TRUE);
 	OutputLine(NULL, "　私、今ここで何やってるか全然知らないから、できれば千紗登ちゃんの見たい映画教えてくれるかな？」",
-			NULL, " Não entendi muito bem. Poderia me dizer qual filme quer ir assistir?\"", Line_Normal);
+			NULL, " Não entendi muito bem. Poderia me dizer qual filme você quer ir assistir?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 37, "sprite/chisa1_shinken_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -138,7 +138,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100862", 256, TRUE);
 	OutputLine(NULL, "「だって要するに、",
-			NULL, "\"Bem, basicamente,", Line_WaitForInput);
+			NULL, "\"Bem, é que,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s04/36/310100863", 256, TRUE);
 	OutputLine(NULL, "…一緒に行こう、って意味なんでしょ？」",
 			NULL, " ...você quer ir ao cinema comigo, certo?\"", Line_Normal);
