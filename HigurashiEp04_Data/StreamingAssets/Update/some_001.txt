@@ -81,7 +81,7 @@ void main()
 //rそれに、一応舗装されているとはいえ蛇行路の山道は、加減速のタイミングが掴みづらい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに、一応舗装されているとはいえ蛇行路の山道は、加減速のタイミングが掴みづらい。",
-			NULL, "A estrada era pavimentada, mas ainda assim era difícil acertar o momento certo de frear e acelerar em uma estrada sinuosa nas montanhas.", Line_Normal);
+			NULL, "A estrada era pavimentada, mas ainda assim era difícil de acertar o momento certo de frear e acelerar em uma estrada sinuosa nas montanhas.", Line_Normal);
 	ClearMessage();
 
 //rおかげで少しでも気を抜くと、アクセルを踏みすぎて白いガードレールが目前に見えたりして、道中は何度もひやりとさせられた。
