@@ -2,6 +2,9 @@
 
 Tradução para os arcos de console de Higurashi no Naku Koro ni.
 
+> [!CAUTION]
+> PROJETO CANCELADO.
+
 ## Progresso
 
 |Arco           |Tradução |Edição|Revisão|
